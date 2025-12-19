@@ -46,8 +46,8 @@ def parse_args(_self, original_method, *args, **kwargs):
             sources.append(source)
             sources.append(dest_file)
 
-        elif source.find("/brave/") != -1:
-            dest_file = source.replace("/brave/", "/", 1)
+        elif source.find("/unknown/") != -1:
+            dest_file = source.replace("/unknown/", "/", 1)
             ensure_hardlink(source, dest_file)
             sources.append(dest_file)
         else:

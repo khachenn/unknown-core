@@ -49,7 +49,7 @@ def _FilterFlags(original_function, command, additional_filtered_flags):
     flags = original_function(command, additional_filtered_flags)
     flags_to_restore = [
         ' -Xclang -fexperimental-max-bitint-width=256',
-        ' -Xclang -iquote../../brave/chromium_src',
+        ' -Xclang -iquote../../unknown/chromium_src',
     ]
 
     for flag_to_restore in flags_to_restore:
@@ -64,7 +64,7 @@ def _ProcessEntry(original_function, entry, filtered_args, target_os):
 
     entry_file = entry['file']
     brave_chromium_src_file = re.sub(r'^(\.\./\.\./|gen/)',
-                                     '../../brave/chromium_src/', entry_file)
+                                     '../../unknown/chromium_src/', entry_file)
     if brave_chromium_src_file != entry_file:
         abs_brave_chromium_src_file = os.path.join(entry['directory'],
                                                    brave_chromium_src_file)

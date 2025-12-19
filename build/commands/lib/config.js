@@ -19,7 +19,7 @@ if (process.platform === 'win32') {
   dirName = fs.realpathSync.native(dirName)
 }
 const rootDir = path.resolve(dirName, '..', '..', '..', '..', '..')
-const braveCoreDir = path.join(rootDir, 'src', 'brave')
+const braveCoreDir = path.join(rootDir, 'src', 'unknown')
 
 if (rootDir.includes(' ')) {
   Log.error(`Root directory contains spaces, this is not supported: ${rootDir}`)
@@ -160,7 +160,7 @@ const Config = function () {
   this.defaultBuildConfig =
     getEnvConfig(['default_build_config']) || 'Component'
   this.buildConfig = this.defaultBuildConfig
-  this.buildTargets = ['brave']
+  this.buildTargets = ['unknown']
   this.rootDir = rootDir
   this.isUniversalBinary = false
   this.isChromium = false

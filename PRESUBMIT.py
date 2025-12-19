@@ -257,7 +257,7 @@ def CheckNewThemeFilesForUpstreamOverride(input_api, output_api):
     for f in new_sources:
         if is_channelized_path(f, input_api):
             continue  # Skip checking upstream for channelized files
-        upstream_file = f.replace('/brave/', '/chromium/')
+        upstream_file = f.replace('/unknown/', '/chromium/')
         path = brave_chromium_utils.wspath(f'//chrome/{upstream_file}')
         if not os.path.exists(path):
             problems.append(upstream_file)
