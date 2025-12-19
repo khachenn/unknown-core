@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_stats/brave_stats_updater_params.h"
+#include "unknown/browser/brave_stats/brave_stats_updater_params.h"
 
 #include <cmath>
 
@@ -12,13 +12,13 @@
 #include "base/strings/string_util.h"
 #include "base/system/sys_info.h"
 #include "base/time/time.h"
-#include "brave/browser/brave_stats/features.h"
-#include "brave/browser/brave_stats/first_run_util.h"
-#include "brave/components/brave_ads/core/public/prefs/pref_names.h"
-#include "brave/components/brave_referrals/common/pref_names.h"
-#include "brave/components/brave_stats/browser/brave_stats_updater_util.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/constants/pref_names.h"
+#include "unknown/browser/brave_stats/features.h"
+#include "unknown/browser/brave_stats/first_run_util.h"
+#include "unknown/components/brave_ads/core/public/prefs/pref_names.h"
+#include "unknown/components/brave_referrals/common/pref_names.h"
+#include "unknown/components/brave_stats/browser/brave_stats_updater_util.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/constants/pref_names.h"
 #include "build/build_config.h"
 #include "chrome/browser/headless/headless_mode_util.h"
 #include "components/prefs/pref_service.h"
@@ -27,7 +27,7 @@
 #include "url/gurl.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
 #endif
 
 namespace brave_stats {

@@ -6,7 +6,7 @@
 #ifndef BRAVE_BROWSER_UI_VIEWS_FRAME_SPLIT_VIEW_BRAVE_MULTI_CONTENTS_VIEW_MINI_TOOLBAR_H_
 #define BRAVE_BROWSER_UI_VIEWS_FRAME_SPLIT_VIEW_BRAVE_MULTI_CONTENTS_VIEW_MINI_TOOLBAR_H_
 
-#include "brave/browser/ui/color/brave_color_id.h"
+#include "unknown/browser/ui/color/brave_color_id.h"
 #include "chrome/browser/ui/views/frame/multi_contents_view_mini_toolbar.h"
 #include "ui/base/metadata/metadata_header_macros.h"
 

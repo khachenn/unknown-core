@@ -9,7 +9,7 @@
 #include <optional>
 
 #include "base/types/expected.h"
-#include "brave/components/brave_account/endpoint_client/is_response_body.h"
+#include "unknown/components/brave_account/endpoint_client/is_response_body.h"
 #include "net/base/net_errors.h"
 
 namespace brave_account::endpoint_client {

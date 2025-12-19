@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/views/brave_actions/brave_rewards_action_view.h"
+#include "unknown/browser/ui/views/brave_actions/brave_rewards_action_view.h"
 
 #include <memory>
 #include <string>
@@ -11,16 +11,16 @@
 
 #include "base/check.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/app/vector_icons/vector_icons.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/browser/ui/brave_icon_with_badge_image_source.h"
-#include "brave/browser/ui/webui/brave_rewards/rewards_page_top_ui.h"
-#include "brave/components/brave_rewards/content/rewards_p3a.h"
-#include "brave/components/brave_rewards/content/rewards_service.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/constants/webui_url_constants.h"
-#include "brave/components/vector_icons/vector_icons.h"
-#include "brave/grit/brave_generated_resources.h"
+#include "unknown/app/vector_icons/vector_icons.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/ui/brave_icon_with_badge_image_source.h"
+#include "unknown/browser/ui/webui/brave_rewards/rewards_page_top_ui.h"
+#include "unknown/components/brave_rewards/content/rewards_p3a.h"
+#include "unknown/components/brave_rewards/content/rewards_service.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/constants/webui_url_constants.h"
+#include "unknown/components/vector_icons/vector_icons.h"
+#include "unknown/grit/brave_generated_resources.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"

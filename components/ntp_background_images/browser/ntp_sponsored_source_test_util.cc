@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ntp_background_images/browser/ntp_sponsored_source_test_util.h"
+#include "unknown/components/ntp_background_images/browser/ntp_sponsored_source_test_util.h"
 
 #include "base/files/file_path.h"
 #include "base/path_service.h"
-#include "brave/components/constants/brave_paths.h"
+#include "unknown/components/constants/brave_paths.h"
 
 namespace ntp_background_images::test {
 

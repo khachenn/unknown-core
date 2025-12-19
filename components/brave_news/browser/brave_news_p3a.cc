@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_news/browser/brave_news_p3a.h"
+#include "unknown/components/brave_news/browser/brave_news_p3a.h"
 
 #include <string>
 
@@ -11,12 +11,12 @@
 #include "base/containers/flat_set.h"
 #include "base/logging.h"
 #include "base/metrics/histogram_macros.h"
-#include "brave/components/brave_news/browser/brave_news_pref_manager.h"
-#include "brave/components/brave_news/common/p3a_pref_names.h"
-#include "brave/components/brave_news/common/subscriptions_snapshot.h"
-#include "brave/components/p3a_utils/bucket.h"
-#include "brave/components/p3a_utils/feature_usage.h"
-#include "brave/components/time_period_storage/weekly_storage.h"
+#include "unknown/components/brave_news/browser/brave_news_pref_manager.h"
+#include "unknown/components/brave_news/common/p3a_pref_names.h"
+#include "unknown/components/brave_news/common/subscriptions_snapshot.h"
+#include "unknown/components/p3a_utils/bucket.h"
+#include "unknown/components/p3a_utils/feature_usage.h"
+#include "unknown/components/time_period_storage/weekly_storage.h"
 #include "components/prefs/pref_service.h"
 
 namespace brave_news::p3a {

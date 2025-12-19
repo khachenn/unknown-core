@@ -10,23 +10,23 @@ brave_browser_ui_color_mixers_deps = []
 
 if (!is_android) {
   brave_browser_ui_color_mixers_sources += [
-    "//brave/browser/ui/color/brave_color_id.h",
-    "//brave/browser/ui/color/brave_color_mixer.cc",
-    "//brave/browser/ui/color/brave_color_mixer.h",
-    "//brave/browser/ui/color/brave_material_side_panel_color_mixer.cc",
-    "//brave/browser/ui/color/brave_material_side_panel_color_mixer.h",
-    "//brave/browser/ui/color/color_palette.h",
-    "//brave/browser/ui/color/material_brave_color_mixer.cc",
-    "//brave/browser/ui/color/material_brave_color_mixer.h",
-    "//brave/browser/ui/color/playlist/playlist_color_mixer.cc",
-    "//brave/browser/ui/color/playlist/playlist_color_mixer.h",
+    "//unknown/browser/ui/color/brave_color_id.h",
+    "//unknown/browser/ui/color/brave_color_mixer.cc",
+    "//unknown/browser/ui/color/brave_color_mixer.h",
+    "//unknown/browser/ui/color/brave_material_side_panel_color_mixer.cc",
+    "//unknown/browser/ui/color/brave_material_side_panel_color_mixer.h",
+    "//unknown/browser/ui/color/color_palette.h",
+    "//unknown/browser/ui/color/material_brave_color_mixer.cc",
+    "//unknown/browser/ui/color/material_brave_color_mixer.h",
+    "//unknown/browser/ui/color/playlist/playlist_color_mixer.cc",
+    "//unknown/browser/ui/color/playlist/playlist_color_mixer.h",
   ]
 
   brave_browser_ui_color_mixers_deps += [
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/brave_wayback_machine/buildflags",
-    "//brave/components/playlist/core/common",
-    "//brave/components/speedreader/common/buildflags",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/brave_wayback_machine/buildflags",
+    "//unknown/components/playlist/core/common",
+    "//unknown/components/speedreader/common/buildflags",
     "//skia",
     "//ui/color",
     "//ui/gfx",
@@ -35,5 +35,5 @@ if (!is_android) {
 }
 
 if (toolkit_views) {
-  brave_browser_ui_color_mixers_deps += [ "//brave/browser/ui/darker_theme" ]
+  brave_browser_ui_color_mixers_deps += [ "//unknown/browser/ui/darker_theme" ]
 }

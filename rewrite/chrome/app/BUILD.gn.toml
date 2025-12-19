@@ -8,5 +8,5 @@
 [[substitution]]
 description = "Adding brave_generated_resources_grit to Chromium's resources."
 re_pattern = '''(grit_strings\("generated_resources"\) {[\s\S]*?)(^})'''
-replace = '''\1  deps = [ "//brave/app:brave_generated_resources_grit" ]\n\2'''
+replace = '''\1  deps = [ "//unknown/app:brave_generated_resources_grit" ]\n\2'''
 re_flags = ['MULTILINE']

@@ -16,29 +16,29 @@ include_rules = [
   "-ipc",
 
   # In most cases you want l10n_util - see comments in the source
-  "-brave/components/l10n",
+  "-unknown/components/l10n",
 
   # This is equivalent to chrome/test/base
-  "-brave/test/base",
+  "-unknown/test/base",
 
   # This should only be used in brave equivalents to chrome/* directories. Use
   # `base::DIR_SRC_TEST_DATA_ROOT` instead
-  "-brave/components/constants/brave_paths.h",
+  "-unknown/components/constants/brave_paths.h",
 ]
 
 specific_include_rules = {
   # IMPORTANT: Do not add new browser tests that depend on //chrome or
-  # //brave/browser/ to //brave/components.
+  # //unknown/browser/ to //unknown/components.
   #
   # This is an exclusion list for browser tests written before proper dependency
   # checking was implemented. These tests should be migrated out of
-  # //brave/components into //brave/browser eventually.
+  # //unknown/components into //unknown/browser eventually.
   "brave_content_settings_agent_impl_browsertest\.cc": [
     "+chrome",
     "+content",
   ],
   "brave_wayback_machine_browsertest\.cc": [
-    "+brave/browser",
+    "+unknown/browser",
     "+chrome",
   ],
   "de_amp_browsertest\.cc": [
@@ -46,7 +46,7 @@ specific_include_rules = {
     "+content",
   ],
   "perf_predictor_tab_helper_browsertest\.cc": [
-    "+brave/browser",
+    "+unknown/browser",
     "+chrome",
   ],
   "webcompat_exceptions_unittest\.cc": [
@@ -61,6 +61,6 @@ specific_include_rules = {
   ".*browsertest.*\.cc": [
     # browser tests that are still in components can use brave_paths because
     # they belong in brave/browser
-    "+brave/components/constants/brave_paths.h",
+    "+unknown/components/constants/brave_paths.h",
   ],
 }

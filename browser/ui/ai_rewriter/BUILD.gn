@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_rewriter/common/buildflags/buildflags.gni")
+import("//unknown/components/ai_rewriter/common/buildflags/buildflags.gni")
 assert(enable_ai_rewriter)
 
 source_set("browsertest") {
@@ -16,7 +16,7 @@ source_set("browsertest") {
 
   deps = [
     "//base/test:test_support",
-    "//brave/components/ai_rewriter/common",
+    "//unknown/components/ai_rewriter/common",
     "//chrome/browser/ui",
     "//chrome/test:test_support_ui",
     "//content/test:test_support",

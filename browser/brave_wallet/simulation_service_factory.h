@@ -8,8 +8,8 @@
 
 #include <memory>
 
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
 #include "components/keyed_service/content/browser_context_keyed_service_factory.h"
 #include "components/keyed_service/core/keyed_service.h"
 #include "content/public/browser/browser_context.h"

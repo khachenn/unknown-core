@@ -6,7 +6,7 @@ index 73698cfd2c6385959c080680824d72e25dc8584a..7821b5fe8d56ef8510614fba58cbda01
    ]
  
    defines = [ "SYNC_USER_AGENT_PRODUCT=$sync_user_agent_product" ]
-+  import("//brave/components/sync/base/sources.gni") public_deps += brave_components_sync_base_public_deps
++  import("//unknown/components/sync/base/sources.gni") public_deps += brave_components_sync_base_public_deps
  }
  
  fuzzer_test("unique_position_fuzzer") {

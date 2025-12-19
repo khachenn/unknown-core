@@ -13,7 +13,7 @@
 #include "base/functional/callback_forward.h"
 #include "base/memory/weak_ptr.h"
 #include "base/values.h"
-#include "brave/components/playlist/core/common/mojom/playlist.mojom.h"
+#include "unknown/components/playlist/core/common/mojom/playlist.mojom.h"
 #include "content/public/renderer/render_frame_observer.h"
 #include "content/public/renderer/render_frame_observer_tracker.h"
 #include "mojo/public/cpp/bindings/associated_receiver.h"

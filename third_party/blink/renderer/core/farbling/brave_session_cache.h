@@ -10,8 +10,8 @@
 #include <string>
 
 #include "base/containers/span.h"
-#include "brave/third_party/blink/renderer/brave_farbling_constants.h"
-#include "brave/third_party/blink/renderer/platform/brave_audio_farbling_helper.h"
+#include "unknown/third_party/blink/renderer/brave_farbling_constants.h"
+#include "unknown/third_party/blink/renderer/platform/brave_audio_farbling_helper.h"
 #include "components/content_settings/core/common/content_settings_types.h"
 #include "third_party/abseil-cpp/absl/random/random.h"
 #include "third_party/blink/renderer/core/core_export.h"

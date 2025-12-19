@@ -1,7 +1,7 @@
 include_rules = [
-  "+brave/components/brave_wallet/browser",
-  "+brave/components/brave_wallet/common",
-  "+brave/components/content_settings/core/browser",
-  "+brave/components/ntp_background_images/common",
-  "+brave/components/sync/service",
+  "+unknown/components/brave_wallet/browser",
+  "+unknown/components/brave_wallet/common",
+  "+unknown/components/content_settings/core/browser",
+  "+unknown/components/ntp_background_images/common",
+  "+unknown/components/sync/service",
 ]

@@ -6,7 +6,7 @@
 #ifndef BRAVE_CHROMIUM_SRC_COMPONENTS_BROWSING_DATA_CORE_BROWSING_DATA_UTILS_H_
 #define BRAVE_CHROMIUM_SRC_COMPONENTS_BROWSING_DATA_CORE_BROWSING_DATA_UTILS_H_
 
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
 
 // LINT.IfChange(BrowsingDataType)
 #if BUILDFLAG(ENABLE_AI_CHAT)

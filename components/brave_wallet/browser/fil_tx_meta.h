@@ -9,9 +9,9 @@
 #include <memory>
 #include <utility>
 
-#include "brave/components/brave_wallet/browser/fil_transaction.h"
-#include "brave/components/brave_wallet/browser/tx_meta.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/fil_transaction.h"
+#include "unknown/components/brave_wallet/browser/tx_meta.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 
 namespace base {
 class Value;

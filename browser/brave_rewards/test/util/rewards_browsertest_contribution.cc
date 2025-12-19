@@ -3,18 +3,18 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_rewards/test/util/rewards_browsertest_contribution.h"
+#include "unknown/browser/brave_rewards/test/util/rewards_browsertest_contribution.h"
 
 #include <memory>
 #include <utility>
 
 #include "base/check.h"
 #include "base/test/bind.h"
-#include "brave/browser/brave_rewards/test/util/rewards_browsertest_context_helper.h"
-#include "brave/browser/brave_rewards/test/util/rewards_browsertest_context_util.h"
-#include "brave/browser/brave_rewards/test/util/rewards_browsertest_util.h"
-#include "brave/components/brave_rewards/core/buildflags/buildflags.h"
-#include "brave/components/brave_rewards/core/features.h"
+#include "unknown/browser/brave_rewards/test/util/rewards_browsertest_context_helper.h"
+#include "unknown/browser/brave_rewards/test/util/rewards_browsertest_context_util.h"
+#include "unknown/browser/brave_rewards/test/util/rewards_browsertest_util.h"
+#include "unknown/components/brave_rewards/core/buildflags/buildflags.h"
+#include "unknown/components/brave_rewards/core/features.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/test/base/ui_test_utils.h"

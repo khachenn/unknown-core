@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/common/eth_request_helper.h"
+#include "unknown/components/brave_wallet/common/eth_request_helper.h"
 
 #include <algorithm>
 #include <memory>
@@ -21,10 +21,10 @@
 #include "base/strings/string_view_util.h"
 #include "base/types/optional_util.h"
 #include "base/values.h"
-#include "brave/components/brave_wallet/common/eth_address.h"
-#include "brave/components/brave_wallet/common/eth_requests.h"
-#include "brave/components/brave_wallet/common/hex_utils.h"
-#include "brave/components/brave_wallet/common/json_rpc_requests.h"
+#include "unknown/components/brave_wallet/common/eth_address.h"
+#include "unknown/components/brave_wallet/common/eth_requests.h"
+#include "unknown/components/brave_wallet/common/hex_utils.h"
+#include "unknown/components/brave_wallet/common/json_rpc_requests.h"
 #include "third_party/abseil-cpp/absl/strings/str_format.h"
 #include "url/gurl.h"
 

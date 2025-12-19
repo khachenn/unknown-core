@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/ai_chat/core/browser/model_service.h"
+#include "unknown/components/ai_chat/core/browser/model_service.h"
 
 #include <algorithm>
 #include <array>
@@ -31,19 +31,19 @@
 #include "base/strings/string_util.h"
 #include "base/uuid.h"
 #include "base/values.h"
-#include "brave/components/ai_chat/core/browser/constants.h"
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer.h"
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer_conversation_api.h"
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer_conversation_api_v2.h"
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer_oai.h"
-#include "brave/components/ai_chat/core/browser/model_validator.h"
-#include "brave/components/ai_chat/core/browser/utils.h"
-#include "brave/components/ai_chat/core/common/constants.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom-shared.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/ai_chat/core/browser/constants.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer_conversation_api.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer_conversation_api_v2.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer_oai.h"
+#include "unknown/components/ai_chat/core/browser/model_validator.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/common/constants.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom-shared.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #include "components/grit/brave_components_strings.h"
 #include "components/os_crypt/sync/os_crypt.h"
 #include "components/prefs/pref_registry_simple.h"

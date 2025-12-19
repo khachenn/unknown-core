@@ -3,37 +3,37 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/webui/settings/brave_settings_localized_strings_provider.h"
+#include "unknown/browser/ui/webui/settings/brave_settings_localized_strings_provider.h"
 
 #include "base/strings/string_number_conversions.h"
 #include "base/strings/string_util.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/browser/shell_integrations/buildflags/buildflags.h"
-#include "brave/browser/ui/webui/brave_settings_ui.h"
-#include "brave/browser/ui/webui/settings/brave_privacy_handler.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_account/features.h"
-#include "brave/components/brave_news/common/pref_names.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_shields/core/browser/brave_shields_locale_utils.h"
-#include "brave/components/brave_shields/core/common/features.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/brave_wayback_machine/buildflags/buildflags.h"
-#include "brave/components/brave_wayback_machine/pref_names.h"
-#include "brave/components/commander/common/features.h"
-#include "brave/components/commands/common/features.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/constants/url_constants.h"
-#include "brave/components/constants/webui_url_constants.h"
-#include "brave/components/containers/buildflags/buildflags.h"
-#include "brave/components/email_aliases/features.h"
-#include "brave/components/playlist/core/common/features.h"
-#include "brave/components/request_otr/common/buildflags/buildflags.h"
-#include "brave/components/tor/buildflags/buildflags.h"
-#include "brave/components/version_info/version_info.h"
-#include "brave/grit/brave_generated_resources.h"
-#include "brave/grit/brave_generated_resources_webui_strings.h"
+#include "unknown/browser/shell_integrations/buildflags/buildflags.h"
+#include "unknown/browser/ui/webui/brave_settings_ui.h"
+#include "unknown/browser/ui/webui/settings/brave_privacy_handler.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_account/features.h"
+#include "unknown/components/brave_news/common/pref_names.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_shields/core/browser/brave_shields_locale_utils.h"
+#include "unknown/components/brave_shields/core/common/features.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wayback_machine/buildflags/buildflags.h"
+#include "unknown/components/brave_wayback_machine/pref_names.h"
+#include "unknown/components/commander/common/features.h"
+#include "unknown/components/commands/common/features.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/constants/url_constants.h"
+#include "unknown/components/constants/webui_url_constants.h"
+#include "unknown/components/containers/buildflags/buildflags.h"
+#include "unknown/components/email_aliases/features.h"
+#include "unknown/components/playlist/core/common/features.h"
+#include "unknown/components/request_otr/common/buildflags/buildflags.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
+#include "unknown/components/version_info/version_info.h"
+#include "unknown/grit/brave_generated_resources.h"
+#include "unknown/grit/brave_generated_resources_webui_strings.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/media/router/media_router_feature.h"
 #include "chrome/browser/profiles/profile.h"
@@ -53,15 +53,15 @@
 #include "ui/base/l10n/l10n_util.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/browser/model_validator.h"
+#include "unknown/components/ai_chat/core/browser/model_validator.h"
 #endif
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/browser/tor/tor_profile_service_factory.h"
+#include "unknown/browser/tor/tor_profile_service_factory.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
 #endif
 
 namespace settings {

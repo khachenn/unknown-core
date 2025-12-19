@@ -3,13 +3,13 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#include "brave/components/ntp_background_images/browser/view_counter_model.h"
+#include "unknown/components/ntp_background_images/browser/view_counter_model.h"
 
 #include <cstddef>
 
 #include "base/test/scoped_feature_list.h"
-#include "brave/components/ntp_background_images/browser/features.h"
-#include "brave/components/ntp_background_images/common/view_counter_pref_registry.h"
+#include "unknown/components/ntp_background_images/browser/features.h"
+#include "unknown/components/ntp_background_images/common/view_counter_pref_registry.h"
 #include "components/sync_preferences/testing_pref_service_syncable.h"
 #include "content/public/test/browser_task_environment.h"
 #include "testing/gtest/include/gtest/gtest.h"

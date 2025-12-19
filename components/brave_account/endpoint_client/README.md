@@ -43,7 +43,7 @@ Together, this standardizes endpoint handling, eliminates per-endpoint duplicati
 You can hand-write `Request`, `Response`, and `Error`, but this abstraction is primarily geared toward using the JSON schema/IDL compiler, which generates them for you (`ToValue()`, `FromValue()`, etc.). You then provide a small endpoint binder and call the generic client.
 
 1. **add schemas/IDL** for request, response, and error under:  
-   `//brave/components/brave_account/endpoints`
+   `//unknown/components/brave_account/endpoints`
 
 2. **define the endpoint binder** (ties types together and provides URL/method), e.g.:
    ```cpp

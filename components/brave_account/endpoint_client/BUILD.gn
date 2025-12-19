@@ -23,7 +23,7 @@ source_set("endpoint_client") {
 
   deps = [
     "//base",
-    "//brave/brave_domains",
+    "//unknown/brave_domains",
     "//net",
     "//services/network/public/cpp",
     "//url",
@@ -47,7 +47,7 @@ source_set("unit_tests") {
   deps = [
     "//base",
     "//base/test:test_support",
-    "//brave/components/brave_account/endpoint_client",
+    "//unknown/components/brave_account/endpoint_client",
     "//net",
     "//services/network:test_support",
     "//services/network/public/cpp",

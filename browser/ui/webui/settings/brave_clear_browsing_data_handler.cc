@@ -3,15 +3,15 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/webui/settings/brave_clear_browsing_data_handler.h"
+#include "unknown/browser/ui/webui/settings/brave_clear_browsing_data_handler.h"
 
 #include "base/check.h"
 #include "base/check_op.h"
 #include "base/functional/bind.h"
 #include "base/functional/callback_helpers.h"
-#include "brave/browser/brave_ads/ads_service_factory.h"
-#include "brave/components/brave_ads/core/browser/service/ads_service.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
+#include "unknown/browser/brave_ads/ads_service_factory.h"
+#include "unknown/components/brave_ads/core/browser/service/ads_service.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
 #include "chrome/browser/profiles/profile.h"
 #include "components/prefs/pref_service.h"
 

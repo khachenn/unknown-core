@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/browsing_data/brave_browsing_data_remover_delegate.h"
+#include "unknown/browser/browsing_data/brave_browsing_data_remover_delegate.h"
 
 #include <utility>
 #include <vector>
@@ -11,11 +11,11 @@
 #include "base/containers/flat_map.h"
 #include "base/no_destructor.h"
 #include "base/notreached.h"
-#include "brave/browser/brave_news/brave_news_controller_factory.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_news/browser/brave_news_controller.h"
-#include "brave/components/content_settings/core/browser/brave_content_settings_pref_provider.h"
-#include "brave/components/content_settings/core/browser/brave_content_settings_utils.h"
+#include "unknown/browser/brave_news/brave_news_controller_factory.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_news/browser/brave_news_controller.h"
+#include "unknown/components/content_settings/core/browser/brave_content_settings_pref_provider.h"
+#include "unknown/components/content_settings/core/browser/brave_content_settings_utils.h"
 #include "build/build_config.h"
 #include "chrome/browser/browsing_data/chrome_browsing_data_remover_constants.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
@@ -26,8 +26,8 @@
 #include "content/public/browser/browsing_data_remover.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/browser/ai_chat/ai_chat_service_factory.h"
-#include "brave/components/ai_chat/core/browser/ai_chat_service.h"
+#include "unknown/browser/ai_chat/ai_chat_service_factory.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_service.h"
 #endif
 
 namespace {

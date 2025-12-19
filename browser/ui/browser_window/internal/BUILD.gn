@@ -3,25 +3,25 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
 
 source_set("internal") {
   sources = [ "browser_window_features.cc" ]
 
   deps = [
     "//base",
-    "//brave/browser/brave_rewards",
-    "//brave/browser/email_aliases",
-    "//brave/browser/ui/email_aliases",
-    "//brave/browser/ui/sidebar",
-    "//brave/browser/ui/views/page_info",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/playlist/core/common",
+    "//unknown/browser/brave_rewards",
+    "//unknown/browser/email_aliases",
+    "//unknown/browser/ui/email_aliases",
+    "//unknown/browser/ui/sidebar",
+    "//unknown/browser/ui/views/page_info",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/playlist/core/common",
     "//chrome/browser/ui/browser_window",
     "//chrome/browser/ui/tabs:features",
   ]
 
   if (enable_brave_vpn) {
-    deps += [ "//brave/browser/ui/brave_vpn" ]
+    deps += [ "//unknown/browser/ui/brave_vpn" ]
   }
 }

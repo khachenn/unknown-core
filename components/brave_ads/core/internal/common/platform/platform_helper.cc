@@ -3,20 +3,20 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/common/platform/platform_helper.h"
+#include "unknown/components/brave_ads/core/internal/common/platform/platform_helper.h"
 
 #include "base/check_is_test.h"
 #include "build/build_config.h"
 #if BUILDFLAG(IS_ANDROID)
-#include "brave/components/brave_ads/core/internal/common/platform/platform_helper_android.h"
+#include "unknown/components/brave_ads/core/internal/common/platform/platform_helper_android.h"
 #elif BUILDFLAG(IS_IOS)
-#include "brave/components/brave_ads/core/internal/common/platform/platform_helper_ios.h"
+#include "unknown/components/brave_ads/core/internal/common/platform/platform_helper_ios.h"
 #elif BUILDFLAG(IS_LINUX)
-#include "brave/components/brave_ads/core/internal/common/platform/platform_helper_linux.h"
+#include "unknown/components/brave_ads/core/internal/common/platform/platform_helper_linux.h"
 #elif BUILDFLAG(IS_MAC)
-#include "brave/components/brave_ads/core/internal/common/platform/platform_helper_mac.h"
+#include "unknown/components/brave_ads/core/internal/common/platform/platform_helper_mac.h"
 #elif BUILDFLAG(IS_WIN)
-#include "brave/components/brave_ads/core/internal/common/platform/platform_helper_win.h"
+#include "unknown/components/brave_ads/core/internal/common/platform/platform_helper_win.h"
 #endif
 
 namespace brave_ads {

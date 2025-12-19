@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_wallet/notifications/wallet_notification_service.h"
+#include "unknown/browser/brave_wallet/notifications/wallet_notification_service.h"
 
 #include <memory>
 #include <optional>
@@ -13,14 +13,14 @@
 #include "base/files/scoped_temp_dir.h"
 #include "base/memory/scoped_refptr.h"
 #include "base/task/sequenced_task_runner.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_service.h"
-#include "brave/components/brave_wallet/browser/eth_transaction.h"
-#include "brave/components/brave_wallet/browser/eth_tx_meta.h"
-#include "brave/components/brave_wallet/browser/keyring_service.h"
-#include "brave/components/brave_wallet/browser/pref_names.h"
-#include "brave/components/brave_wallet/browser/test_utils.h"
-#include "brave/components/brave_wallet/browser/tx_service.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/eth_transaction.h"
+#include "unknown/components/brave_wallet/browser/eth_tx_meta.h"
+#include "unknown/components/brave_wallet/browser/keyring_service.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/test_utils.h"
+#include "unknown/components/brave_wallet/browser/tx_service.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "chrome/browser/notifications/notification_display_service_tester.h"
 #include "chrome/test/base/testing_profile.h"
 #include "components/prefs/testing_pref_service.h"

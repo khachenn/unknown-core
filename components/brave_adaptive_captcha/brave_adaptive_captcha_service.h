@@ -10,11 +10,11 @@
 #include <string>
 
 #include "base/memory/raw_ptr.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_adaptive_captcha/brave_adaptive_captcha_delegate.h"
-#include "brave/components/brave_adaptive_captcha/get_adaptive_captcha_challenge.h"
-#include "brave/components/brave_rewards/content/rewards_service.h"
-#include "brave/components/brave_rewards/content/rewards_service_observer.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_adaptive_captcha/brave_adaptive_captcha_delegate.h"
+#include "unknown/components/brave_adaptive_captcha/get_adaptive_captcha_challenge.h"
+#include "unknown/components/brave_rewards/content/rewards_service.h"
+#include "unknown/components/brave_rewards/content/rewards_service_observer.h"
 #include "components/keyed_service/core/keyed_service.h"
 
 namespace network {

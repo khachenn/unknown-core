@@ -1,4 +1,4 @@
 include_rules = [
-  "+brave/components/brave_account",
-  "+brave/components/password_strength_meter",
+  "+unknown/components/brave_account",
+  "+unknown/components/password_strength_meter",
 ]

@@ -6,7 +6,7 @@ index 0e10f92412fdbd9755d3ab802150a9e4f4705fc2..98d774230b4ac28d426c97bc184ee75a
    if (is_win) {
      sources += [ "local_device_info_util_win.cc" ]
    }
-+  import("//brave/components/sync_device_info/sources.gni") sources += brave_components_sync_device_info_sources deps += brave_components_sync_device_info_deps
++  import("//unknown/components/sync_device_info/sources.gni") sources += brave_components_sync_device_info_sources deps += brave_components_sync_device_info_deps
  }
  
  static_library("test_support") {

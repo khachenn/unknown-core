@@ -9,7 +9,7 @@
 #include <string>
 
 #include "base/memory/raw_ref.h"
-#include "brave/components/brave_rewards/core/engine/rewards_callbacks.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_callbacks.h"
 
 // POST https://exchange.sandbox.gemini.com/auth/token
 //

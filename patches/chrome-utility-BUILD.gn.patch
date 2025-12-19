@@ -6,7 +6,7 @@ index 708d3db9a2b7dad11d7e1f094cdc4705ed9077db..b87bd1f9df3c4690105558e5978a8a4c
    if (enable_on_device_translation) {
      deps += [ "//components/services/on_device_translation:on_device_translation_service" ]
    }
-+  import("//brave/utility/sources.gni") sources += brave_utility_sources deps += brave_utility_deps public_deps += brave_utility_public_deps
++  import("//unknown/utility/sources.gni") sources += brave_utility_sources deps += brave_utility_deps public_deps += brave_utility_public_deps
  }
  
  if (!is_android) {

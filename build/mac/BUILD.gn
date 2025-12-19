@@ -3,9 +3,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/build/config.gni")
-import("//brave/build/mac/config.gni")
-import("//brave/updater/config.gni")
+import("//unknown/build/config.gni")
+import("//unknown/build/mac/config.gni")
+import("//unknown/updater/config.gni")
 import("//build/util/branding.gni")
 import("//chrome/common/features.gni")
 import("//chrome/updater/branding.gni")
@@ -55,7 +55,7 @@ if (is_universal_binary) {
 
   # placeholder script to allow manual copying of binary into output dir
   action("copy_x64") {
-    script = "//brave/installer/mac/copy_x64_binary.py"
+    script = "//unknown/installer/mac/copy_x64_binary.py"
 
     x64_root_out_dir = string_replace(root_out_dir, "_arm64", "")
     x64_arch_src_path = "$x64_root_out_dir/$brave_exe"
@@ -116,7 +116,7 @@ action("generate_dsa_sig_for_dmg") {
   deps = [ ":package" ]
 
   if (build_sparkle) {
-    deps += [ "//brave/vendor/sparkle:copy_old_sign_update" ]
+    deps += [ "//unknown/vendor/sparkle:copy_old_sign_update" ]
   }
 }
 
@@ -154,7 +154,7 @@ action("generate_eddsa_sig_for_dmg") {
   deps = [ ":package" ]
 
   if (build_sparkle) {
-    deps += [ "//brave/vendor/sparkle:build_sparkle_framework" ]
+    deps += [ "//unknown/vendor/sparkle:build_sparkle_framework" ]
   }
 }
 
@@ -193,7 +193,7 @@ action("build_delta_installer") {
   deps = [ ":package" ]
 
   if (build_sparkle) {
-    deps += [ "//brave/vendor/sparkle:build_sparkle_framework" ]
+    deps += [ "//unknown/vendor/sparkle:build_sparkle_framework" ]
   }
 }
 
@@ -229,7 +229,7 @@ action("generate_eddsa_sig_for_delta") {
 
 # Upstream takes pkg_postinstall.in from $packaging_dir. Our Python
 # implementation overrides this to $packaging_dir/brave.
-postinstall_script = "$packaging_dir/brave/pkg_postinstall.in"
+postinstall_script = "$packaging_dir/unknown/pkg_postinstall.in"
 
 if (install_omaha4_with_pkg) {
   action("postinstall") {
@@ -378,7 +378,7 @@ copy("copy_ds_store") {
 
 copy("copy_helper_entitlements") {
   visibility = [ ":package" ]
-  sources = [ "//brave/app/helper-entitlements.plist" ]
+  sources = [ "//unknown/app/helper-entitlements.plist" ]
   public_deps = [ "//chrome/installer/mac" ]
   outputs = [ "$packaging_dir/{{source_file_part}}" ]
 }

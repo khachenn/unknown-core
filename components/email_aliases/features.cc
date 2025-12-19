@@ -3,9 +3,9 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/email_aliases/features.h"
+#include "unknown/components/email_aliases/features.h"
 
-#include "brave/components/brave_account/features.h"
+#include "unknown/components/brave_account/features.h"
 
 namespace email_aliases::features {
 

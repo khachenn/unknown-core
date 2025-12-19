@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ai_chat/upload_file_helper.h"
+#include "unknown/browser/ai_chat/upload_file_helper.h"
 
 #include "base/containers/span.h"
 #include "base/files/file_util.h"
@@ -11,9 +11,9 @@
 #include "base/memory/ref_counted_memory.h"
 #include "base/scoped_observation.h"
 #include "base/test/test_future.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom-forward.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom-shared.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom-forward.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom-forward.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom-shared.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom-forward.h"
 #include "chrome/browser/ui/chrome_select_file_policy.h"
 #include "chrome/common/pref_names.h"
 #include "chrome/test/base/testing_browser_process.h"

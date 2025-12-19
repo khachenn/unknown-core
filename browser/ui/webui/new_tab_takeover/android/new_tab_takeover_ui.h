@@ -11,8 +11,8 @@
 
 #include "base/memory/raw_ptr.h"
 #include "base/memory/raw_ref.h"
-#include "brave/components/new_tab_takeover/mojom/new_tab_takeover.mojom.h"
-#include "brave/components/ntp_background_images/browser/mojom/ntp_background_images.mojom.h"
+#include "unknown/components/new_tab_takeover/mojom/new_tab_takeover.mojom.h"
+#include "unknown/components/ntp_background_images/browser/mojom/ntp_background_images.mojom.h"
 #include "mojo/public/cpp/bindings/pending_receiver.h"
 #include "mojo/public/cpp/bindings/receiver.h"
 #include "ui/webui/mojo_web_ui_controller.h"

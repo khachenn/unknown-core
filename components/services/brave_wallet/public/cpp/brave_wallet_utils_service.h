@@ -6,7 +6,7 @@
 #ifndef BRAVE_COMPONENTS_SERVICES_BRAVE_WALLET_PUBLIC_CPP_BRAVE_WALLET_UTILS_SERVICE_H_
 #define BRAVE_COMPONENTS_SERVICES_BRAVE_WALLET_PUBLIC_CPP_BRAVE_WALLET_UTILS_SERVICE_H_
 
-#include "brave/components/services/brave_wallet/public/mojom/brave_wallet_utils_service.mojom.h"
+#include "unknown/components/services/brave_wallet/public/mojom/brave_wallet_utils_service.mojom.h"
 #include "mojo/public/cpp/bindings/pending_associated_receiver.h"
 #include "mojo/public/cpp/bindings/remote.h"
 

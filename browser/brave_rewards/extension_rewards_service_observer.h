@@ -11,8 +11,8 @@
 #include <vector>
 
 #include "base/memory/raw_ptr.h"
-#include "brave/components/brave_rewards/content/rewards_service_observer.h"
-#include "brave/components/brave_rewards/core/mojom/rewards.mojom.h"
+#include "unknown/components/brave_rewards/content/rewards_service_observer.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards.mojom.h"
 
 class Profile;
 

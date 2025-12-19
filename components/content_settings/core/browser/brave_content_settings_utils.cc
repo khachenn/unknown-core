@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/content_settings/core/browser/brave_content_settings_utils.h"
+#include "unknown/components/content_settings/core/browser/brave_content_settings_utils.h"
 
 #include <optional>
 
@@ -11,7 +11,7 @@
 #include "base/containers/contains.h"
 #include "base/containers/map_util.h"
 #include "base/values.h"
-#include "brave/components/brave_shields/core/common/brave_shield_constants.h"
+#include "unknown/components/brave_shields/core/common/brave_shield_constants.h"
 #include "url/gurl.h"
 
 namespace {

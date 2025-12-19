@@ -11,7 +11,7 @@
 #include <chrome/browser/component_updater/widevine_cdm_component_installer.cc>
 #undef RegisterWidevineCdmComponent
 
-#include "brave/browser/widevine/widevine_utils.h"
+#include "unknown/browser/widevine/widevine_utils.h"
 #include "components/component_updater/component_updater_service.h"
 
 namespace component_updater {

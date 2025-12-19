@@ -13,8 +13,8 @@
 #include "base/memory/raw_ref.h"
 #include "base/memory/scoped_refptr.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_ads/core/browser/service/network_client_callback.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
+#include "unknown/components/brave_ads/core/browser/service/network_client_callback.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
 #include "services/network/public/cpp/network_context_getter.h"
 #include "url/gurl.h"
 

@@ -9,7 +9,7 @@
 #include <memory>
 
 #include "base/memory/raw_ptr.h"
-#include "brave/components/brave_account/mojom/brave_account_row.mojom.h"
+#include "unknown/components/brave_account/mojom/brave_account_row.mojom.h"
 #include "mojo/public/cpp/bindings/pending_receiver.h"
 #include "mojo/public/cpp/bindings/pending_remote.h"
 

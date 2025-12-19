@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/tor/buildflags/buildflags.gni")
+import("//unknown/components/tor/buildflags/buildflags.gni")
 import("//build/config/features.gni")
 
 assert(toolkit_views)
@@ -25,18 +25,18 @@ source_set("location_bar") {
   ]
 
   deps = [
-    "//brave/app:brave_generated_resources_grit",
-    "//brave/app/theme:brave_theme_resources",
-    "//brave/app/vector_icons",
-    "//brave/browser/ui:brave_tab_prefs",
-    "//brave/browser/ui/page_info",
-    "//brave/browser/ui/views/page_info",
-    "//brave/components/brave_search_conversion",
-    "//brave/components/commander/browser",
-    "//brave/components/commander/common",
-    "//brave/components/resources:strings",
-    "//brave/components/tor/buildflags",
-    "//brave/components/vector_icons",
+    "//unknown/app:brave_generated_resources_grit",
+    "//unknown/app/theme:brave_theme_resources",
+    "//unknown/app/vector_icons",
+    "//unknown/browser/ui:brave_tab_prefs",
+    "//unknown/browser/ui/page_info",
+    "//unknown/browser/ui/views/page_info",
+    "//unknown/components/brave_search_conversion",
+    "//unknown/components/commander/browser",
+    "//unknown/components/commander/common",
+    "//unknown/components/resources:strings",
+    "//unknown/components/tor/buildflags",
+    "//unknown/components/vector_icons",
     "//chrome/browser/image_fetcher",
     "//chrome/browser/profiles",
     "//chrome/browser/search_engines",
@@ -62,8 +62,8 @@ source_set("location_bar") {
     ]
 
     deps += [
-      "//brave/browser/tor",
-      "//brave/components/tor",
+      "//unknown/browser/tor",
+      "//unknown/components/tor",
     ]
   }
 }
@@ -72,12 +72,12 @@ source_set("browser_tests") {
   testonly = true
   defines = [ "HAS_OUT_OF_PROC_TEST_RUNNER" ]
 
-  sources = [ "//brave/browser/ui/views/location_bar/brave_location_bar_view_browsertest.cc" ]
+  sources = [ "//unknown/browser/ui/views/location_bar/brave_location_bar_view_browsertest.cc" ]
 
   deps = [
     ":location_bar",
     "//base",
-    "//brave/components/brave_search_conversion",
+    "//unknown/components/brave_search_conversion",
     "//chrome/browser",
     "//chrome/browser/search_engines",
     "//chrome/browser/ui",

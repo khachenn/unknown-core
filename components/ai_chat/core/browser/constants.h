@@ -14,8 +14,8 @@
 
 #include "base/containers/fixed_flat_set.h"
 #include "base/containers/span.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
 #include "ui/base/webui/web_ui_util.h"
 
 namespace ai_chat {

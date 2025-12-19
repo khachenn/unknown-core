@@ -29,11 +29,11 @@ static_library("misc_metrics") {
 
   deps = [
     "//base",
-    "//brave/components/brave_new_tab_ui:mojom",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_shields/core/browser",
-    "//brave/components/p3a_utils",
-    "//brave/components/time_period_storage",
+    "//unknown/components/brave_new_tab_ui:mojom",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_shields/core/browser",
+    "//unknown/components/p3a_utils",
+    "//unknown/components/time_period_storage",
     "//components/autofill/core/browser",
     "//components/bookmarks/browser",
     "//components/browsing_data/core",
@@ -47,7 +47,7 @@ static_library("misc_metrics") {
     "//url",
   ]
 
-  public_deps = [ "//brave/components/misc_metrics/common:mojom" ]
+  public_deps = [ "//unknown/components/misc_metrics/common:mojom" ]
 }
 
 source_set("unit_tests") {
@@ -66,7 +66,7 @@ source_set("unit_tests") {
   deps = [
     "//base",
     "//base/test:test_support",
-    "//brave/components/misc_metrics",
+    "//unknown/components/misc_metrics",
     "//components/language/core/browser",
     "//components/prefs:test_support",
     "//components/search_engines",

@@ -8,8 +8,8 @@
 
 #include "base/memory/raw_ref.h"
 #include "base/test/task_environment.h"
-#include "brave/components/brave_ads/core/internal/targeting/behavioral/purchase_intent/purchase_intent_test_helper.h"
-#include "brave/components/brave_ads/core/internal/targeting/contextual/text_classification/text_classification_test_helper.h"
+#include "unknown/components/brave_ads/core/internal/targeting/behavioral/purchase_intent/purchase_intent_test_helper.h"
+#include "unknown/components/brave_ads/core/internal/targeting/contextual/text_classification/text_classification_test_helper.h"
 
 namespace brave_ads {
 

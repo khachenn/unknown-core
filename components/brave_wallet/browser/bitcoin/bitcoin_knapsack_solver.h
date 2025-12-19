@@ -11,7 +11,7 @@
 #include <vector>
 
 #include "base/types/expected.h"
-#include "brave/components/brave_wallet/browser/bitcoin/bitcoin_transaction.h"
+#include "unknown/components/brave_wallet/browser/bitcoin/bitcoin_transaction.h"
 
 namespace brave_wallet {
 

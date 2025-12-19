@@ -3,8 +3,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/text_recognition/common/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/text_recognition/common/buildflags/buildflags.gni")
 import("//tools/json_schema_compiler/json_schema_api.gni")
 
 assert(enable_ai_chat)
@@ -96,23 +96,23 @@ static_library("browser") {
 
   deps = [
     ":generated_brave_search_responses",
-    "//brave/brave_domains",
-    "//brave/components/ai_chat/core/common",
-    "//brave/components/ai_chat/core/common/buildflags",
-    "//brave/components/ai_chat/core/common/mojom",
-    "//brave/components/ai_chat/core/proto",
-    "//brave/components/api_request_helper",
-    "//brave/components/brave_service_keys",
-    "//brave/components/brave_stats/browser",
-    "//brave/components/constants",
-    "//brave/components/l10n/common",
-    "//brave/components/p3a_utils",
-    "//brave/components/resources:strings_grit",
-    "//brave/components/sidebar/common",
-    "//brave/components/skus/common:mojom",
-    "//brave/components/text_recognition/common/buildflags",
-    "//brave/components/time_period_storage",
-    "//brave/net/base:utils",
+    "//unknown/brave_domains",
+    "//unknown/components/ai_chat/core/common",
+    "//unknown/components/ai_chat/core/common/buildflags",
+    "//unknown/components/ai_chat/core/common/mojom",
+    "//unknown/components/ai_chat/core/proto",
+    "//unknown/components/api_request_helper",
+    "//unknown/components/brave_service_keys",
+    "//unknown/components/brave_stats/browser",
+    "//unknown/components/constants",
+    "//unknown/components/l10n/common",
+    "//unknown/components/p3a_utils",
+    "//unknown/components/resources:strings_grit",
+    "//unknown/components/sidebar/common",
+    "//unknown/components/skus/common:mojom",
+    "//unknown/components/text_recognition/common/buildflags",
+    "//unknown/components/time_period_storage",
+    "//unknown/net/base:utils",
     "//components/bookmarks/browser",
     "//components/history/core/browser",
     "//components/keyed_service/core",
@@ -134,7 +134,7 @@ static_library("browser") {
   ]
 
   if (enable_text_recognition) {
-    deps += [ "//brave/components/text_recognition/browser" ]
+    deps += [ "//unknown/components/text_recognition/browser" ]
   }
 }
 
@@ -177,23 +177,23 @@ source_set("unit_tests") {
     sources += [ "ai_chat_database_unittest.cc" ]
   }
 
-  data = [ "//brave/components/test/data/ai_chat" ]
+  data = [ "//unknown/components/test/data/ai_chat" ]
 
   deps = [
     ":test_support",
     "//base/test:test_support",
-    "//brave/components/ai_chat/core/browser",
-    "//brave/components/ai_chat/core/common",
-    "//brave/components/ai_chat/core/common:test_support",
-    "//brave/components/ai_chat/core/common/mojom",
-    "//brave/components/api_request_helper",
-    "//brave/components/api_request_helper:test_support",
-    "//brave/components/constants",
-    "//brave/components/l10n/common:test_support",
-    "//brave/components/resources:strings_grit",
-    "//brave/components/skus/browser",
-    "//brave/components/skus/common",
-    "//brave/components/skus/common:mojom",
+    "//unknown/components/ai_chat/core/browser",
+    "//unknown/components/ai_chat/core/common",
+    "//unknown/components/ai_chat/core/common:test_support",
+    "//unknown/components/ai_chat/core/common/mojom",
+    "//unknown/components/api_request_helper",
+    "//unknown/components/api_request_helper:test_support",
+    "//unknown/components/constants",
+    "//unknown/components/l10n/common:test_support",
+    "//unknown/components/resources:strings_grit",
+    "//unknown/components/skus/browser",
+    "//unknown/components/skus/common",
+    "//unknown/components/skus/common:mojom",
     "//components/bookmarks/browser",
     "//components/bookmarks/browser:test_support",
     "//components/bookmarks/test",
@@ -232,9 +232,9 @@ source_set("test_support") {
   ]
 
   deps = [
-    "//brave/components/ai_chat/core/browser",
-    "//brave/components/ai_chat/core/common:test_support",
-    "//brave/components/ai_chat/core/common/mojom",
+    "//unknown/components/ai_chat/core/browser",
+    "//unknown/components/ai_chat/core/common:test_support",
+    "//unknown/components/ai_chat/core/common/mojom",
     "//services/network/public/cpp",
     "//testing/gmock",
     "//testing/gtest",

@@ -13,9 +13,9 @@
 #include "base/containers/flat_map.h"
 #include "base/functional/callback_forward.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_news/browser/direct_feed_fetcher.h"
-#include "brave/components/brave_news/browser/publishers_controller.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_news/browser/direct_feed_fetcher.h"
+#include "unknown/components/brave_news/browser/publishers_controller.h"
 
 namespace brave_news {
 

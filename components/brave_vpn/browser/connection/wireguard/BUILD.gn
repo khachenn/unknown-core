@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
 
 assert(enable_brave_vpn)
 assert(!is_android)
@@ -16,12 +16,12 @@ source_set("wireguard") {
   deps = [
     "credentials",
     "//base",
-    "//brave/components/brave_vpn/browser/api",
-    "//brave/components/brave_vpn/browser/connection:api",
-    "//brave/components/brave_vpn/browser/connection:common",
-    "//brave/components/brave_vpn/common",
-    "//brave/components/brave_vpn/common/mojom",
-    "//brave/components/brave_vpn/common/wireguard",
+    "//unknown/components/brave_vpn/browser/api",
+    "//unknown/components/brave_vpn/browser/connection:api",
+    "//unknown/components/brave_vpn/browser/connection:common",
+    "//unknown/components/brave_vpn/common",
+    "//unknown/components/brave_vpn/common/mojom",
+    "//unknown/components/brave_vpn/common/wireguard",
     "//components/prefs",
     "//services/network/public/cpp",
   ]
@@ -33,8 +33,8 @@ source_set("unit_tests") {
 
   deps = [
     ":wireguard",
-    "//brave/components/brave_vpn/browser/connection:api",
-    "//brave/components/brave_vpn/common",
+    "//unknown/components/brave_vpn/browser/connection:api",
+    "//unknown/components/brave_vpn/common",
     "//components/sync_preferences:test_support",
     "//content/test:test_support",
     "//services/network:test_support",

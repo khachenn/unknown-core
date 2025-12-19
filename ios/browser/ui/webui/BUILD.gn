@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/build/config.gni")
+import("//unknown/build/config.gni")
 import("//build/config/features.gni")
 import("//mojo/public/tools/bindings/mojom.gni")
 
@@ -15,17 +15,17 @@ source_set("webui") {
 
   deps = [
     "//base",
-    "//brave/components/brave_account:features",
-    "//brave/components/constants",
-    "//brave/components/webui",
-    "//brave/ios/browser/brave_wallet",
-    "//brave/ios/browser/ui/webui/ads",
-    "//brave/ios/browser/ui/webui/ai_chat",
-    "//brave/ios/browser/ui/webui/ai_chat:features",
-    "//brave/ios/browser/ui/webui/brave_account",
-    "//brave/ios/browser/ui/webui/brave_wallet",
-    "//brave/ios/browser/ui/webui/skus",
-    "//brave/ios/web/webui",
+    "//unknown/components/brave_account:features",
+    "//unknown/components/constants",
+    "//unknown/components/webui",
+    "//unknown/ios/browser/brave_wallet",
+    "//unknown/ios/browser/ui/webui/ads",
+    "//unknown/ios/browser/ui/webui/ai_chat",
+    "//unknown/ios/browser/ui/webui/ai_chat:features",
+    "//unknown/ios/browser/ui/webui/brave_account",
+    "//unknown/ios/browser/ui/webui/brave_wallet",
+    "//unknown/ios/browser/ui/webui/skus",
+    "//unknown/ios/web/webui",
     "//components/prefs",
     "//components/resources:components_resources_grit",
     "//ios/chrome/browser/shared/model/profile",
@@ -50,9 +50,9 @@ source_set("data_sources") {
   ]
 
   deps = [
-    "//brave/brave_domains",
-    "//brave/components/brave_private_cdn",
-    "//brave/ios/browser/favicon",
+    "//unknown/brave_domains",
+    "//unknown/components/brave_private_cdn",
+    "//unknown/ios/browser/favicon",
     "//components/favicon/core",
     "//components/favicon_base",
     "//components/history/core/browser",

@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_shields/core/browser/ad_block_filter_list_catalog_provider.h"
+#include "unknown/components/brave_shields/core/browser/ad_block_filter_list_catalog_provider.h"
 
 #include <string>
 #include <utility>
@@ -11,7 +11,7 @@
 #include "base/files/file_path.h"
 #include "base/task/thread_pool.h"
 #include "base/trace_event/trace_event.h"
-#include "brave/components/brave_shields/core/browser/ad_block_component_installer.h"
+#include "unknown/components/brave_shields/core/browser/ad_block_component_installer.h"
 
 constexpr char kListCatalogFile[] = "list_catalog.json";
 

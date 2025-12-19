@@ -3,12 +3,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/containers/buildflags/buildflags.gni")
+import("//unknown/components/containers/buildflags/buildflags.gni")
 
 brave_common_syncable_prefs_database_public_deps =
-    [ "//brave/components/containers/buildflags" ]
+    [ "//unknown/components/containers/buildflags" ]
 
 if (enable_containers) {
   brave_common_syncable_prefs_database_public_deps +=
-      [ "//brave/components/containers/core/browser" ]
+      [ "//unknown/components/containers/core/browser" ]
 }

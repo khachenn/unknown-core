@@ -3,9 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/infobars/brave_confirm_infobar.h"
+#include "unknown/browser/ui/views/infobars/brave_confirm_infobar.h"
 
-#include "brave/components/infobars/core/brave_confirm_infobar_delegate.h"
+#include "unknown/components/infobars/core/brave_confirm_infobar_delegate.h"
 #include "chrome/test/views/chrome_views_test_base.h"
 #include "testing/gtest/include/gtest/gtest.h"
 #include "ui/views/view.h"

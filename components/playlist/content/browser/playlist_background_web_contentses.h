@@ -16,8 +16,8 @@
 #include "base/memory/weak_ptr.h"
 #include "base/time/time.h"
 #include "base/timer/timer.h"
-#include "brave/components/playlist/content/browser/playlist_media_handler.h"
-#include "brave/components/playlist/core/common/mojom/playlist.mojom.h"
+#include "unknown/components/playlist/content/browser/playlist_media_handler.h"
+#include "unknown/components/playlist/core/common/mojom/playlist.mojom.h"
 #include "url/gurl.h"
 
 FORWARD_DECLARE_TEST(CosmeticFilteringPlaylistFlagEnabledTest,

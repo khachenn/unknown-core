@@ -3,15 +3,15 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ai_chat/page_content_blocks.h"
+#include "unknown/browser/ai_chat/page_content_blocks.h"
 
 #include <string>
 
 #include "base/strings/string_util.h"
 #include "base/strings/to_string.h"
-#include "brave/browser/ai_chat/annotated_page_content_test_util.h"
-#include "brave/components/ai_chat/core/common/constants.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/browser/ai_chat/annotated_page_content_test_util.h"
+#include "unknown/components/ai_chat/core/common/constants.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
 #include "components/optimization_guide/proto/features/common_quality_data.pb.h"
 #include "content/public/test/browser_task_environment.h"
 #include "testing/gmock/include/gmock/gmock.h"

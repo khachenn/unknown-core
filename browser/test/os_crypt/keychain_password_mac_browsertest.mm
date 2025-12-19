@@ -19,11 +19,11 @@ struct TestParams {
 constexpr TestParams kTestVectors[] = {
     {
         nullptr,
-        "Brave Safe Storage",
-        "Brave",
+        "Unknown Safe Storage",
+        "Unknown",
     },
     {
-        "import-brave",
+        "import-unknown",
         "Chromium Safe Storage",
         "Chromium",
     },

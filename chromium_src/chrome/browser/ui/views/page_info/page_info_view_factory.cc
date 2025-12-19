@@ -4,7 +4,7 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "chrome/browser/ui/views/page_info/page_info_view_factory.h"
-#include "brave/components/vector_icons/vector_icons.h"
+#include "unknown/components/vector_icons/vector_icons.h"
 
 #define BRAVE_PAGE_INFO_VIEW_FACTORY_GET_PERMISSION_ICON \
   case ContentSettingsType::AUTOPLAY:                    \

@@ -11,6 +11,6 @@ source_set("brave_domains") {
 
   deps = [
     "//base",
-    "//brave/brave_domains",
+    "//unknown/brave_domains",
   ]
 }

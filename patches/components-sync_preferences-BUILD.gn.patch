@@ -6,7 +6,7 @@ index b0b25757aed9a6ed87af3a9d7d3d797830319a9c..432d816f2e7147a6244c073f08ec8223
      "//components/translate/core/browser",
      "//components/variations/service",
    ]
-+  import("//brave/components/sync_preferences/sources.gni") public_deps = brave_common_syncable_prefs_database_public_deps
++  import("//unknown/components/sync_preferences/sources.gni") public_deps = brave_common_syncable_prefs_database_public_deps
  }
  
  static_library("test_support") {

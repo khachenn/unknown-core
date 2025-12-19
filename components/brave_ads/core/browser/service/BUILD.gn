@@ -30,10 +30,10 @@ source_set("service") {
 
   public_deps = [
     "//base",
-    "//brave/components/brave_ads/core/mojom",
-    "//brave/components/brave_ads/core/public:headers",
-    "//brave/components/ntp_background_images/common",
-    "//brave/components/services/bat_ads/public/interfaces",
+    "//unknown/components/brave_ads/core/mojom",
+    "//unknown/components/brave_ads/core/public:headers",
+    "//unknown/components/ntp_background_images/common",
+    "//unknown/components/services/bat_ads/public/interfaces",
     "//components/keyed_service/core",
     "//components/prefs",
     "//mojo/public/cpp/bindings",
@@ -41,7 +41,7 @@ source_set("service") {
 
   deps = [
     "//base/version_info",
-    "//brave/components/skus/browser",
+    "//unknown/components/skus/browser",
     "//net",
     "//services/network/public/cpp",
     "//services/network/public/mojom",
@@ -64,9 +64,9 @@ source_set("unit_tests") {
     "//base",
     "//base/test:test_support",
     "//base/version_info",
-    "//brave/components/brave_ads/core",
-    "//brave/components/brave_ads/core/public:test_support",
-    "//brave/components/skus/browser",
+    "//unknown/components/brave_ads/core",
+    "//unknown/components/brave_ads/core/public:test_support",
+    "//unknown/components/skus/browser",
     "//components/prefs:test_support",
     "//net",
     "//testing/gmock",
@@ -79,7 +79,7 @@ source_set("test_support") {
 
   public_deps = [
     ":service",
-    "//brave/components/brave_ads/core/mojom",
+    "//unknown/components/brave_ads/core/mojom",
     "//testing/gmock",
   ]
 

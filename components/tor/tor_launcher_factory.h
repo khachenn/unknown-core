@@ -17,9 +17,9 @@
 #include "base/memory/weak_ptr.h"
 #include "base/observer_list.h"
 #include "base/sequence_checker.h"
-#include "brave/components/services/tor/public/interfaces/tor.mojom.h"
-#include "brave/components/tor/tor_control.h"
-#include "brave/components/tor/tor_utils.h"
+#include "unknown/components/services/tor/public/interfaces/tor.mojom.h"
+#include "unknown/components/tor/tor_control.h"
+#include "unknown/components/tor/tor_utils.h"
 #include "mojo/public/cpp/bindings/remote.h"
 
 namespace base {

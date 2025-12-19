@@ -27,7 +27,7 @@ const getTestTargets = (outDir, filters = ['//*']) => {
 }
 
 const asGnTarget = (file) => {
-  const gnAbsolutePath = file.startsWith('//') ? file : '//brave/' + file
+  const gnAbsolutePath = file.startsWith('//') ? file : '//unknown/' + file
 
   return gnAbsolutePath.replace('brave/chromium_src/', '')
 }
@@ -84,7 +84,7 @@ async function analyzeAffectedTests(
   // We currently don't reason about patches
   // Let's just assume that everything needs to re-run if they are changed
   // TODO(https://github.com/brave/brave-browser/issues/48117): analyze impact of patch files
-  if (modifiedFiles.find((x) => x.startsWith('//brave/patches'))) {
+  if (modifiedFiles.find((x) => x.startsWith('//unknown/patches'))) {
     if (!quiet) {
       console.warn(
         'a patch file has been modified! assuming all tests need to run',
@@ -160,7 +160,7 @@ async function getAffectedTests(args = {}) {
       getApplicableFilters(config, test).map((filter) => ({ test, filter })),
     )
     .filter(({ filter }) =>
-      modified.has('//brave/' + path.relative(config.srcDir, filter)),
+      modified.has('//unknown/' + path.relative(config.srcDir, filter)),
     )
     .map(({ test }) => test)
 

@@ -11,7 +11,7 @@
 
 #include "base/check.h"
 #include "base/memory/scoped_refptr.h"
-#include "brave/browser/ui/brave_ads/notification_ad_delegate.h"
+#include "unknown/browser/ui/brave_ads/notification_ad_delegate.h"
 
 namespace brave_ads {
 

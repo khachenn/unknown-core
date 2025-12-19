@@ -13,29 +13,29 @@ cargo_crate("lib") {
   epoch = "1"
   crate_type = "rlib"
   crate_root =
-      "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/lib.rs"
+      "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/builder.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/error.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/external.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/external/arbitrary_support.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/external/serde_support.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/external/slog_support.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/fmt.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/macros.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/md5.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/parser.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/rng.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/sha1.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/timestamp.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v1.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v3.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v4.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v5.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v6.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v7.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v8.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/builder.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/error.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/external.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/external/arbitrary_support.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/external/serde_support.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/external/slog_support.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/fmt.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/macros.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/md5.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/parser.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/rng.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/sha1.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/timestamp.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v1.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v3.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v4.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v5.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v6.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v7.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/uuid-v1/src/v8.rs",
   ]
   inputs = []
 
@@ -47,7 +47,7 @@ cargo_crate("lib") {
   cargo_pkg_repository = "https://github.com/uuid-rs/uuid"
   cargo_pkg_version = "1.3.0"
 
-  deps = [ "//brave/third_party/rust/getrandom/v0_2:lib" ]
+  deps = [ "//unknown/third_party/rust/getrandom/v0_2:lib" ]
   features = [
     "default",
     "getrandom",

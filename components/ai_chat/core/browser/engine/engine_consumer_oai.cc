@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer_oai.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer_oai.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -30,14 +30,14 @@
 #include "base/time/time.h"
 #include "base/types/expected.h"
 #include "base/values.h"
-#include "brave/components/ai_chat/core/browser/associated_content_manager.h"
-#include "brave/components/ai_chat/core/browser/constants.h"
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer.h"
-#include "brave/components/ai_chat/core/browser/engine/oai_message_utils.h"
-#include "brave/components/ai_chat/core/browser/utils.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
-#include "brave/components/ai_chat/core/common/prefs.h"
+#include "unknown/components/ai_chat/core/browser/associated_content_manager.h"
+#include "unknown/components/ai_chat/core/browser/constants.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer.h"
+#include "unknown/components/ai_chat/core/browser/engine/oai_message_utils.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/common/prefs.h"
 #include "components/grit/brave_components_strings.h"
 #include "services/network/public/cpp/shared_url_loader_factory.h"
 #include "ui/base/l10n/l10n_util.h"

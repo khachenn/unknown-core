@@ -3,18 +3,18 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 
 brave_net_sources = [
-  "//brave/net/http/partitioned_host_state_map.cc",
-  "//brave/net/http/partitioned_host_state_map.h",
-  "//brave/net/proxy_resolution/proxy_config_service_tor.cc",
-  "//brave/net/proxy_resolution/proxy_config_service_tor.h",
+  "//unknown/net/http/partitioned_host_state_map.cc",
+  "//unknown/net/http/partitioned_host_state_map.h",
+  "//unknown/net/proxy_resolution/proxy_config_service_tor.cc",
+  "//unknown/net/proxy_resolution/proxy_config_service_tor.h",
 ]
 
 if (enable_brave_wallet) {
   brave_net_sources += [
-    "//brave/net/decentralized_dns/constants.cc",
-    "//brave/net/decentralized_dns/constants.h",
+    "//unknown/net/decentralized_dns/constants.cc",
+    "//unknown/net/decentralized_dns/constants.h",
   ]
 }

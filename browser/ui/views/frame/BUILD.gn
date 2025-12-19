@@ -11,8 +11,8 @@ source_set("frame") {
 
   deps = [
     "//base",
-    "//brave/browser/ui:brave_tab_prefs",
-    "//brave/browser/ui/views/frame/vertical_tabs",
+    "//unknown/browser/ui:brave_tab_prefs",
+    "//unknown/browser/ui/views/frame/vertical_tabs",
     "//chrome/browser/profiles:profile",
     "//chrome/browser/ui/browser_window",
     "//chrome/browser/ui/tabs:tab_strip",
@@ -30,12 +30,12 @@ source_set("browser_tests") {
   defines = [ "HAS_OUT_OF_PROC_TEST_RUNNER" ]
 
   sources =
-      [ "//brave/browser/ui/views/frame/brave_browser_view_browsertest.cc" ]
+      [ "//unknown/browser/ui/views/frame/brave_browser_view_browsertest.cc" ]
 
   deps = [
     ":frame",
     "//base",
-    "//brave/browser/ui/views/frame/vertical_tabs",
+    "//unknown/browser/ui/views/frame/vertical_tabs",
     "//chrome/browser",
     "//chrome/browser/profiles:profile",
     "//chrome/browser/ui",

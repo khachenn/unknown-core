@@ -34,7 +34,7 @@ static_library("brave_origin") {
     "//mojo/public/cpp/bindings",
   ]
   deps = [
-    "//brave/components/brave_policy:brave_policy_observer",
+    "//unknown/components/brave_policy:brave_policy_observer",
     "//components/keyed_service/core",
     "//components/policy/core/common",
     "//components/prefs",

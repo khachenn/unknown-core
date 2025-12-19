@@ -6,5 +6,5 @@ index aaaea726ed8edbdd1593cf61705dcbe152aafcd1..986872045fd7ea39080c9fdfcf9c1c48
      "//content/public/browser",
      "//extensions/buildflags",
    ]
-+  public_deps = [ "//brave/components/ai_chat/core/common/buildflags" ]
++  public_deps = [ "//unknown/components/ai_chat/core/common/buildflags" ]
  }

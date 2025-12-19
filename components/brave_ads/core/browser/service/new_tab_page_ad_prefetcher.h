@@ -11,7 +11,7 @@
 #include "base/memory/raw_ref.h"
 #include "base/memory/weak_ptr.h"
 #include "base/types/optional_ref.h"
-#include "brave/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_info.h"
+#include "unknown/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_info.h"
 
 namespace brave_ads {
 

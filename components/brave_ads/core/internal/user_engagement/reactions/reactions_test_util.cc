@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/user_engagement/reactions/reactions_test_util.h"
+#include "unknown/components/brave_ads/core/internal/user_engagement/reactions/reactions_test_util.h"
 
-#include "brave/components/brave_ads/core/internal/ad_units/ad_test_constants.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/internal/ad_units/ad_test_constants.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
 
 namespace brave_ads::test {
 

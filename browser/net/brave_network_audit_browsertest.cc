@@ -16,9 +16,9 @@
 #include "base/test/scoped_run_loop_timeout.h"
 #include "base/test/test_timeouts.h"
 #include "base/time/time.h"
-#include "brave/browser/net/brave_network_audit_allowed_lists.h"
-#include "brave/browser/net/brave_network_audit_test_helper.h"
-#include "brave/components/playlist/core/common/buildflags/buildflags.h"
+#include "unknown/browser/net/brave_network_audit_allowed_lists.h"
+#include "unknown/browser/net/brave_network_audit_test_helper.h"
+#include "unknown/components/playlist/core/common/buildflags/buildflags.h"
 #include "chrome/browser/password_manager/profile_password_store_factory.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/search_engines/template_url_service_factory.h"
@@ -34,20 +34,20 @@
 #include "testing/gmock/include/gmock/gmock.h"
 
 #if defined(TOOLKIT_VIEWS)
-#include "brave/browser/ui/sidebar/sidebar_controller.h"
-#include "brave/browser/ui/sidebar/sidebar_model.h"
-#include "brave/components/sidebar/browser/sidebar_item.h"
+#include "unknown/browser/ui/sidebar/sidebar_controller.h"
+#include "unknown/browser/ui/sidebar/sidebar_model.h"
+#include "unknown/components/sidebar/browser/sidebar_item.h"
 #endif
 
 #if BUILDFLAG(ENABLE_PLAYLIST_WEBUI)
-#include "brave/components/playlist/core/common/features.h"
+#include "unknown/components/playlist/core/common/features.h"
 #endif
 
 namespace brave {
 namespace {
 
 // Max amount of time to wait after getting an URL loaded, in milliseconds. Note
-// that the value passed to --ui-test-action-timeout in //brave/package.json, as
+// that the value passed to --ui-test-action-timeout in //unknown/package.json, as
 // part of the 'network-audit' script, must be big enough to accomodate this.
 //
 // In particular:

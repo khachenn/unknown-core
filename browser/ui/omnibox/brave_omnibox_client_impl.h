@@ -7,8 +7,8 @@
 #define BRAVE_BROWSER_UI_OMNIBOX_BRAVE_OMNIBOX_CLIENT_IMPL_H_
 
 #include "base/memory/raw_ptr.h"
-#include "brave/browser/autocomplete/brave_autocomplete_scheme_classifier.h"
-#include "brave/components/time_period_storage/weekly_storage.h"
+#include "unknown/browser/autocomplete/brave_autocomplete_scheme_classifier.h"
+#include "unknown/components/time_period_storage/weekly_storage.h"
 #include "chrome/browser/ui/omnibox/chrome_omnibox_client.h"
 #include "components/prefs/pref_change_registrar.h"
 

@@ -7,7 +7,7 @@
 
 #include <optional>
 
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
 #include "build/build_config.h"
 
 #if BUILDFLAG(IS_ANDROID)

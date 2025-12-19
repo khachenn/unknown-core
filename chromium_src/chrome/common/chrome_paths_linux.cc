@@ -9,7 +9,7 @@
 #include <chrome/common/chrome_paths_linux.cc>
 #undef GetDefaultUserDataDirectory
 
-#include "brave/common/brave_channel_info_posix.h"
+#include "unknown/common/brave_channel_info_posix.h"
 
 namespace chrome {
 

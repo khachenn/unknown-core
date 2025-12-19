@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_news/browser/publishers_parsing.h"
+#include "unknown/components/brave_news/browser/publishers_parsing.h"
 
 #include <optional>
 #include <string>
@@ -13,10 +13,10 @@
 #include "base/containers/flat_set.h"
 #include "base/logging.h"
 #include "base/values.h"
-#include "brave/components/brave_news/api/publisher.h"
-#include "brave/components/brave_news/browser/channel_migrator.h"
-#include "brave/components/brave_news/common/brave_news.mojom.h"
-#include "brave/components/brave_news/common/subscriptions_snapshot.h"
+#include "unknown/components/brave_news/api/publisher.h"
+#include "unknown/components/brave_news/browser/channel_migrator.h"
+#include "unknown/components/brave_news/common/brave_news.mojom.h"
+#include "unknown/components/brave_news/common/subscriptions_snapshot.h"
 #include "url/gurl.h"
 
 namespace brave_news {

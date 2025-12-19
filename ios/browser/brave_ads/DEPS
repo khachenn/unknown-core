@@ -1,5 +1,5 @@
 include_rules = [
-  "+brave/components/brave_ads/core/browser",
-  "+brave/components/brave_ads/core/mojom",
-  "+brave/components/brave_ads/core/public",
+  "+unknown/components/brave_ads/core/browser",
+  "+unknown/components/brave_ads/core/mojom",
+  "+unknown/components/brave_ads/core/public",
 ]

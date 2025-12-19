@@ -6,20 +6,20 @@
 #ifndef BRAVE_IOS_BROWSER_POLICY_BRAVE_SIMPLE_POLICY_MAP_IOS_H_
 #define BRAVE_IOS_BROWSER_POLICY_BRAVE_SIMPLE_POLICY_MAP_IOS_H_
 
-#include "brave/components/ai_chat/core/common/pref_names.h"
-#include "brave/components/brave_news/common/pref_names.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/browser/pref_names.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/p3a/pref_names.h"
-#include "brave/components/playlist/core/common/pref_names.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/brave_news/common/pref_names.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/p3a/pref_names.h"
+#include "unknown/components/playlist/core/common/pref_names.h"
 #include "build/build_config.h"
 #include "components/policy/core/browser/configuration_policy_handler.h"
 #include "components/policy/policy_constants.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/pref_names.h"
+#include "unknown/components/brave_vpn/common/pref_names.h"
 #endif
 
 namespace policy {

@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/common/calendar/calendar_util.h"
+#include "unknown/components/brave_ads/core/internal/common/calendar/calendar_util.h"
 
 #include "base/compiler_specific.h"
 #include "base/time/time.h"  // IWYU pragma: keep
-#include "brave/components/brave_ads/core/internal/common/test/time_test_util.h"
+#include "unknown/components/brave_ads/core/internal/common/test/time_test_util.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 // npm run test -- brave_unit_tests --filter=BraveAds*

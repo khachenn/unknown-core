@@ -19,10 +19,10 @@ source_set("page_info") {
   ]
 
   deps = [
-    "//brave/browser/ui/page_info",
-    "//brave/components/constants",
-    "//brave/components/resources:strings",
-    "//brave/components/vector_icons",
+    "//unknown/browser/ui/page_info",
+    "//unknown/components/constants",
+    "//unknown/components/resources:strings",
+    "//unknown/components/vector_icons",
     "//chrome/browser/profiles",
     "//chrome/browser/ui/browser_window",
     "//chrome/browser/ui/views/page_info",
@@ -56,8 +56,8 @@ source_set("browser_tests") {
 
   deps = [
     ":page_info",
-    "//brave/browser/ui/page_info",
-    "//brave/components/brave_shields/core/common",
+    "//unknown/browser/ui/page_info",
+    "//unknown/components/brave_shields/core/common",
     "//chrome/browser/ui/views/frame",
     "//chrome/browser/ui/views/location_bar",
     "//chrome/browser/ui/views/page_info",

@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ai_chat/upload_file_helper.h"
+#include "unknown/browser/ai_chat/upload_file_helper.h"
 
 #include <utility>
 
@@ -14,9 +14,9 @@
 #include "base/files/file_util.h"
 #include "base/no_destructor.h"
 #include "base/task/thread_pool.h"
-#include "brave/components/ai_chat/core/browser/utils.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
 #include "chrome/browser/profiles/profile.h"
 #include "content/public/browser/web_contents.h"
 #include "printing/printing_utils.h"

@@ -28,7 +28,7 @@ __LABELS_TO_REMOVE_FROM_PLATFORMS = [
 
 # Chromium_src overrides we support with the exception of c/c++/obj-c files
 # which are handled by redirect_cc. The list should be in sync with
-# `touchOverriddenFiles()` in //brave/build/commands/lib/util.js .
+# `touchOverriddenFiles()` in //unknown/build/commands/lib/util.js .
 __BRAVE_CHROMIUM_SRC_FILE_EXTENSIONS = (
     '.css',
     '.html',
@@ -42,12 +42,12 @@ __BRAVE_CHROMIUM_SRC_FILE_EXTENSIONS = (
 )
 
 # A python remote wrapper to add PYTHONPATH to the environment. Generated during
-# runhooks by //brave/third_party/reclient_configs/brave_custom/brave_custom.py.
+# runhooks by //unknown/third_party/reclient_configs/brave_custom/brave_custom.py.
 # The path should be relative to working directory which is `out/<config>`.
 __PYTHON_REMOTE_WRAPPER = "../../buildtools/reclient_cfgs/python/python_remote_wrapper"
 
 # A remote wrapper for clang to handle cross-compilation. Generated during
-# runhooks by //brave/third_party/reclient_configs/src/configure_reclient.py.
+# runhooks by //unknown/third_party/reclient_configs/src/configure_reclient.py.
 # The path should be relative to working directory which is `out/<config>`.
 __CLANG_REMOTE_WRAPPER = "../../buildtools/reclient_cfgs/chromium-browser-clang/clang_remote_wrapper"
 

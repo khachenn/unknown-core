@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#import "brave/browser/mac/keystone_registration.h"
+#import "unknown/browser/mac/keystone_registration.h"
 
 namespace keystone_registration {
 

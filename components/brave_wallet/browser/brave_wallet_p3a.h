@@ -10,8 +10,8 @@
 
 #include "base/gtest_prod_util.h"
 #include "base/memory/raw_ptr.h"
-#include "brave/components/brave_wallet/browser/keyring_service_observer_base.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/keyring_service_observer_base.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "components/prefs/pref_change_registrar.h"
 #include "mojo/public/cpp/bindings/receiver.h"
 #include "mojo/public/cpp/bindings/receiver_set.h"

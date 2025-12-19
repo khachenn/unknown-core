@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/webui/brave_new_tab_page_refresh/new_tab_page_initializer.h"
+#include "unknown/browser/ui/webui/brave_new_tab_page_refresh/new_tab_page_initializer.h"
 
 #include <memory>
 #include <utility>
@@ -11,19 +11,19 @@
 #include "base/check.h"
 #include "base/feature_list.h"
 #include "base/strings/strcat.h"
-#include "brave/browser/brave_rewards/rewards_util.h"
-#include "brave/browser/new_tab/new_tab_shows_options.h"
-#include "brave/browser/ntp_background/brave_ntp_custom_background_service_factory.h"
-#include "brave/browser/resources/brave_new_tab_page_refresh/grit/brave_new_tab_page_refresh_generated_map.h"
-#include "brave/browser/ui/brave_ui_features.h"
-#include "brave/browser/ui/webui/brave_sanitized_image_source.h"
-#include "brave/browser/ui/webui/brave_webui_source.h"
-#include "brave/components/brave_news/common/features.h"
-#include "brave/components/brave_news/common/pref_names.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/constants/webui_url_constants.h"
-#include "brave/components/ntp_background_images/browser/ntp_custom_images_source.h"
+#include "unknown/browser/brave_rewards/rewards_util.h"
+#include "unknown/browser/new_tab/new_tab_shows_options.h"
+#include "unknown/browser/ntp_background/brave_ntp_custom_background_service_factory.h"
+#include "unknown/browser/resources/brave_new_tab_page_refresh/grit/brave_new_tab_page_refresh_generated_map.h"
+#include "unknown/browser/ui/brave_ui_features.h"
+#include "unknown/browser/ui/webui/brave_sanitized_image_source.h"
+#include "unknown/browser/ui/webui/brave_webui_source.h"
+#include "unknown/components/brave_news/common/features.h"
+#include "unknown/components/brave_news/common/pref_names.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/constants/webui_url_constants.h"
+#include "unknown/components/ntp_background_images/browser/ntp_custom_images_source.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/regional_capabilities/regional_capabilities_service_factory.h"
 #include "chrome/browser/themes/theme_syncable_service.h"
@@ -49,7 +49,7 @@
 #include "ui/webui/webui_util.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/brave_vpn_utils.h"
+#include "unknown/components/brave_vpn/common/brave_vpn_utils.h"
 #endif
 
 namespace brave_new_tab_page_refresh {

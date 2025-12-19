@@ -8,8 +8,8 @@
 #include <optional>
 
 #include "base/check.h"
-#include "brave/app/brave_command_ids.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/app/brave_command_ids.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
 #include "chrome/browser/autocomplete/autocomplete_classifier_factory.h"
 #include "chrome/browser/autocomplete/chrome_autocomplete_provider_client.h"
 #include "chrome/browser/custom_handlers/protocol_handler_registry_factory.h"
@@ -29,7 +29,7 @@
 #include "ui/base/clipboard/clipboard.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #endif
 
 namespace {

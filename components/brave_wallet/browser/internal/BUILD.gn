@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/config.gni")
+import("//unknown/components/brave_wallet/common/config.gni")
 import("//build/rust/rust_static_library.gni")
 
 source_set("hd_key_common") {
@@ -28,16 +28,16 @@ source_set("hd_key") {
   ]
 
   visibility = [
-    "//brave/components/brave_wallet/browser:hd_keyring",
-    "//brave/components/brave_wallet/browser:unit_tests",
+    "//unknown/components/brave_wallet/browser:hd_keyring",
+    "//unknown/components/brave_wallet/browser:unit_tests",
   ]
 
   deps = [
     "//base",
-    "//brave/components/brave_wallet/common",
-    "//brave/third_party/bitcoin-core",
-    "//brave/third_party/bitcoin-core:secp256k1",
-    "//brave/vendor/bat-native-tweetnacl:tweetnacl",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/third_party/bitcoin-core",
+    "//unknown/third_party/bitcoin-core:secp256k1",
+    "//unknown/vendor/bat-native-tweetnacl:tweetnacl",
     "//crypto",
     "//third_party/boringssl",
   ]
@@ -49,14 +49,14 @@ source_set("hd_key") {
       "hd_key_zip32.cc",
       "hd_key_zip32.h",
     ]
-    deps += [ "//brave/components/brave_wallet/browser/zcash/rust" ]
+    deps += [ "//unknown/components/brave_wallet/browser/zcash/rust" ]
   }
 
   sources += [
     "hd_key_sr25519.cc",
     "hd_key_sr25519.h",
   ]
-  deps += [ "//brave/components/brave_wallet/browser/internal:sr25519_rs" ]
+  deps += [ "//unknown/components/brave_wallet/browser/internal:sr25519_rs" ]
 }
 
 if (enable_orchard) {
@@ -66,11 +66,11 @@ if (enable_orchard) {
       "orchard_test_utils.h",
     ]
     public_deps = [
-      "//brave/components/brave_wallet/browser/zcash/rust:test_support_headers",
+      "//unknown/components/brave_wallet/browser/zcash/rust:test_support_headers",
     ]
     deps = [
       ":orchard_bundle",
-      "//brave/components/brave_wallet/browser/zcash/rust:test_support",
+      "//unknown/components/brave_wallet/browser/zcash/rust:test_support",
     ]
   }
 
@@ -85,14 +85,14 @@ if (enable_orchard) {
     ]
     deps = [
       "orchard_storage",
-      "//brave/components/brave_wallet/browser/zcash/rust",
+      "//unknown/components/brave_wallet/browser/zcash/rust",
     ]
   }
 }
 
 rust_static_library("sr25519_rs") {
   # This should only be used by internal wallet code
-  visibility = [ "//brave/components/brave_wallet/browser/internal:*" ]
+  visibility = [ "//unknown/components/brave_wallet/browser/internal:*" ]
 
   crate_name = "sr25519"
   crate_root = "sr25519.rs"
@@ -101,14 +101,14 @@ rust_static_library("sr25519_rs") {
   cxx_bindings = [ "sr25519.rs" ]
 
   deps = [
-    "//brave/third_party/rust/blake2b_simd/v1:lib",
-    "//brave/third_party/rust/rand_chacha/v0_3:lib",
-    "//brave/third_party/rust/schnorrkel/v0_11:lib",
+    "//unknown/third_party/rust/blake2b_simd/v1:lib",
+    "//unknown/third_party/rust/rand_chacha/v0_3:lib",
+    "//unknown/third_party/rust/schnorrkel/v0_11:lib",
   ]
 }
 
 rust_static_library("polkadot_extrinsic_rs") {
-  visibility = [ "//brave/components/brave_wallet/browser:*" ]
+  visibility = [ "//unknown/components/brave_wallet/browser:*" ]
 
   crate_name = "polkadot_extrinsic"
   crate_root = "polkadot_extrinsic.rs"
@@ -117,14 +117,14 @@ rust_static_library("polkadot_extrinsic_rs") {
   cxx_bindings = [ "polkadot_extrinsic.rs" ]
 
   deps = [
-    "//brave/third_party/rust/blake2b_simd/v1:lib",
-    "//brave/third_party/rust/parity_scale_codec/v3:lib",
+    "//unknown/third_party/rust/blake2b_simd/v1:lib",
+    "//unknown/third_party/rust/parity_scale_codec/v3:lib",
   ]
 }
 
 rust_static_library("cardano_tx_decoder_rs") {
   # This should only be used by internal wallet code
-  visibility = [ "//brave/components/brave_wallet/browser/internal:*" ]
+  visibility = [ "//unknown/components/brave_wallet/browser/internal:*" ]
 
   crate_name = "cardano_tx_decoder"
   crate_root = "cardano_tx_decoder.rs"
@@ -132,7 +132,7 @@ rust_static_library("cardano_tx_decoder_rs") {
   sources = [ "cardano_tx_decoder.rs" ]
   cxx_bindings = [ "cardano_tx_decoder.rs" ]
 
-  deps = [ "//brave/third_party/rust/ciborium/v0_2:lib" ]
+  deps = [ "//unknown/third_party/rust/ciborium/v0_2:lib" ]
 }
 
 source_set("cardano_tx_decoder") {
@@ -142,13 +142,13 @@ source_set("cardano_tx_decoder") {
   ]
 
   visibility = [
-    "//brave/components/brave_wallet/browser:*",
-    "//brave/components/brave_wallet/browser:unit_tests",
+    "//unknown/components/brave_wallet/browser:*",
+    "//unknown/components/brave_wallet/browser:unit_tests",
   ]
 
   deps = [
     ":cardano_tx_decoder_rs",
     "//base",
-    "//brave/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common",
   ]
 }

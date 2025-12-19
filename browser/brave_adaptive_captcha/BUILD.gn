@@ -11,8 +11,8 @@ source_set("impl") {
   deps = [
     ":brave_adaptive_captcha",
     "//base",
-    "//brave/browser/brave_rewards",
-    "//brave/components/brave_adaptive_captcha",
+    "//unknown/browser/brave_rewards",
+    "//unknown/components/brave_adaptive_captcha",
     "//chrome/browser/profiles:profile",
     "//chrome/browser/ui",
     "//components/keyed_service/content",

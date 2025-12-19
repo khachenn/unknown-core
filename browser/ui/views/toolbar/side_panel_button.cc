@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/toolbar/side_panel_button.h"
+#include "unknown/browser/ui/views/toolbar/side_panel_button.h"
 
 #include <memory>
 
-#include "brave/app/vector_icons/vector_icons.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/grit/brave_generated_resources.h"
+#include "unknown/app/vector_icons/vector_icons.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/grit/brave_generated_resources.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"

@@ -13,8 +13,8 @@
 
 #include "base/containers/flat_set.h"
 #include "base/values.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/eth_sign_typed_data_helper.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/eth_sign_typed_data_helper.h"
 
 namespace brave_wallet {
 

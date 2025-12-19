@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/flags/ads_uuids/ads_uuids_command_line_switch_parser_util.h"
+#include "unknown/components/brave_ads/core/internal/flags/ads_uuids/ads_uuids_command_line_switch_parser_util.h"
 
 #include "base/command_line.h"
 #include "base/strings/string_split.h"

@@ -8,7 +8,7 @@
 
 #include "base/memory/raw_ref.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/browser/brave_shields/brave_shields_tab_helper.h"
+#include "unknown/browser/brave_shields/brave_shields_tab_helper.h"
 #include "chrome/browser/ui/tabs/tab_strip_model_observer.h"
 
 class LocationIconView;

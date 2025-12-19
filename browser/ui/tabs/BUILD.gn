@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
 
 assert(is_win || is_mac || is_linux || is_chromeos || is_android)
 
@@ -13,8 +13,8 @@ source_set("tabs_public") {
   sources = [ "public/brave_tab_features.h" ]
 
   public_deps = [
-    "//brave/components/ai_chat/core/common/buildflags",
-    "//brave/components/psst/buildflags",
+    "//unknown/components/ai_chat/core/common/buildflags",
+    "//unknown/components/psst/buildflags",
     "//chrome/browser/ui/tabs:tabs_public",
   ]
 
@@ -31,17 +31,17 @@ if (!is_android) {
 
     deps = [
       ":tabs_public",
-      "//brave/browser/psst",
-      "//brave/browser/ui/side_panel",
-      "//brave/components/psst/browser/content",
-      "//brave/components/psst/common",
+      "//unknown/browser/psst",
+      "//unknown/browser/ui/side_panel",
+      "//unknown/components/psst/browser/content",
+      "//unknown/components/psst/common",
       "//chrome/browser/content_settings:content_settings_factory",
       "//chrome/browser/profiles",
       "//chrome/browser/ui/tabs:impl",
     ]
 
     if (enable_ai_chat) {
-      deps += [ "//brave/browser/ai_chat" ]
+      deps += [ "//unknown/browser/ai_chat" ]
     }
   }
 
@@ -53,7 +53,7 @@ if (!is_android) {
     ]
 
     deps = [
-      "//brave/components/tabs",
+      "//unknown/components/tabs",
       "//chrome/browser/ui/tabs:features",
       "//chrome/browser/ui/tabs:tab_strip",
     ]
@@ -70,9 +70,9 @@ source_set("tab_model") {
 
   deps = [
     "//base",
-    "//brave/browser/ui/split_view",
-    "//brave/components/resources:strings_grit",
-    "//brave/components/vector_icons",
+    "//unknown/browser/ui/split_view",
+    "//unknown/components/resources:strings_grit",
+    "//unknown/components/vector_icons",
     "//chrome/browser/ui/tabs",
     "//chrome/browser/ui/tabs:tab_model",
     "//chrome/browser/ui/tabs:tab_strip",

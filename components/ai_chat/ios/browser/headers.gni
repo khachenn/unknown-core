@@ -4,13 +4,13 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 ai_chat_component_public_headers = [
-  "//brave/components/ai_chat/ios/browser/ai_chat.h",
-  "//brave/components/ai_chat/ios/browser/ai_chat_delegate.h",
-  "$root_gen_dir/brave/components/ai_chat/core/common/mojom/ios/ai_chat.mojom.objc.h",
-  "$root_gen_dir/brave/components/ai_chat/core/common/mojom/ios/common.mojom.objc.h",
-  "$root_gen_dir/brave/components/ai_chat/core/common/mojom/ios/tab_tracker.mojom.objc.h",
-  "$root_gen_dir/brave/components/ai_chat/core/common/mojom/ios/untrusted_frame.mojom.objc.h",
+  "//unknown/components/ai_chat/ios/browser/ai_chat.h",
+  "//unknown/components/ai_chat/ios/browser/ai_chat_delegate.h",
+  "$root_gen_dir/unknown/components/ai_chat/core/common/mojom/ios/ai_chat.mojom.objc.h",
+  "$root_gen_dir/unknown/components/ai_chat/core/common/mojom/ios/common.mojom.objc.h",
+  "$root_gen_dir/unknown/components/ai_chat/core/common/mojom/ios/tab_tracker.mojom.objc.h",
+  "$root_gen_dir/unknown/components/ai_chat/core/common/mojom/ios/untrusted_frame.mojom.objc.h",
 ]
 
 ai_chat_component_public_deps =
-    [ "//brave/components/ai_chat/ios/common:mojom" ]
+    [ "//unknown/components/ai_chat/ios/common:mojom" ]

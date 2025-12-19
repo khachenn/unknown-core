@@ -3,8 +3,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 import("//build/config/ui.gni")
 
 assert(toolkit_views)
@@ -23,13 +23,13 @@ static_library("browser") {
 
   deps = [
     "//base",
-    "//brave/components/ai_chat/core/common/buildflags",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/constants",
-    "//brave/components/l10n/common",
-    "//brave/components/playlist/core/common",
-    "//brave/components/resources:strings",
-    "//brave/components/sidebar/common",
+    "//unknown/components/ai_chat/core/common/buildflags",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/constants",
+    "//unknown/components/l10n/common",
+    "//unknown/components/playlist/core/common",
+    "//unknown/components/resources:strings",
+    "//unknown/components/sidebar/common",
     "//components/keyed_service/core",
     "//components/prefs",
     "//components/version_info",
@@ -39,13 +39,13 @@ static_library("browser") {
 
   if (enable_ai_chat) {
     deps += [
-      "//brave/components/ai_chat/core/browser",
-      "//brave/components/ai_chat/core/common",
+      "//unknown/components/ai_chat/core/browser",
+      "//unknown/components/ai_chat/core/common",
     ]
   }
 
   if (enable_brave_wallet) {
-    deps += [ "//brave/components/brave_wallet/browser:utils" ]
+    deps += [ "//unknown/components/brave_wallet/browser:utils" ]
   }
 }
 
@@ -56,12 +56,12 @@ source_set("unit_tests") {
   deps = [
     "//base",
     "//base/test:test_support",
-    "//brave/components/ai_chat/core/common/buildflags",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/constants",
-    "//brave/components/playlist/core/common",
-    "//brave/components/sidebar/browser",
-    "//brave/components/sidebar/common",
+    "//unknown/components/ai_chat/core/common/buildflags",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/constants",
+    "//unknown/components/playlist/core/common",
+    "//unknown/components/sidebar/browser",
+    "//unknown/components/sidebar/common",
     "//components/prefs",
     "//components/prefs:test_support",
     "//components/sync_preferences:test_support",
@@ -73,6 +73,6 @@ source_set("unit_tests") {
   ]
 
   if (enable_ai_chat) {
-    deps += [ "//brave/components/ai_chat/core/common" ]
+    deps += [ "//unknown/components/ai_chat/core/common" ]
   }
 }

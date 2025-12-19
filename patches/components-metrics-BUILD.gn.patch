@@ -6,7 +6,7 @@ index 687c1f99c4bad541105f5b7fef0c37d0717495c6..97e23cf102f325161bd57709f4707335
          "motherboard_metrics_provider.h",
        ]
      }
-+    import("//brave/components/metrics/sources.gni") deps += brave_components_metrics_deps
++    import("//unknown/components/metrics/sources.gni") deps += brave_components_metrics_deps
    }
  
    static_library("test_support") {

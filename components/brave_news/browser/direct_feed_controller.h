@@ -13,8 +13,8 @@
 #include "base/functional/callback_forward.h"
 #include "base/gtest_prod_util.h"
 #include "base/memory/scoped_refptr.h"
-#include "brave/components/brave_news/browser/direct_feed_fetcher.h"
-#include "brave/components/brave_news/common/brave_news.mojom.h"
+#include "unknown/components/brave_news/browser/direct_feed_fetcher.h"
+#include "unknown/components/brave_news/common/brave_news.mojom.h"
 #include "url/gurl.h"
 
 class PrefService;

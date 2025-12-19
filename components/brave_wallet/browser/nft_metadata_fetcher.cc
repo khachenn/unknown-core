@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/nft_metadata_fetcher.h"
+#include "unknown/components/brave_wallet/browser/nft_metadata_fetcher.h"
 
 #include <optional>
 #include <utility>
@@ -13,12 +13,12 @@
 #include "base/containers/span.h"
 #include "base/containers/span_reader.h"
 #include "base/json/json_writer.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_utils.h"
-#include "brave/components/brave_wallet/browser/eth_response_parser.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
-#include "brave/components/brave_wallet/browser/network_manager.h"
-#include "brave/components/brave_wallet/browser/solana_keyring.h"
-#include "brave/components/ipfs/ipfs_utils.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_utils.h"
+#include "unknown/components/brave_wallet/browser/eth_response_parser.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/brave_wallet/browser/network_manager.h"
+#include "unknown/components/brave_wallet/browser/solana_keyring.h"
+#include "unknown/components/ipfs/ipfs_utils.h"
 #include "build/build_config.h"
 #include "components/grit/brave_components_strings.h"
 #include "services/network/public/cpp/shared_url_loader_factory.h"

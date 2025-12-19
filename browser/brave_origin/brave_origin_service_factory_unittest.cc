@@ -3,15 +3,15 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_origin/brave_origin_service_factory.h"
+#include "unknown/browser/brave_origin/brave_origin_service_factory.h"
 
 #include "base/containers/contains.h"
 #include "base/containers/map_util.h"
-#include "brave/browser/policy/brave_simple_policy_map.h"
-#include "brave/components/brave_origin/brave_origin_policy_info.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/p3a/pref_names.h"
+#include "unknown/browser/policy/brave_simple_policy_map.h"
+#include "unknown/components/brave_origin/brave_origin_policy_info.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/p3a/pref_names.h"
 #include "chrome/test/base/testing_browser_process.h"
 #include "chrome/test/base/testing_profile_manager.h"
 #include "components/policy/policy_constants.h"
@@ -19,7 +19,7 @@
 #include "testing/gtest/include/gtest/gtest.h"
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/components/tor/pref_names.h"
+#include "unknown/components/tor/pref_names.h"
 #endif
 
 namespace brave_origin {

@@ -10,10 +10,10 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_rewards/core/engine/endpoints/request_builder.h"
-#include "brave/components/brave_rewards/core/engine/endpoints/response_handler.h"
-#include "brave/components/brave_rewards/core/engine/endpoints/result_for.h"
-#include "brave/components/brave_rewards/core/mojom/rewards_engine_internal.mojom.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/request_builder.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/response_handler.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/result_for.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards_engine_internal.mojom.h"
 
 // POST /oauth2/token
 //

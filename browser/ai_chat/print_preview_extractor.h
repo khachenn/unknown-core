@@ -11,7 +11,7 @@
 #include <string>
 
 #include "base/memory/weak_ptr.h"
-#include "brave/components/ai_chat/content/browser/associated_web_contents_content.h"
+#include "unknown/components/ai_chat/content/browser/associated_web_contents_content.h"
 #include "content/public/browser/web_contents.h"
 #include "printing/buildflags/buildflags.h"
 

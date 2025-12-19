@@ -3,18 +3,18 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/reminders/reminder/clicked_same_ad_multiple_times_reminder_util.h"
+#include "unknown/components/brave_ads/core/internal/reminders/reminder/clicked_same_ad_multiple_times_reminder_util.h"
 
 #include "base/test/scoped_feature_list.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/confirmation_type_test_util.h"
-#include "brave/components/brave_ads/core/internal/ad_units/ad_test_constants.h"
-#include "brave/components/brave_ads/core/internal/ads_observer_mock.h"
-#include "brave/components/brave_ads/core/internal/ads_observer_test_util.h"
-#include "brave/components/brave_ads/core/internal/common/test/test_base.h"
-#include "brave/components/brave_ads/core/internal/history/ad_history_test_util.h"
-#include "brave/components/brave_ads/core/internal/reminders/reminders_feature.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
-#include "brave/components/brave_ads/core/public/history/ad_history_item_info.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/confirmation_type_test_util.h"
+#include "unknown/components/brave_ads/core/internal/ad_units/ad_test_constants.h"
+#include "unknown/components/brave_ads/core/internal/ads_observer_mock.h"
+#include "unknown/components/brave_ads/core/internal/ads_observer_test_util.h"
+#include "unknown/components/brave_ads/core/internal/common/test/test_base.h"
+#include "unknown/components/brave_ads/core/internal/history/ad_history_test_util.h"
+#include "unknown/components/brave_ads/core/internal/reminders/reminders_feature.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/public/history/ad_history_item_info.h"
 
 // npm run test -- brave_unit_tests --filter=BraveAds*
 

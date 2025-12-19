@@ -10,10 +10,10 @@
 #include <optional>
 #include <string>
 
-#include "brave/components/brave_wallet/browser/polkadot/polkadot_block_tracker.h"
-#include "brave/components/brave_wallet/browser/polkadot/polkadot_tx_meta.h"
-#include "brave/components/brave_wallet/browser/tx_manager.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/polkadot/polkadot_block_tracker.h"
+#include "unknown/components/brave_wallet/browser/polkadot/polkadot_tx_meta.h"
+#include "unknown/components/brave_wallet/browser/tx_manager.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "url/origin.h"
 
 namespace brave_wallet {

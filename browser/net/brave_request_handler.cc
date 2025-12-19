@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/net/brave_request_handler.h"
+#include "unknown/browser/net/brave_request_handler.h"
 
 #include <algorithm>
 #include <utility>
@@ -11,21 +11,21 @@
 #include "base/check.h"
 #include "base/feature_list.h"
 #include "base/memory/scoped_refptr.h"
-#include "brave/browser/net/brave_ad_block_csp_network_delegate_helper.h"
-#include "brave/browser/net/brave_ad_block_tp_network_delegate_helper.h"
-#include "brave/browser/net/brave_common_static_redirect_network_delegate_helper.h"
-#include "brave/browser/net/brave_localhost_permission_network_delegate_helper.h"
-#include "brave/browser/net/brave_reduce_language_network_delegate_helper.h"
-#include "brave/browser/net/brave_service_key_network_delegate_helper.h"
-#include "brave/browser/net/brave_site_hacks_network_delegate_helper.h"
-#include "brave/browser/net/brave_stp_util.h"
-#include "brave/browser/net/brave_user_agent_network_delegate_helper.h"
-#include "brave/browser/net/global_privacy_control_network_delegate_helper.h"
-#include "brave/browser/net/search_ads_header_network_delegate_helper.h"
-#include "brave/components/brave_shields/core/common/features.h"
-#include "brave/components/brave_user_agent/common/features.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/constants/pref_names.h"
+#include "unknown/browser/net/brave_ad_block_csp_network_delegate_helper.h"
+#include "unknown/browser/net/brave_ad_block_tp_network_delegate_helper.h"
+#include "unknown/browser/net/brave_common_static_redirect_network_delegate_helper.h"
+#include "unknown/browser/net/brave_localhost_permission_network_delegate_helper.h"
+#include "unknown/browser/net/brave_reduce_language_network_delegate_helper.h"
+#include "unknown/browser/net/brave_service_key_network_delegate_helper.h"
+#include "unknown/browser/net/brave_site_hacks_network_delegate_helper.h"
+#include "unknown/browser/net/brave_stp_util.h"
+#include "unknown/browser/net/brave_user_agent_network_delegate_helper.h"
+#include "unknown/browser/net/global_privacy_control_network_delegate_helper.h"
+#include "unknown/browser/net/search_ads_header_network_delegate_helper.h"
+#include "unknown/components/brave_shields/core/common/features.h"
+#include "unknown/components/brave_user_agent/common/features.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/constants/pref_names.h"
 #include "chrome/browser/browser_process.h"
 #include "content/public/browser/browser_task_traits.h"
 #include "content/public/browser/browser_thread.h"
@@ -37,7 +37,7 @@
 #include "third_party/blink/public/common/features.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/browser/net/decentralized_dns_network_delegate_helper.h"
+#include "unknown/browser/net/decentralized_dns_network_delegate_helper.h"
 #endif
 
 static bool IsInternalScheme(std::shared_ptr<brave::BraveRequestInfo> ctx) {

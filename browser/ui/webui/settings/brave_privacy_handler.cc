@@ -3,20 +3,20 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/webui/settings/brave_privacy_handler.h"
+#include "unknown/browser/ui/webui/settings/brave_privacy_handler.h"
 
 #include "base/check.h"
 #include "base/check_op.h"
 #include "base/functional/bind.h"
 #include "base/values.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_shields/core/common/features.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/de_amp/common/features.h"
-#include "brave/components/debounce/core/common/features.h"
-#include "brave/components/google_sign_in_permission/google_sign_in_permission_util.h"
-#include "brave/components/p3a/pref_names.h"
-#include "brave/components/request_otr/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_shields/core/common/features.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/de_amp/common/features.h"
+#include "unknown/components/debounce/core/common/features.h"
+#include "unknown/components/google_sign_in_permission/google_sign_in_permission_util.h"
+#include "unknown/components/p3a/pref_names.h"
+#include "unknown/components/request_otr/common/buildflags/buildflags.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"
 #include "components/gcm_driver/gcm_buildflags.h"
@@ -26,20 +26,20 @@
 #include "third_party/blink/public/common/peerconnection/webrtc_ip_handling_policy.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/browser/utils.h"
-#include "brave/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/common/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_REQUEST_OTR)
-#include "brave/components/request_otr/common/features.h"
+#include "unknown/components/request_otr/common/features.h"
 #endif
 
 #if !BUILDFLAG(USE_GCM_FROM_PLATFORM)
-#include "brave/browser/gcm_driver/brave_gcm_channel_status.h"
+#include "unknown/browser/gcm_driver/brave_gcm_channel_status.h"
 #endif
 
 #if BUILDFLAG(IS_WIN)
-#include "brave/components/windows_recall/windows_recall.h"
+#include "unknown/components/windows_recall/windows_recall.h"
 #endif
 
 BravePrivacyHandler::BravePrivacyHandler() {

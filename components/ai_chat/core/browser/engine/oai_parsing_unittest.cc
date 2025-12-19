@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/ai_chat/core/browser/engine/oai_parsing.h"
+#include "unknown/components/ai_chat/core/browser/engine/oai_parsing.h"
 
 #include <memory>
 #include <string>
@@ -14,14 +14,14 @@
 #include "base/strings/string_number_conversions.h"
 #include "base/test/values_test_util.h"
 #include "base/values.h"
-#include "brave/components/ai_chat/core/browser/model_service.h"
-#include "brave/components/ai_chat/core/browser/tools/mock_tool.h"
-#include "brave/components/ai_chat/core/browser/tools/tool.h"
-#include "brave/components/ai_chat/core/browser/tools/tool_input_properties.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
-#include "brave/components/ai_chat/core/common/pref_names.h"
-#include "brave/components/ai_chat/core/common/test_utils.h"
+#include "unknown/components/ai_chat/core/browser/model_service.h"
+#include "unknown/components/ai_chat/core/browser/tools/mock_tool.h"
+#include "unknown/components/ai_chat/core/browser/tools/tool.h"
+#include "unknown/components/ai_chat/core/browser/tools/tool_input_properties.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/ai_chat/core/common/test_utils.h"
 #include "components/prefs/testing_pref_service.h"
 #include "testing/gtest/include/gtest/gtest.h"
 

@@ -5,10 +5,10 @@
 
 brave_locale_source_patterns = [
   "${root_gen_dir}/components/brave_components_strings_",
-  "${root_gen_dir}/brave/brave_generated_resources_",
+  "${root_gen_dir}/unknown/brave_generated_resources_",
 ]
 
 brave_locale_deps = [
-  "//brave/app:brave_generated_resources_grit",
-  "//brave/components/resources:strings",
+  "//unknown/app:brave_generated_resources_grit",
+  "//unknown/components/resources:strings",
 ]

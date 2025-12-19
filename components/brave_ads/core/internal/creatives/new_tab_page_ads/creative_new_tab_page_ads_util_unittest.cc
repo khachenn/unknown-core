@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/creatives/new_tab_page_ads/creative_new_tab_page_ads_util.h"
+#include "unknown/components/brave_ads/core/internal/creatives/new_tab_page_ads/creative_new_tab_page_ads_util.h"
 
 #include <optional>
 #include <utility>
@@ -13,14 +13,14 @@
 #include "base/test/mock_callback.h"
 #include "base/test/values_test_util.h"
 #include "base/values.h"
-#include "brave/components/brave_ads/core/internal/common/test/test_base.h"
-#include "brave/components/brave_ads/core/internal/common/test/time_test_util.h"
-#include "brave/components/brave_ads/core/internal/creatives/new_tab_page_ads/creative_new_tab_page_ad_info.h"
-#include "brave/components/brave_ads/core/internal/creatives/new_tab_page_ads/creative_new_tab_page_ads_database_table.h"
-#include "brave/components/brave_ads/core/internal/segments/segment_alias.h"
-#include "brave/components/brave_ads/core/internal/segments/segment_constants.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
-#include "brave/components/brave_ads/core/public/ads_callback.h"
+#include "unknown/components/brave_ads/core/internal/common/test/test_base.h"
+#include "unknown/components/brave_ads/core/internal/common/test/time_test_util.h"
+#include "unknown/components/brave_ads/core/internal/creatives/new_tab_page_ads/creative_new_tab_page_ad_info.h"
+#include "unknown/components/brave_ads/core/internal/creatives/new_tab_page_ads/creative_new_tab_page_ads_database_table.h"
+#include "unknown/components/brave_ads/core/internal/segments/segment_alias.h"
+#include "unknown/components/brave_ads/core/internal/segments/segment_constants.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/public/ads_callback.h"
 
 // npm run test -- brave_unit_tests --filter=BraveAds*
 

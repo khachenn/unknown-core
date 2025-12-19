@@ -10,7 +10,7 @@
 #include <cstdint>
 #include <string_view>
 
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
 #include "sql/statement.h"
 
 namespace brave_ads::database {

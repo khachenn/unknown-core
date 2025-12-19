@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_wallet/brave_wallet_tab_helper.h"
+#include "unknown/browser/brave_wallet/brave_wallet_tab_helper.h"
 
 #include <vector>
 
-#include "brave/components/constants/webui_url_constants.h"
+#include "unknown/components/constants/webui_url_constants.h"
 #include "chrome/browser/ui/hid/hid_chooser_controller.h"
 #include "chrome/grit/generated_resources.h"
 #include "chrome/test/base/browser_with_test_window_test.h"

@@ -6,7 +6,7 @@
 #ifndef BRAVE_COMPONENTS_BRAVE_ADS_CORE_INTERNAL_ACCOUNT_TOKENS_PAYMENT_TOKENS_PAYMENT_TOKENS_H_
 #define BRAVE_COMPONENTS_BRAVE_ADS_CORE_INTERNAL_ACCOUNT_TOKENS_PAYMENT_TOKENS_PAYMENT_TOKENS_H_
 
-#include "brave/components/brave_ads/core/internal/account/tokens/payment_tokens/payment_token_info.h"
+#include "unknown/components/brave_ads/core/internal/account/tokens/payment_tokens/payment_token_info.h"
 
 #include <cstddef>
 

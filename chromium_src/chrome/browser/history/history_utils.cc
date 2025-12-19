@@ -7,7 +7,7 @@
 #include <chrome/browser/history/history_utils.cc>
 #undef CanAddURLToHistory
 
-#include "brave/components/constants/url_constants.h"
+#include "unknown/components/constants/url_constants.h"
 #include "extensions/buildflags/buildflags.h"
 
 bool CanAddURLToHistory(const GURL& url) {

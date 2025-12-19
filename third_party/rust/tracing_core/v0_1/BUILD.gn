@@ -12,22 +12,22 @@ cargo_crate("lib") {
   crate_name = "tracing_core"
   epoch = "0.1"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/callsite.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/dispatcher.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/event.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/field.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/lazy.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/metadata.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/parent.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/span.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/spin/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/spin/mutex.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/spin/once.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/stdlib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/subscriber.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/callsite.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/dispatcher.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/event.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/field.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/lazy.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/metadata.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/parent.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/span.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/spin/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/spin/mutex.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/spin/once.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/stdlib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-core-v0_1/src/subscriber.rs",
   ]
   inputs = []
 
@@ -39,7 +39,7 @@ cargo_crate("lib") {
   cargo_pkg_repository = "https://github.com/tokio-rs/tracing"
   cargo_pkg_version = "0.1.33"
 
-  deps = [ "//brave/third_party/rust/once_cell/v1:lib" ]
+  deps = [ "//unknown/third_party/rust/once_cell/v1:lib" ]
   features = [
     "default",
     "once_cell",

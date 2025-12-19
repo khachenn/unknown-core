@@ -12,30 +12,30 @@ cargo_crate("lib") {
   crate_name = "getrandom"
   epoch = "0.1"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/bsd_arandom.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/cloudabi.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/dummy.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/error.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/error_impls.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/fuchsia.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/ios.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/linux_android.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/macos.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/openbsd.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/rdrand.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/solaris_illumos.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/use_file.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/util.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/util_libc.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/vxworks.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/wasi.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/wasm32_bindgen.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/wasm32_stdweb.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/windows.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/windows_uwp.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/bsd_arandom.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/cloudabi.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/dummy.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/error.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/error_impls.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/fuchsia.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/ios.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/linux_android.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/macos.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/openbsd.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/rdrand.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/solaris_illumos.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/use_file.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/util.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/util_libc.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/vxworks.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/wasi.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/wasm32_bindgen.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/wasm32_stdweb.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/windows.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/src/windows_uwp.rs",
   ]
   inputs = []
 
@@ -47,13 +47,13 @@ cargo_crate("lib") {
   cargo_pkg_repository = "https://github.com/rust-random/getrandom"
   cargo_pkg_version = "0.1.16"
 
-  deps = [ "//brave/third_party/rust/cfg_if/v1:lib" ]
+  deps = [ "//unknown/third_party/rust/cfg_if/v1:lib" ]
   if (!is_win) {
-    deps += [ "//brave/third_party/rust/libc/v0_2:lib" ]
+    deps += [ "//unknown/third_party/rust/libc/v0_2:lib" ]
   }
   features = [ "std" ]
-  build_root = "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/build.rs"
-  build_sources = [ "//brave/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/build.rs" ]
+  build_root = "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/build.rs"
+  build_sources = [ "//unknown/third_party/rust/chromium_crates_io/vendor/getrandom-v0_1/build.rs" ]
   rustenv = []
   rustflags = []
 

@@ -14,9 +14,9 @@
 #include "base/threading/sequence_bound.h"
 #include "base/types/expected.h"
 #include "base/types/optional_ref.h"
-#include "brave/components/brave_ads/core/internal/ml/ml_alias.h"
-#include "brave/components/brave_ads/core/internal/ml/pipeline/text_processing/text_processing.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
+#include "unknown/components/brave_ads/core/internal/ml/ml_alias.h"
+#include "unknown/components/brave_ads/core/internal/ml/pipeline/text_processing/text_processing.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
 
 namespace brave_ads {
 

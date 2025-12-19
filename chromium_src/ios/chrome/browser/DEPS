@@ -1,11 +1,11 @@
 include_rules = [
   "+ios/public/provider/chrome/browser/app_distribution/app_distribution_api.h",
-  "+brave/common",
-  "+brave/components/ai_chat",
-  "+brave/components/constants",
-  "+brave/components/https_upgrade_exceptions/browser",
-  "+brave/components/static_redirect_helper",
-  "+brave/ios/browser/application_context",
+  "+unknown/common",
+  "+unknown/components/ai_chat",
+  "+unknown/components/constants",
+  "+unknown/components/https_upgrade_exceptions/browser",
+  "+unknown/components/static_redirect_helper",
+  "+unknown/ios/browser/application_context",
   "+components/component_updater",
   "+components/gcm_driver/gcm_driver.h",
   "+components/history/core/browser",
@@ -29,6 +29,6 @@ include_rules = [
 
 specific_include_rules = {
   "application_context_impl\.mm": [
-    "+brave/ios/browser/metrics/ios_brave_metrics_services_manager_client.h",
+    "+unknown/ios/browser/metrics/ios_brave_metrics_services_manager_client.h",
   ]
 }

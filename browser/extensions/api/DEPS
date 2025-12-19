@@ -1,6 +1,6 @@
 include_rules = [
-  "+brave/components/brave_ads/core/browser",
-  "+brave/components/brave_ads/core/mojom",
-  "+brave/components/web_discovery/buildflags",
-  "+brave/components/web_discovery/common",
+  "+unknown/components/brave_ads/core/browser",
+  "+unknown/components/brave_ads/core/mojom",
+  "+unknown/components/web_discovery/buildflags",
+  "+unknown/components/web_discovery/common",
 ]

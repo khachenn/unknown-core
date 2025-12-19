@@ -13,20 +13,20 @@ source_set("search_result_ad") {
 
   public_deps = [
     "//base",
-    "//brave/components/brave_ads/core/mojom",
-    "//brave/components/infobars/core",
+    "//unknown/components/brave_ads/core/mojom",
+    "//unknown/components/infobars/core",
     "//components/infobars/core",
     "//content/public/browser",
   ]
 
   deps = [
-    "//brave/app:brave_generated_resources_grit_grit",
-    "//brave/browser/brave_ads",
-    "//brave/components/brave_ads/browser",
-    "//brave/components/brave_ads/content/browser",
-    "//brave/components/brave_ads/core",
-    "//brave/components/brave_search/common",
-    "//brave/components/vector_icons",
+    "//unknown/app:brave_generated_resources_grit_grit",
+    "//unknown/browser/brave_ads",
+    "//unknown/components/brave_ads/browser",
+    "//unknown/components/brave_ads/content/browser",
+    "//unknown/components/brave_ads/core",
+    "//unknown/components/brave_search/common",
+    "//unknown/components/vector_icons",
     "//chrome/browser:browser_public_dependencies",
     "//chrome/browser/infobars",
     "//chrome/browser/profiles:profile",
@@ -47,10 +47,10 @@ source_set("browser_tests") {
 
   deps = [
     ":search_result_ad",
-    "//brave/components/brave_ads/browser",
-    "//brave/components/brave_ads/core/browser/service:test_support",
-    "//brave/components/brave_ads/core/mojom",
-    "//brave/components/brave_ads/core/public:headers",
+    "//unknown/components/brave_ads/browser",
+    "//unknown/components/brave_ads/core/browser/service:test_support",
+    "//unknown/components/brave_ads/core/mojom",
+    "//unknown/components/brave_ads/core/public:headers",
     "//chrome/browser/ui",
     "//net:test_support",
   ]

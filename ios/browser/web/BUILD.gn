@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 
 source_set("web") {
   sources = [
@@ -14,14 +14,14 @@ source_set("web") {
   ]
   deps = [
     "//base",
-    "//brave/components/ai_chat/core/browser",
-    "//brave/components/brave_component_updater/browser:public",
-    "//brave/components/brave_user_agent/browser",
-    "//brave/components/constants",
-    "//brave/ios/browser/api/web_view",
-    "//brave/ios/browser/application_context",
-    "//brave/ios/browser/component_updater:zxcvbn_data_component_installer",
-    "//brave/ios/browser/ui/web_view:features",
+    "//unknown/components/ai_chat/core/browser",
+    "//unknown/components/brave_component_updater/browser:public",
+    "//unknown/components/brave_user_agent/browser",
+    "//unknown/components/constants",
+    "//unknown/ios/browser/api/web_view",
+    "//unknown/ios/browser/application_context",
+    "//unknown/ios/browser/component_updater:zxcvbn_data_component_installer",
+    "//unknown/ios/browser/ui/web_view:features",
     "//components/component_updater/installer_policies",
     "//components/translate/ios/browser",
     "//ios/chrome/browser/application_context/model",
@@ -38,7 +38,7 @@ source_set("web") {
     "//ios/web_view/framework:web_view_sources",
   ]
   if (enable_brave_wallet) {
-    deps += [ "//brave/components/brave_wallet/browser" ]
+    deps += [ "//unknown/components/brave_wallet/browser" ]
   }
   frameworks = [ "Foundation.framework" ]
 }

@@ -3,12 +3,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/services/brave_wallet/brave_wallet_utils_service_impl.h"
+#include "unknown/components/services/brave_wallet/brave_wallet_utils_service_impl.h"
 
 #include <memory>
 #include <utility>
 
-#include "brave/components/services/brave_wallet/zcash/zcash_decoder.h"
+#include "unknown/components/services/brave_wallet/zcash/zcash_decoder.h"
 
 namespace brave_wallet {
 

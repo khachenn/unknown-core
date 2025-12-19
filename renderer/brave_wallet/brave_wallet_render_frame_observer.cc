@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/renderer/brave_wallet/brave_wallet_render_frame_observer.h"
+#include "unknown/renderer/brave_wallet/brave_wallet_render_frame_observer.h"
 
 #include <memory>
 #include <optional>
@@ -11,8 +11,8 @@
 
 #include "base/check.h"
 #include "base/notreached.h"
-#include "brave/components/brave_wallet/common/common_utils.h"
-#include "brave/components/brave_wallet/renderer/v8_helper.h"
+#include "unknown/components/brave_wallet/common/common_utils.h"
+#include "unknown/components/brave_wallet/renderer/v8_helper.h"
 #include "build/buildflag.h"
 #include "content/public/common/isolated_world_ids.h"
 #include "content/public/renderer/render_frame.h"

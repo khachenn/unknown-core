@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/frame/brave_browser_view.h"
+#include "unknown/browser/ui/views/frame/brave_browser_view.h"
 
 #include <algorithm>
 #include <iterator>
@@ -17,40 +17,40 @@
 #include "base/feature_list.h"
 #include "base/functional/bind.h"
 #include "base/task/sequenced_task_runner.h"
-#include "brave/browser/brave_browser_features.h"
-#include "brave/browser/sparkle_buildflags.h"
-#include "brave/browser/translate/brave_translate_utils.h"
-#include "brave/browser/ui/brave_browser.h"
-#include "brave/browser/ui/color/brave_color_id.h"
-#include "brave/browser/ui/commands/accelerator_service.h"
-#include "brave/browser/ui/commands/accelerator_service_factory.h"
-#include "brave/browser/ui/page_action/brave_page_action_icon_type.h"
-#include "brave/browser/ui/page_info/features.h"
-#include "brave/browser/ui/sidebar/sidebar_utils.h"
-#include "brave/browser/ui/tabs/brave_tab_prefs.h"
-#include "brave/browser/ui/views/brave_actions/brave_actions_container.h"
-#include "brave/browser/ui/views/brave_actions/brave_shields_action_view.h"
-#include "brave/browser/ui/views/brave_help_bubble/brave_help_bubble_host_view.h"
-#include "brave/browser/ui/views/frame/brave_contents_layout_manager.h"
-#include "brave/browser/ui/views/frame/brave_contents_view_util.h"
-#include "brave/browser/ui/views/frame/split_view/brave_contents_container_view.h"
-#include "brave/browser/ui/views/frame/split_view/brave_multi_contents_view.h"
-#include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_region_view.h"
-#include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_widget_delegate_view.h"
-#include "brave/browser/ui/views/location_bar/brave_location_bar_view.h"
-#include "brave/browser/ui/views/omnibox/brave_omnibox_view_views.h"
-#include "brave/browser/ui/views/sidebar/sidebar_container_view.h"
-#include "brave/browser/ui/views/tabs/vertical_tab_utils.h"
-#include "brave/browser/ui/views/toolbar/bookmark_button.h"
-#include "brave/browser/ui/views/toolbar/brave_toolbar_view.h"
-#include "brave/browser/ui/views/window_closing_confirm_dialog_view.h"
-#include "brave/common/pref_names.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/commands/common/features.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/sidebar/common/features.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
-#include "brave/ui/color/nala/nala_color_id.h"
+#include "unknown/browser/brave_browser_features.h"
+#include "unknown/browser/sparkle_buildflags.h"
+#include "unknown/browser/translate/brave_translate_utils.h"
+#include "unknown/browser/ui/brave_browser.h"
+#include "unknown/browser/ui/color/brave_color_id.h"
+#include "unknown/browser/ui/commands/accelerator_service.h"
+#include "unknown/browser/ui/commands/accelerator_service_factory.h"
+#include "unknown/browser/ui/page_action/brave_page_action_icon_type.h"
+#include "unknown/browser/ui/page_info/features.h"
+#include "unknown/browser/ui/sidebar/sidebar_utils.h"
+#include "unknown/browser/ui/tabs/brave_tab_prefs.h"
+#include "unknown/browser/ui/views/brave_actions/brave_actions_container.h"
+#include "unknown/browser/ui/views/brave_actions/brave_shields_action_view.h"
+#include "unknown/browser/ui/views/brave_help_bubble/brave_help_bubble_host_view.h"
+#include "unknown/browser/ui/views/frame/brave_contents_layout_manager.h"
+#include "unknown/browser/ui/views/frame/brave_contents_view_util.h"
+#include "unknown/browser/ui/views/frame/split_view/brave_contents_container_view.h"
+#include "unknown/browser/ui/views/frame/split_view/brave_multi_contents_view.h"
+#include "unknown/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_region_view.h"
+#include "unknown/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_widget_delegate_view.h"
+#include "unknown/browser/ui/views/location_bar/brave_location_bar_view.h"
+#include "unknown/browser/ui/views/omnibox/brave_omnibox_view_views.h"
+#include "unknown/browser/ui/views/sidebar/sidebar_container_view.h"
+#include "unknown/browser/ui/views/tabs/vertical_tab_utils.h"
+#include "unknown/browser/ui/views/toolbar/bookmark_button.h"
+#include "unknown/browser/ui/views/toolbar/brave_toolbar_view.h"
+#include "unknown/browser/ui/views/window_closing_confirm_dialog_view.h"
+#include "unknown/common/pref_names.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/commands/common/features.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/sidebar/common/features.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/ui/color/nala/nala_color_id.h"
 #include "chrome/app/chrome_command_ids.h"
 #include "chrome/browser/app_mode/app_mode_utils.h"
 #include "chrome/browser/devtools/devtools_ui_controller.h"
@@ -101,26 +101,26 @@
 #include "ui/views/layout/fill_layout.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/browser/ui/views/toolbar/wallet_button.h"
+#include "unknown/browser/ui/views/toolbar/wallet_button.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/browser/ui/views/toolbar/brave_vpn_button.h"
-#include "brave/components/brave_vpn/common/pref_names.h"
+#include "unknown/browser/ui/views/toolbar/brave_vpn_button.h"
+#include "unknown/components/brave_vpn/common/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_SPARKLE)
-#include "brave/browser/ui/views/update_recommended_message_box_mac.h"
+#include "unknown/browser/ui/views/update_recommended_message_box_mac.h"
 #endif
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/browser/ui/speedreader/speedreader_tab_helper.h"
-#include "brave/browser/ui/views/speedreader/reader_mode_bubble.h"
-#include "brave/browser/ui/views/speedreader/reader_mode_toolbar_view.h"
+#include "unknown/browser/ui/speedreader/speedreader_tab_helper.h"
+#include "unknown/browser/ui/views/speedreader/reader_mode_bubble.h"
+#include "unknown/browser/ui/views/speedreader/reader_mode_toolbar_view.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WAYBACK_MACHINE)
-#include "brave/browser/ui/views/wayback_machine_bubble_view.h"
+#include "unknown/browser/ui/views/wayback_machine_bubble_view.h"
 #endif
 
 namespace {

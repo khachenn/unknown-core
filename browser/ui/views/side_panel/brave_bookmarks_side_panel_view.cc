@@ -3,16 +3,16 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/side_panel/brave_bookmarks_side_panel_view.h"
+#include "unknown/browser/ui/views/side_panel/brave_bookmarks_side_panel_view.h"
 
 #include <memory>
 
 #include "base/check_op.h"
 #include "base/memory/raw_ref.h"
-#include "brave/browser/ui/color/brave_color_id.h"
-#include "brave/components/vector_icons/vector_icons.h"
-#include "brave/grit/brave_generated_resources.h"
-#include "brave/grit/brave_theme_resources.h"
+#include "unknown/browser/ui/color/brave_color_id.h"
+#include "unknown/components/vector_icons/vector_icons.h"
+#include "unknown/grit/brave_generated_resources.h"
+#include "unknown/grit/brave_theme_resources.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"
 #include "chrome/browser/ui/singleton_tabs.h"

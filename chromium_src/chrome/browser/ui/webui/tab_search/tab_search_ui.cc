@@ -5,13 +5,13 @@
 
 #include "chrome/browser/ui/webui/tab_search/tab_search_ui.h"
 
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/grit/brave_generated_resources.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/grit/brave_generated_resources.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/browser/ai_chat/ai_chat_service_factory.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/browser/ai_chat/ai_chat_service_factory.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #endif  // BUILDFLAG(ENABLE_AI_CHAT)
 
 #define TabSearchUI TabSearchUI_ChromiumImpl

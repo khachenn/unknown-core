@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_sync/sync_service_impl_helper.h"
+#include "unknown/components/brave_sync/sync_service_impl_helper.h"
 
 #include <string>
 #include <utility>
 
 #include "base/check.h"
-#include "brave/components/sync/service/brave_sync_service_impl.h"
+#include "unknown/components/sync/service/brave_sync_service_impl.h"
 #include "components/sync_device_info/device_info_sync_service.h"
 #include "components/sync_device_info/device_info_tracker.h"
 #include "components/sync_device_info/local_device_info_provider.h"

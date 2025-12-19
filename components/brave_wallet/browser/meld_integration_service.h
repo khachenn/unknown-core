@@ -11,9 +11,9 @@
 #include <vector>
 
 #include "base/memory/weak_ptr.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/meld_integration.mojom.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/meld_integration.mojom.h"
 #include "components/keyed_service/core/keyed_service.h"
 #include "mojo/public/cpp/bindings/receiver_set.h"
 

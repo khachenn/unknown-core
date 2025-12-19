@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/side_panel/brave_side_panel_coordinator.h"
+#include "unknown/browser/ui/views/side_panel/brave_side_panel_coordinator.h"
 
 #include <optional>
 #include <string>
@@ -13,14 +13,14 @@
 #include "base/debug/crash_logging.h"
 #include "base/debug/dump_without_crashing.h"
 #include "base/logging.h"
-#include "brave/browser/ui/sidebar/sidebar_service_factory.h"
-#include "brave/browser/ui/sidebar/sidebar_utils.h"
-#include "brave/browser/ui/views/frame/brave_browser_view.h"
-#include "brave/browser/ui/views/sidebar/sidebar_container_view.h"
-#include "brave/browser/ui/views/toolbar/brave_toolbar_view.h"
-#include "brave/browser/ui/views/toolbar/side_panel_button.h"
-#include "brave/components/sidebar/browser/sidebar_service.h"
-#include "brave/grit/brave_generated_resources.h"
+#include "unknown/browser/ui/sidebar/sidebar_service_factory.h"
+#include "unknown/browser/ui/sidebar/sidebar_utils.h"
+#include "unknown/browser/ui/views/frame/brave_browser_view.h"
+#include "unknown/browser/ui/views/sidebar/sidebar_container_view.h"
+#include "unknown/browser/ui/views/toolbar/brave_toolbar_view.h"
+#include "unknown/browser/ui/views/toolbar/side_panel_button.h"
+#include "unknown/components/sidebar/browser/sidebar_service.h"
+#include "unknown/grit/brave_generated_resources.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/views/side_panel/side_panel_entry.h"
 

@@ -3,17 +3,17 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/core/engine/gemini/gemini.h"
+#include "unknown/components/brave_rewards/core/engine/gemini/gemini.h"
 
 #include <memory>
 #include <utility>
 
-#include "brave/components/brave_rewards/core/engine/global_constants.h"
-#include "brave/components/brave_rewards/core/engine/rewards_engine.h"
-#include "brave/components/brave_rewards/core/engine/util/environment_config.h"
-#include "brave/components/brave_rewards/core/engine/wallet_provider/gemini/connect_gemini_wallet.h"
-#include "brave/components/brave_rewards/core/engine/wallet_provider/gemini/gemini_transfer.h"
-#include "brave/components/brave_rewards/core/mojom/rewards.mojom.h"
+#include "unknown/components/brave_rewards/core/engine/global_constants.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_engine.h"
+#include "unknown/components/brave_rewards/core/engine/util/environment_config.h"
+#include "unknown/components/brave_rewards/core/engine/wallet_provider/gemini/connect_gemini_wallet.h"
+#include "unknown/components/brave_rewards/core/engine/wallet_provider/gemini/gemini_transfer.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards.mojom.h"
 
 namespace brave_rewards::internal::gemini {
 

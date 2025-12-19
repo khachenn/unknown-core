@@ -4,5 +4,5 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 # This list is added to //ios/web/public/test:test_fixture
-# DO NOT add anything from `//brave/ios/browser` to this list.
-brave_ios_web_test_fixture_visibility = [ "//brave/ios/web/*" ]
+# DO NOT add anything from `//unknown/ios/browser` to this list.
+brave_ios_web_test_fixture_visibility = [ "//unknown/ios/web/*" ]

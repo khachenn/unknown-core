@@ -3,12 +3,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wayback_machine/buildflags/buildflags.gni")
-import("//brave/components/speedreader/common/buildflags/buildflags.gni")
-import("//brave/components/tor/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wayback_machine/buildflags/buildflags.gni")
+import("//unknown/components/speedreader/common/buildflags/buildflags.gni")
+import("//unknown/components/tor/buildflags/buildflags.gni")
 
 source_set("unit_tests") {
   testonly = true
@@ -17,17 +17,17 @@ source_set("unit_tests") {
 
   deps = [
     "//base",
-    "//brave/app:generate_command_metadata",
-    "//brave/components/ai_chat/core/common/buildflags",
-    "//brave/components/brave_news/common",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/brave_wayback_machine/buildflags",
-    "//brave/components/commands/browser",
-    "//brave/components/constants",
-    "//brave/components/speedreader/common/buildflags",
-    "//brave/components/tor/buildflags",
+    "//unknown/app:generate_command_metadata",
+    "//unknown/components/ai_chat/core/common/buildflags",
+    "//unknown/components/brave_news/common",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/brave_wayback_machine/buildflags",
+    "//unknown/components/commands/browser",
+    "//unknown/components/constants",
+    "//unknown/components/speedreader/common/buildflags",
+    "//unknown/components/tor/buildflags",
     "//chrome/app:command_ids",
     "//chrome/browser/ui",
     "//chrome/test:test_support",
@@ -37,26 +37,26 @@ source_set("unit_tests") {
   ]
 
   if (enable_ai_chat) {
-    deps += [ "//brave/components/ai_chat/core/common" ]
+    deps += [ "//unknown/components/ai_chat/core/common" ]
   }
 
   if (enable_brave_vpn) {
-    deps += [ "//brave/components/brave_vpn/common" ]
+    deps += [ "//unknown/components/brave_vpn/common" ]
   }
 
   if (enable_tor) {
-    deps += [ "//brave/components/tor:pref_names" ]
+    deps += [ "//unknown/components/tor:pref_names" ]
   }
 
   if (enable_speedreader) {
-    deps += [ "//brave/components/speedreader" ]
+    deps += [ "//unknown/components/speedreader" ]
   }
 
   if (enable_brave_wayback_machine) {
-    deps += [ "//brave/components/brave_wayback_machine" ]
+    deps += [ "//unknown/components/brave_wayback_machine" ]
   }
 
   if (enable_brave_wallet) {
-    deps += [ "//brave/components/brave_wallet/browser:pref_names" ]
+    deps += [ "//unknown/components/brave_wallet/browser:pref_names" ]
   }
 }

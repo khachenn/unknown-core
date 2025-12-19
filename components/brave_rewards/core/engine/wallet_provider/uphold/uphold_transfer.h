@@ -8,10 +8,10 @@
 
 #include <string>
 
-#include "brave/components/brave_rewards/core/engine/endpoints/uphold/get_transaction_status_uphold.h"
-#include "brave/components/brave_rewards/core/engine/endpoints/uphold/post_commit_transaction_uphold.h"
-#include "brave/components/brave_rewards/core/engine/endpoints/uphold/post_create_transaction_uphold.h"
-#include "brave/components/brave_rewards/core/engine/wallet_provider/transfer.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/uphold/get_transaction_status_uphold.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/uphold/post_commit_transaction_uphold.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/uphold/post_create_transaction_uphold.h"
+#include "unknown/components/brave_rewards/core/engine/wallet_provider/transfer.h"
 
 namespace brave_rewards::internal::uphold {
 

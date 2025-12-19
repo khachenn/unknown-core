@@ -71,7 +71,7 @@ def create_required_spm_resources(force=False):
         if not os.path.exists(framework_dir):
             Path(framework_dir).mkdir(parents=True)
             info_plist = wspath(
-                "//brave/ios/brave-ios/BraveCore/placeholders/xcframework.plist"
+                "//unknown/ios/brave-ios/BraveCore/placeholders/xcframework.plist"
             )
             shutil.copyfile(info_plist, os.path.join(framework_dir,
                                                      'Info.plist'))
@@ -90,7 +90,7 @@ def generate_lldbinit(force=False):
     # strip_absolute_paths_from_debug_symbols set to true.
     settings set target.source-map "../.." "{wspath("//")}"
     """)
-    lldbinit_file = wspath("//brave/ios/brave-ios/App/Configuration/LLDBInit")
+    lldbinit_file = wspath("//unknown/ios/brave-ios/App/Configuration/LLDBInit")
     if force or not os.path.exists(lldbinit_file):
         with open(lldbinit_file, 'w') as f:
             f.write(contents)

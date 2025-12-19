@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/ai_chat/core/browser/test_utils.h"
+#include "unknown/components/ai_chat/core/browser/test_utils.h"
 
 #include <string>
 #include <utility>
@@ -13,10 +13,10 @@
 #include "base/strings/string_number_conversions.h"
 #include "base/time/time.h"
 #include "base/uuid.h"
-#include "brave/components/ai_chat/core/browser/associated_content_manager.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
-#include "brave/components/ai_chat/core/common/test_utils.h"
+#include "unknown/components/ai_chat/core/browser/associated_content_manager.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/common/test_utils.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace ai_chat {

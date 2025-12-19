@@ -9,7 +9,7 @@
 #include <chrome/browser/extensions/component_extensions_allowlist/allowlist.cc>
 #undef IsComponentExtensionAllowlisted
 
-#include "brave/components/brave_extension/grit/brave_extension.h"
+#include "unknown/components/brave_extension/grit/brave_extension.h"
 #include "components/grit/brave_components_resources.h"
 #include "extensions/common/constants.h"
 

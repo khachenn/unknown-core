@@ -12,9 +12,9 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_wallet/browser/cardano/cardano_hd_keyring.h"
-#include "brave/components/brave_wallet/browser/cardano/cardano_rpc_blockfrost_api.h"
-#include "brave/components/brave_wallet/browser/cardano/cardano_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/cardano/cardano_hd_keyring.h"
+#include "unknown/components/brave_wallet/browser/cardano/cardano_rpc_blockfrost_api.h"
+#include "unknown/components/brave_wallet/browser/cardano/cardano_wallet_service.h"
 #include "services/network/test/test_url_loader_factory.h"
 
 namespace brave_wallet {

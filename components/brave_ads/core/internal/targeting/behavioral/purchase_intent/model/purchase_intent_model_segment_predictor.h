@@ -9,7 +9,7 @@
 #include <map>
 #include <string>
 
-#include "brave/components/brave_ads/core/internal/segments/segment_alias.h"
+#include "unknown/components/brave_ads/core/internal/segments/segment_alias.h"
 
 namespace brave_ads {
 

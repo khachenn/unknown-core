@@ -8,7 +8,7 @@
 
 #include <string>
 
-#include "brave/components/brave_ads/core/internal/serving/eligible_ads/exclusion_rules/exclusion_rule_interface.h"
+#include "unknown/components/brave_ads/core/internal/serving/eligible_ads/exclusion_rules/exclusion_rule_interface.h"
 
 namespace brave_ads {
 

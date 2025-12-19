@@ -6,7 +6,7 @@ index 6008173451433e11984bab847ec49d42c34426c4..6d677490912b6249da961509508365c3
      "//ui/base",
      "//url",
    ]
-+  import("//brave/common/importer/sources.gni") deps += brave_common_importer_deps
++  import("//unknown/common/importer/sources.gni") deps += brave_common_importer_deps
  }
  
  if (!is_android) {

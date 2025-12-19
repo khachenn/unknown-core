@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/psst/buildflags/buildflags.gni")
+import("//unknown/components/psst/buildflags/buildflags.gni")
 
 assert(enable_psst)
 
@@ -35,9 +35,9 @@ static_library("core") {
   ]
 
   deps = [
-    "//brave/components/brave_component_updater/browser:public",
-    "//brave/components/psst/common",
-    "//brave/extensions:common",
+    "//unknown/components/brave_component_updater/browser:public",
+    "//unknown/components/psst/common",
+    "//unknown/extensions:common",
     "//components/component_updater",
     "//components/content_settings/core/browser",
     "//components/prefs",
@@ -59,7 +59,7 @@ source_set("unit_tests") {
   deps = [
     ":core",
     "//base/test:test_support",
-    "//brave/components/psst/common",
+    "//unknown/components/psst/common",
     "//testing/gmock",
     "//testing/gtest",
   ]

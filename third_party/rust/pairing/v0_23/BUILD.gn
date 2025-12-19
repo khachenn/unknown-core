@@ -12,8 +12,8 @@ cargo_crate("lib") {
   crate_name = "pairing"
   epoch = "0.23"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/pairing-v0_23/src/lib.rs"
-  sources = [ "//brave/third_party/rust/chromium_crates_io/vendor/pairing-v0_23/src/lib.rs" ]
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/pairing-v0_23/src/lib.rs"
+  sources = [ "//unknown/third_party/rust/chromium_crates_io/vendor/pairing-v0_23/src/lib.rs" ]
   inputs = []
 
   build_native_rust_unit_tests = false
@@ -25,7 +25,7 @@ cargo_crate("lib") {
   cargo_pkg_repository = "https://github.com/zkcrypto/pairing"
   cargo_pkg_version = "0.23.0"
 
-  deps = [ "//brave/third_party/rust/group/v0_13:lib" ]
+  deps = [ "//unknown/third_party/rust/group/v0_13:lib" ]
   rustenv = []
   rustflags = []
 

@@ -12,12 +12,12 @@ cargo_crate("lib") {
   crate_name = "rmp_serde"
   epoch = "0.15"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/rmp-serde-v0_15/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-serde-v0_15/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-serde-v0_15/src/config.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-serde-v0_15/src/decode.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-serde-v0_15/src/encode.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-serde-v0_15/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-serde-v0_15/src/config.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-serde-v0_15/src/decode.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-serde-v0_15/src/encode.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-serde-v0_15/src/lib.rs",
   ]
   inputs = []
 
@@ -30,9 +30,9 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.15.5"
 
   deps = [
-    "//brave/third_party/rust/byteorder/v1:lib",
-    "//brave/third_party/rust/rmp/v0_8:lib",
-    "//brave/third_party/rust/serde/v1:lib",
+    "//unknown/third_party/rust/byteorder/v1:lib",
+    "//unknown/third_party/rust/rmp/v0_8:lib",
+    "//unknown/third_party/rust/serde/v1:lib",
   ]
   rustenv = []
   rustflags = []

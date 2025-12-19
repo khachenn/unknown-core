@@ -13,10 +13,10 @@
 
 #include "base/memory/raw_ptr.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/ai_chat/core/browser/engine/conversation_api_client.h"
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/browser/engine/conversation_api_client.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
 
 template <class T>
 class scoped_refptr;

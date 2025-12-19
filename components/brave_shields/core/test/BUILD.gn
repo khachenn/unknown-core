@@ -14,9 +14,9 @@ source_set("unit_tests") {
     "ad_block_list_p3a_unittest.cc",
   ]
   deps = [
-    "//brave/components/brave_shields/content/test:test_support",
-    "//brave/components/brave_shields/core/browser",
-    "//brave/components/brave_shields/core/common",
+    "//unknown/components/brave_shields/content/test:test_support",
+    "//unknown/components/brave_shields/core/browser",
+    "//unknown/components/brave_shields/core/common",
     "//chrome/test:test_support",
     "//testing/gtest",
   ]

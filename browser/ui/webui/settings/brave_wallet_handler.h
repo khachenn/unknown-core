@@ -10,9 +10,9 @@
 #include <utility>
 
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
-#include "brave/components/brave_wallet/browser/network_manager.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/brave_wallet/browser/network_manager.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "chrome/browser/ui/webui/settings/settings_page_ui_handler.h"
 
 class PrefService;

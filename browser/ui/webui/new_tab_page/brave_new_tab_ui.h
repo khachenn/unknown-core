@@ -10,9 +10,9 @@
 #include <string>
 
 #include "base/memory/raw_ptr.h"
-#include "brave/components/brave_new_tab_ui/brave_new_tab_page.mojom.h"
-#include "brave/components/brave_news/common/brave_news.mojom.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_new_tab_ui/brave_new_tab_page.mojom.h"
+#include "unknown/components/brave_news/common/brave_news.mojom.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
 #include "chrome/browser/ui/webui/searchbox/realbox_handler.h"
 #include "components/omnibox/browser/searchbox.mojom.h"
 #include "components/regional_capabilities/regional_capabilities_service.h"
@@ -23,7 +23,7 @@
 #include "ui/webui/mojo_web_ui_controller.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/mojom/brave_vpn.mojom.h"  // nogncheck
+#include "unknown/components/brave_vpn/common/mojom/brave_vpn.mojom.h"  // nogncheck
 #endif  // BUILDFLAG(ENABLE_BRAVE_VPN)
 
 namespace brave_ads {

@@ -3,18 +3,18 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
 import("//extensions/buildflags/buildflags.gni")
 
 source_set("misc_metrics") {
   sources = [
-    "//brave/browser/misc_metrics/process_misc_metrics.h",
-    "//brave/browser/misc_metrics/profile_misc_metrics_service.h",
-    "//brave/browser/misc_metrics/profile_misc_metrics_service_factory.h",
+    "//unknown/browser/misc_metrics/process_misc_metrics.h",
+    "//unknown/browser/misc_metrics/profile_misc_metrics_service.h",
+    "//unknown/browser/misc_metrics/profile_misc_metrics_service_factory.h",
   ]
 
   deps = [
-    "//brave/components/ai_chat/core/common/buildflags",
+    "//unknown/components/ai_chat/core/common/buildflags",
     "//components/keyed_service/content",
     "//components/keyed_service/core",
     "//components/prefs",
@@ -24,26 +24,26 @@ source_set("misc_metrics") {
 
 static_library("misc_metrics_impl") {
   visibility = [
-    "//brave/browser/misc_metrics/*",
+    "//unknown/browser/misc_metrics/*",
     "//chrome/browser",
   ]
 
   sources = [
-    "//brave/browser/misc_metrics/doh_metrics.cc",
-    "//brave/browser/misc_metrics/doh_metrics.h",
-    "//brave/browser/misc_metrics/page_metrics_tab_helper.cc",
-    "//brave/browser/misc_metrics/page_metrics_tab_helper.h",
-    "//brave/browser/misc_metrics/process_misc_metrics.cc",
-    "//brave/browser/misc_metrics/uptime_monitor_impl.h",
+    "//unknown/browser/misc_metrics/doh_metrics.cc",
+    "//unknown/browser/misc_metrics/doh_metrics.h",
+    "//unknown/browser/misc_metrics/page_metrics_tab_helper.cc",
+    "//unknown/browser/misc_metrics/page_metrics_tab_helper.h",
+    "//unknown/browser/misc_metrics/process_misc_metrics.cc",
+    "//unknown/browser/misc_metrics/uptime_monitor_impl.h",
   ]
 
   deps = [
-    "//brave/browser:browser_process",
-    "//brave/browser/misc_metrics",
-    "//brave/browser/profiles:util",
-    "//brave/components/misc_metrics",
-    "//brave/components/p3a_utils",
-    "//brave/components/time_period_storage",
+    "//unknown/browser:browser_process",
+    "//unknown/browser/misc_metrics",
+    "//unknown/browser/profiles:util",
+    "//unknown/components/misc_metrics",
+    "//unknown/components/p3a_utils",
+    "//unknown/components/time_period_storage",
     "//chrome/browser:browser_process",
     "//chrome/browser/autofill",
     "//chrome/browser/profiles",
@@ -58,43 +58,43 @@ static_library("misc_metrics_impl") {
   ]
 
   if (enable_ai_chat) {
-    deps += [ "//brave/components/ai_chat/core/browser" ]
+    deps += [ "//unknown/components/ai_chat/core/browser" ]
   }
 
   if (enable_extensions) {
     sources += [
-      "//brave/browser/misc_metrics/extension_metrics.cc",
-      "//brave/browser/misc_metrics/extension_metrics.h",
+      "//unknown/browser/misc_metrics/extension_metrics.cc",
+      "//unknown/browser/misc_metrics/extension_metrics.h",
     ]
 
-    deps += [ "//brave/browser/extensions/manifest_v2" ]
+    deps += [ "//unknown/browser/extensions/manifest_v2" ]
   }
 
   if (!is_android) {
     sources += [
-      "//brave/browser/misc_metrics/default_browser_monitor.h",
-      "//brave/browser/misc_metrics/theme_metrics.cc",
-      "//brave/browser/misc_metrics/theme_metrics.h",
-      "//brave/browser/misc_metrics/vertical_tab_metrics.cc",
-      "//brave/browser/misc_metrics/vertical_tab_metrics.h",
+      "//unknown/browser/misc_metrics/default_browser_monitor.h",
+      "//unknown/browser/misc_metrics/theme_metrics.cc",
+      "//unknown/browser/misc_metrics/theme_metrics.h",
+      "//unknown/browser/misc_metrics/vertical_tab_metrics.cc",
+      "//unknown/browser/misc_metrics/vertical_tab_metrics.h",
     ]
     deps += [
-      "//brave/browser/extensions/manifest_v2",
-      "//brave/browser/themes",
+      "//unknown/browser/extensions/manifest_v2",
+      "//unknown/browser/themes",
       "//chrome/browser/themes",
       "//chrome/browser/ui/tabs:tab_strip",
       "//extensions/browser",
     ]
   } else {
-    sources += [ "//brave/browser/misc_metrics/misc_android_metrics.h" ]
+    sources += [ "//unknown/browser/misc_metrics/misc_android_metrics.h" ]
   }
 }
 
 if (!is_android) {
   source_set("usage_clock") {
     sources = [
-      "//brave/browser/misc_metrics/usage_clock.cc",
-      "//brave/browser/misc_metrics/usage_clock.h",
+      "//unknown/browser/misc_metrics/usage_clock.cc",
+      "//unknown/browser/misc_metrics/usage_clock.h",
     ]
 
     deps = [
@@ -116,11 +116,11 @@ source_set("unit_tests") {
   deps = [
     "//base",
     "//base/test:test_support",
-    "//brave/browser",
-    "//brave/browser/misc_metrics",
-    "//brave/browser/misc_metrics:misc_metrics_impl",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/misc_metrics",
+    "//unknown/browser",
+    "//unknown/browser/misc_metrics",
+    "//unknown/browser/misc_metrics:misc_metrics_impl",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/misc_metrics",
     "//chrome/browser",
     "//chrome/browser/content_settings:content_settings_factory",
     "//chrome/browser/history",
@@ -142,7 +142,7 @@ source_set("unit_tests") {
 
     deps += [
       ":usage_clock",
-      "//brave/browser/themes",
+      "//unknown/browser/themes",
       "//chrome/browser/metrics/desktop_session_duration",
       "//chrome/browser/themes",
     ]
@@ -151,7 +151,7 @@ source_set("unit_tests") {
   if (enable_extensions) {
     sources += [ "extension_metrics_unittest.cc" ]
 
-    deps += [ "//brave/browser/extensions/manifest_v2" ]
+    deps += [ "//unknown/browser/extensions/manifest_v2" ]
   }
 }
 
@@ -167,7 +167,7 @@ source_set("browser_tests") {
   deps = [
     "//base",
     "//base/test:test_support",
-    "//brave/browser/misc_metrics:misc_metrics_impl",
+    "//unknown/browser/misc_metrics:misc_metrics_impl",
     "//chrome/browser/profiles:profile",
     "//chrome/browser/tab_group_sync:factories",
     "//chrome/test:test_support",

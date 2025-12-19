@@ -4,13 +4,13 @@
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
 brave_components_translate_core_common_sources = [
-  "//brave/components/translate/core/common/brave_translate_constants.h",
-  "//brave/components/translate/core/common/brave_translate_features.cc",
-  "//brave/components/translate/core/common/brave_translate_features.h",
-  "//brave/components/translate/core/common/brave_translate_switches.h",
+  "//unknown/components/translate/core/common/brave_translate_constants.h",
+  "//unknown/components/translate/core/common/brave_translate_features.cc",
+  "//unknown/components/translate/core/common/brave_translate_features.h",
+  "//unknown/components/translate/core/common/brave_translate_switches.h",
 ]
 
 brave_components_translate_core_common_public_deps = [
-  "//brave/components/constants",
-  "//brave/components/resources:static_resources_grit",
+  "//unknown/components/constants",
+  "//unknown/components/resources:static_resources_grit",
 ]

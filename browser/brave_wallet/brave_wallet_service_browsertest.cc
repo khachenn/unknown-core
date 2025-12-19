@@ -3,19 +3,19 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/brave_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_service.h"
 
 #include "base/memory/raw_ptr.h"
 #include "base/path_service.h"
 #include "base/test/bind.h"
 #include "base/test/mock_callback.h"
 #include "base/test/scoped_feature_list.h"
-#include "brave/browser/brave_wallet/brave_wallet_service_factory.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_service_observer_base.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_utils.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/features.h"
-#include "brave/components/constants/brave_paths.h"
+#include "unknown/browser/brave_wallet/brave_wallet_service_factory.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_service_observer_base.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_utils.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/features.h"
+#include "unknown/components/constants/brave_paths.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/test/base/in_process_browser_test.h"

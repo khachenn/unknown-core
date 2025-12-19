@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/decentralized_dns/core/utils.h"
+#include "unknown/components/decentralized_dns/core/utils.h"
 
 #include "base/test/task_environment.h"
-#include "brave/components/decentralized_dns/core/constants.h"
-#include "brave/components/decentralized_dns/core/pref_names.h"
+#include "unknown/components/decentralized_dns/core/constants.h"
+#include "unknown/components/decentralized_dns/core/pref_names.h"
 #include "chrome/test/base/testing_browser_process.h"
 #include "components/prefs/testing_pref_service.h"
 #include "testing/gtest/include/gtest/gtest.h"

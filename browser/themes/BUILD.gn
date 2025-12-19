@@ -12,7 +12,7 @@ source_set("themes") {
 
   deps = [
     "//base",
-    "//brave/components/constants",
+    "//Unknown/components/constants",
     "//components/prefs",
   ]
 }

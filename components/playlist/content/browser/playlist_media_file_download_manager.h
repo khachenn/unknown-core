@@ -12,8 +12,8 @@
 #include "base/containers/queue.h"
 #include "base/gtest_prod_util.h"
 #include "base/types/expected.h"
-#include "brave/components/playlist/content/browser/playlist_media_file_downloader.h"
-#include "brave/components/playlist/core/common/mojom/playlist.mojom.h"
+#include "unknown/components/playlist/content/browser/playlist_media_file_downloader.h"
+#include "unknown/components/playlist/core/common/mojom/playlist.mojom.h"
 
 namespace content {
 class BrowserContext;

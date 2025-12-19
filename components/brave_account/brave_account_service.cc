@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_account/brave_account_service.h"
+#include "unknown/components/brave_account/brave_account_service.h"
 
 #include <utility>
 
@@ -14,11 +14,11 @@
 #include "base/notimplemented.h"
 #include "base/strings/strcat.h"
 #include "base/types/expected.h"
-#include "brave/components/brave_account/brave_account_service_constants.h"
-#include "brave/components/brave_account/endpoint_client/client.h"
-#include "brave/components/brave_account/endpoint_client/with_headers.h"
-#include "brave/components/brave_account/endpoints/error_body.h"
-#include "brave/components/brave_account/pref_names.h"
+#include "unknown/components/brave_account/brave_account_service_constants.h"
+#include "unknown/components/brave_account/endpoint_client/client.h"
+#include "unknown/components/brave_account/endpoint_client/with_headers.h"
+#include "unknown/components/brave_account/endpoints/error_body.h"
+#include "unknown/components/brave_account/pref_names.h"
 #include "components/os_crypt/sync/os_crypt.h"
 #include "components/prefs/pref_service.h"
 #include "net/http/http_request_headers.h"

@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/brave_news/brave_news_tab_helper.h"
+#include "unknown/browser/brave_news/brave_news_tab_helper.h"
 
 #include <algorithm>
 #include <optional>
@@ -17,8 +17,8 @@
 #include "base/run_loop.h"
 #include "base/scoped_observation.h"
 #include "base/test/scoped_feature_list.h"
-#include "brave/components/brave_news/common/pref_names.h"
-#include "brave/components/constants/brave_paths.h"
+#include "unknown/components/brave_news/common/pref_names.h"
+#include "unknown/components/constants/brave_paths.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/views/frame/browser_view.h"

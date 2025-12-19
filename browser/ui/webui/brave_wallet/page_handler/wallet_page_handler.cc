@@ -3,14 +3,14 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/webui/brave_wallet/page_handler/wallet_page_handler.h"
+#include "unknown/browser/ui/webui/brave_wallet/page_handler/wallet_page_handler.h"
 
 #include <utility>
 
 #include "base/notreached.h"
 
 #if defined(TOOLKIT_VIEWS)
-#include "brave/browser/ui/browser_commands.h"
+#include "unknown/browser/ui/browser_commands.h"
 #include "chrome/browser/ui/browser_finder.h"
 #endif
 

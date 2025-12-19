@@ -10,7 +10,7 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
 #include "testing/gmock/include/gmock/gmock.h"
 
 namespace brave_ads {

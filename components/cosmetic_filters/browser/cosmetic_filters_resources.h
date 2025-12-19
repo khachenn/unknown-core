@@ -13,7 +13,7 @@
 #include "base/functional/callback.h"
 #include "base/memory/raw_ptr.h"
 #include "base/values.h"
-#include "brave/components/cosmetic_filters/common/cosmetic_filters.mojom.h"
+#include "unknown/components/cosmetic_filters/common/cosmetic_filters.mojom.h"
 
 class HostContentSettingsMap;
 

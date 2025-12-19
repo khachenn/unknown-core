@@ -8,8 +8,8 @@ import("//build/rust/rust_static_library.gni")
 rust_static_library("zcash_protocol") {
   visibility = [
     ":zcash_primitives",
-    "//brave/components/brave_wallet/browser/zcash/rust:rust_lib",
-    "//brave/components/brave_wallet/browser/zcash/rust:rust_lib_cxx_generated",
+    "//unknown/components/brave_wallet/browser/zcash/rust:rust_lib",
+    "//unknown/components/brave_wallet/browser/zcash/rust:rust_lib_cxx_generated",
   ]
   crate_name = "zcash_protocol"
   edition = "2021"
@@ -24,7 +24,7 @@ rust_static_library("zcash_protocol") {
     "src/components/zcash_protocol/src/memo.rs",
     "src/components/zcash_protocol/src/value.rs",
   ]
-  deps = [ "//brave/third_party/rust/memuse/v0_2:lib" ]
+  deps = [ "//unknown/third_party/rust/memuse/v0_2:lib" ]
 }
 
 rust_static_library("zcash_encoding") {
@@ -37,16 +37,16 @@ rust_static_library("zcash_encoding") {
   sources = [ "src/components/zcash_encoding/src/lib.rs" ]
   allow_unsafe = true
   deps = [
-    "//brave/third_party/rust/byteorder/v1:lib",
-    "//brave/third_party/rust/nonempty/v0_7:lib",
+    "//unknown/third_party/rust/byteorder/v1:lib",
+    "//unknown/third_party/rust/nonempty/v0_7:lib",
   ]
 }
 
 rust_static_library("zcash_primitives") {
   visibility = [
     ":zcash_client_backend",
-    "//brave/components/brave_wallet/browser/zcash/rust:rust_lib",
-    "//brave/components/brave_wallet/browser/zcash/rust:rust_lib_cxx_generated",
+    "//unknown/components/brave_wallet/browser/zcash/rust:rust_lib",
+    "//unknown/components/brave_wallet/browser/zcash/rust:rust_lib_cxx_generated",
   ]
   crate_name = "zcash_primitives"
   crate_root = "src/zcash_primitives/src/lib.rs"
@@ -64,18 +64,18 @@ rust_static_library("zcash_primitives") {
   deps = [
     ":zcash_encoding",
     ":zcash_protocol",
-    "//brave/third_party/rust/byteorder/v1:lib",
-    "//brave/third_party/rust/incrementalmerkletree/v0_5:lib",
-    "//brave/third_party/rust/memuse/v0_2:lib",
-    "//brave/third_party/rust/nonempty/v0_7:lib",
-    "//brave/third_party/rust/orchard/v0_8:lib",
+    "//unknown/third_party/rust/byteorder/v1:lib",
+    "//unknown/third_party/rust/incrementalmerkletree/v0_5:lib",
+    "//unknown/third_party/rust/memuse/v0_2:lib",
+    "//unknown/third_party/rust/nonempty/v0_7:lib",
+    "//unknown/third_party/rust/orchard/v0_8:lib",
   ]
 }
 
 rust_static_library("zcash_client_backend") {
   visibility = [
-    "//brave/components/brave_wallet/browser/zcash/rust:rust_lib",
-    "//brave/components/brave_wallet/browser/zcash/rust:rust_lib_cxx_generated",
+    "//unknown/components/brave_wallet/browser/zcash/rust:rust_lib",
+    "//unknown/components/brave_wallet/browser/zcash/rust:rust_lib_cxx_generated",
   ]
   crate_name = "zcash_client_backend"
   crate_root = "src/zcash_client_backend/src/lib.rs"
@@ -87,7 +87,7 @@ rust_static_library("zcash_client_backend") {
   deps = [
     ":zcash_encoding",
     ":zcash_primitives",
-    "//brave/third_party/rust/byteorder/v1:lib",
-    "//brave/third_party/rust/shardtree/v0_3:lib",
+    "//unknown/third_party/rust/byteorder/v1:lib",
+    "//unknown/third_party/rust/shardtree/v0_3:lib",
   ]
 }

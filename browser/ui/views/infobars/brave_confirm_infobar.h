@@ -10,7 +10,7 @@
 
 #include "base/gtest_prod_util.h"
 #include "base/memory/raw_ptr.h"
-#include "brave/components/infobars/core/brave_confirm_infobar_delegate.h"
+#include "unknown/components/infobars/core/brave_confirm_infobar_delegate.h"
 #include "chrome/browser/ui/views/infobars/infobar_view.h"
 #include "ui/base/metadata/metadata_header_macros.h"
 #include "ui/views/controls/button/image_button.h"

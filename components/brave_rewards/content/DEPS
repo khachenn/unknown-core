@@ -1,7 +1,7 @@
 include_rules = [
-  "+brave/components/api_request_helper",
-  "+brave/components/brave_wallet/browser",
-  "+brave/grit/brave_generated_resources.h",
+  "+unknown/components/api_request_helper",
+  "+unknown/components/brave_wallet/browser",
+  "+unknown/grit/brave_generated_resources.h",
   "+components/country_codes",
   "+components/favicon",
   "+components/grit/brave_components_strings.h",

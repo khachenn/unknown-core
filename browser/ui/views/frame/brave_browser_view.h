@@ -16,12 +16,12 @@
 #include "base/memory/raw_ptr.h"
 #include "base/memory/weak_ptr.h"
 #include "base/scoped_observation.h"
-#include "brave/browser/ui/commands/accelerator_service.h"
-#include "brave/browser/ui/tabs/brave_tab_strip_model.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/brave_wayback_machine/buildflags/buildflags.h"
-#include "brave/components/commands/browser/accelerator_pref_manager.h"
+#include "unknown/browser/ui/commands/accelerator_service.h"
+#include "unknown/browser/ui/tabs/brave_tab_strip_model.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wayback_machine/buildflags/buildflags.h"
+#include "unknown/components/commands/browser/accelerator_pref_manager.h"
 #include "build/build_config.h"
 #include "chrome/browser/ui/tabs/tab_model.h"
 #include "chrome/browser/ui/views/frame/browser_view.h"
@@ -30,11 +30,11 @@
 #include "ui/base/metadata/metadata_header_macros.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/browser/ui/views/toolbar/brave_vpn_panel_controller.h"
+#include "unknown/browser/ui/views/toolbar/brave_vpn_panel_controller.h"
 #endif
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/browser/ui/views/speedreader/reader_mode_toolbar_view.h"
+#include "unknown/browser/ui/views/speedreader/reader_mode_toolbar_view.h"
 #endif
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)

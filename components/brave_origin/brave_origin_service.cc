@@ -3,14 +3,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_origin/brave_origin_service.h"
+#include "unknown/components/brave_origin/brave_origin_service.h"
 
 #include "base/feature_list.h"
 #include "base/logging.h"
-#include "brave/components/brave_origin/brave_origin_policy_manager.h"
-#include "brave/components/brave_origin/brave_origin_utils.h"
-#include "brave/components/brave_origin/features.h"
-#include "brave/components/brave_origin/pref_names.h"
+#include "unknown/components/brave_origin/brave_origin_policy_manager.h"
+#include "unknown/components/brave_origin/brave_origin_utils.h"
+#include "unknown/components/brave_origin/features.h"
+#include "unknown/components/brave_origin/pref_names.h"
 #include "components/policy/core/common/policy_map.h"
 #include "components/policy/core/common/policy_namespace.h"
 #include "components/policy/core/common/policy_service.h"

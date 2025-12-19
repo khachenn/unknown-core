@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/services/brave_wallet/zcash/zcash_decoder.h"
+#include "unknown/components/services/brave_wallet/zcash/zcash_decoder.h"
 
 #include <utility>
 
 #include "base/big_endian.h"
-#include "brave/components/services/brave_wallet/public/cpp/utils/protobuf_utils.h"
-#include "brave/components/services/brave_wallet/public/proto/zcash_grpc_data.pb.h"
+#include "unknown/components/services/brave_wallet/public/cpp/utils/protobuf_utils.h"
+#include "unknown/components/services/brave_wallet/public/proto/zcash_grpc_data.pb.h"
 
 namespace brave_wallet {
 

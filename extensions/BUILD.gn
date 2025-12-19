@@ -10,12 +10,12 @@ import("//extensions/buildflags/buildflags.gni")
 # base::MatchPattern, base::StartsWith,
 # content_settings::ContentSettingsPattern, etc..
 deprecated_visibility_allowed = [
-  "//brave/components/static_redirect_helper",
-  "//brave/components/url_sanitizer/core/browser",
-  "//brave/components/debounce/core/browser",
-  "//brave/components/ntp_background_images/browser",
-  "//brave/components/psst/browser/core",
-  "//brave/components/request_otr/browser",
+  "//unknown/components/static_redirect_helper",
+  "//unknown/components/url_sanitizer/core/browser",
+  "//unknown/components/debounce/core/browser",
+  "//unknown/components/ntp_background_images/browser",
+  "//unknown/components/psst/browser/core",
+  "//unknown/components/request_otr/browser",
   "//chrome/browser",
 ]
 
@@ -27,7 +27,7 @@ if (enable_extensions) {
 } else {
   source_set("common") {
     visibility =
-        deprecated_visibility_allowed + [ "//brave/ios/browser/api/url" ]
+        deprecated_visibility_allowed + [ "//unknown/ios/browser/api/url" ]
     sources = [
       "//extensions/common/error_utils.cc",
       "//extensions/common/url_pattern.cc",

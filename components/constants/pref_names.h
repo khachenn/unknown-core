@@ -6,7 +6,7 @@
 #ifndef BRAVE_COMPONENTS_CONSTANTS_PREF_NAMES_H_
 #define BRAVE_COMPONENTS_CONSTANTS_PREF_NAMES_H_
 
-#include "brave/components/web_discovery/buildflags/buildflags.h"
+#include "unknown/components/web_discovery/buildflags/buildflags.h"
 #include "build/build_config.h"
 #include "extensions/buildflags/buildflags.h"
 

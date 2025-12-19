@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/eth_response_parser.h"
+#include "unknown/components/brave_wallet/browser/eth_response_parser.h"
 
 #include <optional>
 #include <tuple>
@@ -11,12 +11,12 @@
 
 #include "base/check.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_utils.h"
-#include "brave/components/brave_wallet/browser/eth_abi_decoder.h"
-#include "brave/components/brave_wallet/browser/json_rpc_response_parser.h"
-#include "brave/components/brave_wallet/common/eth_abi_utils.h"
-#include "brave/components/brave_wallet/common/eth_address.h"
-#include "brave/components/brave_wallet/common/hex_utils.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_utils.h"
+#include "unknown/components/brave_wallet/browser/eth_abi_decoder.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_response_parser.h"
+#include "unknown/components/brave_wallet/common/eth_abi_utils.h"
+#include "unknown/components/brave_wallet/common/eth_address.h"
+#include "unknown/components/brave_wallet/common/hex_utils.h"
 #include "net/base/data_url.h"
 #include "tools/json_schema_compiler/util.h"
 

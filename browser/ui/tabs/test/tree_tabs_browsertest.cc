@@ -4,8 +4,8 @@
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
 #include "base/test/scoped_feature_list.h"
-#include "brave/browser/ui/tabs/brave_tab_prefs.h"
-#include "brave/browser/ui/tabs/brave_tab_strip_model.h"
+#include "unknown/browser/ui/tabs/brave_tab_prefs.h"
+#include "unknown/browser/ui/tabs/brave_tab_strip_model.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/tab_group_sync/tab_group_sync_service_factory.h"
 #include "chrome/browser/ui/browser.h"

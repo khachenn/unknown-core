@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/webui/brave_new_tab_page_refresh/background_facade.h"
+#include "unknown/browser/ui/webui/brave_new_tab_page_refresh/background_facade.h"
 
 #include <optional>
 #include <utility>
@@ -11,12 +11,12 @@
 #include "base/barrier_callback.h"
 #include "base/check.h"
 #include "base/containers/contains.h"
-#include "brave/browser/ntp_background/custom_background_file_manager.h"
-#include "brave/browser/ntp_background/ntp_background_prefs.h"
-#include "brave/components/ntp_background_images/browser/ntp_background_images_data.h"
-#include "brave/components/ntp_background_images/browser/ntp_background_images_service.h"
-#include "brave/components/ntp_background_images/browser/url_constants.h"
-#include "brave/components/ntp_background_images/browser/view_counter_service.h"
+#include "unknown/browser/ntp_background/custom_background_file_manager.h"
+#include "unknown/browser/ntp_background/ntp_background_prefs.h"
+#include "unknown/components/ntp_background_images/browser/ntp_background_images_data.h"
+#include "unknown/components/ntp_background_images/browser/ntp_background_images_service.h"
+#include "unknown/components/ntp_background_images/browser/url_constants.h"
+#include "unknown/components/ntp_background_images/browser/view_counter_service.h"
 #include "components/prefs/pref_service.h"
 
 namespace brave_new_tab_page_refresh {

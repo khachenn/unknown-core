@@ -9,8 +9,8 @@
 
 #include "base/check_op.h"
 #include "base/values.h"
-#include "brave/app/vector_icons/vector_icons.h"
-#include "brave/grit/brave_generated_resources.h"
+#include "unknown/app/vector_icons/vector_icons.h"
+#include "unknown/grit/brave_generated_resources.h"
 #include "build/build_config.h"
 #include "chrome/grit/theme_resources.h"
 #include "ui/base/l10n/l10n_util.h"
@@ -18,7 +18,7 @@
 #include "ui/native_theme/native_theme.h"
 
 #if !BUILDFLAG(IS_ANDROID)
-#include "brave/grit/brave_theme_resources.h"
+#include "unknown/grit/brave_theme_resources.h"
 #endif
 
 // First, define anything that patches will rely on.

@@ -6,7 +6,7 @@ index 188d34fc4634f56f0798e50c12e742eb234236fe..013ed94ff2b597a3484b24bf40a9dff3
    if (is_android) {
      create_android_resources = true
    }
-+  deps = [ "//brave/app:brave_generated_resources_grit" ]
++  deps = [ "//unknown/app:brave_generated_resources_grit" ]
  }
  
  if (is_android) {

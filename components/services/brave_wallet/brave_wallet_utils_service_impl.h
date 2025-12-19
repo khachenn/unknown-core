@@ -6,8 +6,8 @@
 #ifndef BRAVE_COMPONENTS_SERVICES_BRAVE_WALLET_BRAVE_WALLET_UTILS_SERVICE_IMPL_H_
 #define BRAVE_COMPONENTS_SERVICES_BRAVE_WALLET_BRAVE_WALLET_UTILS_SERVICE_IMPL_H_
 
-#include "brave/components/services/brave_wallet/public/mojom/brave_wallet_utils_service.mojom.h"
-#include "brave/components/services/brave_wallet/public/mojom/zcash_decoder.mojom.h"
+#include "unknown/components/services/brave_wallet/public/mojom/brave_wallet_utils_service.mojom.h"
+#include "unknown/components/services/brave_wallet/public/mojom/zcash_decoder.mojom.h"
 #include "mojo/public/cpp/bindings/pending_associated_remote.h"
 #include "mojo/public/cpp/bindings/pending_receiver.h"
 #include "mojo/public/cpp/bindings/self_owned_associated_receiver.h"

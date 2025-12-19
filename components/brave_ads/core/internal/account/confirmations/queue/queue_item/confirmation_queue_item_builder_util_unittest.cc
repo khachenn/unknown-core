@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_builder_util.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_builder_util.h"
 
 #include "base/time/time.h"
-#include "brave/components/brave_ads/core/internal/common/random/random_util.h"
-#include "brave/components/brave_ads/core/internal/common/test/test_base.h"
+#include "unknown/components/brave_ads/core/internal/common/random/random_util.h"
+#include "unknown/components/brave_ads/core/internal/common/test/test_base.h"
 
 // npm run test -- brave_unit_tests --filter=BraveAds*
 

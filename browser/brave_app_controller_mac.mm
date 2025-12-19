@@ -9,10 +9,10 @@
 #import <objc/runtime.h>
 
 #include "base/check.h"
-#include "brave/app/brave_command_ids.h"
-#include "brave/browser/brave_browser_features.h"
-#include "brave/browser/ui/browser_commands.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/app/brave_command_ids.h"
+#include "unknown/browser/brave_browser_features.h"
+#include "unknown/browser/ui/browser_commands.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "chrome/app/chrome_command_ids.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/ui/browser.h"
@@ -24,8 +24,8 @@
 #include "ui/base/l10n/l10n_util_mac.h"
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/browser/tor/tor_profile_service_factory.h"
-#include "brave/components/tor/pref_names.h"
+#include "unknown/browser/tor/tor_profile_service_factory.h"
+#include "unknown/components/tor/pref_names.h"
 #endif
 
 #if !defined(__has_feature) || !__has_feature(objc_arc)

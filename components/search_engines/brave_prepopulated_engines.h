@@ -123,7 +123,7 @@ enum BravePrepopulatedEngineID : unsigned int {
   PREPOPULATED_ENGINE_ID_BRAVE,
   PREPOPULATED_ENGINE_ID_BRAVE_TOR,
 };
-// LINT.ThenChange(//brave/components/search_engines/brave_prepopulated_engines.h:kBraveCurrentDataVersion)
+// LINT.ThenChange(//unknown/components/search_engines/brave_prepopulated_engines.h:kBraveCurrentDataVersion)
 
 extern const PrepopulatedEngine duckduckgo;
 extern const PrepopulatedEngine duckduckgo_de;
@@ -160,7 +160,7 @@ inline constexpr auto kBraveEngines =
         {PREPOPULATED_ENGINE_ID_BRAVE, &brave_search},
         {PREPOPULATED_ENGINE_ID_YAHOO_JP, &brave_yahoo_jp},
     });
-// LINT.ThenChange(//brave/components/search_engines/brave_prepopulated_engines.h:kBraveCurrentDataVersion)
+// LINT.ThenChange(//unknown/components/search_engines/brave_prepopulated_engines.h:kBraveCurrentDataVersion)
 
 }  // namespace TemplateURLPrepopulateData
 

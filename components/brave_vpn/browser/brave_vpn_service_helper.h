@@ -11,7 +11,7 @@
 #include <string>
 
 #include "base/values.h"
-#include "brave/components/brave_vpn/common/mojom/brave_vpn.mojom.h"
+#include "unknown/components/brave_vpn/common/mojom/brave_vpn.mojom.h"
 
 class PrefService;
 

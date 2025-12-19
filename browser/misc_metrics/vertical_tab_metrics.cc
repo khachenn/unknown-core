@@ -3,14 +3,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/misc_metrics/vertical_tab_metrics.h"
+#include "unknown/browser/misc_metrics/vertical_tab_metrics.h"
 
 #include <utility>
 
 #include "base/check.h"
-#include "brave/browser/ui/tabs/brave_tab_prefs.h"
-#include "brave/components/misc_metrics/pref_names.h"
-#include "brave/components/p3a_utils/bucket.h"
+#include "unknown/browser/ui/tabs/brave_tab_prefs.h"
+#include "unknown/components/misc_metrics/pref_names.h"
+#include "unknown/components/p3a_utils/bucket.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_list.h"

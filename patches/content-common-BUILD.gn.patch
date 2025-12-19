@@ -6,7 +6,7 @@ index f57ce1a0430df7692be55685e79121ed604daf2a..23f25cac704be6ff66f0f8a38dc92c8f
    # must not link to this because it will duplicate the code in the component
    # build.
    visibility = [ "//content/*" ]
-+  visibility += [ "//brave/content/*" ]
++  visibility += [ "//unknown/content/*" ]
  
    sources = [
      "background_fetch/background_fetch_types.cc",

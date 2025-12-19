@@ -9,7 +9,7 @@
 #include <string>
 
 #include "base/memory/weak_ptr.h"
-#include "brave/components/ai_chat/core/browser/associated_content_delegate.h"
+#include "unknown/components/ai_chat/core/browser/associated_content_delegate.h"
 #include "testing/gmock/include/gmock/gmock.h"
 #include "url/gurl.h"
 

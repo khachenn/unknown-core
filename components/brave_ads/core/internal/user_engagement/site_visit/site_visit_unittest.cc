@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/user_engagement/site_visit/site_visit.h"
+#include "unknown/components/brave_ads/core/internal/user_engagement/site_visit/site_visit.h"
 
 #include <cstdint>
 #include <memory>
@@ -11,12 +11,12 @@
 
 #include "base/test/scoped_feature_list.h"
 #include "base/time/time.h"
-#include "brave/components/brave_ads/core/internal/ad_units/ad_test_util.h"
-#include "brave/components/brave_ads/core/internal/common/test/test_base.h"
-#include "brave/components/brave_ads/core/internal/settings/settings_test_util.h"
-#include "brave/components/brave_ads/core/internal/user_engagement/site_visit/site_visit_observer_mock.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
-#include "brave/components/brave_ads/core/public/user_engagement/site_visit/site_visit_feature.h"
+#include "unknown/components/brave_ads/core/internal/ad_units/ad_test_util.h"
+#include "unknown/components/brave_ads/core/internal/common/test/test_base.h"
+#include "unknown/components/brave_ads/core/internal/settings/settings_test_util.h"
+#include "unknown/components/brave_ads/core/internal/user_engagement/site_visit/site_visit_observer_mock.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/public/user_engagement/site_visit/site_visit_feature.h"
 #include "net/http/http_status_code.h"
 #include "url/gurl.h"
 

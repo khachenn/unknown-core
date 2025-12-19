@@ -11,8 +11,8 @@
 
 #include "base/memory/weak_ptr.h"
 #include "base/timer/timer.h"
-#include "brave/components/brave_ads/core/internal/history/ad_history_manager_observer.h"
-#include "brave/components/brave_ads/core/public/history/ad_history_item_info.h"
+#include "unknown/components/brave_ads/core/internal/history/ad_history_manager_observer.h"
+#include "unknown/components/brave_ads/core/public/history/ad_history_item_info.h"
 
 namespace brave_ads {
 

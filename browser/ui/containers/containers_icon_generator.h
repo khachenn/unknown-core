@@ -6,7 +6,7 @@
 #ifndef BRAVE_BROWSER_UI_CONTAINERS_CONTAINERS_ICON_GENERATOR_H_
 #define BRAVE_BROWSER_UI_CONTAINERS_CONTAINERS_ICON_GENERATOR_H_
 
-#include "brave/components/containers/core/mojom/containers.mojom.h"
+#include "unknown/components/containers/core/mojom/containers.mojom.h"
 #include "third_party/skia/include/core/SkColor.h"
 #include "ui/gfx/image/image_skia.h"
 

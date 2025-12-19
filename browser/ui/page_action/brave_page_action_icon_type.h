@@ -6,8 +6,8 @@
 #ifndef BRAVE_BROWSER_UI_PAGE_ACTION_BRAVE_PAGE_ACTION_ICON_TYPE_H_
 #define BRAVE_BROWSER_UI_PAGE_ACTION_BRAVE_PAGE_ACTION_ICON_TYPE_H_
 
-#include "brave/components/brave_wayback_machine/buildflags/buildflags.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wayback_machine/buildflags/buildflags.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
 #include "chrome/browser/ui/page_action/page_action_icon_type.h"
 
 namespace brave {

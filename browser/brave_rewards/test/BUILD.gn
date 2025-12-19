@@ -13,9 +13,9 @@ source_set("browser_tests") {
 
   deps = [
     "//base/test:test_support",
-    "//brave/browser/brave_rewards",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_rewards/core:features",
+    "//unknown/browser/brave_rewards",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_rewards/core:features",
     "//chrome/browser/profiles:profile",
     "//chrome/browser/ui",
     "//chrome/test:test_support",
@@ -51,17 +51,17 @@ source_set("browser_tests") {
     ]
 
     deps += [
-      "//brave/app:command_ids",
-      "//brave/browser",
-      "//brave/browser/brave_ads",
-      "//brave/browser/brave_rewards:util",
-      "//brave/components/brave_rewards/content",
-      "//brave/components/brave_rewards/core/buildflags",
-      "//brave/components/brave_rewards/core/engine",
-      "//brave/components/brave_rewards/core/engine:publishers_proto",
-      "//brave/components/brave_rewards/core/mojom:engine",
-      "//brave/components/l10n/common:test_support",
-      "//brave/components/ntp_background_images/common",
+      "//unknown/app:command_ids",
+      "//unknown/browser",
+      "//unknown/browser/brave_ads",
+      "//unknown/browser/brave_rewards:util",
+      "//unknown/components/brave_rewards/content",
+      "//unknown/components/brave_rewards/core/buildflags",
+      "//unknown/components/brave_rewards/core/engine",
+      "//unknown/components/brave_rewards/core/engine:publishers_proto",
+      "//unknown/components/brave_rewards/core/mojom:engine",
+      "//unknown/components/l10n/common:test_support",
+      "//unknown/components/ntp_background_images/common",
       "//chrome/browser/ui/browser_window",
       "//components/policy/core/browser",
       "//components/policy/core/common:test_support",
@@ -70,6 +70,6 @@ source_set("browser_tests") {
   }
 
   if (toolkit_views) {
-    deps += [ "//brave/browser/ui/views/location_bar" ]
+    deps += [ "//unknown/browser/ui/views/location_bar" ]
   }
 }

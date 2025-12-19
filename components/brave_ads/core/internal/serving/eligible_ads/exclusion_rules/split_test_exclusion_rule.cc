@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/serving/eligible_ads/exclusion_rules/split_test_exclusion_rule.h"
+#include "unknown/components/brave_ads/core/internal/serving/eligible_ads/exclusion_rules/split_test_exclusion_rule.h"
 
 #include <optional>
 
 #include "base/metrics/field_trial.h"
-#include "brave/components/brave_ads/core/internal/common/logging_util.h"
-#include "brave/components/brave_ads/core/internal/creatives/creative_ad_info.h"
+#include "unknown/components/brave_ads/core/internal/common/logging_util.h"
+#include "unknown/components/brave_ads/core/internal/creatives/creative_ad_info.h"
 
 namespace brave_ads {
 

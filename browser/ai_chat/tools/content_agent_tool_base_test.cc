@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ai_chat/tools/content_agent_tool_base_test.h"
+#include "unknown/browser/ai_chat/tools/content_agent_tool_base_test.h"
 
 #include <memory>
 #include <string>
@@ -12,9 +12,9 @@
 #include "base/test/bind.h"
 #include "base/test/gmock_callback_support.h"
 #include "base/test/test_future.h"
-#include "brave/browser/ai_chat/tools/content_agent_tool_base_test.h"
-#include "brave/browser/ai_chat/tools/mock_content_agent_task_provider.h"
-#include "brave/components/ai_chat/core/common/test_utils.h"
+#include "unknown/browser/ai_chat/tools/content_agent_tool_base_test.h"
+#include "unknown/browser/ai_chat/tools/mock_content_agent_task_provider.h"
+#include "unknown/components/ai_chat/core/common/test_utils.h"
 #include "chrome/browser/actor/browser_action_util.h"
 #include "chrome/common/actor/task_id.h"
 #include "components/optimization_guide/proto/features/actions_data.pb.h"

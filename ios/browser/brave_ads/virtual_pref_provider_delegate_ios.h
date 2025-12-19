@@ -10,7 +10,7 @@
 #include <string_view>
 
 #include "base/memory/raw_ref.h"
-#include "brave/components/brave_ads/core/browser/service/virtual_pref_provider.h"
+#include "unknown/components/brave_ads/core/browser/service/virtual_pref_provider.h"
 
 class ProfileIOS;
 

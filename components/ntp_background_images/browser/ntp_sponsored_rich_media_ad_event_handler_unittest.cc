@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ntp_background_images/browser/ntp_sponsored_rich_media_ad_event_handler.h"
+#include "unknown/components/ntp_background_images/browser/ntp_sponsored_rich_media_ad_event_handler.h"
 
-#include "brave/components/brave_ads/core/browser/service/ads_service_mock.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/browser/service/ads_service_mock.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace ntp_background_images {

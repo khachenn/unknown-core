@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/renderer/brave_wallet/brave_wallet_render_frame_observer_p3a_util.h"
+#include "unknown/renderer/brave_wallet/brave_wallet_render_frame_observer_p3a_util.h"
 
 #include "base/check.h"
-#include "brave/components/brave_wallet/renderer/v8_helper.h"
+#include "unknown/components/brave_wallet/renderer/v8_helper.h"
 #include "gin/converter.h"
 #include "third_party/blink/public/platform/browser_interface_broker_proxy.h"
 #include "third_party/blink/public/platform/scheduler/web_agent_group_scheduler.h"

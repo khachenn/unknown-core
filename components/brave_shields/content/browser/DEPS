@@ -1,6 +1,6 @@
 include_rules = [
-  "+brave/components/constants",
-  "+brave/content/public/browser/devtools",
+  "+unknown/components/constants",
+  "+unknown/content/public/browser/devtools",
   "+components/component_updater",
   "+components/content_settings/core",
   "+components/download",

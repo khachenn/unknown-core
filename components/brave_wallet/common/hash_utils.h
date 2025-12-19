@@ -10,7 +10,7 @@
 #include <string>
 #include <string_view>
 
-#include "brave/components/brave_wallet/common/eth_abi_utils.h"
+#include "unknown/components/brave_wallet/common/eth_abi_utils.h"
 #include "crypto/hash.h"
 
 namespace brave_wallet {

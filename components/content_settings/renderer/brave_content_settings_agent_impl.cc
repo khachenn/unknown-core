@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/content_settings/renderer/brave_content_settings_agent_impl.h"
+#include "unknown/components/content_settings/renderer/brave_content_settings_agent_impl.h"
 
 #include <memory>
 #include <optional>
@@ -18,9 +18,9 @@
 #include "base/feature_list.h"
 #include "base/logging.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/components/brave_shields/core/common/brave_shield_utils.h"
-#include "brave/components/brave_shields/core/common/brave_shields_settings_values.h"
-#include "brave/components/brave_shields/core/common/features.h"
+#include "unknown/components/brave_shields/core/common/brave_shield_utils.h"
+#include "unknown/components/brave_shields/core/common/brave_shields_settings_values.h"
+#include "unknown/components/brave_shields/core/common/features.h"
 #include "components/content_settings/core/common/content_settings_pattern.h"
 #include "content/public/renderer/render_frame.h"
 #include "net/base/features.h"

@@ -3,13 +3,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import("//brave/build/buildflag_header_with_env_config.gni")
-import("//brave/build/config.gni")
+import("//unknown/build/buildflag_header_with_env_config.gni")
+import("//unknown/build/config.gni")
 import("//build/util/branding.gni")
 import("//mojo/public/tools/bindings/mojom.gni")
 
 buildflag_header_with_env_config("brave_services_key") {
-  # Please use //brave/components/constants instead.
+  # Please use //unknown/components/constants instead.
   visibility = [ ":*" ]
 
   header = "brave_services_key.h"
@@ -30,8 +30,8 @@ source_set("constants") {
 
   public_deps = [
     ":brave_services_key",
-    "//brave/components/ai_chat/core/common/buildflags",
-    "//brave/components/web_discovery/buildflags",
+    "//unknown/components/ai_chat/core/common/buildflags",
+    "//unknown/components/web_discovery/buildflags",
     "//extensions/buildflags",
   ]
   deps = [ "//base" ]

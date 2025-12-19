@@ -1,8 +1,8 @@
 include_rules = [
-  "+brave/components/brave_component_updater/browser",
-  "+brave/components/brave_sync",
-  "+brave/components/debounce/core/browser",
-  "+brave/components/brave_wallet/browser",
-  "+brave/components/https_upgrade_exceptions/browser",
-  "+brave/components/url_sanitizer/core/browser",
+  "+unknown/components/brave_component_updater/browser",
+  "+unknown/components/brave_sync",
+  "+unknown/components/debounce/core/browser",
+  "+unknown/components/brave_wallet/browser",
+  "+unknown/components/https_upgrade_exceptions/browser",
+  "+unknown/components/url_sanitizer/core/browser",
 ]

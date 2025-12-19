@@ -6,7 +6,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
          "common/crash_keys.cc",
          "common/crash_keys.h",
        ]
-+      sources -= [ "app/chrome_exe.rc", ] sources += [ "//brave/app/brave_exe.rc", ]
++      sources -= [ "app/chrome_exe.rc", ] sources += [ "//unknown/app/brave_exe.rc", ]
  
        deps += [
          ":chrome_dll",
@@ -14,7 +14,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
        args += [ "--keystone=0" ]
      }
    }
-+  copy("brave_app_plist") { deps = [ "//brave:brave_app_plist" ] sources = [ "$root_gen_dir/brave/brave_app_plist_tweaked.plist" ] outputs = [ "$root_gen_dir/chrome/{{source_file_part}}" ] }
++  copy("brave_app_plist") { deps = [ "//brave:brave_app_plist" ] sources = [ "$root_gen_dir/unknown/brave_app_plist_tweaked.plist" ] outputs = [ "$root_gen_dir/chrome/{{source_file_part}}" ] }
  
    mac_app_bundle("chrome_app") {
      output_name = chrome_product_full_name
@@ -44,7 +44,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
        "--scm=0",
      ]
    }
-+  copy("brave_helper_plist") { deps = [ "//brave:brave_helper_plist" ] sources = [ "$root_gen_dir/brave/brave_helper_plist_tweaked.plist" ] outputs = [ "$root_gen_dir/chrome/{{source_file_part}}" ] } import("//brave/browser/updater/buildflags.gni") import("//brave/updater/config.gni") # For enable_omaha4 and use_prebuilt_omaha4 below.
++  copy("brave_helper_plist") { deps = [ "//brave:brave_helper_plist" ] sources = [ "$root_gen_dir/unknown/brave_helper_plist_tweaked.plist" ] outputs = [ "$root_gen_dir/chrome/{{source_file_part}}" ] } import("//unknown/browser/updater/buildflags.gni") import("//unknown/updater/config.gni") # For enable_omaha4 and use_prebuilt_omaha4 below.
  
    compile_entitlements("entitlements") {
      entitlements_templates = [ "app/app-entitlements.plist" ]
@@ -64,7 +64,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
      if (enable_updater) {
        if (is_chrome_branded) {
          sources += [ "//third_party/updater/chrome_mac_universal_prod/cipd/${updater_product_full_name}.app" ]
-+      } else if (!enable_omaha4) {} else if (use_prebuilt_omaha4) { sources += ["//brave/third_party/updater/mac/${updater_product_full_name}.app"]
++      } else if (!enable_omaha4) {} else if (use_prebuilt_omaha4) { sources += ["//unknown/third_party/updater/mac/${updater_product_full_name}.app"]
        } else {
          sources += [ "$root_out_dir/${updater_product_full_name}.app" ]
  
@@ -72,7 +72,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
        "-current_version",
        chrome_dylib_version,
      ]
-+    import("//brave/browser/sources.gni") public_deps += brave_chrome_framework_public_deps bundle_deps += brave_chrome_framework_bundle_deps framework_contents += brave_chrome_framework_contents
++    import("//unknown/browser/sources.gni") public_deps += brave_chrome_framework_public_deps bundle_deps += brave_chrome_framework_bundle_deps framework_contents += brave_chrome_framework_contents
  
      if (!is_component_build) {
        # Specify a sensible install_name for static builds. The library is
@@ -89,7 +89,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
  if (is_win) {
    process_version_rc_template("chrome_exe_version") {
 -    sources = [ "app/chrome_exe.ver" ]
-+    sources = [ "//brave/app/brave_exe.ver" ]
++    sources = [ "//unknown/app/brave_exe.ver" ]
      output = "$target_gen_dir/chrome_exe_version.rc"
    }
  

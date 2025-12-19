@@ -3,19 +3,19 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/webui/brave_rewards/rewards_page_top_ui.h"
+#include "unknown/browser/ui/webui/brave_rewards/rewards_page_top_ui.h"
 
 #include <utility>
 
 #include "base/check.h"
-#include "brave/browser/brave_adaptive_captcha/brave_adaptive_captcha_service_factory.h"
-#include "brave/browser/brave_ads/ads_service_factory.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/browser/brave_rewards/rewards_tab_helper.h"
-#include "brave/browser/ui/webui/brave_rewards/rewards_page_data_source.h"
-#include "brave/browser/ui/webui/brave_rewards/rewards_page_handler.h"
-#include "brave/browser/ui/webui/brave_rewards/rewards_web_ui_utils.h"
-#include "brave/components/constants/webui_url_constants.h"
+#include "unknown/browser/brave_adaptive_captcha/brave_adaptive_captcha_service_factory.h"
+#include "unknown/browser/brave_ads/ads_service_factory.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/brave_rewards/rewards_tab_helper.h"
+#include "unknown/browser/ui/webui/brave_rewards/rewards_page_data_source.h"
+#include "unknown/browser/ui/webui/brave_rewards/rewards_page_handler.h"
+#include "unknown/browser/ui/webui/brave_rewards/rewards_web_ui_utils.h"
+#include "unknown/components/constants/webui_url_constants.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_finder.h"

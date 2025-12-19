@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/content/rewards_p3a.h"
+#include "unknown/components/brave_rewards/content/rewards_p3a.h"
 
 #include <memory>
 #include <string>
@@ -12,18 +12,18 @@
 #include "base/memory/raw_ptr.h"
 #include "base/test/bind.h"
 #include "base/test/metrics/histogram_tester.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/browser/brave_rewards/test/util/rewards_browsertest_context_util.h"
-#include "brave/browser/brave_rewards/test/util/rewards_browsertest_contribution.h"
-#include "brave/browser/brave_rewards/test/util/rewards_browsertest_network_util.h"
-#include "brave/browser/brave_rewards/test/util/rewards_browsertest_response.h"
-#include "brave/browser/brave_rewards/test/util/rewards_browsertest_util.h"
-#include "brave/components/brave_ads/core/public/prefs/pref_names.h"
-#include "brave/components/brave_rewards/content/rewards_service_impl.h"
-#include "brave/components/brave_rewards/content/rewards_service_observer.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/constants/brave_paths.h"
-#include "brave/components/ntp_background_images/common/pref_names.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/brave_rewards/test/util/rewards_browsertest_context_util.h"
+#include "unknown/browser/brave_rewards/test/util/rewards_browsertest_contribution.h"
+#include "unknown/browser/brave_rewards/test/util/rewards_browsertest_network_util.h"
+#include "unknown/browser/brave_rewards/test/util/rewards_browsertest_response.h"
+#include "unknown/browser/brave_rewards/test/util/rewards_browsertest_util.h"
+#include "unknown/components/brave_ads/core/public/prefs/pref_names.h"
+#include "unknown/components/brave_rewards/content/rewards_service_impl.h"
+#include "unknown/components/brave_rewards/content/rewards_service_observer.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/constants/brave_paths.h"
+#include "unknown/components/ntp_background_images/common/pref_names.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/test/base/in_process_browser_test.h"

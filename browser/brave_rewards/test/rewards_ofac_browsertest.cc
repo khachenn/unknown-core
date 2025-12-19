@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/app/brave_command_ids.h"
-#include "brave/browser/brave_ads/ads_service_factory.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/browser/brave_rewards/rewards_util.h"
-#include "brave/components/brave_rewards/content/rewards_service.h"
-#include "brave/components/brave_rewards/core/rewards_util.h"
-#include "brave/components/l10n/common/test/scoped_default_locale.h"
+#include "unknown/app/brave_command_ids.h"
+#include "unknown/browser/brave_ads/ads_service_factory.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/brave_rewards/rewards_util.h"
+#include "unknown/components/brave_rewards/content/rewards_service.h"
+#include "unknown/components/brave_rewards/core/rewards_util.h"
+#include "unknown/components/l10n/common/test/scoped_default_locale.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_command_controller.h"
 #include "chrome/browser/ui/tabs/tab_strip_model.h"

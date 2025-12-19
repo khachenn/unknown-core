@@ -12,34 +12,34 @@ cargo_crate("lib") {
   crate_name = "quick_xml"
   epoch = "0.27"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/escape.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/key.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/map.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/simple_type.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/var.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/encoding.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/errors.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/escapei.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/events/attributes.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/events/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/name.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/async_tokio.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/buffered_reader.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/ns_reader.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/parser.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/slice_reader.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/se/content.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/se/element.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/se/key.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/se/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/se/simple_type.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/utils.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/writer.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/escape.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/key.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/map.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/simple_type.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/de/var.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/encoding.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/errors.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/escapei.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/events/attributes.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/events/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/name.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/async_tokio.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/buffered_reader.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/ns_reader.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/parser.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/reader/slice_reader.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/se/content.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/se/element.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/se/key.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/se/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/se/simple_type.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/utils.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/quick-xml-v0_27/src/writer.rs",
   ]
   inputs = []
 
@@ -51,8 +51,8 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.27.1"
 
   deps = [
-    "//brave/third_party/rust/encoding_rs/v0_8:lib",
-    "//brave/third_party/rust/memchr/v2:lib",
+    "//unknown/third_party/rust/encoding_rs/v0_8:lib",
+    "//unknown/third_party/rust/memchr/v2:lib",
   ]
   features = [
     "default",

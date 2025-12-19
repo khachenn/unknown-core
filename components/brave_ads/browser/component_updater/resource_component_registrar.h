@@ -10,7 +10,7 @@
 #include <string>
 
 #include "base/memory/raw_ref.h"
-#include "brave/components/brave_component_updater/browser/brave_component.h"
+#include "unknown/components/brave_component_updater/browser/brave_component.h"
 
 namespace base {
 class FilePath;

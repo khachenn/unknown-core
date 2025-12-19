@@ -3,29 +3,29 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/extensions/api/settings_private/brave_prefs_util.h"
+#include "unknown/browser/extensions/api/settings_private/brave_prefs_util.h"
 
-#include "brave/browser/ui/tabs/brave_tab_prefs.h"
-#include "brave/common/pref_names.h"
-#include "brave/components/ai_chat/core/common/pref_names.h"
-#include "brave/components/brave_news/common/pref_names.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_shields/core/common/pref_names.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/brave_wayback_machine/buildflags/buildflags.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/de_amp/common/pref_names.h"
-#include "brave/components/debounce/core/common/pref_names.h"
-#include "brave/components/decentralized_dns/core/pref_names.h"
-#include "brave/components/ntp_background_images/common/pref_names.h"
-#include "brave/components/omnibox/browser/brave_omnibox_prefs.h"
-#include "brave/components/playlist/core/common/pref_names.h"
-#include "brave/components/request_otr/common/pref_names.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
-#include "brave/components/tor/buildflags/buildflags.h"
-#include "brave/components/web_discovery/buildflags/buildflags.h"
-#include "brave/components/webcompat_reporter/common/pref_names.h"
+#include "unknown/browser/ui/tabs/brave_tab_prefs.h"
+#include "unknown/common/pref_names.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/brave_news/common/pref_names.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_shields/core/common/pref_names.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wayback_machine/buildflags/buildflags.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/de_amp/common/pref_names.h"
+#include "unknown/components/debounce/core/common/pref_names.h"
+#include "unknown/components/decentralized_dns/core/pref_names.h"
+#include "unknown/components/ntp_background_images/common/pref_names.h"
+#include "unknown/components/omnibox/browser/brave_omnibox_prefs.h"
+#include "unknown/components/playlist/core/common/pref_names.h"
+#include "unknown/components/request_otr/common/pref_names.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
+#include "unknown/components/web_discovery/buildflags/buildflags.h"
+#include "unknown/components/webcompat_reporter/common/pref_names.h"
 #include "chrome/browser/extensions/api/settings_private/prefs_util.h"
 #include "chrome/common/extensions/api/settings_private.h"
 #include "chrome/common/pref_names.h"
@@ -37,31 +37,31 @@
 #include "extensions/buildflags/buildflags.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
 #endif  // BUILDFLAG(ENABLE_BRAVE_WALLET)
 
 #if BUILDFLAG(ENABLE_BRAVE_WAYBACK_MACHINE)
-#include "brave/components/brave_wayback_machine/pref_names.h"
+#include "unknown/components/brave_wayback_machine/pref_names.h"
 #endif
 
 #if defined(TOOLKIT_VIEWS)
-#include "brave/components/sidebar/browser/pref_names.h"
+#include "unknown/components/sidebar/browser/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/components/speedreader/speedreader_pref_names.h"
+#include "unknown/components/speedreader/speedreader_pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/components/tor/pref_names.h"
+#include "unknown/components/tor/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/pref_names.h"
+#include "unknown/components/brave_vpn/common/pref_names.h"
 #endif
 
 #if BUILDFLAG(IS_WIN)
-#include "brave/components/windows_recall/windows_recall.h"
+#include "unknown/components/windows_recall/windows_recall.h"
 #endif
 
 namespace extensions {

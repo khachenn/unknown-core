@@ -16,7 +16,7 @@
 #include "base/observer_list.h"
 #include "base/observer_list_types.h"
 #include "base/values.h"
-#include "brave/components/brave_component_updater/browser/local_data_files_observer.h"
+#include "unknown/components/brave_component_updater/browser/local_data_files_observer.h"
 
 namespace brave {
 

@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_stats/brave_stats_updater.h"
+#include "unknown/browser/brave_stats/brave_stats_updater.h"
 
 #include <memory>
 
@@ -13,12 +13,12 @@
 #include "base/path_service.h"
 #include "base/run_loop.h"
 #include "base/time/time.h"
-#include "brave/browser/brave_browser_process.h"
-#include "brave/browser/brave_stats/brave_stats_updater_params.h"
-#include "brave/browser/brave_stats/switches.h"
-#include "brave/components/brave_referrals/browser/brave_referrals_service.h"
-#include "brave/components/brave_referrals/common/pref_names.h"
-#include "brave/components/constants/pref_names.h"
+#include "unknown/browser/brave_browser_process.h"
+#include "unknown/browser/brave_stats/brave_stats_updater_params.h"
+#include "unknown/browser/brave_stats/switches.h"
+#include "unknown/components/brave_referrals/browser/brave_referrals_service.h"
+#include "unknown/components/brave_referrals/common/pref_names.h"
+#include "unknown/components/constants/pref_names.h"
 #include "build/build_config.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"

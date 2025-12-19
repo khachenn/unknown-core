@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/views/side_panel/side_panel.h"
+#include "unknown/browser/ui/views/side_panel/side_panel.h"
 
 #include <algorithm>
 #include <optional>
@@ -12,12 +12,12 @@
 #include "base/check_is_test.h"
 #include "base/check_op.h"
 #include "base/functional/bind.h"
-#include "brave/browser/ui/color/brave_color_id.h"
-#include "brave/browser/ui/views/frame/brave_browser_view.h"
-#include "brave/browser/ui/views/frame/brave_contents_view_util.h"
-#include "brave/browser/ui/views/side_panel/side_panel_resize_widget.h"
-#include "brave/components/sidebar/browser/constants.h"
-#include "brave/components/sidebar/browser/pref_names.h"
+#include "unknown/browser/ui/color/brave_color_id.h"
+#include "unknown/browser/ui/views/frame/brave_browser_view.h"
+#include "unknown/browser/ui/views/frame/brave_contents_view_util.h"
+#include "unknown/browser/ui/views/side_panel/side_panel_resize_widget.h"
+#include "unknown/components/sidebar/browser/constants.h"
+#include "unknown/components/sidebar/browser/pref_names.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"
 #include "chrome/browser/ui/color/chrome_color_id.h"

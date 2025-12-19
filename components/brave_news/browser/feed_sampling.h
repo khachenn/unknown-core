@@ -18,7 +18,7 @@
 #include "base/containers/span.h"
 #include "base/functional/callback_forward.h"
 #include "base/rand_util.h"
-#include "brave/components/brave_news/common/brave_news.mojom-forward.h"
+#include "unknown/components/brave_news/common/brave_news.mojom-forward.h"
 
 namespace brave_news {
 

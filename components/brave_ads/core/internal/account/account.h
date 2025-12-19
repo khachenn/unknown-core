@@ -13,13 +13,13 @@
 #include "base/memory/weak_ptr.h"
 #include "base/observer_list.h"
 #include "base/values.h"
-#include "brave/components/brave_ads/core/internal/account/account_observer.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/confirmations_delegate.h"
-#include "brave/components/brave_ads/core/internal/account/user_rewards/user_rewards.h"
-#include "brave/components/brave_ads/core/internal/account/wallet/wallet_info.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
-#include "brave/components/brave_ads/core/public/ads_callback.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
+#include "unknown/components/brave_ads/core/internal/account/account_observer.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/confirmations_delegate.h"
+#include "unknown/components/brave_ads/core/internal/account/user_rewards/user_rewards.h"
+#include "unknown/components/brave_ads/core/internal/account/wallet/wallet_info.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
+#include "unknown/components/brave_ads/core/public/ads_callback.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
 
 namespace brave_ads {
 

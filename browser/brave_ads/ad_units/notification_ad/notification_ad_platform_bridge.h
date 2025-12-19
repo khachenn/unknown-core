@@ -9,7 +9,7 @@
 #include <string>
 
 #include "base/memory/raw_ref.h"
-#include "brave/browser/ui/brave_ads/notification_ad.h"
+#include "unknown/browser/ui/brave_ads/notification_ad.h"
 #include "chrome/browser/profiles/profile.h"
 
 namespace brave_ads {

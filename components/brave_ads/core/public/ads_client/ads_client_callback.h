@@ -11,8 +11,8 @@
 
 #include "base/files/file.h"
 #include "base/functional/callback.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
-#include "brave/components/brave_ads/core/public/history/site_history.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
+#include "unknown/components/brave_ads/core/public/history/site_history.h"
 
 namespace brave_ads {
 

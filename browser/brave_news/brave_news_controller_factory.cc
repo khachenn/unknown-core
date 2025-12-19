@@ -3,14 +3,14 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/brave_news/brave_news_controller_factory.h"
+#include "unknown/browser/brave_news/brave_news_controller_factory.h"
 
 #include <memory>
 
 #include "base/no_destructor.h"
-#include "brave/browser/brave_ads/ads_service_factory.h"
-#include "brave/browser/brave_news/direct_feed_fetcher_delegate_impl.h"
-#include "brave/components/brave_news/browser/brave_news_controller.h"
+#include "unknown/browser/brave_ads/ads_service_factory.h"
+#include "unknown/browser/brave_news/direct_feed_fetcher_delegate_impl.h"
+#include "unknown/components/brave_news/browser/brave_news_controller.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
 #include "chrome/browser/favicon/favicon_service_factory.h"
 #include "chrome/browser/history/history_service_factory.h"

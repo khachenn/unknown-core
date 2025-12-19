@@ -4,7 +4,7 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "base/feature_override.h"
-#include "brave/net/dns/secure_dns_endpoints.h"
+#include "unknown/net/dns/secure_dns_endpoints.h"
 
 #include <net/base/features.cc>
 

@@ -6,12 +6,12 @@
 #ifndef BRAVE_COMPONENTS_SERVICES_BRAVE_WALLET_CONTENT_BRAVE_WALLET_UTILS_SERVICE_LAUNCHER_H_
 #define BRAVE_COMPONENTS_SERVICES_BRAVE_WALLET_CONTENT_BRAVE_WALLET_UTILS_SERVICE_LAUNCHER_H_
 
-#include "brave/components/services/brave_wallet/public/cpp/brave_wallet_utils_service_in_process_launcher.h"
+#include "unknown/components/services/brave_wallet/public/cpp/brave_wallet_utils_service_in_process_launcher.h"
 
 #include <memory>
 #include <utility>
 
-#include "brave/components/services/brave_wallet/brave_wallet_utils_service_impl.h"
+#include "unknown/components/services/brave_wallet/brave_wallet_utils_service_impl.h"
 #include "mojo/public/cpp/bindings/self_owned_receiver.h"
 
 namespace brave_wallet {

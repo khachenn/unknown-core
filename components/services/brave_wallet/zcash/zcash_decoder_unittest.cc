@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/services/brave_wallet/zcash/zcash_decoder.h"
+#include "unknown/components/services/brave_wallet/zcash/zcash_decoder.h"
 
 #include <memory>
 #include <utility>
@@ -12,9 +12,9 @@
 #include "base/strings/string_number_conversions.h"
 #include "base/test/bind.h"
 #include "base/test/mock_callback.h"
-#include "brave/components/brave_wallet/common/test_utils.h"
-#include "brave/components/services/brave_wallet/public/cpp/utils/protobuf_utils.h"
-#include "brave/components/services/brave_wallet/public/proto/zcash_grpc_data.pb.h"
+#include "unknown/components/brave_wallet/common/test_utils.h"
+#include "unknown/components/services/brave_wallet/public/cpp/utils/protobuf_utils.h"
+#include "unknown/components/services/brave_wallet/public/proto/zcash_grpc_data.pb.h"
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
 

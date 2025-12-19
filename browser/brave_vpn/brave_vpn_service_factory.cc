@@ -3,20 +3,20 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_vpn/brave_vpn_service_factory.h"
+#include "unknown/browser/brave_vpn/brave_vpn_service_factory.h"
 
 #include <utility>
 
 #include "base/feature_list.h"
 #include "base/no_destructor.h"
-#include "brave/browser/brave_browser_process.h"
-#include "brave/browser/brave_vpn/vpn_utils.h"
-#include "brave/browser/misc_metrics/process_misc_metrics.h"
-#include "brave/browser/misc_metrics/uptime_monitor_impl.h"
-#include "brave/browser/skus/skus_service_factory.h"
-#include "brave/components/brave_vpn/browser/brave_vpn_service.h"
-#include "brave/components/brave_vpn/common/brave_vpn_utils.h"
-#include "brave/components/skus/common/features.h"
+#include "unknown/browser/brave_browser_process.h"
+#include "unknown/browser/brave_vpn/vpn_utils.h"
+#include "unknown/browser/misc_metrics/process_misc_metrics.h"
+#include "unknown/browser/misc_metrics/uptime_monitor_impl.h"
+#include "unknown/browser/skus/skus_service_factory.h"
+#include "unknown/components/brave_vpn/browser/brave_vpn_service.h"
+#include "unknown/components/brave_vpn/common/brave_vpn_utils.h"
+#include "unknown/components/skus/common/features.h"
 #include "build/build_config.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/incognito_helpers.h"
@@ -27,11 +27,11 @@
 #include "content/public/browser/storage_partition.h"
 
 #if BUILDFLAG(IS_WIN)
-#include "brave/browser/brave_vpn/dns/brave_vpn_dns_observer_factory_win.h"
-#include "brave/browser/brave_vpn/dns/brave_vpn_dns_observer_service_win.h"
-#include "brave/browser/brave_vpn/win/brave_vpn_service_delegate_win.h"
-#include "brave/browser/brave_vpn/win/brave_vpn_wireguard_observer_factory_win.h"
-#include "brave/browser/brave_vpn/win/brave_vpn_wireguard_observer_service_win.h"
+#include "unknown/browser/brave_vpn/dns/brave_vpn_dns_observer_factory_win.h"
+#include "unknown/browser/brave_vpn/dns/brave_vpn_dns_observer_service_win.h"
+#include "unknown/browser/brave_vpn/win/brave_vpn_service_delegate_win.h"
+#include "unknown/browser/brave_vpn/win/brave_vpn_wireguard_observer_factory_win.h"
+#include "unknown/browser/brave_vpn/win/brave_vpn_wireguard_observer_service_win.h"
 #endif
 
 namespace brave_vpn {

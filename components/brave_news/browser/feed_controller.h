@@ -14,11 +14,11 @@
 #include "base/memory/raw_ptr.h"
 #include "base/memory/weak_ptr.h"
 #include "base/one_shot_event.h"
-#include "brave/components/brave_news/browser/background_history_querier.h"
-#include "brave/components/brave_news/browser/feed_fetcher.h"
-#include "brave/components/brave_news/browser/feed_v2_builder.h"
-#include "brave/components/brave_news/browser/publishers_controller.h"
-#include "brave/components/brave_news/common/brave_news.mojom.h"
+#include "unknown/components/brave_news/browser/background_history_querier.h"
+#include "unknown/components/brave_news/browser/feed_fetcher.h"
+#include "unknown/components/brave_news/browser/feed_v2_builder.h"
+#include "unknown/components/brave_news/browser/publishers_controller.h"
+#include "unknown/components/brave_news/common/brave_news.mojom.h"
 
 namespace history {
 class HistoryService;

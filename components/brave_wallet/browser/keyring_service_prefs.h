@@ -9,8 +9,8 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"  // IWYU pragma: keep
-#include "brave/components/brave_wallet/common/common_utils.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"  // IWYU pragma: keep
+#include "unknown/components/brave_wallet/common/common_utils.h"
 #include "components/prefs/pref_service.h"
 #include "components/prefs/scoped_user_pref_update.h"
 

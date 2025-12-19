@@ -10,7 +10,7 @@
 
 #include "base/memory/raw_ptr.h"
 #include "base/values.h"
-#include "brave/components/brave_origin/brave_origin_policy_info.h"
+#include "unknown/components/brave_origin/brave_origin_policy_info.h"
 #include "components/keyed_service/core/keyed_service.h"
 
 class PrefService;

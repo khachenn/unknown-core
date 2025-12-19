@@ -13,9 +13,9 @@
 #include <vector>
 
 #include "base/observer_list.h"
-#include "brave/components/brave_ads/core/internal/tabs/tab_info.h"
-#include "brave/components/brave_ads/core/internal/tabs/tab_manager_observer.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
+#include "unknown/components/brave_ads/core/internal/tabs/tab_info.h"
+#include "unknown/components/brave_ads/core/internal/tabs/tab_manager_observer.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
 
 class GURL;
 

@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/net/decentralized_dns_network_delegate_helper.h"
+#include "unknown/browser/net/decentralized_dns_network_delegate_helper.h"
 
 #include <memory>
 
@@ -12,20 +12,20 @@
 #include "base/run_loop.h"
 #include "base/test/scoped_feature_list.h"
 #include "base/values.h"
-#include "brave/browser/brave_wallet/brave_wallet_service_factory.h"
-#include "brave/browser/net/url_context.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_service.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_utils.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service_test_utils.h"
-#include "brave/components/brave_wallet/browser/network_manager.h"
-#include "brave/components/brave_wallet/browser/pref_names.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/eth_abi_utils.h"
-#include "brave/components/brave_wallet/common/hex_utils.h"
-#include "brave/components/decentralized_dns/core/constants.h"
-#include "brave/components/decentralized_dns/core/pref_names.h"
-#include "brave/components/decentralized_dns/core/utils.h"
+#include "unknown/browser/brave_wallet/brave_wallet_service_factory.h"
+#include "unknown/browser/net/url_context.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_utils.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service_test_utils.h"
+#include "unknown/components/brave_wallet/browser/network_manager.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/eth_abi_utils.h"
+#include "unknown/components/brave_wallet/common/hex_utils.h"
+#include "unknown/components/decentralized_dns/core/constants.h"
+#include "unknown/components/decentralized_dns/core/pref_names.h"
+#include "unknown/components/decentralized_dns/core/utils.h"
 #include "build/build_config.h"
 #include "chrome/test/base/testing_browser_process.h"
 #include "chrome/test/base/testing_profile.h"

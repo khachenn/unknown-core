@@ -3,10 +3,10 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/psst/psst_ui_delegate_impl.h"
+#include "unknown/browser/psst/psst_ui_delegate_impl.h"
 
-#include "brave/components/psst/browser/core/brave_psst_utils.h"
-#include "brave/components/psst/common/psst_metadata_schema.h"
+#include "unknown/components/psst/browser/core/brave_psst_utils.h"
+#include "unknown/components/psst/common/psst_metadata_schema.h"
 
 namespace psst {
 

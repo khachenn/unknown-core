@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#import "brave/browser/mac/sparkle_glue.h"
+#import "unknown/browser/mac/sparkle_glue.h"
 
 #include <sys/mount.h>
 #include <sys/stat.h>
@@ -19,16 +19,16 @@
 #include "base/strings/sys_string_conversions.h"
 #include "base/system/sys_info.h"
 #include "base/task/thread_pool.h"
-#import "brave/browser/mac/su_updater.h"
-#include "brave/browser/update_util.h"
-#include "brave/browser/updater/buildflags.h"
-#include "brave/common/brave_channel_info.h"
-#include "brave/components/constants/brave_switches.h"
+#import "unknown/browser/mac/su_updater.h"
+#include "unknown/browser/update_util.h"
+#include "unknown/browser/updater/buildflags.h"
+#include "unknown/common/brave_channel_info.h"
+#include "unknown/components/constants/brave_switches.h"
 #include "chrome/common/channel_info.h"
 #include "chrome/common/chrome_constants.h"
 
 #if BUILDFLAG(ENABLE_OMAHA4)
-#include "brave/browser/updater/features.h"
+#include "unknown/browser/updater/features.h"
 #endif
 
 #if !defined(__has_feature) || !__has_feature(objc_arc)

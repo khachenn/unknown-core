@@ -6,7 +6,7 @@ index 1a9dfc4c1689e8d592b2a6f97bf5ca8c9064e621..d2aba224db34554900e0c45b9974fd1f
             rebase_path(runtime_enabled_features_file, root_build_dir),
             "--",
           ] + rebase_path(input_data_files, root_build_dir)
-+  import("//brave/third_party/blink/renderer/bindings/sources.gni") inputs += brave_third_party_blink_renderer_bindings_web_idl_database_inputs deps += brave_third_party_blink_renderer_bindings_web_idl_database_deps
++  import("//unknown/third_party/blink/renderer/bindings/sources.gni") inputs += brave_third_party_blink_renderer_bindings_web_idl_database_inputs deps += brave_third_party_blink_renderer_bindings_web_idl_database_deps
  }
  
  template("generate_bindings") {
@@ -14,7 +14,7 @@ index 1a9dfc4c1689e8d592b2a6f97bf5ca8c9064e621..d2aba224db34554900e0c45b9974fd1f
      args += invoker.targets
  
      deps = [ ":web_idl_database" ]
-+    import("//brave/third_party/blink/renderer/bindings/sources.gni") inputs += brave_third_party_blink_renderer_bindings_generate_bindings_inputs deps += brave_third_party_blink_renderer_bindings_generate_bindings_deps
++    import("//unknown/third_party/blink/renderer/bindings/sources.gni") inputs += brave_third_party_blink_renderer_bindings_generate_bindings_inputs deps += brave_third_party_blink_renderer_bindings_generate_bindings_deps
    }
  }
  

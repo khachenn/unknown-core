@@ -8,8 +8,8 @@
 
 #include <string>
 
-#include "brave/components/brave_rewards/core/engine/rewards_engine_helper.h"
-#include "brave/components/brave_rewards/core/mojom/rewards.mojom.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_engine_helper.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards.mojom.h"
 #include "url/gurl.h"
 
 namespace brave_rewards::internal {

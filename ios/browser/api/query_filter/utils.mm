@@ -3,10 +3,10 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/ios/browser/api/query_filter/utils.h"
+#include "unknown/ios/browser/api/query_filter/utils.h"
 
 #include "base/strings/sys_string_conversions.h"
-#include "brave/components/query_filter/utils.h"
+#include "unknown/components/query_filter/utils.h"
 #import "net/base/apple/url_conversions.h"
 #include "url/gurl.h"
 

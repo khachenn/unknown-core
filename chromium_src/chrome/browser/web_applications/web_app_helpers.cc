@@ -4,7 +4,7 @@
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
 #include "base/containers/contains.h"
-#include "brave/components/constants/webui_url_constants.h"
+#include "unknown/components/constants/webui_url_constants.h"
 
 // Make sure IsValidWebAppUrl also checks for allowed Brave WebUI hosts
 #define IsValidWebAppUrl IsValidWebAppUrl_ChromiumImpl

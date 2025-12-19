@@ -11,7 +11,7 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_rewards/core/mojom/rewards_engine.mojom.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards_engine.mojom.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

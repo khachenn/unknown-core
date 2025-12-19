@@ -12,15 +12,15 @@ cargo_crate("lib") {
   crate_name = "strobe_rs"
   epoch = "0.10"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/basic_tests.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/kat_tests.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/keccak.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/strobe.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/basic_tests.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/kat_tests.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/keccak.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/strobe.rs",
   ]
-  inputs = [ "//brave/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/../README.md" ]
+  inputs = [ "//unknown/third_party/rust/chromium_crates_io/vendor/strobe-rs-v0_10/src/../README.md" ]
 
   build_native_rust_unit_tests = false
   edition = "2021"
@@ -32,11 +32,11 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.10.0"
 
   deps = [
-    "//brave/third_party/rust/bitflags/v1:lib",
-    "//brave/third_party/rust/byteorder/v1:lib",
-    "//brave/third_party/rust/keccak/v0_1:lib",
-    "//brave/third_party/rust/subtle/v2:lib",
-    "//brave/third_party/rust/zeroize/v1:lib",
+    "//unknown/third_party/rust/bitflags/v1:lib",
+    "//unknown/third_party/rust/byteorder/v1:lib",
+    "//unknown/third_party/rust/keccak/v0_1:lib",
+    "//unknown/third_party/rust/subtle/v2:lib",
+    "//unknown/third_party/rust/zeroize/v1:lib",
   ]
   features = [ "default" ]
   rustenv = []

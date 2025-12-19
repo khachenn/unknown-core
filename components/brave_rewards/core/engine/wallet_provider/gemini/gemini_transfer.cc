@@ -3,15 +3,15 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/core/engine/wallet_provider/gemini/gemini_transfer.h"
+#include "unknown/components/brave_rewards/core/engine/wallet_provider/gemini/gemini_transfer.h"
 
 #include <utility>
 
 #include "base/check.h"
-#include "brave/components/brave_rewards/core/engine/endpoints/request_for.h"
-#include "brave/components/brave_rewards/core/engine/gemini/gemini.h"
-#include "brave/components/brave_rewards/core/engine/global_constants.h"
-#include "brave/components/brave_rewards/core/engine/rewards_engine.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/request_for.h"
+#include "unknown/components/brave_rewards/core/engine/gemini/gemini.h"
+#include "unknown/components/brave_rewards/core/engine/global_constants.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_engine.h"
 
 namespace brave_rewards::internal {
 

@@ -5,8 +5,8 @@
 
 #include "chrome/browser/ui/views/frame/system_menu_model_delegate.h"
 
-#include "brave/app/brave_command_ids.h"
-#include "brave/browser/ui/views/tabs/vertical_tab_utils.h"
+#include "unknown/app/brave_command_ids.h"
+#include "unknown/browser/ui/views/tabs/vertical_tab_utils.h"
 
 #define IsCommandIdChecked IsCommandIdChecked_ChromiumImpl
 #include <chrome/browser/ui/views/frame/system_menu_model_delegate.cc>

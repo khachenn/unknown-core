@@ -1,5 +1,5 @@
 include_rules = [
-  "+brave/components",
+  "+unknown/components",
   "+content/public/browser",
   "+chrome/install_static",
   "+components/gcm_driver",

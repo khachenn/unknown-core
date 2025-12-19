@@ -3,27 +3,27 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/webui/brave_new_tab_page_refresh/brave_new_tab_page_ui.h"
+#include "unknown/browser/ui/webui/brave_new_tab_page_refresh/brave_new_tab_page_ui.h"
 
 #include <utility>
 
-#include "brave/browser/brave_ads/ads_service_factory.h"
-#include "brave/browser/brave_browser_process.h"
-#include "brave/browser/brave_news/brave_news_controller_factory.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/browser/misc_metrics/process_misc_metrics.h"
-#include "brave/browser/ntp_background/brave_ntp_custom_background_service_factory.h"
-#include "brave/browser/ntp_background/custom_background_file_manager.h"
-#include "brave/browser/ntp_background/view_counter_service_factory.h"
-#include "brave/browser/ui/webui/brave_new_tab_page_refresh/background_facade.h"
-#include "brave/browser/ui/webui/brave_new_tab_page_refresh/custom_image_chooser.h"
-#include "brave/browser/ui/webui/brave_new_tab_page_refresh/new_tab_page_handler.h"
-#include "brave/browser/ui/webui/brave_new_tab_page_refresh/new_tab_page_initializer.h"
-#include "brave/browser/ui/webui/brave_new_tab_page_refresh/top_sites_facade.h"
-#include "brave/browser/ui/webui/brave_new_tab_page_refresh/vpn_facade.h"
-#include "brave/browser/ui/webui/brave_rewards/rewards_page_handler.h"
-#include "brave/components/brave_news/browser/brave_news_controller.h"
-#include "brave/components/ntp_background_images/browser/ntp_sponsored_rich_media_ad_event_handler.h"
+#include "unknown/browser/brave_ads/ads_service_factory.h"
+#include "unknown/browser/brave_browser_process.h"
+#include "unknown/browser/brave_news/brave_news_controller_factory.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/misc_metrics/process_misc_metrics.h"
+#include "unknown/browser/ntp_background/brave_ntp_custom_background_service_factory.h"
+#include "unknown/browser/ntp_background/custom_background_file_manager.h"
+#include "unknown/browser/ntp_background/view_counter_service_factory.h"
+#include "unknown/browser/ui/webui/brave_new_tab_page_refresh/background_facade.h"
+#include "unknown/browser/ui/webui/brave_new_tab_page_refresh/custom_image_chooser.h"
+#include "unknown/browser/ui/webui/brave_new_tab_page_refresh/new_tab_page_handler.h"
+#include "unknown/browser/ui/webui/brave_new_tab_page_refresh/new_tab_page_initializer.h"
+#include "unknown/browser/ui/webui/brave_new_tab_page_refresh/top_sites_facade.h"
+#include "unknown/browser/ui/webui/brave_new_tab_page_refresh/vpn_facade.h"
+#include "unknown/browser/ui/webui/brave_rewards/rewards_page_handler.h"
+#include "unknown/components/brave_news/browser/brave_news_controller.h"
+#include "unknown/components/ntp_background_images/browser/ntp_sponsored_rich_media_ad_event_handler.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/ntp_tiles/chrome_most_visited_sites_factory.h"
 #include "chrome/browser/profiles/profile.h"
@@ -33,8 +33,8 @@
 #include "content/public/browser/navigation_entry.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/browser/brave_vpn/brave_vpn_service_factory.h"
-#include "brave/components/brave_vpn/browser/brave_vpn_service.h"
+#include "unknown/browser/brave_vpn/brave_vpn_service_factory.h"
+#include "unknown/components/brave_vpn/browser/brave_vpn_service.h"
 #endif
 
 namespace {

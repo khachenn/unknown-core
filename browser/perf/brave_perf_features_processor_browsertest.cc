@@ -4,14 +4,14 @@
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
 #include "base/scoped_observation.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/browser/perf/brave_perf_switches.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_ads/core/public/prefs/pref_names.h"
-#include "brave/components/brave_news/common/pref_names.h"
-#include "brave/components/brave_rewards/content/rewards_service.h"
-#include "brave/components/brave_rewards/content/rewards_service_observer.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/perf/brave_perf_switches.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_ads/core/public/prefs/pref_names.h"
+#include "unknown/components/brave_news/common/pref_names.h"
+#include "unknown/components/brave_rewards/content/rewards_service.h"
+#include "unknown/components/brave_rewards/content/rewards_service_observer.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/test/base/in_process_browser_test.h"
@@ -20,12 +20,12 @@
 #include "content/public/test/browser_test_utils.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
 #endif
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/browser/speedreader/speedreader_service_factory.h"
-#include "brave/components/speedreader/speedreader_service.h"
+#include "unknown/browser/speedreader/speedreader_service_factory.h"
+#include "unknown/components/speedreader/speedreader_service.h"
 #endif
 
 namespace {

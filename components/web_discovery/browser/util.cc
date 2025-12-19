@@ -3,14 +3,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/web_discovery/browser/util.h"
+#include "unknown/components/web_discovery/browser/util.h"
 
 #include <utility>
 
 #include "base/command_line.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/brave_domains/service_domains.h"
-#include "brave/components/web_discovery/common/features.h"
+#include "unknown/brave_domains/service_domains.h"
+#include "unknown/components/web_discovery/common/features.h"
 #include "third_party/abseil-cpp/absl/strings/str_format.h"
 #include "url/url_util.h"
 

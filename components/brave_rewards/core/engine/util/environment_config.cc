@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/core/engine/util/environment_config.h"
+#include "unknown/components/brave_rewards/core/engine/util/environment_config.h"
 
 #include "base/check.h"
-#include "brave/components/brave_rewards/core/engine/buildflags.h"
+#include "unknown/components/brave_rewards/core/engine/buildflags.h"
 
 namespace brave_rewards::internal {
 

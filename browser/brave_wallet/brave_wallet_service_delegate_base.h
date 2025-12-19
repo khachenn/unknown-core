@@ -9,8 +9,8 @@
 #include <string>
 
 #include "base/memory/raw_ptr.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_service_delegate.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_service_delegate.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 
 namespace content {
 class BrowserContext;

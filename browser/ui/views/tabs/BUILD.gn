@@ -9,7 +9,7 @@ source_set("browser_tests") {
   testonly = true
   defines = [ "HAS_OUT_OF_PROC_TEST_RUNNER" ]
 
-  sources = [ "//brave/browser/ui/views/tabs/brave_tab_hover_browsertest.cc" ]
+  sources = [ "//unknown/browser/ui/views/tabs/brave_tab_hover_browsertest.cc" ]
 
   deps = [
     "//base",
@@ -49,7 +49,7 @@ source_set("unit_tests") {
 
   deps = [
     "//base",
-    "//brave/common",
+    "//unknown/common",
     "//chrome/browser/ui",
     "//chrome/test:test_support",
     "//content/test:test_support",

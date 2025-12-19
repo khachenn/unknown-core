@@ -9,8 +9,8 @@
 #include <memory>
 #include <vector>
 
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/sidebar/browser/sidebar_item.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/sidebar/browser/sidebar_item.h"
 #include "components/keyed_service/content/browser_context_keyed_service_factory.h"
 #include "components/keyed_service/core/keyed_service.h"
 

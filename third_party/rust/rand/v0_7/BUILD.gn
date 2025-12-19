@@ -13,43 +13,43 @@ cargo_crate("lib") {
   epoch = "0.7"
   crate_type = "rlib"
   crate_root =
-      "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/lib.rs"
+      "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/bernoulli.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/binomial.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/cauchy.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/dirichlet.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/exponential.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/float.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/gamma.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/integer.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/normal.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/other.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/pareto.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/poisson.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/triangular.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/uniform.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/unit_circle.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/unit_sphere.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/utils.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/weibull.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/weighted/alias_method.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/weighted/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/ziggurat_tables.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/prelude.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/adapter/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/adapter/read.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/adapter/reseeding.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/entropy.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/mock.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/small.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/std.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/thread.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/seq/index.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/seq/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/bernoulli.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/binomial.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/cauchy.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/dirichlet.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/exponential.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/float.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/gamma.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/integer.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/normal.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/other.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/pareto.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/poisson.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/triangular.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/uniform.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/unit_circle.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/unit_sphere.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/utils.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/weibull.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/weighted/alias_method.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/weighted/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/distributions/ziggurat_tables.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/prelude.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/adapter/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/adapter/read.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/adapter/reseeding.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/entropy.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/mock.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/small.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/std.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/rngs/thread.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/seq/index.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand-v0_7/src/seq/mod.rs",
   ]
   inputs = []
 
@@ -63,16 +63,16 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.7.3"
 
   deps = [
-    "//brave/third_party/rust/getrandom/v0_1:lib",
-    "//brave/third_party/rust/rand_chacha/v0_2:lib",
-    "//brave/third_party/rust/rand_core/v0_5:lib",
-    "//brave/third_party/rust/rand_pcg/v0_2:lib",
+    "//unknown/third_party/rust/getrandom/v0_1:lib",
+    "//unknown/third_party/rust/rand_chacha/v0_2:lib",
+    "//unknown/third_party/rust/rand_core/v0_5:lib",
+    "//unknown/third_party/rust/rand_pcg/v0_2:lib",
   ]
   if (!is_win) {
-    deps += [ "//brave/third_party/rust/libc/v0_2:lib" ]
+    deps += [ "//unknown/third_party/rust/libc/v0_2:lib" ]
   }
   aliased_deps = {
-    getrandom_package = "//brave/third_party/rust/getrandom/v0_1:lib"
+    getrandom_package = "//unknown/third_party/rust/getrandom/v0_1:lib"
   }
   features = [
     "alloc",

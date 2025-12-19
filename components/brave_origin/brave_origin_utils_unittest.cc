@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_origin/brave_origin_utils.h"
+#include "unknown/components/brave_origin/brave_origin_utils.h"
 
 #include "base/test/scoped_feature_list.h"
-#include "brave/components/brave_origin/brave_origin_policy_info.h"
-#include "brave/components/brave_origin/features.h"
+#include "unknown/components/brave_origin/brave_origin_policy_info.h"
+#include "unknown/components/brave_origin/features.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace brave_origin {

@@ -3,9 +3,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
-import("//brave/components/common/typescript.gni")
-import("//brave/components/speedreader/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/common/typescript.gni")
+import("//unknown/components/speedreader/common/buildflags/buildflags.gni")
 import("//tools/grit/preprocess_if_expr.gni")
 import("//tools/polymer/css_to_wrapper.gni")
 import("//tools/polymer/html_to_wrapper.gni")
@@ -49,7 +49,7 @@ if (include_polymer) {
       "js/brave_browser_command/brave_browser_command_proxy.ts",
     ]
 
-    mojo_files = [ "$root_gen_dir/brave/ui/webui/resources/js/brave_browser_command/brave_browser_command.mojom-webui.ts" ]
+    mojo_files = [ "$root_gen_dir/unknown/ui/webui/resources/js/brave_browser_command/brave_browser_command.mojom-webui.ts" ]
     mojo_files_deps = [ "js/brave_browser_command:mojo_bindings_ts__generator" ]
 
     css_files = [ "page_specific/settings/br_settings_shared.css" ]
@@ -57,7 +57,7 @@ if (include_polymer) {
     ts_composite = true
     generate_grdp = true
     grd_resource_path_prefix = "brave"
-    ts_out_dir = "$root_gen_dir/brave/ui/webui/resources/tsc"
+    ts_out_dir = "$root_gen_dir/unknown/ui/webui/resources/tsc"
     ts_deps = [
       "//third_party/lit/v3_0:build_ts",
       "//third_party/polymer/v3_0:library",
@@ -94,7 +94,7 @@ transpile_web_ui("leo_bundle") {
   generate_grdp = true
   resource_path_prefix = "brave"
 
-  imports_from = [ "//brave/ui/webui/resources/leo/" ]
+  imports_from = [ "//unknown/ui/webui/resources/leo/" ]
 
   entry_points = [ [
         "leo",
@@ -119,7 +119,7 @@ transpile_web_ui("opaque_ke") {
     rebase_path("wasm/opaque_ke/src/lib.rs"),
   ]
 
-  imports_from = [ "//brave/ui/webui/resources/wasm/" ]
+  imports_from = [ "//unknown/ui/webui/resources/wasm/" ]
 
   rust_packages = [ rebase_path("wasm/opaque_ke/Cargo.toml") ]
 

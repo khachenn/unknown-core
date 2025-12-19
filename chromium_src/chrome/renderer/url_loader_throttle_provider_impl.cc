@@ -5,15 +5,15 @@
 
 #include "chrome/renderer/url_loader_throttle_provider_impl.h"
 
-#include "brave/components/body_sniffer/body_sniffer_throttle.h"
-#include "brave/components/tor/buildflags/buildflags.h"
-#include "brave/renderer/brave_content_renderer_client.h"
+#include "unknown/components/body_sniffer/body_sniffer_throttle.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
+#include "unknown/renderer/brave_content_renderer_client.h"
 #include "services/network/public/cpp/resource_request.h"
 #include "third_party/blink/public/common/loader/resource_type_util.h"
 #include "third_party/blink/public/web/web_local_frame.h"
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/components/tor/renderer/onion_domain_throttle.h"
+#include "unknown/components/tor/renderer/onion_domain_throttle.h"
 #endif
 
 namespace {

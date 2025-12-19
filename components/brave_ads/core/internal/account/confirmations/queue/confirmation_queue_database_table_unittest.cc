@@ -3,25 +3,25 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/confirmation_queue_database_table.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/confirmation_queue_database_table.h"
 
 #include "base/run_loop.h"
 #include "base/test/gmock_callback_support.h"
 #include "base/test/mock_callback.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/confirmation_info.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_builder.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_info.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_test_util.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_util.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/reward/reward_confirmation_test_util.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/reward/reward_confirmation_util.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/user_data_builder/confirmation_user_data_builder_test_util.h"
-#include "brave/components/brave_ads/core/internal/account/tokens/confirmation_tokens/confirmation_tokens_test_util.h"
-#include "brave/components/brave_ads/core/internal/account/tokens/token_generator_test_util.h"
-#include "brave/components/brave_ads/core/internal/common/random/random_util.h"
-#include "brave/components/brave_ads/core/internal/common/test/test_base.h"
-#include "brave/components/brave_ads/core/internal/common/test/time_test_util.h"
-#include "brave/components/brave_ads/core/public/ads_callback.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/confirmation_info.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_builder.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_info.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_test_util.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_util.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/reward/reward_confirmation_test_util.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/reward/reward_confirmation_util.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/user_data_builder/confirmation_user_data_builder_test_util.h"
+#include "unknown/components/brave_ads/core/internal/account/tokens/confirmation_tokens/confirmation_tokens_test_util.h"
+#include "unknown/components/brave_ads/core/internal/account/tokens/token_generator_test_util.h"
+#include "unknown/components/brave_ads/core/internal/common/random/random_util.h"
+#include "unknown/components/brave_ads/core/internal/common/test/test_base.h"
+#include "unknown/components/brave_ads/core/internal/common/test/time_test_util.h"
+#include "unknown/components/brave_ads/core/public/ads_callback.h"
 
 // npm run test -- brave_unit_tests --filter=BraveAds*
 

@@ -13,9 +13,9 @@
 #include "base/memory/weak_ptr.h"
 #include "base/timer/timer.h"
 #include "base/values.h"
-#include "brave/components/psst/common/psst_metadata_schema.h"
-#include "brave/components/psst/common/psst_script_responses.h"
-#include "brave/components/psst/common/psst_ui_common.mojom-shared.h"
+#include "unknown/components/psst/common/psst_metadata_schema.h"
+#include "unknown/components/psst/common/psst_script_responses.h"
+#include "unknown/components/psst/common/psst_ui_common.mojom-shared.h"
 #include "content/public/browser/web_contents_observer.h"
 
 class PrefService;

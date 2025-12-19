@@ -6,7 +6,7 @@ index 96937eddc05602917e3e9988959f1feee46b831c..ba8dc02f709a4936d5f16a9a5ff3335e
      ":generate_version_info",
      "//base",
    ]
-+  configs += [ "//brave/build:version" ] deps += [ "//brave/components/version_info" ]
++  configs += [ "//unknown/build:version" ] deps += [ "//unknown/components/version_info" ]
  }
  
  static_library("version_string") {

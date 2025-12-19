@@ -9,10 +9,10 @@
 #include <string>
 
 #include "base/containers/flat_set.h"
-#include "brave/components/brave_news/browser/feed_fetcher.h"
-#include "brave/components/brave_news/browser/feed_sampling.h"
-#include "brave/components/brave_news/browser/topics_fetcher.h"
-#include "brave/components/brave_news/common/subscriptions_snapshot.h"
+#include "unknown/components/brave_news/browser/feed_fetcher.h"
+#include "unknown/components/brave_news/browser/feed_sampling.h"
+#include "unknown/components/brave_news/browser/topics_fetcher.h"
+#include "unknown/components/brave_news/common/subscriptions_snapshot.h"
 
 namespace brave_news {
 

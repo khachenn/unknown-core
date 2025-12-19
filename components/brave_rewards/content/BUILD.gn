@@ -3,8 +3,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_rewards/core/engine/config.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_rewards/core/engine/config.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 import("//extensions/buildflags/buildflags.gni")
 
 static_library("content") {
@@ -31,19 +31,19 @@ static_library("content") {
 
   deps = [
     "//base",
-    "//brave/components/api_request_helper",
-    "//brave/components/brave_ads/core",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_rewards/core:features",
-    "//brave/components/brave_rewards/core/buildflags",
-    "//brave/components/brave_rewards/core/engine",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/ntp_background_images/common",
-    "//brave/components/p3a_utils",
-    "//brave/components/resources",
-    "//brave/components/resources:strings_grit",
-    "//brave/components/services/bat_rewards/public/interfaces",
-    "//brave/components/time_period_storage",
+    "//unknown/components/api_request_helper",
+    "//unknown/components/brave_ads/core",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_rewards/core:features",
+    "//unknown/components/brave_rewards/core/buildflags",
+    "//unknown/components/brave_rewards/core/engine",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/ntp_background_images/common",
+    "//unknown/components/p3a_utils",
+    "//unknown/components/resources",
+    "//unknown/components/resources:strings_grit",
+    "//unknown/components/services/bat_rewards/public/interfaces",
+    "//unknown/components/time_period_storage",
     "//components/country_codes",
     "//components/favicon/core",
     "//components/os_crypt/sync",
@@ -63,15 +63,15 @@ static_library("content") {
     "//url",
   ]
 
-  public_deps = [ "//brave/components/brave_rewards/core/engine:headers" ]
+  public_deps = [ "//unknown/components/brave_rewards/core/engine:headers" ]
 
   if (enable_brave_wallet) {
-    public_deps += [ "//brave/components/brave_wallet/browser" ]
+    public_deps += [ "//unknown/components/brave_wallet/browser" ]
 
     deps += [
-      "//brave/components/brave_wallet/common",
-      "//brave/components/brave_wallet/common:mojom",
-      "//brave/components/services/brave_wallet/public/mojom",
+      "//unknown/components/brave_wallet/common",
+      "//unknown/components/brave_wallet/common:mojom",
+      "//unknown/components/services/brave_wallet/public/mojom",
     ]
   }
 }
@@ -81,10 +81,10 @@ source_set("testutil") {
   deps = [
     ":content",
     "//base",
-    "//brave/browser",
-    "//brave/browser/brave_rewards",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_rewards/core/engine:headers",
+    "//unknown/browser",
+    "//unknown/browser/brave_rewards",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_rewards/core/engine:headers",
     "//chrome/browser/bitmap_fetcher",
     "//chrome/browser/prefs",
     "//chrome/test:test_support",
@@ -112,10 +112,10 @@ source_set("unit_tests") {
     ":testutil",
     "//base",
     "//base/test:test_support",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_rewards/core:features",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/l10n/common:test_support",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_rewards/core:features",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/l10n/common:test_support",
     "//chrome/browser/profiles:profile",
     "//chrome/test:test_support",
     "//components/prefs",

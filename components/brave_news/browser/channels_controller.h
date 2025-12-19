@@ -14,8 +14,8 @@
 #include "base/functional/callback_forward.h"
 #include "base/gtest_prod_util.h"
 #include "base/memory/raw_ptr.h"
-#include "brave/components/brave_news/browser/publishers_controller.h"
-#include "brave/components/brave_news/common/brave_news.mojom-forward.h"
+#include "unknown/components/brave_news/browser/publishers_controller.h"
+#include "unknown/components/brave_news/common/brave_news.mojom-forward.h"
 
 namespace brave_news {
 

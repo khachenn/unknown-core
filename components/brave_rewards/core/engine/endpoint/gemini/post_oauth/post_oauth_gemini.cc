@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/core/engine/endpoint/gemini/post_oauth/post_oauth_gemini.h"
+#include "unknown/components/brave_rewards/core/engine/endpoint/gemini/post_oauth/post_oauth_gemini.h"
 
 #include <optional>
 #include <utility>
@@ -12,9 +12,9 @@
 #include "base/json/json_reader.h"
 #include "base/json/json_writer.h"
 #include "base/uuid.h"
-#include "brave/components/brave_rewards/core/engine/rewards_engine.h"
-#include "brave/components/brave_rewards/core/engine/util/environment_config.h"
-#include "brave/components/brave_rewards/core/engine/util/url_loader.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_engine.h"
+#include "unknown/components/brave_rewards/core/engine/util/environment_config.h"
+#include "unknown/components/brave_rewards/core/engine/util/url_loader.h"
 #include "net/http/http_status_code.h"
 
 namespace brave_rewards::internal::endpoint::gemini {

@@ -4,6 +4,6 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 brave_lit_mangler_preprocess_if_expr_inputs = [
-  "//brave/tools/chromium_src/lit_mangler/lit_mangler.ts",
-  "//brave/tools/chromium_src/lit_mangler/lit_mangler_cli.ts",
+  "//unknown/tools/chromium_src/lit_mangler/lit_mangler.ts",
+  "//unknown/tools/chromium_src/lit_mangler/lit_mangler_cli.ts",
 ]

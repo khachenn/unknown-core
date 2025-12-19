@@ -12,11 +12,11 @@ cargo_crate("lib") {
   crate_name = "radium"
   epoch = "0.7"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/radium-v0_7/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/radium-v0_7/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/radium-v0_7/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/radium-v0_7/src/macros.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/radium-v0_7/src/types.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/radium-v0_7/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/radium-v0_7/src/macros.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/radium-v0_7/src/types.rs",
   ]
   inputs = []
 
@@ -30,9 +30,9 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.7.0"
 
   build_root =
-      "//brave/third_party/rust/chromium_crates_io/vendor/radium-v0_7/build.rs"
+      "//unknown/third_party/rust/chromium_crates_io/vendor/radium-v0_7/build.rs"
   build_sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/radium-v0_7/build.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/radium-v0_7/build.rs",
   ]
   rustenv = []
   rustflags = []

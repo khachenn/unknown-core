@@ -6,7 +6,7 @@ index e8a92d0c62b2905e05cc59129560d837a6c938b9..5b71369eb3b624dce34f6c79649b5618
        "//ui/gfx",
      ]
    }
-+  import("//brave/components/webapps/browser/sources.gni") deps += brave_components_webapps_browser_deps
++  import("//unknown/components/webapps/browser/sources.gni") deps += brave_components_webapps_browser_deps
  }
  
  source_set("test_support") {

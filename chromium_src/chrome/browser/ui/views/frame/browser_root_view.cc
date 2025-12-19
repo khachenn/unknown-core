@@ -5,7 +5,7 @@
 
 #include "chrome/browser/ui/views/frame/browser_root_view.h"
 
-#include "brave/browser/ui/views/tabs/vertical_tab_utils.h"
+#include "unknown/browser/ui/views/tabs/vertical_tab_utils.h"
 
 // Workaround for vertical tabs to work with drag&drop of text/links.
 #define ConvertPointToTarget(THIS, TARGET_GETTER, POINT)               \

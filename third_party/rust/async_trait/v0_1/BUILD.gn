@@ -12,15 +12,15 @@ cargo_crate("lib") {
   crate_name = "async_trait"
   epoch = "0.1"
   crate_type = "proc-macro"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/args.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/bound.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/expand.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/lifetime.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/parse.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/receiver.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/args.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/bound.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/expand.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/lifetime.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/parse.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/src/receiver.rs",
   ]
   inputs = []
 
@@ -33,12 +33,12 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.1.64"
 
   deps = [
-    "//brave/third_party/rust/proc_macro2/v1:lib",
-    "//brave/third_party/rust/quote/v1:lib",
-    "//brave/third_party/rust/syn/v1:lib",
+    "//unknown/third_party/rust/proc_macro2/v1:lib",
+    "//unknown/third_party/rust/quote/v1:lib",
+    "//unknown/third_party/rust/syn/v1:lib",
   ]
-  build_root = "//brave/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/build.rs"
-  build_sources = [ "//brave/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/build.rs" ]
+  build_root = "//unknown/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/build.rs"
+  build_sources = [ "//unknown/third_party/rust/chromium_crates_io/vendor/async-trait-v0_1/build.rs" ]
   rustenv = []
   rustflags = []
 

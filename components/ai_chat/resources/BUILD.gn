@@ -3,8 +3,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/common/typescript.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/common/typescript.gni")
 import("//tools/grit/preprocess_if_expr.gni")
 
 assert(enable_ai_chat)
@@ -25,13 +25,13 @@ transpile_web_ui("ai_chat_ui") {
   ]
 
   imports_from = [
-    "//brave/components/ai_chat/resources/",
-    "//brave/components/web-components",
+    "//unknown/components/ai_chat/resources/",
+    "//unknown/components/web-components",
   ]
 
   deps = [
-    "//brave/components/ai_chat/core/common/mojom:mojom_js",
-    "//brave/components/resources:strings",
+    "//unknown/components/ai_chat/core/common/mojom:mojom_js",
+    "//unknown/components/resources:strings",
   ]
 }
 
@@ -48,7 +48,7 @@ preprocess_if_expr("preprocess_html") {
 
 pack_web_resources("resources") {
   resource_name = "ai_chat_ui"
-  output_dir = "$root_gen_dir/brave/components/ai_chat/resources"
+  output_dir = "$root_gen_dir/unknown/components/ai_chat/resources"
   deps = [
     ":ai_chat_ui",
     ":preprocess_html",

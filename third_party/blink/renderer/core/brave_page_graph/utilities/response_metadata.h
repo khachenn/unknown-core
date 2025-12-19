@@ -7,7 +7,7 @@
 #define BRAVE_THIRD_PARTY_BLINK_RENDERER_CORE_BRAVE_PAGE_GRAPH_UTILITIES_RESPONSE_METADATA_H_
 
 #include <string>
-#include "brave/third_party/blink/renderer/core/brave_page_graph/types.h"
+#include "unknown/third_party/blink/renderer/core/brave_page_graph/types.h"
 
 namespace blink {
 class ResourceResponse;

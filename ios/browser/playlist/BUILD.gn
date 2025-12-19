@@ -10,6 +10,6 @@ source_set("playlist") {
   ]
   deps = [
     "//base",
-    "//brave/components/playlist/core/common",
+    "//unknown/components/playlist/core/common",
   ]
 }

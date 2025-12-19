@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/serving/eligible_ads/pipelines/new_tab_page_ads/eligible_new_tab_page_ads_v2.h"
+#include "unknown/components/brave_ads/core/internal/serving/eligible_ads/pipelines/new_tab_page_ads/eligible_new_tab_page_ads_v2.h"
 
 #include <cstddef>
 #include <optional>
@@ -21,22 +21,22 @@
 #include "base/time/time.h"
 #include "base/trace_event/trace_event.h"
 #include "base/trace_event/trace_id_helper.h"
-#include "brave/components/brave_ads/core/internal/ads_client/ads_client_util.h"
-#include "brave/components/brave_ads/core/internal/common/logging_util.h"
-#include "brave/components/brave_ads/core/internal/common/time/time_util.h"
-#include "brave/components/brave_ads/core/internal/serving/eligible_ads/eligible_ads_feature.h"
-#include "brave/components/brave_ads/core/internal/serving/eligible_ads/exclusion_rules/exclusion_rules_util.h"
-#include "brave/components/brave_ads/core/internal/serving/eligible_ads/exclusion_rules/new_tab_page_ads/new_tab_page_ad_exclusion_rules.h"
-#include "brave/components/brave_ads/core/internal/serving/eligible_ads/pacing/pacing.h"
-#include "brave/components/brave_ads/core/internal/serving/eligible_ads/priority/priority.h"
-#include "brave/components/brave_ads/core/internal/serving/prediction/model_based/creative_ad_model_based_predictor.h"
-#include "brave/components/brave_ads/core/internal/serving/targeting/user_model/user_model_info.h"
-#include "brave/components/brave_ads/core/internal/settings/settings.h"
-#include "brave/components/brave_ads/core/internal/targeting/behavioral/anti_targeting/resource/anti_targeting_resource.h"
-#include "brave/components/brave_ads/core/internal/targeting/geographical/subdivision/subdivision_targeting.h"
-#include "brave/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_feature.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client.h"
-#include "brave/components/brave_ads/core/public/ads_constants.h"
+#include "unknown/components/brave_ads/core/internal/ads_client/ads_client_util.h"
+#include "unknown/components/brave_ads/core/internal/common/logging_util.h"
+#include "unknown/components/brave_ads/core/internal/common/time/time_util.h"
+#include "unknown/components/brave_ads/core/internal/serving/eligible_ads/eligible_ads_feature.h"
+#include "unknown/components/brave_ads/core/internal/serving/eligible_ads/exclusion_rules/exclusion_rules_util.h"
+#include "unknown/components/brave_ads/core/internal/serving/eligible_ads/exclusion_rules/new_tab_page_ads/new_tab_page_ad_exclusion_rules.h"
+#include "unknown/components/brave_ads/core/internal/serving/eligible_ads/pacing/pacing.h"
+#include "unknown/components/brave_ads/core/internal/serving/eligible_ads/priority/priority.h"
+#include "unknown/components/brave_ads/core/internal/serving/prediction/model_based/creative_ad_model_based_predictor.h"
+#include "unknown/components/brave_ads/core/internal/serving/targeting/user_model/user_model_info.h"
+#include "unknown/components/brave_ads/core/internal/settings/settings.h"
+#include "unknown/components/brave_ads/core/internal/targeting/behavioral/anti_targeting/resource/anti_targeting_resource.h"
+#include "unknown/components/brave_ads/core/internal/targeting/geographical/subdivision/subdivision_targeting.h"
+#include "unknown/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_feature.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client.h"
+#include "unknown/components/brave_ads/core/public/ads_constants.h"
 
 namespace brave_ads {
 

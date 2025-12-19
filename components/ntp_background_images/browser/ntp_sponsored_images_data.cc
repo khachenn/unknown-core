@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ntp_background_images/browser/ntp_sponsored_images_data.h"
+#include "unknown/components/ntp_background_images/browser/ntp_sponsored_images_data.h"
 
 #include "base/check.h"
 #include "base/debug/crash_logging.h"
@@ -12,10 +12,10 @@
 #include "base/logging.h"
 #include "base/strings/string_util.h"
 #include "base/uuid.h"
-#include "brave/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_info.h"
-#include "brave/components/brave_ads/core/public/common/url/url_util.h"
-#include "brave/components/constants/webui_url_constants.h"
-#include "brave/components/ntp_background_images/browser/url_constants.h"
+#include "unknown/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_info.h"
+#include "unknown/components/brave_ads/core/public/common/url/url_util.h"
+#include "unknown/components/constants/webui_url_constants.h"
+#include "unknown/components/ntp_background_images/browser/url_constants.h"
 #include "content/public/common/url_constants.h"
 #include "third_party/abseil-cpp/absl/strings/str_format.h"
 

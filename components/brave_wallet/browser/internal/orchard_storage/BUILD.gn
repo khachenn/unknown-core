@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/config.gni")
+import("//unknown/components/brave_wallet/common/config.gni")
 
 source_set("orchard_storage") {
   sources = [
@@ -12,14 +12,14 @@ source_set("orchard_storage") {
   ]
 
   visibility = [
-    "//brave/components/brave_wallet/browser:*",
-    "//brave/components/brave_wallet/browser/internal:orchard_bundle",
-    "//brave/components/brave_wallet/browser/test:*",
+    "//unknown/components/brave_wallet/browser:*",
+    "//unknown/components/brave_wallet/browser/internal:orchard_bundle",
+    "//unknown/components/brave_wallet/browser/test:*",
   ]
 
   deps = [
     "//base",
-    "//brave/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common",
     "//sql",
   ]
 
@@ -34,15 +34,15 @@ source_set("headers") {
 
   visibility = [
     ":orchard_storage",
-    "//brave/components/brave_wallet/browser/internal:orchard_bundle",
-    "//brave/components/brave_wallet/browser/test:*",
-    "//brave/components/brave_wallet/browser/zcash/rust:*",
+    "//unknown/components/brave_wallet/browser/internal:orchard_bundle",
+    "//unknown/components/brave_wallet/browser/test:*",
+    "//unknown/components/brave_wallet/browser/zcash/rust:*",
   ]
 
   deps = [
     "//base",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/services/brave_wallet/public/mojom",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/services/brave_wallet/public/mojom",
     "//sql",
   ]
 }

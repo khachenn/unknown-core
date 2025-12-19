@@ -6,7 +6,7 @@ index ab76b4e1e86f249015906408fd856e52efa1fd57..cc8adeaea06d7f87dfec078e18103fea
      "//ui/gfx",
      "//url",
    ]
-+  import("//brave/components/history/core/browser/sources.gni") sources += brave_components_history_core_browser_sources deps += brave_components_history_core_browser_deps
++  import("//unknown/components/history/core/browser/sources.gni") sources += brave_components_history_core_browser_sources deps += brave_components_history_core_browser_deps
  }
  
  source_set("unit_tests") {

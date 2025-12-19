@@ -4,7 +4,7 @@
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
 #include "base/strings/string_util.h"
-#include "brave/components/brave_ads/core/internal/common/subdivision/url_request/subdivision_url_request_test_util.h"
+#include "unknown/components/brave_ads/core/internal/common/subdivision/url_request/subdivision_url_request_test_util.h"
 
 namespace brave_ads::test {
 

@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/cosmetic_filters/renderer/cosmetic_filters_js_handler.h"
+#include "unknown/components/cosmetic_filters/renderer/cosmetic_filters_js_handler.h"
 
 #include <optional>
 #include <utility>
@@ -17,9 +17,9 @@
 #include "base/no_destructor.h"
 #include "base/trace_event/trace_event.h"
 #include "base/values.h"
-#include "brave/components/brave_shields/core/common/features.h"
-#include "brave/components/content_settings/renderer/brave_content_settings_agent_impl.h"
-#include "brave/components/cosmetic_filters/resources/grit/cosmetic_filters_generated.h"
+#include "unknown/components/brave_shields/core/common/features.h"
+#include "unknown/components/content_settings/renderer/brave_content_settings_agent_impl.h"
+#include "unknown/components/cosmetic_filters/resources/grit/cosmetic_filters_generated.h"
 #include "content/public/renderer/render_frame.h"
 #include "gin/converter.h"
 #include "gin/function_template.h"

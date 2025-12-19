@@ -9,11 +9,11 @@
 #include <string>
 
 #include "base/functional/callback_forward.h"
-#include "brave/components/ai_chat/core/browser/conversation_handler.h"
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom-forward.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom-forward.h"
-#include "brave/components/text_recognition/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/browser/conversation_handler.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom-forward.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom-forward.h"
+#include "unknown/components/text_recognition/common/buildflags/buildflags.h"
 #include "third_party/skia/include/core/SkBitmap.h"
 #include "url/gurl.h"
 

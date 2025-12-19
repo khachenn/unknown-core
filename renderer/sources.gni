@@ -3,43 +3,43 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/ai_rewriter/common/buildflags/buildflags.gni")
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
-import("//brave/components/speedreader/common/buildflags/buildflags.gni")
-import("//brave/components/tor/buildflags/buildflags.gni")
-import("//brave/components/web_discovery/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/ai_rewriter/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/speedreader/common/buildflags/buildflags.gni")
+import("//unknown/components/tor/buildflags/buildflags.gni")
+import("//unknown/components/web_discovery/buildflags/buildflags.gni")
 import("//third_party/widevine/cdm/widevine.gni")
 
 brave_chrome_renderer_sources = [
-  "//brave/renderer/brave_content_renderer_client.cc",
-  "//brave/renderer/brave_content_renderer_client.h",
-  "//brave/renderer/brave_render_frame_observer.cc",
-  "//brave/renderer/brave_render_frame_observer.h",
-  "//brave/renderer/brave_render_thread_observer.cc",
-  "//brave/renderer/brave_render_thread_observer.h",
+  "//unknown/renderer/brave_content_renderer_client.cc",
+  "//unknown/renderer/brave_content_renderer_client.h",
+  "//unknown/renderer/brave_render_frame_observer.cc",
+  "//unknown/renderer/brave_render_frame_observer.h",
+  "//unknown/renderer/brave_render_thread_observer.cc",
+  "//unknown/renderer/brave_render_thread_observer.h",
 ]
 
 brave_chrome_renderer_deps = [
-  "//brave/common:mojo_bindings",
-  "//brave/components/ai_chat/core/common/buildflags",
-  "//brave/components/ai_rewriter/common/buildflags",
-  "//brave/components/brave_search/common",
-  "//brave/components/brave_search/renderer",
-  "//brave/components/brave_shields/core/common",
-  "//brave/components/brave_vpn/common/buildflags",
-  "//brave/components/brave_wallet/common/buildflags",
-  "//brave/components/cosmetic_filters/renderer",
-  "//brave/components/playlist/content/renderer",
-  "//brave/components/playlist/core/common/buildflags",
-  "//brave/components/safe_builtins/renderer",
-  "//brave/components/script_injector/renderer",
-  "//brave/components/skus/common",
-  "//brave/components/skus/renderer",
-  "//brave/components/speedreader/common/buildflags",
-  "//brave/components/tor/buildflags",
-  "//brave/components/web_discovery/buildflags",
+  "//unknown/common:mojo_bindings",
+  "//unknown/components/ai_chat/core/common/buildflags",
+  "//unknown/components/ai_rewriter/common/buildflags",
+  "//unknown/components/brave_search/common",
+  "//unknown/components/brave_search/renderer",
+  "//unknown/components/brave_shields/core/common",
+  "//unknown/components/brave_vpn/common/buildflags",
+  "//unknown/components/brave_wallet/common/buildflags",
+  "//unknown/components/cosmetic_filters/renderer",
+  "//unknown/components/playlist/content/renderer",
+  "//unknown/components/playlist/core/common/buildflags",
+  "//unknown/components/safe_builtins/renderer",
+  "//unknown/components/script_injector/renderer",
+  "//unknown/components/skus/common",
+  "//unknown/components/skus/renderer",
+  "//unknown/components/speedreader/common/buildflags",
+  "//unknown/components/tor/buildflags",
+  "//unknown/components/web_discovery/buildflags",
   "//mojo/public/cpp/bindings",
   "//third_party/blink/public:blink",
   "//third_party/blink/public/common",
@@ -47,47 +47,47 @@ brave_chrome_renderer_deps = [
 
 if (enable_ai_chat) {
   brave_chrome_renderer_deps += [
-    "//brave/components/ai_chat/core/common",
-    "//brave/components/ai_chat/renderer",
+    "//unknown/components/ai_chat/core/common",
+    "//unknown/components/ai_chat/renderer",
   ]
 }
 
 if (enable_tor) {
-  brave_chrome_renderer_deps += [ "//brave/components/tor/renderer" ]
+  brave_chrome_renderer_deps += [ "//unknown/components/tor/renderer" ]
 }
 
 if (enable_speedreader) {
   brave_chrome_renderer_deps += [
-    "//brave/components/speedreader/common",
-    "//brave/components/speedreader/renderer",
+    "//unknown/components/speedreader/common",
+    "//unknown/components/speedreader/renderer",
   ]
 }
 
 if (enable_ai_rewriter) {
-  brave_chrome_renderer_deps += [ "//brave/components/ai_rewriter/renderer" ]
+  brave_chrome_renderer_deps += [ "//unknown/components/ai_rewriter/renderer" ]
 }
 
 if (enable_brave_vpn) {
-  brave_chrome_renderer_deps += [ "//brave/components/brave_vpn/common" ]
+  brave_chrome_renderer_deps += [ "//unknown/components/brave_vpn/common" ]
 }
 
 if (enable_brave_wallet) {
   brave_chrome_renderer_deps += [
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/renderer",
-    "//brave/renderer/brave_wallet",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/renderer",
+    "//unknown/renderer/brave_wallet",
   ]
 }
 
 if (is_android) {
   brave_chrome_renderer_deps +=
-      [ "//brave/components/brave_mobile_subscription/renderer/android" ]
+      [ "//unknown/components/brave_mobile_subscription/renderer/android" ]
 }
 
 if (enable_web_discovery_native) {
   brave_chrome_renderer_deps += [
-    "//brave/components/web_discovery/common",
-    "//brave/components/web_discovery/renderer",
+    "//unknown/components/web_discovery/common",
+    "//unknown/components/web_discovery/renderer",
   ]
 }
 

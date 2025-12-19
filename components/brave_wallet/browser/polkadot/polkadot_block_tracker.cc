@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/polkadot/polkadot_block_tracker.h"
+#include "unknown/components/brave_wallet/browser/polkadot/polkadot_block_tracker.h"
 
 #include "base/notimplemented.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
-#include "brave/components/brave_wallet/browser/polkadot/polkadot_substrate_rpc.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/brave_wallet/browser/polkadot/polkadot_substrate_rpc.h"
 
 namespace brave_wallet {
 

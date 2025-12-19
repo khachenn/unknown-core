@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ntp_background_images/buildflags/buildflags.gni")
+import("//unknown/components/ntp_background_images/buildflags/buildflags.gni")
 import("//testing/test.gni")
 
 source_set("ntp_background") {
@@ -16,18 +16,18 @@ source_set("ntp_background") {
 
   deps = [
     "//base",
-    "//brave/app:brave_generated_resources_grit_grit",
-    "//brave/browser:browser_process",
-    "//brave/browser/brave_ads",
-    "//brave/components/brave_ads/browser",
-    "//brave/components/brave_ads/core/public:headers",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/constants",
-    "//brave/components/infobars/core",
-    "//brave/components/ntp_background_images/browser",
-    "//brave/components/ntp_background_images/buildflags",
-    "//brave/components/ntp_background_images/common",
-    "//brave/components/p3a",
+    "//unknown/app:brave_generated_resources_grit_grit",
+    "//unknown/browser:browser_process",
+    "//unknown/browser/brave_ads",
+    "//unknown/components/brave_ads/browser",
+    "//unknown/components/brave_ads/core/public:headers",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/constants",
+    "//unknown/components/infobars/core",
+    "//unknown/components/ntp_background_images/browser",
+    "//unknown/components/ntp_background_images/buildflags",
+    "//unknown/components/ntp_background_images/common",
+    "//unknown/components/p3a",
     "//chrome/browser:browser_process",
     "//chrome/browser:browser_public_dependencies",
     "//chrome/browser/content_settings:content_settings_factory",
@@ -74,13 +74,13 @@ source_set("unit_tests") {
   deps = [
     ":ntp_background",
     "//base",
-    "//brave/browser:browser_process",
-    "//brave/components/brave_ads/core/public:headers",
-    "//brave/components/brave_referrals/browser",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/ntp_background_images/browser",
-    "//brave/components/ntp_background_images/common",
-    "//brave/components/p3a",
+    "//unknown/browser:browser_process",
+    "//unknown/components/brave_ads/core/public:headers",
+    "//unknown/components/brave_referrals/browser",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/ntp_background_images/browser",
+    "//unknown/components/ntp_background_images/common",
+    "//unknown/components/p3a",
     "//chrome/test:test_support",
     "//components/infobars/content",
     "//components/prefs:test_support",
@@ -96,7 +96,7 @@ source_set("unit_tests") {
     ]
 
     deps += [
-      "//brave/components/constants",
+      "//unknown/components/constants",
       "//chrome/test:test_support",
     ]
   }
@@ -118,9 +118,9 @@ if (enable_custom_background) {
       ":ntp_background",
       "//base",
       "//base/test:test_support",
-      "//brave/components/constants",
-      "//brave/components/ntp_background_images/browser",
-      "//brave/components/ntp_background_images/browser:test_support",
+      "//unknown/components/constants",
+      "//unknown/components/ntp_background_images/browser",
+      "//unknown/components/ntp_background_images/browser:test_support",
       "//chrome/browser/profiles:profile",
       "//chrome/browser/ui",
       "//chrome/test:test_support",
@@ -128,6 +128,6 @@ if (enable_custom_background) {
       "//content/test:test_support",
     ]
 
-    data = [ "//brave/test/data/ntp_background/background.jpg" ]
+    data = [ "//unknown/test/data/ntp_background/background.jpg" ]
   }
 }

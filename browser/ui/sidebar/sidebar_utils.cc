@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/sidebar/sidebar_utils.h"
+#include "unknown/browser/ui/sidebar/sidebar_utils.h"
 
 #include <optional>
 
@@ -11,15 +11,15 @@
 #include "base/check_is_test.h"
 #include "base/command_line.h"
 #include "base/notreached.h"
-#include "brave/browser/ui/sidebar/sidebar_controller.h"
-#include "brave/browser/ui/sidebar/sidebar_model.h"
-#include "brave/browser/ui/sidebar/sidebar_service_factory.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/constants/brave_switches.h"
-#include "brave/components/constants/webui_url_constants.h"
-#include "brave/components/sidebar/browser/constants.h"
-#include "brave/components/sidebar/browser/pref_names.h"
-#include "brave/components/sidebar/common/features.h"
+#include "unknown/browser/ui/sidebar/sidebar_controller.h"
+#include "unknown/browser/ui/sidebar/sidebar_model.h"
+#include "unknown/browser/ui/sidebar/sidebar_service_factory.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/constants/brave_switches.h"
+#include "unknown/components/constants/webui_url_constants.h"
+#include "unknown/components/sidebar/browser/constants.h"
+#include "unknown/components/sidebar/browser/pref_names.h"
+#include "unknown/components/sidebar/common/features.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/search/search.h"

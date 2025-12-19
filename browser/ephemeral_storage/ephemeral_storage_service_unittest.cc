@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ephemeral_storage/ephemeral_storage_service.h"
+#include "unknown/components/ephemeral_storage/ephemeral_storage_service.h"
 
 #include <string_view>
 #include <vector>
 
 #include "base/test/scoped_feature_list.h"
-#include "brave/components/ephemeral_storage/ephemeral_storage_pref_names.h"
+#include "unknown/components/ephemeral_storage/ephemeral_storage_pref_names.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
 #include "chrome/test/base/testing_profile.h"
 #include "components/content_settings/core/browser/host_content_settings_map.h"

@@ -6,7 +6,7 @@
 #ifndef BRAVE_IOS_BROWSER_API_DE_AMP_DE_AMP_PREFS_PRIVATE_H_
 #define BRAVE_IOS_BROWSER_API_DE_AMP_DE_AMP_PREFS_PRIVATE_H_
 
-#include "brave/ios/browser/api/de_amp/de_amp_prefs.h"
+#include "unknown/ios/browser/api/de_amp/de_amp_prefs.h"
 
 class PrefService;
 

@@ -6,7 +6,7 @@ index 3ce83621683d5c223c851c00987cf4ae73023c78..3287da5f3a171c2ba17a72c97abe2057
    # TODO(crbug.com/40031409): Fix code that adds exit-time destructors and
    # enable the diagnostic by removing this line.
    configs += [ "//build/config/compiler:no_exit_time_destructors" ]
-+  import("//brave/base/sources.gni") sources += brave_base_test_support_sources
++  import("//unknown/base/sources.gni") sources += brave_base_test_support_sources
  }
  
  component("proto_test_support") {

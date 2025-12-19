@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
 import("//testing/test.gni")
 
 assert(enable_brave_vpn && is_win)
@@ -18,7 +18,7 @@ source_set("unit_tests") {
   deps = [
     ":wireguard_utils",
     "//base",
-    "//brave/components/brave_vpn/common",
+    "//unknown/components/brave_vpn/common",
     "//chrome/test:test_support",
     "//components/version_info:channel",
     "//testing/gtest",
@@ -38,11 +38,11 @@ source_set("win") {
   deps = [
     ":wireguard_utils",
     "//base",
-    "//brave/components/brave_vpn/browser",
-    "//brave/components/brave_vpn/browser/connection/wireguard",
-    "//brave/components/brave_vpn/browser/connection/wireguard/credentials",
-    "//brave/components/brave_vpn/common",
-    "//brave/components/brave_vpn/common/win",
+    "//unknown/components/brave_vpn/browser",
+    "//unknown/components/brave_vpn/browser/connection/wireguard",
+    "//unknown/components/brave_vpn/browser/connection/wireguard/credentials",
+    "//unknown/components/brave_vpn/common",
+    "//unknown/components/brave_vpn/common/win",
     "//chrome/elevation_service:public_headers",
     "//chrome/install_static:install_static_util",
     "//components/keyed_service/core",
@@ -65,11 +65,11 @@ source_set("wireguard_utils") {
 
   deps = [
     "//base",
-    "//brave/components/brave_vpn/common",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/brave_vpn/common/win",
-    "//brave/components/brave_vpn/common/wireguard",
-    "//brave/components/brave_vpn/common/wireguard/win:brave_wireguard_manager_idl",
+    "//unknown/components/brave_vpn/common",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/brave_vpn/common/win",
+    "//unknown/components/brave_vpn/common/wireguard",
+    "//unknown/components/brave_vpn/common/wireguard/win:brave_wireguard_manager_idl",
     "//chrome/common:channel_info",
     "//components/version_info",
     "//url",

@@ -12,15 +12,15 @@
 
 #include "base/path_service.h"
 #include "base/win/windows_types.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
 #include "third_party/abseil-cpp/absl/cleanup/cleanup.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/browser/brave_vpn/win/brave_vpn_helper/brave_vpn_helper_utils.h"
+#include "unknown/browser/brave_vpn/win/brave_vpn_helper/brave_vpn_helper_utils.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN_WIREGUARD)
-#include "brave/browser/brave_vpn/win/brave_vpn_wireguard_service/install_utils.h"
-#include "brave/browser/brave_vpn/win/wireguard_utils_win.h"
+#include "unknown/browser/brave_vpn/win/brave_vpn_wireguard_service/install_utils.h"
+#include "unknown/browser/brave_vpn/win/wireguard_utils_win.h"
 #endif
 #endif
 

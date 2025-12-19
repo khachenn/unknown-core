@@ -13,10 +13,10 @@
 #include "base/memory/raw_ptr.h"
 #include "base/memory/weak_ptr.h"
 #include "base/one_shot_event.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_news/common/brave_news.mojom-forward.h"
-#include "brave/components/brave_news/common/brave_news.mojom.h"
-#include "brave/components/brave_news/common/locales_helper.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_news/common/brave_news.mojom-forward.h"
+#include "unknown/components/brave_news/common/brave_news.mojom.h"
+#include "unknown/components/brave_news/common/locales_helper.h"
 
 namespace brave_news {
 

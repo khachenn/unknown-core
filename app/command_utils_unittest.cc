@@ -3,18 +3,18 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/app/command_utils.h"
+#include "unknown/app/command_utils.h"
 
 #include "base/containers/contains.h"
 #include "base/containers/flat_set.h"
 #include "base/test/scoped_feature_list.h"
-#include "brave/components/commands/common/features.h"
+#include "unknown/components/commands/common/features.h"
 #include "chrome/app/chrome_command_ids.h"
 #include "chrome/browser/ui/accelerator_table.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 // Note: If this test fails because an accelerated command isn't present just
-// add the missing command to //brave/app/generate_command_metadata.py
+// add the missing command to //unknown/app/generate_command_metadata.py
 TEST(CommandUtilsUnitTest, AllAcceleratedCommandsShouldBeAvailable) {
   base::test::ScopedFeatureList features;
   features.InitAndEnableFeature(commands::features::kBraveCommands);

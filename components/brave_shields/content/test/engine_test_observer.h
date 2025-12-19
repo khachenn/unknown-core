@@ -7,7 +7,7 @@
 #define BRAVE_COMPONENTS_BRAVE_SHIELDS_CONTENT_TEST_ENGINE_TEST_OBSERVER_H_
 
 #include "base/run_loop.h"
-#include "brave/components/brave_shields/content/browser/ad_block_engine.h"
+#include "unknown/components/brave_shields/content/browser/ad_block_engine.h"
 
 // A test observer that allows blocking waits for an AdBlockEngine to be
 // updated with new rules.

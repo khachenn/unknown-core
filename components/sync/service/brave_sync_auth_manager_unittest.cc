@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/sync/service/brave_sync_auth_manager.h"
+#include "unknown/components/sync/service/brave_sync_auth_manager.h"
 
 #include <memory>
 
@@ -11,9 +11,9 @@
 #include "base/strings/strcat.h"
 #include "base/test/mock_callback.h"
 #include "base/test/task_environment.h"
-#include "brave/components/brave_sync/network_time_helper.h"
-#include "brave/components/constants/brave_services_key.h"
-#include "brave/components/constants/network_constants.h"
+#include "unknown/components/brave_sync/network_time_helper.h"
+#include "unknown/components/constants/brave_services_key.h"
+#include "unknown/components/constants/network_constants.h"
 #include "components/signin/public/identity_manager/identity_test_environment.h"
 #include "components/sync/engine/sync_credentials.h"
 #include "services/network/test/test_url_loader_factory.h"

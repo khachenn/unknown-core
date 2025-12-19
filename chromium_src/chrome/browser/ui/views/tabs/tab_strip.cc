@@ -7,11 +7,11 @@
 
 #include <cmath>
 
-#include "brave/browser/ui/views/tabs/brave_compound_tab_container.h"
-#include "brave/browser/ui/views/tabs/brave_tab.h"
-#include "brave/browser/ui/views/tabs/brave_tab_group_header.h"
-#include "brave/browser/ui/views/tabs/brave_tab_hover_card_controller.h"
-#include "brave/browser/ui/views/tabs/vertical_tab_utils.h"
+#include "unknown/browser/ui/views/tabs/brave_compound_tab_container.h"
+#include "unknown/browser/ui/views/tabs/brave_tab.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_group_header.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_hover_card_controller.h"
+#include "unknown/browser/ui/views/tabs/vertical_tab_utils.h"
 #include "chrome/browser/ui/ui_features.h"
 #include "chrome/browser/ui/views/tabs/browser_tab_strip_controller.h"
 #include "chrome/browser/ui/views/tabs/compound_tab_container.h"

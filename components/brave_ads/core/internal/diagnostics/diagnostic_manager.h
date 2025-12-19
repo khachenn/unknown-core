@@ -8,8 +8,8 @@
 
 #include <memory>
 
-#include "brave/components/brave_ads/core/internal/diagnostics/diagnostic_alias.h"
-#include "brave/components/brave_ads/core/public/ads_callback.h"
+#include "unknown/components/brave_ads/core/internal/diagnostics/diagnostic_alias.h"
+#include "unknown/components/brave_ads/core/public/ads_callback.h"
 
 namespace brave_ads {
 

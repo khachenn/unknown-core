@@ -8,8 +8,8 @@
 
 #include "base/memory/weak_ptr.h"
 #include "base/timer/wall_clock_timer.h"
-#include "brave/components/misc_metrics/uptime_monitor.h"
-#include "brave/components/time_period_storage/weekly_storage.h"
+#include "unknown/components/misc_metrics/uptime_monitor.h"
+#include "unknown/components/time_period_storage/weekly_storage.h"
 #include "build/build_config.h"
 #include "components/prefs/pref_change_registrar.h"
 

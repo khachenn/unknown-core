@@ -5,8 +5,8 @@
 
 #include "chrome/browser/ui/views/tabs/tab.h"
 
-#include "brave/browser/ui/views/tabs/brave_tab_strip_layout_helper.h"
-#include "brave/browser/ui/views/tabs/vertical_tab_utils.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_strip_layout_helper.h"
+#include "unknown/browser/ui/views/tabs/vertical_tab_utils.h"
 #include "chrome/browser/ui/layout_constants.h"
 
 // Upstream is no longer centering the tab favicon vertically within the tab

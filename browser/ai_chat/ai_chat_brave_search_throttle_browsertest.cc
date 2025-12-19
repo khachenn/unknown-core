@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ai_chat/content/browser/ai_chat_brave_search_throttle.h"
+#include "unknown/components/ai_chat/content/browser/ai_chat_brave_search_throttle.h"
 
 #include <memory>
 #include <string>
@@ -11,9 +11,9 @@
 #include "base/files/file_path.h"
 #include "base/location.h"
 #include "base/path_service.h"
-#include "brave/browser/ui/sidebar/sidebar_controller.h"
-#include "brave/browser/ui/sidebar/sidebar_model.h"
-#include "brave/components/constants/brave_paths.h"
+#include "unknown/browser/ui/sidebar/sidebar_controller.h"
+#include "unknown/browser/ui/sidebar/sidebar_model.h"
+#include "unknown/components/constants/brave_paths.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"
 #include "chrome/test/base/in_process_browser_test.h"

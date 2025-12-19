@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_account/brave_account_service_factory.h"
+#include "unknown/browser/brave_account/brave_account_service_factory.h"
 
 #include "base/android/jni_android.h"
-#include "brave/components/brave_account/brave_account_service.h"
-#include "brave/components/brave_account/mojom/brave_account.mojom.h"
+#include "unknown/components/brave_account/brave_account_service.h"
+#include "unknown/components/brave_account/mojom/brave_account.mojom.h"
 #include "chrome/android/chrome_jni_headers/BraveAccountServiceFactory_jni.h"
 #include "chrome/browser/profiles/profile.h"
 #include "mojo/public/cpp/bindings/pending_remote.h"

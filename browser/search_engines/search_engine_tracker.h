@@ -11,7 +11,7 @@
 #include "base/memory/raw_ptr.h"
 #include "base/scoped_observation.h"
 #include "base/timer/wall_clock_timer.h"
-#include "brave/components/web_discovery/buildflags/buildflags.h"
+#include "unknown/components/web_discovery/buildflags/buildflags.h"
 #include "components/keyed_service/content/browser_context_keyed_service_factory.h"
 #include "components/keyed_service/core/keyed_service.h"
 #include "components/pref_registry/pref_registry_syncable.h"

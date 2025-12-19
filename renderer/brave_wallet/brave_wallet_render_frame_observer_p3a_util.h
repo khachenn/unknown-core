@@ -6,8 +6,8 @@
 #ifndef BRAVE_RENDERER_BRAVE_WALLET_BRAVE_WALLET_RENDER_FRAME_OBSERVER_P3A_UTIL_H_
 #define BRAVE_RENDERER_BRAVE_WALLET_BRAVE_WALLET_RENDER_FRAME_OBSERVER_P3A_UTIL_H_
 
-#include "brave/common/brave_renderer_configuration.mojom.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/common/brave_renderer_configuration.mojom.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "content/public/renderer/render_frame.h"
 #include "mojo/public/cpp/bindings/remote.h"
 

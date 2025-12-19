@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/common/value_conversion_utils.h"
+#include "unknown/components/brave_wallet/common/value_conversion_utils.h"
 
 #include <optional>
 #include <string>
@@ -17,10 +17,10 @@
 #include "base/strings/string_util.h"
 #include "base/uuid.h"
 #include "base/values.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/common_utils.h"
-#include "brave/components/brave_wallet/common/solana_utils.h"
-#include "brave/net/base/url_util.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/common_utils.h"
+#include "unknown/components/brave_wallet/common/solana_utils.h"
+#include "unknown/net/base/url_util.h"
 
 namespace {
 

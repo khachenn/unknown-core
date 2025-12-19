@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/nft_metadata_fetcher.h"
+#include "unknown/components/brave_wallet/browser/nft_metadata_fetcher.h"
 
 #include <memory>
 #include <string_view>
@@ -14,12 +14,12 @@
 #include "base/test/bind.h"
 #include "base/test/task_environment.h"
 #include "base/test/values_test_util.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_constants.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_utils.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
-#include "brave/components/brave_wallet/browser/network_manager.h"
-#include "brave/components/brave_wallet/browser/pref_names.h"
-#include "brave/components/brave_wallet/common/hash_utils.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_constants.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_utils.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/brave_wallet/browser/network_manager.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/common/hash_utils.h"
 #include "components/sync_preferences/testing_pref_service_syncable.h"
 #include "services/data_decoder/public/cpp/test_support/in_process_data_decoder.h"
 #include "services/network/public/cpp/weak_wrapper_shared_url_loader_factory.h"

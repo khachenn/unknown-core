@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ai_chat/content/browser/associated_web_contents_content.h"
+#include "unknown/components/ai_chat/content/browser/associated_web_contents_content.h"
 
 #include <cstdint>
 #include <memory>
@@ -21,14 +21,14 @@
 #include "base/strings/utf_ostream_operators.h"
 #include "base/strings/utf_string_conversions.h"
 #include "base/types/fixed_array.h"
-#include "brave/components/ai_chat/content/browser/page_content_fetcher.h"
-#include "brave/components/ai_chat/content/browser/pdf_utils.h"
-#include "brave/components/ai_chat/core/browser/associated_content_driver.h"
-#include "brave/components/ai_chat/core/browser/constants.h"
-#include "brave/components/ai_chat/core/browser/utils.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/page_content_extractor.mojom.h"
+#include "unknown/components/ai_chat/content/browser/page_content_fetcher.h"
+#include "unknown/components/ai_chat/content/browser/pdf_utils.h"
+#include "unknown/components/ai_chat/core/browser/associated_content_driver.h"
+#include "unknown/components/ai_chat/core/browser/constants.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/page_content_extractor.mojom.h"
 #include "content/public/browser/browser_accessibility_state.h"
 #include "content/public/browser/browser_context.h"
 #include "content/public/browser/navigation_details.h"

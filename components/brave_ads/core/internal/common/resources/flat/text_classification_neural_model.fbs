@@ -1,4 +1,4 @@
-include "brave/components/brave_ads/core/internal/common/resources/flat/text_classification_neural_transformation.fbs";
+include "unknown/components/brave_ads/core/internal/common/resources/flat/text_classification_neural_transformation.fbs";
 
 namespace brave_ads.neural_text_classification.flat;
 

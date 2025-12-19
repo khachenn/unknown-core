@@ -12,7 +12,7 @@
 #undef SetupBasicInterceptions
 
 #include "base/feature_list.h"
-#include "brave/sandbox/win/src/module_file_name_interception.h"
+#include "unknown/sandbox/win/src/module_file_name_interception.h"
 
 #if !defined(PSAPI_VERSION)
 #error <Psapi.h> should be included.

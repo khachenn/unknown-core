@@ -3,31 +3,31 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
-import("//brave/components/tor/buildflags/buildflags.gni")
-import("//brave/utility/importer/sources.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/tor/buildflags/buildflags.gni")
+import("//unknown/utility/importer/sources.gni")
 
 brave_utility_sources = [
-  "//brave/utility/brave_content_utility_client.cc",
-  "//brave/utility/brave_content_utility_client.h",
+  "//unknown/utility/brave_content_utility_client.cc",
+  "//unknown/utility/brave_content_utility_client.h",
 ]
 
 brave_utility_sources += brave_utility_importer_sources
 
 brave_utility_deps = [
-  "//brave/components/brave_wallet/common/buildflags",
-  "//brave/components/services/bat_ads:lib",
-  "//brave/components/services/bat_ads/public/interfaces",
-  "//brave/components/services/bat_rewards:lib",
-  "//brave/components/services/bat_rewards/public/interfaces",
-  "//brave/components/tor/buildflags",
+  "//unknown/components/brave_wallet/common/buildflags",
+  "//unknown/components/services/bat_ads:lib",
+  "//unknown/components/services/bat_ads/public/interfaces",
+  "//unknown/components/services/bat_rewards:lib",
+  "//unknown/components/services/bat_rewards/public/interfaces",
+  "//unknown/components/tor/buildflags",
   "//mojo/public/cpp/bindings",
 ]
 
 if (enable_brave_wallet) {
   brave_utility_deps += [
-    "//brave/components/services/brave_wallet:lib",
-    "//brave/components/services/brave_wallet/public/mojom",
+    "//unknown/components/services/brave_wallet:lib",
+    "//unknown/components/services/brave_wallet/public/mojom",
   ]
 }
 
@@ -42,8 +42,8 @@ brave_utility_deps += brave_utility_importer_deps
 
 if (enable_tor) {
   brave_utility_deps += [
-    "//brave/components/services/tor",
-    "//brave/components/services/tor/public/interfaces",
+    "//unknown/components/services/tor",
+    "//unknown/components/services/tor/public/interfaces",
   ]
 }
 

@@ -3,13 +3,13 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/webcompat_reporter/browser/webcompat_reporter_utils.h"
+#include "unknown/components/webcompat_reporter/browser/webcompat_reporter_utils.h"
 
 #include <string_view>
 
 #include "base/containers/contains.h"
 #include "base/containers/fixed_flat_set.h"
-#include "brave/components/brave_shields/core/common/brave_shield_constants.h"
+#include "unknown/components/brave_shields/core/common/brave_shield_constants.h"
 
 namespace {
 

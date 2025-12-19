@@ -1,6 +1,6 @@
 include_rules = [
-  "+brave/v8/include",
-  "+brave/components/brave_page_graph/common/buildflags.h",
-  "+brave/components/brave_shields/core/common",
+  "+unknown/v8/include",
+  "+unknown/components/brave_page_graph/common/buildflags.h",
+  "+unknown/components/brave_shields/core/common",
   "+net/base",
 ]

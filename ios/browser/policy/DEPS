@@ -1,9 +1,9 @@
 include_rules = [
-  "+brave/components/ai_chat/core/common",
-  "+brave/components/brave_news/common",
-  "+brave/components/brave_rewards/core",
-  "+brave/components/brave_vpn/common",
-  "+brave/components/brave_wallet/common",
-  "+brave/components/constants",
-  "+brave/components/playlist/core/common",
+  "+unknown/components/ai_chat/core/common",
+  "+unknown/components/brave_news/common",
+  "+unknown/components/brave_rewards/core",
+  "+unknown/components/brave_vpn/common",
+  "+unknown/components/brave_wallet/common",
+  "+unknown/components/constants",
+  "+unknown/components/playlist/core/common",
 ]

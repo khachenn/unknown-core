@@ -8,20 +8,20 @@ static_library("common") {
   # unless no equivalent is available.
   visibility = [
     ":*",
-    "//brave/browser/ui",
-    "//brave/components/ai_chat/core/browser",
-    "//brave/components/brave_ads/browser",
-    "//brave/components/brave_ads/core/internal",
-    "//brave/components/brave_ads/core/test:brave_ads_unit_tests",
-    "//brave/components/brave_news/browser",
-    "//brave/components/brave_news/common",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/p3a",
-    "//brave/components/sidebar/browser",
-    "//brave/components/text_recognition/browser",
-    "//brave/ios/browser/api/ads",
-    "//brave/ios/browser/shared/prefs",
-    "//brave/test:*",
+    "//unknown/browser/ui",
+    "//unknown/components/ai_chat/core/browser",
+    "//unknown/components/brave_ads/browser",
+    "//unknown/components/brave_ads/core/internal",
+    "//unknown/components/brave_ads/core/test:brave_ads_unit_tests",
+    "//unknown/components/brave_news/browser",
+    "//unknown/components/brave_news/common",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/p3a",
+    "//unknown/components/sidebar/browser",
+    "//unknown/components/text_recognition/browser",
+    "//unknown/ios/browser/api/ads",
+    "//unknown/ios/browser/shared/prefs",
+    "//unknown/test:*",
     "//chrome/browser",
   ]
 
@@ -54,7 +54,7 @@ static_library("common") {
 
   deps = [
     "//base",
-    "//brave/components/l10n/browser",
+    "//unknown/components/l10n/browser",
     "//components/prefs",
     "//ui/base",
   ]
@@ -70,7 +70,7 @@ static_library("test_support") {
 
   deps = [
     "//base",
-    "//brave/components/l10n/common",
+    "//unknown/components/l10n/common",
   ]
 }
 
@@ -86,9 +86,9 @@ source_set("unit_tests") {
   deps = [
     "//base",
     "//base/test:test_support",
-    "//brave/components/l10n/common",
-    "//brave/components/l10n/common:test_support",
-    "//brave/components/resources:strings_grit",
+    "//unknown/components/l10n/common",
+    "//unknown/components/l10n/common:test_support",
+    "//unknown/components/resources:strings_grit",
     "//components/prefs:test_support",
     "//testing/gmock",
     "//testing/gtest",

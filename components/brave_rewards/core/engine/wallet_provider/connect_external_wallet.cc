@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/core/engine/wallet_provider/connect_external_wallet.h"
+#include "unknown/components/brave_rewards/core/engine/wallet_provider/connect_external_wallet.h"
 
 #include <utility>
 
@@ -11,13 +11,13 @@
 #include "base/containers/contains.h"
 #include "base/functional/bind.h"
 #include "base/location.h"
-#include "brave/components/brave_rewards/core/engine/database/database.h"
-#include "brave/components/brave_rewards/core/engine/logging/event_log_keys.h"
-#include "brave/components/brave_rewards/core/engine/logging/event_log_util.h"
-#include "brave/components/brave_rewards/core/engine/rewards_engine.h"
-#include "brave/components/brave_rewards/core/engine/util/random_util.h"
-#include "brave/components/brave_rewards/core/engine/util/rewards_prefs.h"
-#include "brave/components/brave_rewards/core/engine/wallet/wallet_util.h"
+#include "unknown/components/brave_rewards/core/engine/database/database.h"
+#include "unknown/components/brave_rewards/core/engine/logging/event_log_keys.h"
+#include "unknown/components/brave_rewards/core/engine/logging/event_log_util.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_engine.h"
+#include "unknown/components/brave_rewards/core/engine/util/random_util.h"
+#include "unknown/components/brave_rewards/core/engine/util/rewards_prefs.h"
+#include "unknown/components/brave_rewards/core/engine/wallet/wallet_util.h"
 
 namespace brave_rewards::internal {
 

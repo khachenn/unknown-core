@@ -10,10 +10,10 @@
 
 #include <memory>
 
-#include "brave/browser/ui/webui/brave_browser_command/brave_browser_command_handler.h"
-#include "brave/browser/ui/webui/brave_education/brave_education.mojom.h"
-#include "brave/components/constants/webui_url_constants.h"
-#include "brave/ui/webui/resources/js/brave_browser_command/brave_browser_command.mojom.h"
+#include "unknown/browser/ui/webui/brave_browser_command/brave_browser_command_handler.h"
+#include "unknown/browser/ui/webui/brave_education/brave_education.mojom.h"
+#include "unknown/components/constants/webui_url_constants.h"
+#include "unknown/ui/webui/resources/js/brave_browser_command/brave_browser_command.mojom.h"
 #include "content/public/browser/webui_config.h"
 #include "content/public/common/url_constants.h"
 #include "mojo/public/cpp/bindings/pending_receiver.h"

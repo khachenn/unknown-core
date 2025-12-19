@@ -8,8 +8,8 @@
 
 #include <string>
 
-#include "brave/components/brave_ads/core/browser/internals/ads_internals_handler.h"
-#include "brave/components/services/bat_ads/public/interfaces/bat_ads.mojom.h"
+#include "unknown/components/brave_ads/core/browser/internals/ads_internals_handler.h"
+#include "unknown/components/services/bat_ads/public/interfaces/bat_ads.mojom.h"
 #include "components/prefs/pref_change_registrar.h"
 #include "content/public/browser/web_ui_controller.h"
 #include "mojo/public/cpp/bindings/pending_receiver.h"

@@ -6,4 +6,4 @@ index 40719fd7e6b882391c65636092962531134fa118..99a8b95c83c5a6d7b7a74655c2c7f28e
      legacy_google_update_appid = "{8B2B92A3-1BA2-4154-A89C-DA74C9C505E4}"
    }
  }
-+import("//brave/chromium_src/chrome/updater/branding.gni") forward_variables_from(brave_updater_branding, "*")
++import("//unknown/chromium_src/chrome/updater/branding.gni") forward_variables_from(brave_updater_branding, "*")

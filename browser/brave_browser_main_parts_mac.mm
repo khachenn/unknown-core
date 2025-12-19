@@ -3,14 +3,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_browser_main_parts_mac.h"
+#include "unknown/browser/brave_browser_main_parts_mac.h"
 
 #include "base/feature_list.h"
 #include "base/logging.h"
-#include "brave/browser/mac/keystone_glue.h"
-#include "brave/browser/sparkle_buildflags.h"
-#include "brave/browser/updater/buildflags.h"
-#include "brave/browser/upgrade_when_idle/upgrade_when_idle.h"
+#include "unknown/browser/mac/keystone_glue.h"
+#include "unknown/browser/sparkle_buildflags.h"
+#include "unknown/browser/updater/buildflags.h"
+#include "unknown/browser/upgrade_when_idle/upgrade_when_idle.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/common/channel_info.h"
 #include "components/version_info/channel.h"
@@ -20,7 +20,7 @@
 #endif
 
 #if BUILDFLAG(ENABLE_OMAHA4)
-#include "brave/browser/updater/features.h"
+#include "unknown/browser/updater/features.h"
 #endif
 
 namespace brave {

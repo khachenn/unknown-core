@@ -6,9 +6,9 @@ index 4433777ae40e045da1b9f8747e3fefff67d68ac0..32257a1f70e251fdcf1aa38b00427bb8
  -ui/gl/  # Unsafe generated files.
  -url/third_party/
  -v8/
-+-brave/third_party/bip39wally-core-native/
-+-brave/vendor/bat-native-tweetnacl/
-+-brave/third_party/bitcoin-core/
-+-brave/third_party/bspatch/
-+-brave/third_party/ethash/
-+-brave/third_party/argon2/
++-unknown/third_party/bip39wally-core-native/
++-unknown/vendor/bat-native-tweetnacl/
++-unknown/third_party/bitcoin-core/
++-unknown/third_party/bspatch/
++-unknown/third_party/ethash/
++-unknown/third_party/argon2/

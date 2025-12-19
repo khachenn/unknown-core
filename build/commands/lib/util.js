@@ -513,7 +513,7 @@ const util = {
 
     Log.progressStart('build redirect_cc')
     const buildArgs = {
-      'import("//brave/tools/redirect_cc/args.gni")': null,
+      'import("//unknown/tools/redirect_cc/args.gni")': null,
       use_remoteexec: config.useRemoteExec,
       use_reclient: config.useRemoteExec,
       use_siso: false,
@@ -522,7 +522,7 @@ const util = {
     }
 
     util.runGnGen(config.nativeRedirectCCDir, buildArgs, [
-      '--root-target=//brave/tools/redirect_cc',
+      '--root-target=//unknown/tools/redirect_cc',
     ])
     await util.buildTargets(
       ['brave/tools/redirect_cc'],

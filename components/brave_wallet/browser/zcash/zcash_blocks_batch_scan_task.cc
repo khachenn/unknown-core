@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_wallet/browser/zcash/zcash_blocks_batch_scan_task.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_blocks_batch_scan_task.h"
 
 #include <algorithm>
 #include <string>
@@ -14,7 +14,7 @@
 #include "base/check_op.h"
 #include "base/containers/extend.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
 
 namespace brave_wallet {
 

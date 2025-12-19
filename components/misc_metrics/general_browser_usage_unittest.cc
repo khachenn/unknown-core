@@ -9,7 +9,7 @@
 
 #include "base/test/metrics/histogram_tester.h"
 #include "base/time/time.h"
-#include "brave/components/misc_metrics/general_browser_usage.h"
+#include "unknown/components/misc_metrics/general_browser_usage.h"
 #include "components/prefs/testing_pref_service.h"
 #include "content/public/test/browser_task_environment.h"
 #include "testing/gtest/include/gtest/gtest.h"

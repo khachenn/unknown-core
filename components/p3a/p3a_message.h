@@ -14,9 +14,9 @@
 #include "base/memory/raw_ptr.h"
 #include "base/time/time.h"
 #include "base/values.h"
-#include "brave/components/p3a/metric_config.h"
-#include "brave/components/p3a/metric_log_type.h"
-#include "brave/components/p3a/region.h"
+#include "unknown/components/p3a/metric_config.h"
+#include "unknown/components/p3a/metric_log_type.h"
+#include "unknown/components/p3a/region.h"
 
 class PrefService;
 

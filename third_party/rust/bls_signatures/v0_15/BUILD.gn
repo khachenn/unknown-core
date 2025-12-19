@@ -12,12 +12,12 @@ cargo_crate("lib") {
   crate_name = "bls_signatures"
   epoch = "0.15"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/bls-signatures-v0_15/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/bls-signatures-v0_15/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/bls-signatures-v0_15/src/error.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/bls-signatures-v0_15/src/key.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/bls-signatures-v0_15/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/bls-signatures-v0_15/src/signature.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/bls-signatures-v0_15/src/error.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/bls-signatures-v0_15/src/key.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/bls-signatures-v0_15/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/bls-signatures-v0_15/src/signature.rs",
   ]
   inputs = []
 
@@ -30,18 +30,18 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.15.0"
 
   deps = [
-    "//brave/third_party/rust/bls12_381/v0_8:lib",
-    "//brave/third_party/rust/ff/v0_13:lib",
-    "//brave/third_party/rust/group/v0_13:lib",
-    "//brave/third_party/rust/hkdf/v0_11:lib",
-    "//brave/third_party/rust/pairing/v0_23:lib",
-    "//brave/third_party/rust/rand_core/v0_6:lib",
-    "//brave/third_party/rust/sha2/v0_9:lib",
-    "//brave/third_party/rust/subtle/v2:lib",
-    "//brave/third_party/rust/thiserror/v1:lib",
+    "//unknown/third_party/rust/bls12_381/v0_8:lib",
+    "//unknown/third_party/rust/ff/v0_13:lib",
+    "//unknown/third_party/rust/group/v0_13:lib",
+    "//unknown/third_party/rust/hkdf/v0_11:lib",
+    "//unknown/third_party/rust/pairing/v0_23:lib",
+    "//unknown/third_party/rust/rand_core/v0_6:lib",
+    "//unknown/third_party/rust/sha2/v0_9:lib",
+    "//unknown/third_party/rust/subtle/v2:lib",
+    "//unknown/third_party/rust/thiserror/v1:lib",
   ]
   aliased_deps = {
-    pairing_lib = "//brave/third_party/rust/pairing/v0_23:lib"
+    pairing_lib = "//unknown/third_party/rust/pairing/v0_23:lib"
   }
   features = [
     "bls12_381",

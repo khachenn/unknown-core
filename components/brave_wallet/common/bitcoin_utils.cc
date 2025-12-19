@@ -4,16 +4,16 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/common/bitcoin_utils.h"
+#include "unknown/components/brave_wallet/common/bitcoin_utils.h"
 
 #include <optional>
 #include <utility>
 
 #include "base/check_op.h"
 #include "base/strings/string_util.h"
-#include "brave/components/brave_wallet/common/bech32.h"
-#include "brave/components/brave_wallet/common/hash_utils.h"
-#include "brave/third_party/bitcoin-core/src/src/base58.h"
+#include "unknown/components/brave_wallet/common/bech32.h"
+#include "unknown/components/brave_wallet/common/hash_utils.h"
+#include "unknown/third_party/bitcoin-core/src/src/base58.h"
 
 namespace {
 

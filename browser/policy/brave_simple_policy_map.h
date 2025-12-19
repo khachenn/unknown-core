@@ -6,54 +6,54 @@
 #ifndef BRAVE_BROWSER_POLICY_BRAVE_SIMPLE_POLICY_MAP_H_
 #define BRAVE_BROWSER_POLICY_BRAVE_SIMPLE_POLICY_MAP_H_
 
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_news/common/pref_names.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_shields/core/common/pref_names.h"
-#include "brave/components/brave_sync/brave_sync_prefs.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/brave_wayback_machine/buildflags/buildflags.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/de_amp/common/pref_names.h"
-#include "brave/components/debounce/core/common/pref_names.h"
-#include "brave/components/global_privacy_control/pref_names.h"
-#include "brave/components/ipfs/buildflags/buildflags.h"
-#include "brave/components/p3a/pref_names.h"
-#include "brave/components/playlist/core/common/pref_names.h"
-#include "brave/components/query_filter/pref_names.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_news/common/pref_names.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_shields/core/common/pref_names.h"
+#include "unknown/components/brave_sync/brave_sync_prefs.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wayback_machine/buildflags/buildflags.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/de_amp/common/pref_names.h"
+#include "unknown/components/debounce/core/common/pref_names.h"
+#include "unknown/components/global_privacy_control/pref_names.h"
+#include "unknown/components/ipfs/buildflags/buildflags.h"
+#include "unknown/components/p3a/pref_names.h"
+#include "unknown/components/playlist/core/common/pref_names.h"
+#include "unknown/components/query_filter/pref_names.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "build/build_config.h"
 #include "components/policy/core/browser/configuration_policy_handler.h"
 #include "components/policy/policy_constants.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/components/tor/pref_names.h"
+#include "unknown/components/tor/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/pref_names.h"
+#include "unknown/components/brave_vpn/common/pref_names.h"
 #endif
 
 #if BUILDFLAG(DEPRECATE_IPFS)
-#include "brave/components/ipfs/ipfs_prefs.h"  // nogncheck
+#include "unknown/components/ipfs/ipfs_prefs.h"  // nogncheck
 #endif                                         // BUILDFLAG(DEPRECATE_IPFS)
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/components/speedreader/speedreader_pref_names.h"
+#include "unknown/components/speedreader/speedreader_pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WAYBACK_MACHINE)
-#include "brave/components/brave_wayback_machine/pref_names.h"
+#include "unknown/components/brave_wayback_machine/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
 #endif
 
 namespace policy {

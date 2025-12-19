@@ -6,7 +6,7 @@
 #ifndef BRAVE_BROWSER_MAC_SPARKLE_GLUE_H_
 #define BRAVE_BROWSER_MAC_SPARKLE_GLUE_H_
 
-#import "brave/browser/mac/keystone_glue.h"
+#import "unknown/browser/mac/keystone_glue.h"
 
 #if defined(__OBJC__)
 

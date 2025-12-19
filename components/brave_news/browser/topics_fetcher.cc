@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_news/browser/topics_fetcher.h"
+#include "unknown/components/brave_news/browser/topics_fetcher.h"
 
 #include <string>
 #include <tuple>
@@ -16,10 +16,10 @@
 #include "base/logging.h"
 #include "base/strings/strcat.h"
 #include "base/values.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_news/api/topics.h"
-#include "brave/components/brave_news/browser/network.h"
-#include "brave/components/brave_news/browser/urls.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_news/api/topics.h"
+#include "unknown/components/brave_news/browser/network.h"
+#include "unknown/components/brave_news/browser/urls.h"
 
 namespace brave_news {
 

@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/tabs/brave_browser_tab_strip_controller.h"
+#include "unknown/browser/ui/views/tabs/brave_browser_tab_strip_controller.h"
 
 #include <utility>
 
-#include "brave/browser/ui/tabs/brave_tab_strip_model.h"
-#include "brave/browser/ui/views/tabs/brave_tab_context_menu_contents.h"
-#include "brave/browser/ui/views/tabs/brave_tab_strip.h"
+#include "unknown/browser/ui/tabs/brave_tab_strip_model.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_context_menu_contents.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_strip.h"
 #include "chrome/browser/ui/tabs/features.h"
 #include "chrome/browser/ui/views/frame/browser_view.h"
 #include "chrome/browser/ui/views/tabs/tab_strip.h"

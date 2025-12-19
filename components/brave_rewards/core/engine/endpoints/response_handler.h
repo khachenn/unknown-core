@@ -11,9 +11,9 @@
 #include "base/check.h"
 #include "base/functional/callback.h"
 #include "base/types/expected.h"
-#include "brave/components/brave_rewards/core/engine/endpoints/result_for.h"
-#include "brave/components/brave_rewards/core/engine/rewards_engine.h"
-#include "brave/components/brave_rewards/core/mojom/rewards.mojom.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/result_for.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_engine.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards.mojom.h"
 
 namespace brave_rewards::internal::endpoints {
 

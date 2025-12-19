@@ -14,8 +14,8 @@
 #include "base/no_destructor.h"
 #include "base/scoped_observation.h"
 #include "base/version.h"
-#include "brave/components/brave_wallet/browser/wallet_data_files_installer_delegate.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/browser/wallet_data_files_installer_delegate.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
 #include "components/component_updater/component_updater_service.h"
 #include "components/update_client/update_client.h"
 

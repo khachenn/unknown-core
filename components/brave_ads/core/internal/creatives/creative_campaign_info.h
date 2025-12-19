@@ -9,7 +9,7 @@
 #include <string>
 
 #include "base/time/time.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-data-view.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-data-view.h"
 
 namespace brave_ads {
 

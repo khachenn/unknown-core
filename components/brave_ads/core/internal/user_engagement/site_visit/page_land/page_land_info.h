@@ -9,7 +9,7 @@
 #include <optional>
 
 #include "base/timer/timer.h"
-#include "brave/components/brave_ads/core/public/ad_units/ad_info.h"
+#include "unknown/components/brave_ads/core/public/ad_units/ad_info.h"
 
 namespace brave_ads {
 

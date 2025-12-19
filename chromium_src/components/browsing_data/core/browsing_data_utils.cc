@@ -10,7 +10,7 @@
 
 #include "base/containers/fixed_flat_map.h"
 #include "base/containers/map_util.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
 
 #define GetDeletionPreferenceFromDataType \
   GetDeletionPreferenceFromDataType_ChromiumImpl

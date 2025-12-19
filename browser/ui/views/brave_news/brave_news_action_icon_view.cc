@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/views/brave_news/brave_news_action_icon_view.h"
+#include "unknown/browser/ui/views/brave_news/brave_news_action_icon_view.h"
 
 #include <memory>
 #include <utility>
@@ -12,11 +12,11 @@
 #include "base/check.h"
 #include "base/functional/bind.h"
 #include "base/functional/callback_forward.h"
-#include "brave/browser/brave_news/brave_news_tab_helper.h"
-#include "brave/browser/ui/views/brave_news/brave_news_bubble_controller.h"
-#include "brave/browser/ui/views/brave_news/brave_news_bubble_view.h"
-#include "brave/components/brave_news/common/pref_names.h"
-#include "brave/components/vector_icons/vector_icons.h"
+#include "unknown/browser/brave_news/brave_news_tab_helper.h"
+#include "unknown/browser/ui/views/brave_news/brave_news_bubble_controller.h"
+#include "unknown/browser/ui/views/brave_news/brave_news_bubble_view.h"
+#include "unknown/components/brave_news/common/pref_names.h"
+#include "unknown/components/vector_icons/vector_icons.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/views/page_action/page_action_icon_view.h"
 #include "components/grit/brave_components_strings.h"

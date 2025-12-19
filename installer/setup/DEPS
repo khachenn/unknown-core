@@ -1,5 +1,5 @@
 include_rules = [
-  "+brave/third_party/bspatch",
+  "+unknown/third_party/bspatch",
   "+chrome/common/chrome_paths.h",
   "+chrome/installer/setup",
   "+chrome/installer/util/lzma_util.h",

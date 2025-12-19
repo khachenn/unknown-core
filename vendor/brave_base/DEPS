@@ -1,4 +1,4 @@
 include_rules = [
-  "+brave/vendor/brave_base",
+  "+unknown/vendor/brave_base",
   "+crypto",
 ]

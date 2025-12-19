@@ -12,15 +12,15 @@ cargo_crate("lib") {
   crate_name = "pin_project_internal"
   epoch = "0.4"
   crate_type = "proc-macro"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/pin_project/attribute.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/pin_project/derive.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/pin_project/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/pinned_drop.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/project.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/utils.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/pin_project/attribute.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/pin_project/derive.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/pin_project/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/pinned_drop.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/project.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/src/utils.rs",
   ]
   inputs = []
 
@@ -32,12 +32,12 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.4.30"
 
   deps = [
-    "//brave/third_party/rust/proc_macro2/v1:lib",
-    "//brave/third_party/rust/quote/v1:lib",
-    "//brave/third_party/rust/syn/v1:lib",
+    "//unknown/third_party/rust/proc_macro2/v1:lib",
+    "//unknown/third_party/rust/quote/v1:lib",
+    "//unknown/third_party/rust/syn/v1:lib",
   ]
-  build_root = "//brave/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/build.rs"
-  build_sources = [ "//brave/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/build.rs" ]
+  build_root = "//unknown/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/build.rs"
+  build_sources = [ "//unknown/third_party/rust/chromium_crates_io/vendor/pin-project-internal-v0_4/build.rs" ]
   rustenv = []
   rustflags = []
 

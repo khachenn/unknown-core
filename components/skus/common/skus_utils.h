@@ -21,7 +21,7 @@ inline constexpr auto kSafeOrigins = std::to_array<std::string_view>({
 
 // This version is safe for use outside the renderer. The internal
 // `IsSameOriginWith` check is different than the version in
-// `//brave/components/skus/renderer/skus_utils.h`
+// `//unknown/components/skus/renderer/skus_utils.h`
 //
 // See //url/origin.cc
 bool IsSafeOrigin(const GURL& origin);

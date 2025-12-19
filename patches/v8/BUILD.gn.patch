@@ -6,7 +6,7 @@ index 3a51ee81fadd133ce8e44150a5c80d0ef4e326a6..f1db191bddd6e94374620829556aba6d
      "$target_gen_dir",
      "$target_gen_dir/include",
    ]
-+  _include_dirs = include_dirs include_dirs = [] include_dirs = [ "//brave/chromium_src/v8" ] + _include_dirs
++  _include_dirs = include_dirs include_dirs = [] include_dirs = [ "//unknown/chromium_src/v8" ] + _include_dirs
  }
  
  config("internal_config") {
@@ -14,7 +14,7 @@ index 3a51ee81fadd133ce8e44150a5c80d0ef4e326a6..f1db191bddd6e94374620829556aba6d
      ":v8_tracing",
      ":v8_version",
    ]
-+  import("//brave/v8/sources.gni") sources += brave_v8_headers_sources public_deps += brave_v8_headers_public_deps
++  import("//unknown/v8/sources.gni") sources += brave_v8_headers_sources public_deps += brave_v8_headers_public_deps
  }
  
  if (v8_generate_external_defines_header) {

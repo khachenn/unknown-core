@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/sync_device_info/brave_device_info.h"
+#include "unknown/components/sync_device_info/brave_device_info.h"
 #include "components/history/core/browser/history_service.h"
 #include "components/sync_device_info/device_info_tracker.h"
 #include "testing/gmock/include/gmock/gmock.h"

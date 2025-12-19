@@ -27,7 +27,7 @@ test("ios_brave_unit_tests") {
     ":legacy_unit_tests",
 
     # This is required until we can sort out overridden deps symbols
-    "//brave/ios/browser",
+    "//unknown/ios/browser",
   ]
 
   assert_no_deps = ios_assert_no_deps
@@ -46,7 +46,7 @@ source_set("legacy_unit_tests") {
 
   deps = [
     "//base",
-    "//brave/ios/browser/api/net",
+    "//unknown/ios/browser/api/net",
     "//net",
     "//net/http:generate_transport_security_state",
     "//testing/gtest",

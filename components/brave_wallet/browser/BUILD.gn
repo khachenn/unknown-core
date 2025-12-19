@@ -3,9 +3,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/build/config.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/config.gni")
+import("//unknown/build/config.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/config.gni")
 import("//build/config/features.gni")
 import("//third_party/protobuf/proto_library.gni")
 import("//tools/json_schema_compiler/json_schema_api.gni")
@@ -318,28 +318,28 @@ static_library("browser") {
     ":pref_names",
     ":transaction",
     "//base",
-    "//brave/components/brave_component_updater/browser:public",
-    "//brave/components/brave_stats/browser",
-    "//brave/components/brave_wallet/api",
-    "//brave/components/brave_wallet/browser/bitcoin:generated_bitcoin_rpc_responses",
-    "//brave/components/brave_wallet/browser/cardano:generated_cardano_rpc_blockfrost_api",
-    "//brave/components/brave_wallet/browser/internal:cardano_tx_decoder",
-    "//brave/components/brave_wallet/browser/internal:hd_key_common",
-    "//brave/components/brave_wallet/browser/internal:polkadot_extrinsic_rs",
-    "//brave/components/brave_wallet/browser/polkadot:generated_polkadot_substrate_rpc_responses",
-    "//brave/components/brave_wallet/common:common_constants",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/constants",
-    "//brave/components/decentralized_dns/core",
-    "//brave/components/ipfs",
-    "//brave/components/json",
-    "//brave/components/p3a_utils",
-    "//brave/components/resources:strings_grit",
-    "//brave/components/services/brave_wallet/public/cpp",
-    "//brave/components/services/brave_wallet/public/cpp/utils",
-    "//brave/components/services/brave_wallet/public/mojom",
-    "//brave/components/services/brave_wallet/public/proto:zcash_proto",
-    "//brave/net/base:utils",
+    "//unknown/components/brave_component_updater/browser:public",
+    "//unknown/components/brave_stats/browser",
+    "//unknown/components/brave_wallet/api",
+    "//unknown/components/brave_wallet/browser/bitcoin:generated_bitcoin_rpc_responses",
+    "//unknown/components/brave_wallet/browser/cardano:generated_cardano_rpc_blockfrost_api",
+    "//unknown/components/brave_wallet/browser/internal:cardano_tx_decoder",
+    "//unknown/components/brave_wallet/browser/internal:hd_key_common",
+    "//unknown/components/brave_wallet/browser/internal:polkadot_extrinsic_rs",
+    "//unknown/components/brave_wallet/browser/polkadot:generated_polkadot_substrate_rpc_responses",
+    "//unknown/components/brave_wallet/common:common_constants",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/constants",
+    "//unknown/components/decentralized_dns/core",
+    "//unknown/components/ipfs",
+    "//unknown/components/json",
+    "//unknown/components/p3a_utils",
+    "//unknown/components/resources:strings_grit",
+    "//unknown/components/services/brave_wallet/public/cpp",
+    "//unknown/components/services/brave_wallet/public/cpp/utils",
+    "//unknown/components/services/brave_wallet/public/mojom",
+    "//unknown/components/services/brave_wallet/public/proto:zcash_proto",
+    "//unknown/net/base:utils",
     "//components/cbor",
     "//components/component_updater",
     "//components/content_settings/core/browser",
@@ -363,9 +363,9 @@ static_library("browser") {
 
   public_deps = [
     ":utils",
-    "//brave/components/api_request_helper",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:mojom",
+    "//unknown/components/api_request_helper",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:mojom",
   ]
 
   if (enable_orchard) {
@@ -391,8 +391,8 @@ static_library("browser") {
     ]
 
     deps += [
-      "//brave/components/brave_wallet/browser/internal:orchard_bundle",
-      "//brave/components/brave_wallet/browser/internal/orchard_storage",
+      "//unknown/components/brave_wallet/browser/internal:orchard_bundle",
+      "//unknown/components/brave_wallet/browser/internal/orchard_storage",
       "//sql",
     ]
   }
@@ -410,8 +410,8 @@ if (use_blink) {
     deps = [
       ":utils",
       "//base",
-      "//brave/components/brave_wallet/common:mojom",
-      "//brave/components/brave_wallet/common/buildflags",
+      "//unknown/components/brave_wallet/common:mojom",
+      "//unknown/components/brave_wallet/common/buildflags",
       "//components/permissions:permissions_common",
       "//third_party/blink/public/common",
       "//third_party/re2",
@@ -428,17 +428,17 @@ source_set("constants") {
 
   deps = [
     "//base",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/components/resources:strings_grit",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/components/resources:strings_grit",
     "//ui/base",
   ]
 
-  public_deps = [ "//brave/components/brave_wallet/common" ]
+  public_deps = [ "//unknown/components/brave_wallet/common" ]
 }
 
 source_set("pref_names") {
   sources = [ "pref_names.h" ]
-  deps = [ "//brave/components/brave_wallet/common/buildflags" ]
+  deps = [ "//unknown/components/brave_wallet/common/buildflags" ]
 }
 
 source_set("utils") {
@@ -453,12 +453,12 @@ source_set("utils") {
     ":constants",
     ":pref_names",
     "//base",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/constants",
-    "//brave/components/version_info",
-    "//brave/third_party/bip39wally-core-native:bip39wally-core",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/constants",
+    "//unknown/components/version_info",
+    "//unknown/third_party/bip39wally-core-native:bip39wally-core",
     "//components/content_settings/core/common",
     "//components/prefs",
     "//crypto",
@@ -474,7 +474,7 @@ source_set("utils") {
     "//base/version_info",
   ]
 
-  public_deps = [ "//brave/components/brave_wallet/common" ]
+  public_deps = [ "//unknown/components/brave_wallet/common" ]
 }
 
 source_set("hd_keyring") {
@@ -506,13 +506,13 @@ source_set("hd_keyring") {
   deps = [
     ":transaction",
     "//base",
-    "//brave/components/brave_wallet/browser:utils",
-    "//brave/components/brave_wallet/browser/internal:hd_key",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:common_constants",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/components/brave_wallet/common:rust_lib",
-    "//brave/components/brave_wallet/common/buildflags",
+    "//unknown/components/brave_wallet/browser:utils",
+    "//unknown/components/brave_wallet/browser/internal:hd_key",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:common_constants",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/components/brave_wallet/common:rust_lib",
+    "//unknown/components/brave_wallet/common/buildflags",
     "//crypto",
   ]
 }
@@ -535,11 +535,11 @@ source_set("transaction") {
 
   deps = [
     "//base",
-    "//brave/components/brave_wallet/browser/internal:hd_key_common",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/components/brave_wallet/common:rust_lib",
-    "//brave/components/json",
+    "//unknown/components/brave_wallet/browser/internal:hd_key_common",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/components/brave_wallet/common:rust_lib",
+    "//unknown/components/json",
     "//components/cbor",
   ]
 }
@@ -565,16 +565,16 @@ source_set("test_support") {
     ":browser",
     "//base",
     "//base/test:test_support",
-    "//brave/components/brave_wallet/browser",
-    "//brave/components/brave_wallet/browser:hd_keyring",
-    "//brave/components/brave_wallet/browser:utils",
-    "//brave/components/brave_wallet/browser/bitcoin:generated_bitcoin_rpc_responses",
-    "//brave/components/brave_wallet/browser/cardano:generated_cardano_rpc_blockfrost_api",
-    "//brave/components/brave_wallet/browser/polkadot:generated_polkadot_substrate_rpc_responses",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/services/brave_wallet/public/mojom",
+    "//unknown/components/brave_wallet/browser",
+    "//unknown/components/brave_wallet/browser:hd_keyring",
+    "//unknown/components/brave_wallet/browser:utils",
+    "//unknown/components/brave_wallet/browser/bitcoin:generated_bitcoin_rpc_responses",
+    "//unknown/components/brave_wallet/browser/cardano:generated_cardano_rpc_blockfrost_api",
+    "//unknown/components/brave_wallet/browser/polkadot:generated_polkadot_substrate_rpc_responses",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/services/brave_wallet/public/mojom",
     "//services/network:test_support",
     "//services/network/public/cpp",
     "//testing/gmock",
@@ -583,7 +583,7 @@ source_set("test_support") {
 
   public_deps = [
     "//base",
-    "//brave/components/brave_wallet/common:mojom",
+    "//unknown/components/brave_wallet/common:mojom",
     "//components/value_store",
     "//components/value_store:test_support",
   ]
@@ -595,9 +595,9 @@ source_set("wallet_handler") {
     "wallet_handler.h",
   ]
   deps = [
-    "//brave/components/brave_wallet/browser",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:mojom",
+    "//unknown/components/brave_wallet/browser",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:mojom",
     "//mojo/public/cpp/bindings",
   ]
 }
@@ -657,12 +657,12 @@ if (is_ios) {
     testonly = true
     visibility = [ ":unit_tests" ]
     sources = [
-      "//brave/components/test/data/brave_wallet/1.0.1/images/logo.png",
-      "//brave/components/test/data/brave_wallet/cardano/cardano_sdk_cip30/index.mts",
-      "//brave/components/test/data/brave_wallet/cardano/cardano_sdk_cip30/test_vectors.json",
-      "//brave/components/test/data/brave_wallet/cardano/cardano_sdk_crypto_slip23/index.mts",
-      "//brave/components/test/data/brave_wallet/cardano/cardano_sdk_crypto_slip23/test_vectors.json",
-      "//brave/third_party/bitcoin-core/src/src/test/data/key_io_valid.json",
+      "//unknown/components/test/data/brave_wallet/1.0.1/images/logo.png",
+      "//unknown/components/test/data/brave_wallet/cardano/cardano_sdk_cip30/index.mts",
+      "//unknown/components/test/data/brave_wallet/cardano/cardano_sdk_cip30/test_vectors.json",
+      "//unknown/components/test/data/brave_wallet/cardano/cardano_sdk_crypto_slip23/index.mts",
+      "//unknown/components/test/data/brave_wallet/cardano/cardano_sdk_crypto_slip23/test_vectors.json",
+      "//unknown/third_party/bitcoin-core/src/src/test/data/key_io_valid.json",
     ]
     outputs = [ "{{bundle_resources_dir}}/" +
                 "{{source_root_relative_dir}}/{{source_file_part}}" ]
@@ -826,25 +826,25 @@ source_set("unit_tests") {
     ":transaction",
     ":utils",
     "//base/test:test_support",
-    "//brave/components/brave_component_updater/browser:test_support",
-    "//brave/components/brave_wallet/browser/bitcoin:generated_bitcoin_rpc_responses",
-    "//brave/components/brave_wallet/browser/cardano:generated_cardano_rpc_blockfrost_api",
-    "//brave/components/brave_wallet/browser/internal:cardano_tx_decoder",
-    "//brave/components/brave_wallet/browser/internal:hd_key",
-    "//brave/components/brave_wallet/browser/polkadot:generated_polkadot_substrate_rpc_responses",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:common_constants",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/components/brave_wallet/common:rust_lib",
-    "//brave/components/brave_wallet/common:test_support",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/constants",
-    "//brave/components/decentralized_dns/core",
-    "//brave/components/ipfs",
-    "//brave/components/json",
-    "//brave/components/resources:strings_grit",
-    "//brave/components/services/brave_wallet/public/cpp/utils",
-    "//brave/components/services/brave_wallet/public/mojom",
+    "//unknown/components/brave_component_updater/browser:test_support",
+    "//unknown/components/brave_wallet/browser/bitcoin:generated_bitcoin_rpc_responses",
+    "//unknown/components/brave_wallet/browser/cardano:generated_cardano_rpc_blockfrost_api",
+    "//unknown/components/brave_wallet/browser/internal:cardano_tx_decoder",
+    "//unknown/components/brave_wallet/browser/internal:hd_key",
+    "//unknown/components/brave_wallet/browser/polkadot:generated_polkadot_substrate_rpc_responses",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:common_constants",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/components/brave_wallet/common:rust_lib",
+    "//unknown/components/brave_wallet/common:test_support",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/constants",
+    "//unknown/components/decentralized_dns/core",
+    "//unknown/components/ipfs",
+    "//unknown/components/json",
+    "//unknown/components/resources:strings_grit",
+    "//unknown/components/services/brave_wallet/public/cpp/utils",
+    "//unknown/components/services/brave_wallet/public/mojom",
     "//components/component_updater:test_support",
     "//components/prefs",
     "//components/prefs:test_support",
@@ -876,9 +876,9 @@ source_set("unit_tests") {
       "zcash/zcash_verify_chain_state_task_unittest.cc",
     ]
     deps += [
-      "//brave/components/brave_wallet/browser/internal:orchard_bundle",
-      "//brave/components/brave_wallet/browser/internal:test_support",
-      "//brave/components/brave_wallet/browser/internal/orchard_storage",
+      "//unknown/components/brave_wallet/browser/internal:orchard_bundle",
+      "//unknown/components/brave_wallet/browser/internal:test_support",
+      "//unknown/components/brave_wallet/browser/internal/orchard_storage",
     ]
   }
 
@@ -896,11 +896,11 @@ source_set("unit_tests") {
   }
 
   data = [
-    "//brave/components/test/data/brave_wallet",
-    "//brave/components/test/data/brave_wallet/cardano/cardano_sdk_cip30/test_vectors.json",
+    "//unknown/components/test/data/brave_wallet",
+    "//unknown/components/test/data/brave_wallet/cardano/cardano_sdk_cip30/test_vectors.json",
 
     # Test vectors for
     # BitcoinSerializer.AddressToScriptPubkey_BitcoinCoreTestVectors test.
-    "//brave/third_party/bitcoin-core/src/src/test/data/key_io_valid.json",
+    "//unknown/third_party/bitcoin-core/src/src/test/data/key_io_valid.json",
   ]
 }  # source_set("unit_tests")

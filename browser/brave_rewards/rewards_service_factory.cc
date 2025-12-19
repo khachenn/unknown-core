@@ -3,18 +3,18 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
 
 #include <memory>
 #include <utility>
 
 #include "base/no_destructor.h"
-#include "brave/browser/brave_rewards/rewards_util.h"
-#include "brave/components/brave_rewards/content/rewards_notification_service_observer.h"
-#include "brave/components/brave_rewards/content/rewards_service.h"
-#include "brave/components/brave_rewards/content/rewards_service_impl.h"
-#include "brave/components/brave_rewards/content/rewards_service_observer.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/browser/brave_rewards/rewards_util.h"
+#include "unknown/components/brave_rewards/content/rewards_notification_service_observer.h"
+#include "unknown/components/brave_rewards/content/rewards_service.h"
+#include "unknown/components/brave_rewards/content/rewards_service_impl.h"
+#include "unknown/components/brave_rewards/content/rewards_service_observer.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
 #include "chrome/browser/bitmap_fetcher/bitmap_fetcher_service.h"
 #include "chrome/browser/bitmap_fetcher/bitmap_fetcher_service_factory.h"
 #include "chrome/browser/favicon/favicon_service_factory.h"
@@ -25,11 +25,11 @@
 #include "extensions/buildflags/buildflags.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/browser/brave_wallet/brave_wallet_service_factory.h"
+#include "unknown/browser/brave_wallet/brave_wallet_service_factory.h"
 #endif
 
 #if BUILDFLAG(ENABLE_EXTENSIONS)
-#include "brave/browser/brave_rewards/extension_rewards_service_observer.h"
+#include "unknown/browser/brave_rewards/extension_rewards_service_observer.h"
 #include "extensions/browser/event_router_factory.h"
 #endif
 

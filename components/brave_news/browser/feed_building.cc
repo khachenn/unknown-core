@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_news/browser/feed_building.h"
+#include "unknown/components/brave_news/browser/feed_building.h"
 
 #include <algorithm>
 #include <iterator>
@@ -24,13 +24,13 @@
 #include "base/rand_util.h"
 #include "base/strings/string_number_conversions.h"
 #include "base/time/time.h"
-#include "brave/components/brave_news/browser/channels_controller.h"
-#include "brave/components/brave_news/browser/urls.h"
-#include "brave/components/brave_news/common/brave_news.mojom-forward.h"
-#include "brave/components/brave_news/common/brave_news.mojom-shared.h"
-#include "brave/components/brave_news/common/brave_news.mojom.h"
-#include "brave/components/brave_news/common/features.h"
-#include "brave/components/brave_news/common/subscriptions_snapshot.h"
+#include "unknown/components/brave_news/browser/channels_controller.h"
+#include "unknown/components/brave_news/browser/urls.h"
+#include "unknown/components/brave_news/common/brave_news.mojom-forward.h"
+#include "unknown/components/brave_news/common/brave_news.mojom-shared.h"
+#include "unknown/components/brave_news/common/brave_news.mojom.h"
+#include "unknown/components/brave_news/common/features.h"
+#include "unknown/components/brave_news/common/subscriptions_snapshot.h"
 #include "components/history/core/browser/history_service.h"
 #include "components/prefs/pref_service.h"
 #include "url/gurl.h"

@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_shields/brave_shields_web_contents_observer.h"
+#include "unknown/browser/brave_shields/brave_shields_web_contents_observer.h"
 
 #include <memory>
 #include <string>
@@ -13,14 +13,14 @@
 #include "base/check.h"
 #include "base/feature_list.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/browser/brave_shields/brave_shields_settings_service_factory.h"
-#include "brave/components/brave_perf_predictor/browser/perf_predictor_tab_helper.h"
-#include "brave/components/brave_shields/core/browser/brave_shields_settings_service.h"
-#include "brave/components/brave_shields/core/browser/brave_shields_utils.h"
-#include "brave/components/brave_shields/core/common/brave_shield_constants.h"
-#include "brave/components/brave_shields/core/common/pref_names.h"
-#include "brave/components/brave_shields/core/common/shields_settings.mojom.h"
-#include "brave/components/constants/pref_names.h"
+#include "unknown/browser/brave_shields/brave_shields_settings_service_factory.h"
+#include "unknown/components/brave_perf_predictor/browser/perf_predictor_tab_helper.h"
+#include "unknown/components/brave_shields/core/browser/brave_shields_settings_service.h"
+#include "unknown/components/brave_shields/core/browser/brave_shields_utils.h"
+#include "unknown/components/brave_shields/core/common/brave_shield_constants.h"
+#include "unknown/components/brave_shields/core/common/pref_names.h"
+#include "unknown/components/brave_shields/core/common/shields_settings.mojom.h"
+#include "unknown/components/constants/pref_names.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/common/renderer_configuration.mojom.h"
@@ -39,7 +39,7 @@
 #include "third_party/blink/public/common/associated_interfaces/associated_interface_provider.h"
 
 #if !BUILDFLAG(IS_ANDROID)
-#include "brave/browser/brave_shields/brave_shields_tab_helper.h"
+#include "unknown/browser/brave_shields/brave_shields_tab_helper.h"
 #endif
 
 using content::NavigationHandle;

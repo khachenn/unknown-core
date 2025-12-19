@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ai_chat/core/browser/engine/conversation_api_client.h"
+#include "unknown/components/ai_chat/core/browser/engine/conversation_api_client.h"
 
 #include <list>
 #include <optional>
@@ -27,17 +27,17 @@
 #include "base/time/time.h"
 #include "base/types/expected.h"
 #include "base/values.h"
-#include "brave/components/ai_chat/core/browser/ai_chat_credential_manager.h"
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer.h"
-#include "brave/components/ai_chat/core/browser/model_service.h"
-#include "brave/components/ai_chat/core/browser/test_utils.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
-#include "brave/components/ai_chat/core/common/pref_names.h"
-#include "brave/components/ai_chat/core/common/test_utils.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/api_request_helper/mock_api_request_helper.h"
-#include "brave/components/l10n/common/test/scoped_default_locale.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_credential_manager.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer.h"
+#include "unknown/components/ai_chat/core/browser/model_service.h"
+#include "unknown/components/ai_chat/core/browser/test_utils.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/ai_chat/core/common/test_utils.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/api_request_helper/mock_api_request_helper.h"
+#include "unknown/components/l10n/common/test/scoped_default_locale.h"
 #include "components/sync_preferences/testing_pref_service_syncable.h"
 #include "mojo/public/cpp/bindings/struct_ptr.h"
 #include "net/base/net_errors.h"

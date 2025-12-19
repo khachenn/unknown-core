@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/content/rewards_service_impl.h"
+#include "unknown/components/brave_rewards/content/rewards_service_impl.h"
 
 #include <stdint.h>
 
@@ -33,26 +33,26 @@
 #include "base/task/single_thread_task_runner.h"
 #include "base/task/thread_pool.h"
 #include "base/time/time.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_ads/core/public/prefs/pref_names.h"
-#include "brave/components/brave_rewards/content/diagnostic_log.h"
-#include "brave/components/brave_rewards/content/logging.h"
-#include "brave/components/brave_rewards/content/rewards_notification_service.h"
-#include "brave/components/brave_rewards/content/rewards_notification_service_impl.h"
-#include "brave/components/brave_rewards/content/rewards_p3a.h"
-#include "brave/components/brave_rewards/content/rewards_service_observer.h"
-#include "brave/components/brave_rewards/content/service_sandbox_type.h"
-#include "brave/components/brave_rewards/core/buildflags/buildflags.h"
-#include "brave/components/brave_rewards/core/engine/global_constants.h"
-#include "brave/components/brave_rewards/core/engine/hash_prefix_store.h"
-#include "brave/components/brave_rewards/core/engine/parameters/rewards_parameters_provider.h"
-#include "brave/components/brave_rewards/core/engine/rewards_database.h"
-#include "brave/components/brave_rewards/core/features.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_rewards/core/publisher_utils.h"
-#include "brave/components/brave_rewards/core/rewards_util.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/ntp_background_images/common/pref_names.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_ads/core/public/prefs/pref_names.h"
+#include "unknown/components/brave_rewards/content/diagnostic_log.h"
+#include "unknown/components/brave_rewards/content/logging.h"
+#include "unknown/components/brave_rewards/content/rewards_notification_service.h"
+#include "unknown/components/brave_rewards/content/rewards_notification_service_impl.h"
+#include "unknown/components/brave_rewards/content/rewards_p3a.h"
+#include "unknown/components/brave_rewards/content/rewards_service_observer.h"
+#include "unknown/components/brave_rewards/content/service_sandbox_type.h"
+#include "unknown/components/brave_rewards/core/buildflags/buildflags.h"
+#include "unknown/components/brave_rewards/core/engine/global_constants.h"
+#include "unknown/components/brave_rewards/core/engine/hash_prefix_store.h"
+#include "unknown/components/brave_rewards/core/engine/parameters/rewards_parameters_provider.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_database.h"
+#include "unknown/components/brave_rewards/core/features.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_rewards/core/publisher_utils.h"
+#include "unknown/components/brave_rewards/core/rewards_util.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/ntp_background_images/common/pref_names.h"
 #include "components/country_codes/country_codes.h"
 #include "components/favicon/core/favicon_service.h"
 #include "components/grit/brave_components_strings.h"
@@ -76,8 +76,8 @@
 #include "url/gurl.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/browser/brave_wallet_service.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
 #endif
 
 namespace brave_rewards {

@@ -10,9 +10,9 @@
 #include <cstddef>
 
 #include "base/strings/strcat.h"
-#include "brave/brave_domains/service_domains.h"
-#include "brave/components/brave_account/endpoint_client/is_request.h"
-#include "brave/components/brave_account/endpoint_client/is_response.h"
+#include "unknown/brave_domains/service_domains.h"
+#include "unknown/components/brave_account/endpoint_client/is_request.h"
+#include "unknown/components/brave_account/endpoint_client/is_response.h"
 #include "url/gurl.h"
 #include "url/url_constants.h"
 

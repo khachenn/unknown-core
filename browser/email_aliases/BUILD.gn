@@ -13,8 +13,8 @@ static_library("email_aliases") {
 
   deps = [
     "//base",
-    "//brave/components/email_aliases:features",
-    "//brave/components/email_aliases:service",
+    "//unknown/components/email_aliases:features",
+    "//unknown/components/email_aliases:service",
     "//chrome/browser:browser_process",
     "//chrome/browser/profiles:profile",
     "//components/keyed_service/content",
@@ -23,7 +23,7 @@ static_library("email_aliases") {
     "//mojo/public/cpp/bindings",
   ]
 
-  public_deps = [ "//brave/components/email_aliases:mojom" ]
+  public_deps = [ "//unknown/components/email_aliases:mojom" ]
 }
 
 source_set("unit_tests") {
@@ -32,8 +32,8 @@ source_set("unit_tests") {
   deps = [
     ":email_aliases",
     "//base",
-    "//brave/components/email_aliases:features",
-    "//brave/components/email_aliases:service",
+    "//unknown/components/email_aliases:features",
+    "//unknown/components/email_aliases:service",
     "//chrome/browser/profiles",
     "//chrome/test:test_support",
     "//components/keyed_service/core",
@@ -52,16 +52,16 @@ if (toolkit_views) {
 
     deps = [
       ":email_aliases",
-      "//brave/browser/ui/email_aliases",
-      "//brave/components/email_aliases:email_aliases_api_types",
-      "//brave/components/email_aliases:features",
-      "//brave/components/email_aliases:service",
-      "//brave/components/email_aliases:test_utils",
+      "//unknown/browser/ui/email_aliases",
+      "//unknown/components/email_aliases:email_aliases_api_types",
+      "//unknown/components/email_aliases:features",
+      "//unknown/components/email_aliases:service",
+      "//unknown/components/email_aliases:test_utils",
       "//chrome/browser",
       "//chrome/browser/ui/views/bubble",
       "//chrome/test:test_support",
     ]
 
-    data = [ "//brave/test/data/email_aliases" ]
+    data = [ "//unknown/test/data/email_aliases" ]
   }
 }

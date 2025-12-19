@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
 
 #include <array>
 #include <memory>
@@ -17,17 +17,17 @@
 #include "base/test/mock_callback.h"
 #include "base/test/scoped_feature_list.h"
 #include "base/test/task_environment.h"
-#include "brave/components/brave_wallet/browser/pref_names.h"
-#include "brave/components/brave_wallet/browser/test_utils.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_complete_transaction_task.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_rpc.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/common_utils.h"
-#include "brave/components/brave_wallet/common/features.h"
-#include "brave/components/brave_wallet/common/hex_utils.h"
-#include "brave/components/brave_wallet/common/test_utils.h"
-#include "brave/components/brave_wallet/common/zcash_utils.h"
-#include "brave/components/services/brave_wallet/public/mojom/zcash_decoder.mojom.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/test_utils.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_complete_transaction_task.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_rpc.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/common_utils.h"
+#include "unknown/components/brave_wallet/common/features.h"
+#include "unknown/components/brave_wallet/common/hex_utils.h"
+#include "unknown/components/brave_wallet/common/test_utils.h"
+#include "unknown/components/brave_wallet/common/zcash_utils.h"
+#include "unknown/components/services/brave_wallet/public/mojom/zcash_decoder.mojom.h"
 #include "build/build_config.h"
 #include "components/sync_preferences/testing_pref_service_syncable.h"
 #include "testing/gmock/include/gmock/gmock.h"
@@ -38,10 +38,10 @@
 #include "base/task/thread_pool.h"
 #include "base/test/scoped_run_loop_timeout.h"
 #include "base/threading/sequence_bound.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_bundle_manager.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_sync_state.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_test_utils.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_auto_sync_manager.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_bundle_manager.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_sync_state.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_test_utils.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_auto_sync_manager.h"
 #endif
 
 using testing::_;

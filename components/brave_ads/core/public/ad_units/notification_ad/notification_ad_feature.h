@@ -9,7 +9,7 @@
 #include "base/feature_list.h"
 #include "base/metrics/field_trial_params.h"
 #include "base/time/time.h"
-#include "brave/components/brave_ads/core/public/ad_units/notification_ad/notification_ad_constants.h"
+#include "unknown/components/brave_ads/core/public/ad_units/notification_ad/notification_ad_constants.h"
 
 namespace brave_ads {
 

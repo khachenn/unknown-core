@@ -6,10 +6,10 @@
 #include <optional>
 
 #include "base/check.h"
-#include "brave/components/brave_ads/core/internal/common/challenge_bypass_ristretto/unblinded_token.h"
-#include "brave/components/brave_ads/core/internal/common/challenge_bypass_ristretto/unblinded_token_test_util.h"
-#include "brave/components/brave_ads/core/internal/common/challenge_bypass_ristretto/verification_key.h"
-#include "brave/components/brave_ads/core/internal/common/challenge_bypass_ristretto/verification_key_test_util.h"
+#include "unknown/components/brave_ads/core/internal/common/challenge_bypass_ristretto/unblinded_token.h"
+#include "unknown/components/brave_ads/core/internal/common/challenge_bypass_ristretto/unblinded_token_test_util.h"
+#include "unknown/components/brave_ads/core/internal/common/challenge_bypass_ristretto/verification_key.h"
+#include "unknown/components/brave_ads/core/internal/common/challenge_bypass_ristretto/verification_key_test_util.h"
 
 namespace brave_ads::cbr::test {
 

@@ -2,5 +2,5 @@ from brave_chromium_utils import inline_file
 inline_file("//chrome/services/printing/DEPS", globals(), locals())
 
 include_rules = [
-  "+brave/services/printing",
+  "+unknown/services/printing",
 ]

@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/ai_chat/core/browser/model_service.h"
+#include "unknown/components/ai_chat/core/browser/model_service.h"
 
 #include <array>
 #include <string>
@@ -15,12 +15,12 @@
 #include "base/scoped_observation.h"
 #include "base/test/bind.h"
 #include "base/test/scoped_feature_list.h"
-#include "brave/components/ai_chat/core/browser/constants.h"
-#include "brave/components/ai_chat/core/browser/model_validator.h"
-#include "brave/components/ai_chat/core/common/constants.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom-shared.h"
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/ai_chat/core/browser/constants.h"
+#include "unknown/components/ai_chat/core/browser/model_validator.h"
+#include "unknown/components/ai_chat/core/common/constants.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom-shared.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #include "components/os_crypt/sync/os_crypt_mocker.h"
 #include "components/prefs/testing_pref_service.h"
 #include "testing/gmock/include/gmock/gmock.h"

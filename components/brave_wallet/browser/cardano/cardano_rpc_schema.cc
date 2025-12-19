@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/cardano/cardano_rpc_schema.h"
+#include "unknown/components/brave_wallet/browser/cardano/cardano_rpc_schema.h"
 
 #include "base/strings/string_number_conversions.h"
-#include "brave/components/brave_wallet/browser/cardano/cardano_rpc_blockfrost_api.h"
+#include "unknown/components/brave_wallet/browser/cardano/cardano_rpc_blockfrost_api.h"
 
 namespace brave_wallet::cardano_rpc {
 

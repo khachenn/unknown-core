@@ -10,7 +10,7 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_rewards/core/engine/endpoints/common/post_connect.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/common/post_connect.h"
 
 // POST /v3/wallet/uphold/{rewards_payment_id}/claim
 //

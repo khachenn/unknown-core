@@ -14,7 +14,7 @@
 #include "base/check.h"
 #include "base/memory/ref_counted.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "testing/gmock/include/gmock/gmock-matchers.h"
 
 namespace brave_wallet {

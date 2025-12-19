@@ -10,8 +10,8 @@
 #include <utility>
 #include <vector>
 
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_news/api/topics.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_news/api/topics.h"
 #include "services/network/public/cpp/shared_url_loader_factory.h"
 
 namespace brave_news {

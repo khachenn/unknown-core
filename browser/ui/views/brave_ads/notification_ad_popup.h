@@ -12,7 +12,7 @@
 #include "base/memory/raw_ptr.h"
 #include "base/memory/raw_ref.h"
 #include "base/scoped_observation.h"
-#include "brave/browser/ui/brave_ads/notification_ad.h"
+#include "unknown/browser/ui/brave_ads/notification_ad.h"
 #include "ui/base/metadata/metadata_header_macros.h"
 #include "ui/display/display_observer.h"
 #include "ui/gfx/animation/animation_delegate.h"

@@ -3,12 +3,12 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/net/brave_localhost_permission_network_delegate_helper.h"
+#include "unknown/browser/net/brave_localhost_permission_network_delegate_helper.h"
 
 #include <vector>
 
 #include "base/check_op.h"
-#include "brave/browser/brave_browser_process.h"
+#include "unknown/browser/brave_browser_process.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
 #include "components/content_settings/core/browser/host_content_settings_map.h"
 #include "components/prefs/pref_service.h"

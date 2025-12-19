@@ -9,8 +9,8 @@
 #include <memory>
 #include <string>
 
-#include "brave/components/brave_wallet/browser/tx_state_manager.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/tx_state_manager.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 
 namespace base {
 class Value;

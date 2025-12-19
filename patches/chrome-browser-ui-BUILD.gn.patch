@@ -6,7 +6,7 @@ index 60b586992143faa7ea9876d2e66106123ad29c47..2668b2417bb8e09064bf1560e9577faf
      # gets componentized.
      "//chrome/browser/ui/extensions:impl",
    ]
-+  import("//brave/browser/sources.gni") import("//brave/components/brave_wallet/sources.gni") public_deps += [ "//brave/browser/ui" ] deps += brave_chrome_browser_ui_allow_circular_includes_from + brave_chrome_browser_ui_deps allow_circular_includes_from += brave_chrome_browser_ui_allow_circular_includes_from
++  import("//unknown/browser/sources.gni") import("//unknown/components/brave_wallet/sources.gni") public_deps += [ "//unknown/browser/ui" ] deps += brave_chrome_browser_ui_allow_circular_includes_from + brave_chrome_browser_ui_deps allow_circular_includes_from += brave_chrome_browser_ui_allow_circular_includes_from
  
    if (enable_vr && is_win) {
      deps += [ "//chrome/browser/vr:vr_base" ]
@@ -16,7 +16,7 @@ index 60b586992143faa7ea9876d2e66106123ad29c47..2668b2417bb8e09064bf1560e9577faf
      } else {
 -      sources += [ "webui/help/version_updater_basic.cc" ]
 +      if (!is_official_build) {
-+        # In official build, //brave/browser/ui handles.
++        # In official build, //unknown/browser/ui handles.
 +        sources += [ "webui/help/version_updater_basic.cc" ]
 +      }
      }
@@ -26,7 +26,7 @@ index 60b586992143faa7ea9876d2e66106123ad29c47..2668b2417bb8e09064bf1560e9577faf
    if (enable_extensions_core) {
      public_deps += [ "//extensions/browser" ]
    }
-+  public_deps += [ "//brave/browser/ui:ui_public_dependencies" ]
++  public_deps += [ "//unknown/browser/ui:ui_public_dependencies" ]
    if (!is_android) {
      public_deps += [
        "//build:branding_buildflags",
@@ -34,7 +34,7 @@ index 60b586992143faa7ea9876d2e66106123ad29c47..2668b2417bb8e09064bf1560e9577faf
      "//url",
    ]
    deps = []
-+  public_deps += [ "//brave/browser/ui:browser_navigator_params_headers_public_dependencies" ]
++  public_deps += [ "//unknown/browser/ui:browser_navigator_params_headers_public_dependencies" ]
  }
  
  if (!is_android) {

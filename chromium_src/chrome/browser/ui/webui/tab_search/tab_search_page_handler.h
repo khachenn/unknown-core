@@ -7,10 +7,10 @@
 #define BRAVE_CHROMIUM_SRC_CHROME_BROWSER_UI_WEBUI_TAB_SEARCH_TAB_SEARCH_PAGE_HANDLER_H_
 
 #include "base/memory/weak_ptr.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer.h"
 #endif  // BUILDFLAG(ENABLE_AI_CHAT)
 
 class SessionID;

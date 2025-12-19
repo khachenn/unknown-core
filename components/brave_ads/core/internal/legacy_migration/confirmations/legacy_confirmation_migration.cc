@@ -3,24 +3,24 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/legacy_migration/confirmations/legacy_confirmation_migration.h"
+#include "unknown/components/brave_ads/core/internal/legacy_migration/confirmations/legacy_confirmation_migration.h"
 
 #include <optional>
 #include <string>
 #include <utility>
 
 #include "base/functional/bind.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/confirmation_queue_database_table.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_builder.h"
-#include "brave/components/brave_ads/core/internal/ads_client/ads_client_util.h"
-#include "brave/components/brave_ads/core/internal/common/logging_util.h"
-#include "brave/components/brave_ads/core/internal/deprecated/confirmations/confirmation_state_manager.h"
-#include "brave/components/brave_ads/core/internal/legacy_migration/confirmations/legacy_confirmation_migration_confirmations_json_reader.h"
-#include "brave/components/brave_ads/core/internal/legacy_migration/confirmations/legacy_confirmation_migration_util.h"
-#include "brave/components/brave_ads/core/internal/prefs/pref_util.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client.h"
-#include "brave/components/brave_ads/core/public/ads_constants.h"
-#include "brave/components/brave_ads/core/public/prefs/pref_names.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/confirmation_queue_database_table.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_builder.h"
+#include "unknown/components/brave_ads/core/internal/ads_client/ads_client_util.h"
+#include "unknown/components/brave_ads/core/internal/common/logging_util.h"
+#include "unknown/components/brave_ads/core/internal/deprecated/confirmations/confirmation_state_manager.h"
+#include "unknown/components/brave_ads/core/internal/legacy_migration/confirmations/legacy_confirmation_migration_confirmations_json_reader.h"
+#include "unknown/components/brave_ads/core/internal/legacy_migration/confirmations/legacy_confirmation_migration_util.h"
+#include "unknown/components/brave_ads/core/internal/prefs/pref_util.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client.h"
+#include "unknown/components/brave_ads/core/public/ads_constants.h"
+#include "unknown/components/brave_ads/core/public/prefs/pref_names.h"
 
 namespace brave_ads {
 

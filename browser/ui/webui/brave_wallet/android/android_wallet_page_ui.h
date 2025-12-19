@@ -9,9 +9,9 @@
 #include <memory>
 #include <string>
 
-#include "brave/browser/ui/webui/brave_wallet/android/android_wallet_page_handler.h"
-#include "brave/components/brave_wallet/browser/wallet_handler.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/browser/ui/webui/brave_wallet/android/android_wallet_page_handler.h"
+#include "unknown/components/brave_wallet/browser/wallet_handler.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "content/public/browser/web_ui_controller.h"
 #include "content/public/browser/web_ui_data_source.h"
 #include "ui/webui/mojo_web_ui_controller.h"

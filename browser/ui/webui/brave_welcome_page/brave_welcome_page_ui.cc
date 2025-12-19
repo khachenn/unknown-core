@@ -3,10 +3,10 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/webui/brave_welcome_page/brave_welcome_page_ui.h"
+#include "unknown/browser/ui/webui/brave_welcome_page/brave_welcome_page_ui.h"
 
-#include "brave/browser/resources/brave_welcome_page/grit/brave_welcome_page_generated_map.h"
-#include "brave/components/constants/webui_url_constants.h"
+#include "unknown/browser/resources/brave_welcome_page/grit/brave_welcome_page_generated_map.h"
+#include "unknown/components/constants/webui_url_constants.h"
 #include "chrome/browser/profiles/profile.h"
 #include "components/grit/brave_components_resources.h"
 #include "components/grit/brave_components_strings.h"

@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 import("//build/config/android/config.gni")
 import("//third_party/jni_zero/jni_zero.gni")
 
@@ -43,7 +43,7 @@ if (is_android) {
     ]
 
     deps = [
-      "//brave/browser/ui/android/toolbar:java",
+      "//unknown/browser/ui/android/toolbar:java",
       "//chrome/android/junit:chrome_junit_tests_helper",
       "//chrome/browser/settings:java",
     ]
@@ -66,7 +66,7 @@ if (is_android) {
       ]
 
       deps = [
-        "//brave/components/brave_wallet/common:mojom_java",
+        "//unknown/components/brave_wallet/common:mojom_java",
         "//chrome/android/junit:chrome_junit_tests_helper",
       ]
     }
@@ -85,7 +85,7 @@ if (is_android) {
     sources = [ "src/org/chromium/chrome/browser/settings/BraveSearchEngineUtilsTest.java" ]
 
     deps = [
-      "//brave/android/java/org/chromium/chrome/browser/search_engines:java",
+      "//unknown/android/java/org/chromium/chrome/browser/search_engines:java",
       "//chrome/android/junit:chrome_junit_tests_helper",
     ]
   }
@@ -94,7 +94,7 @@ if (is_android) {
     sources = [ "src/org/chromium/chrome/browser/rate/BraveAskPlayStoreRatingDialogTest.java" ]
 
     deps = [
-      "//brave/third_party/android_deps:com_google_android_play_review_java",
+      "//unknown/third_party/android_deps:com_google_android_play_review_java",
       "//chrome/android/junit:chrome_junit_tests_helper",
     ]
   }
@@ -105,7 +105,7 @@ if (is_android) {
     ]
 
     deps = [
-      "//brave/third_party/android_deps:com_google_android_play_app_update_java",
+      "//unknown/third_party/android_deps:com_google_android_play_app_update_java",
       "//chrome/android/junit:chrome_junit_tests_helper",
     ]
   }

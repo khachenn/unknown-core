@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/webui/webcompat_reporter/webcompat_reporter_ui.h"
+#include "unknown/browser/ui/webui/webcompat_reporter/webcompat_reporter_ui.h"
 
 #include <memory>
 #include <optional>
@@ -22,21 +22,21 @@
 #include "base/task/sequenced_task_runner.h"
 #include "base/task/thread_pool.h"
 #include "base/values.h"
-#include "brave/browser/brave_browser_process.h"
-#include "brave/browser/ui/brave_browser_window.h"
-#include "brave/browser/ui/webui/brave_webui_source.h"
-#include "brave/browser/ui/webui/webcompat_reporter/webcompat_reporter_dialog.h"
-#include "brave/browser/webcompat_reporter/webcompat_reporter_service_factory.h"
-#include "brave/common/brave_channel_info.h"
-#include "brave/components/brave_shields/content/browser/ad_block_service.h"
-#include "brave/components/brave_shields/core/browser/ad_block_component_service_manager.h"
-#include "brave/components/brave_shields/core/browser/filter_list_catalog_entry.h"
-#include "brave/components/brave_shields/core/common/pref_names.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/webcompat_reporter/browser/fields.h"
-#include "brave/components/webcompat_reporter/browser/webcompat_reporter_service.h"
-#include "brave/components/webcompat_reporter/browser/webcompat_reporter_utils.h"
-#include "brave/components/webcompat_reporter/resources/grit/webcompat_reporter_generated_map.h"
+#include "unknown/browser/brave_browser_process.h"
+#include "unknown/browser/ui/brave_browser_window.h"
+#include "unknown/browser/ui/webui/brave_webui_source.h"
+#include "unknown/browser/ui/webui/webcompat_reporter/webcompat_reporter_dialog.h"
+#include "unknown/browser/webcompat_reporter/webcompat_reporter_service_factory.h"
+#include "unknown/common/brave_channel_info.h"
+#include "unknown/components/brave_shields/content/browser/ad_block_service.h"
+#include "unknown/components/brave_shields/core/browser/ad_block_component_service_manager.h"
+#include "unknown/components/brave_shields/core/browser/filter_list_catalog_entry.h"
+#include "unknown/components/brave_shields/core/common/pref_names.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/webcompat_reporter/browser/fields.h"
+#include "unknown/components/webcompat_reporter/browser/webcompat_reporter_service.h"
+#include "unknown/components/webcompat_reporter/browser/webcompat_reporter_utils.h"
+#include "unknown/components/webcompat_reporter/resources/grit/webcompat_reporter_generated_map.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_finder.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_interface_iterator.h"
@@ -56,8 +56,8 @@
 #include "ui/gfx/geometry/size.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/browser/brave_vpn/brave_vpn_service_factory.h"
-#include "brave/components/brave_vpn/browser/brave_vpn_service.h"
+#include "unknown/browser/brave_vpn/brave_vpn_service_factory.h"
+#include "unknown/components/brave_vpn/browser/brave_vpn_service.h"
 #endif
 
 namespace webcompat_reporter {

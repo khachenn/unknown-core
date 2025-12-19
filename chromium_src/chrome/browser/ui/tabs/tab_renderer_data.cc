@@ -12,9 +12,9 @@
 #include <chrome/browser/ui/tabs/tab_renderer_data.cc>
 #undef FromTabInModel
 
-#include "brave/browser/ui/tabs/shared_pinned_tab_service.h"
-#include "brave/browser/ui/tabs/shared_pinned_tab_service_factory.h"
-#include "brave/components/constants/webui_url_constants.h"
+#include "unknown/browser/ui/tabs/shared_pinned_tab_service.h"
+#include "unknown/browser/ui/tabs/shared_pinned_tab_service_factory.h"
+#include "unknown/components/constants/webui_url_constants.h"
 #include "chrome/browser/resource_coordinator/tab_load_tracker.h"
 #include "chrome/browser/ui/tabs/features.h"
 #include "url/gurl.h"

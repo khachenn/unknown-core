@@ -3,9 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/side_panel/side_panel_web_ui_view_utils.h"
-#include "brave/common/pref_names.h"
-#include "brave/components/constants/webui_url_constants.h"
+#include "unknown/browser/ui/views/side_panel/side_panel_web_ui_view_utils.h"
+#include "unknown/common/pref_names.h"
+#include "unknown/components/constants/webui_url_constants.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/views/side_panel/side_panel_entry_id.h"
 #include "components/prefs/pref_service.h"

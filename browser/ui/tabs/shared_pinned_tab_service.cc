@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/tabs/shared_pinned_tab_service.h"
+#include "unknown/browser/ui/tabs/shared_pinned_tab_service.h"
 
 #include <algorithm>
 #include <utility>
@@ -14,9 +14,9 @@
 #include "base/functional/callback_forward.h"
 #include "base/logging.h"
 #include "base/notreached.h"
-#include "brave/browser/ui/brave_browser_window.h"
-#include "brave/browser/ui/tabs/brave_tab_prefs.h"
-#include "brave/browser/ui/tabs/shared_pinned_tab_dummy_view.h"
+#include "unknown/browser/ui/brave_browser_window.h"
+#include "unknown/browser/ui/tabs/brave_tab_prefs.h"
+#include "unknown/browser/ui/tabs/shared_pinned_tab_dummy_view.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_finder.h"

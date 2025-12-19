@@ -12,8 +12,8 @@
 #include "base/memory/raw_ref.h"
 #include "base/memory/weak_ptr.h"
 #include "base/types/expected.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_wallet/browser/cardano/cardano_rpc_schema.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_wallet/browser/cardano/cardano_rpc_schema.h"
 
 namespace brave_wallet {
 class NetworkManager;

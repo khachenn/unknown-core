@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/net/brave_proxying_url_loader_factory.h"
+#include "unknown/browser/net/brave_proxying_url_loader_factory.h"
 
 #include <optional>
 #include <string_view>
@@ -15,9 +15,9 @@
 #include "base/functional/bind.h"
 #include "base/memory/scoped_refptr.h"
 #include "base/metrics/histogram_macros.h"
-#include "brave/browser/net/brave_request_handler.h"
-#include "brave/components/brave_shields/content/browser/adblock_stub_response.h"
-#include "brave/components/brave_shields/core/common/features.h"
+#include "unknown/browser/net/brave_request_handler.h"
+#include "unknown/components/brave_shields/content/browser/adblock_stub_response.h"
+#include "unknown/components/brave_shields/core/common/features.h"
 #include "content/public/browser/browser_context.h"
 #include "content/public/browser/browser_task_traits.h"
 #include "content/public/browser/browser_thread.h"

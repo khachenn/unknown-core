@@ -18,10 +18,10 @@
 #include "base/memory/scoped_refptr.h"
 #include "base/memory/weak_ptr.h"
 #include "base/one_shot_event.h"
-#include "brave/components/ai_chat/core/browser/associated_content_delegate.h"
-#include "brave/components/ai_chat/core/browser/model_service.h"
-#include "brave/components/ai_chat/core/browser/types.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/ai_chat/core/browser/associated_content_delegate.h"
+#include "unknown/components/ai_chat/core/browser/model_service.h"
+#include "unknown/components/ai_chat/core/browser/types.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
 
 FORWARD_DECLARE_TEST(AIChatUIBrowserTest, PrintPreviewFallback);
 class AIChatUIBrowserTest;

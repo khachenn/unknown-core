@@ -3,18 +3,18 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/account/statement/statement.h"
+#include "unknown/components/brave_ads/core/internal/account/statement/statement.h"
 
 #include "base/run_loop.h"
 #include "base/test/gmock_callback_support.h"
 #include "base/test/mock_callback.h"
-#include "brave/components/brave_ads/core/internal/account/statement/statement_feature.h"
-#include "brave/components/brave_ads/core/internal/account/transactions/transaction_info.h"
-#include "brave/components/brave_ads/core/internal/account/transactions/transactions_database_table_util.h"
-#include "brave/components/brave_ads/core/internal/account/transactions/transactions_test_util.h"
-#include "brave/components/brave_ads/core/internal/common/test/test_base.h"
-#include "brave/components/brave_ads/core/internal/common/test/time_test_util.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/internal/account/statement/statement_feature.h"
+#include "unknown/components/brave_ads/core/internal/account/transactions/transaction_info.h"
+#include "unknown/components/brave_ads/core/internal/account/transactions/transactions_database_table_util.h"
+#include "unknown/components/brave_ads/core/internal/account/transactions/transactions_test_util.h"
+#include "unknown/components/brave_ads/core/internal/common/test/test_base.h"
+#include "unknown/components/brave_ads/core/internal/common/test/time_test_util.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
 
 // npm run test -- brave_unit_tests --filter=BraveAds*
 

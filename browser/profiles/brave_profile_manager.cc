@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/profiles/brave_profile_manager.h"
+#include "unknown/browser/profiles/brave_profile_manager.h"
 
 #include <string>
 #include <utility>
@@ -11,26 +11,26 @@
 
 #include "base/check.h"
 #include "base/path_service.h"
-#include "brave/browser/brave_ads/ads_service_factory.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/browser/misc_metrics/profile_misc_metrics_service_factory.h"
-#include "brave/browser/perf/brave_perf_features_processor.h"
-#include "brave/browser/profiles/profile_util.h"
-#include "brave/browser/request_otr/request_otr_service_factory.h"
-#include "brave/browser/url_sanitizer/url_sanitizer_service_factory.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/brave_shields/content/browser/brave_shields_util.h"
-#include "brave/components/brave_shields/core/browser/brave_shields_p3a.h"
-#include "brave/components/brave_shields/core/browser/brave_shields_utils.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/constants/brave_constants.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/content_settings/core/browser/brave_content_settings_pref_provider.h"
-#include "brave/components/ntp_background_images/browser/ntp_p3a_util.h"
-#include "brave/components/ntp_background_images/common/pref_names.h"
-#include "brave/components/request_otr/common/buildflags/buildflags.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/browser/brave_ads/ads_service_factory.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/misc_metrics/profile_misc_metrics_service_factory.h"
+#include "unknown/browser/perf/brave_perf_features_processor.h"
+#include "unknown/browser/profiles/profile_util.h"
+#include "unknown/browser/request_otr/request_otr_service_factory.h"
+#include "unknown/browser/url_sanitizer/url_sanitizer_service_factory.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/brave_shields/content/browser/brave_shields_util.h"
+#include "unknown/components/brave_shields/core/browser/brave_shields_p3a.h"
+#include "unknown/components/brave_shields/core/browser/brave_shields_utils.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/constants/brave_constants.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/content_settings/core/browser/brave_content_settings_pref_provider.h"
+#include "unknown/components/ntp_background_images/browser/ntp_p3a_util.h"
+#include "unknown/components/ntp_background_images/common/pref_names.h"
+#include "unknown/components/request_otr/common/buildflags/buildflags.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
 #include "chrome/browser/profiles/profile_attributes_entry.h"
@@ -46,15 +46,15 @@
 #include "net/base/features.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/browser/brave_wallet/brave_wallet_service_factory.h"
+#include "unknown/browser/brave_wallet/brave_wallet_service_factory.h"
 #endif
 
 #if !BUILDFLAG(USE_GCM_FROM_PLATFORM)
-#include "brave/browser/gcm_driver/brave_gcm_channel_status.h"
+#include "unknown/browser/gcm_driver/brave_gcm_channel_status.h"
 #endif
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/components/tor/tor_constants.h"
+#include "unknown/components/tor/tor_constants.h"
 #endif
 
 using brave_shields::ControlType;

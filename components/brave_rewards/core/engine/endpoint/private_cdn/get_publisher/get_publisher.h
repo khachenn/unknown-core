@@ -9,7 +9,7 @@
 #include <string>
 
 #include "base/memory/raw_ref.h"
-#include "brave/components/brave_rewards/core/mojom/rewards.mojom.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards.mojom.h"
 
 // GET /publishers/prefixes/{prefix}
 //

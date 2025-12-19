@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/serving/targeting/condition_matcher/prefs/internal/condition_matcher_pref_util_internal.h"
+#include "unknown/components/brave_ads/core/internal/serving/targeting/condition_matcher/prefs/internal/condition_matcher_pref_util_internal.h"
 
 #include <utility>
 #include <vector>
@@ -12,8 +12,8 @@
 #include "base/strings/string_number_conversions.h"
 #include "base/strings/string_split.h"
 #include "base/types/cxx23_to_underlying.h"
-#include "brave/components/brave_ads/core/internal/common/logging_util.h"
-#include "brave/components/brave_ads/core/internal/prefs/pref_util.h"
+#include "unknown/components/brave_ads/core/internal/common/logging_util.h"
+#include "unknown/components/brave_ads/core/internal/prefs/pref_util.h"
 
 namespace brave_ads {
 

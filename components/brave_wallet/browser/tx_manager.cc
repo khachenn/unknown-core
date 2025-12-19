@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/tx_manager.h"
+#include "unknown/components/brave_wallet/browser/tx_manager.h"
 
 #include <algorithm>
 #include <optional>
@@ -12,11 +12,11 @@
 
 #include "base/containers/to_vector.h"
 #include "base/logging.h"
-#include "brave/components/brave_wallet/browser/block_tracker.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_constants.h"
-#include "brave/components/brave_wallet/browser/keyring_service.h"
-#include "brave/components/brave_wallet/browser/tx_meta.h"
-#include "brave/components/brave_wallet/browser/tx_service.h"
+#include "unknown/components/brave_wallet/browser/block_tracker.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_constants.h"
+#include "unknown/components/brave_wallet/browser/keyring_service.h"
+#include "unknown/components/brave_wallet/browser/tx_meta.h"
+#include "unknown/components/brave_wallet/browser/tx_service.h"
 
 namespace brave_wallet {
 

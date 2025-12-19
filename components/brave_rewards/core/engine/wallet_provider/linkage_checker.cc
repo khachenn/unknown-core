@@ -3,19 +3,19 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/core/engine/wallet_provider/linkage_checker.h"
+#include "unknown/components/brave_rewards/core/engine/wallet_provider/linkage_checker.h"
 
 #include <utility>
 
 #include "base/check.h"
 #include "base/feature_list.h"
-#include "brave/components/brave_rewards/core/engine/endpoints/request_for.h"
-#include "brave/components/brave_rewards/core/engine/notifications/notification_keys.h"
-#include "brave/components/brave_rewards/core/engine/util/rewards_prefs.h"
-#include "brave/components/brave_rewards/core/engine/wallet/wallet.h"
-#include "brave/components/brave_rewards/core/engine/wallet/wallet_util.h"
-#include "brave/components/brave_rewards/core/engine/wallet_provider/wallet_provider.h"
-#include "brave/components/brave_rewards/core/features.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/request_for.h"
+#include "unknown/components/brave_rewards/core/engine/notifications/notification_keys.h"
+#include "unknown/components/brave_rewards/core/engine/util/rewards_prefs.h"
+#include "unknown/components/brave_rewards/core/engine/wallet/wallet.h"
+#include "unknown/components/brave_rewards/core/engine/wallet/wallet_util.h"
+#include "unknown/components/brave_rewards/core/engine/wallet_provider/wallet_provider.h"
+#include "unknown/components/brave_rewards/core/features.h"
 
 namespace brave_rewards::internal {
 

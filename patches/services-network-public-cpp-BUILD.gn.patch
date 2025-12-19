@@ -6,7 +6,7 @@ index 883895db2f8710f39725b51db30cc4d0fa1754e4..50dfed9c32423a3e53c296ff48257d8c
      "//services/proxy_resolver/public/mojom",
    ]
  
-+  public_deps += [ "//brave/services/network/public/cpp" ]
++  public_deps += [ "//unknown/services/network/public/cpp" ]
    defines = [ "IS_NETWORK_CPP_IMPL" ]
  }
  

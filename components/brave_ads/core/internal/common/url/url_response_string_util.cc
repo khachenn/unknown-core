@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/common/url/url_response_string_util.h"
+#include "unknown/components/brave_ads/core/internal/common/url/url_response_string_util.h"
 
 #include <vector>
 
 #include "base/containers/flat_map.h"
 #include "base/strings/string_util.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
 #include "third_party/abseil-cpp/absl/strings/str_format.h"
 
 namespace brave_ads {

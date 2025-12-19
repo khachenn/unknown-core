@@ -3,12 +3,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/brave_browser_actions.h"
+#include "unknown/browser/ui/brave_browser_actions.h"
 
 #include "base/types/to_address.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/playlist/core/common/features.h"
-#include "brave/components/vector_icons/vector_icons.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/playlist/core/common/features.h"
+#include "unknown/components/vector_icons/vector_icons.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_interface.h"
 #include "chrome/browser/ui/views/side_panel/side_panel_action_callback.h"
@@ -20,7 +20,7 @@
 #include "ui/gfx/vector_icon_types.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
 #endif
 
 namespace {

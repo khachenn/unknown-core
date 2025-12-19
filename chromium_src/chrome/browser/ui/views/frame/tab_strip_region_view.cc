@@ -5,9 +5,9 @@
 
 #include "chrome/browser/ui/views/frame/tab_strip_region_view.h"
 
-#include "brave/browser/ui/views/tabs/brave_browser_tab_strip_controller.h"
-#include "brave/browser/ui/views/tabs/brave_new_tab_button.h"
-#include "brave/browser/ui/views/tabs/brave_tab_strip.h"
+#include "unknown/browser/ui/views/tabs/brave_browser_tab_strip_controller.h"
+#include "unknown/browser/ui/views/tabs/brave_new_tab_button.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_strip.h"
 
 // Currently, `NewTabButton::kButtonSize` is used to calculate tab strip button
 // borders. Since the size of buttons varies depending upon the tabs update

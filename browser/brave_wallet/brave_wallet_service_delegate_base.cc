@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_wallet/brave_wallet_service_delegate_base.h"
+#include "unknown/browser/brave_wallet/brave_wallet_service_delegate_base.h"
 
-#include "brave/components/brave_wallet/browser/brave_wallet_constants.h"
-#include "brave/components/brave_wallet/browser/permission_utils.h"
-#include "brave/components/permissions/contexts/brave_wallet_permission_context.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_constants.h"
+#include "unknown/components/brave_wallet/browser/permission_utils.h"
+#include "unknown/components/permissions/contexts/brave_wallet_permission_context.h"
 #include "chrome/browser/profiles/profile.h"
 #include "content/public/browser/browser_context.h"
 

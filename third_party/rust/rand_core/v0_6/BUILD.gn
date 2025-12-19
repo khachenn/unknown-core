@@ -12,14 +12,14 @@ cargo_crate("lib") {
   crate_name = "rand_core"
   epoch = "0.6"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/block.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/error.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/impls.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/le.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/os.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/block.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/error.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/impls.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/le.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rand_core-v0_6/src/os.rs",
   ]
   inputs = []
 
@@ -32,7 +32,7 @@ cargo_crate("lib") {
   cargo_pkg_repository = "https://github.com/rust-random/rand"
   cargo_pkg_version = "0.6.4"
 
-  deps = [ "//brave/third_party/rust/getrandom/v0_2:lib" ]
+  deps = [ "//unknown/third_party/rust/getrandom/v0_2:lib" ]
   features = [
     "alloc",
     "getrandom",

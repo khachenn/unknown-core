@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/swap_service.h"
+#include "unknown/components/brave_wallet/browser/swap_service.h"
 
 #include <map>
 #include <memory>
@@ -15,13 +15,13 @@
 #include "base/test/mock_callback.h"
 #include "base/test/task_environment.h"
 #include "base/test/values_test_util.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
-#include "brave/components/brave_wallet/browser/pref_names.h"
-#include "brave/components/brave_wallet/browser/swap_response_parser.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom-shared.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/common_utils.h"
-#include "brave/components/brave_wallet/common/test_utils.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/swap_response_parser.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom-shared.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/common_utils.h"
+#include "unknown/components/brave_wallet/common/test_utils.h"
 #include "components/grit/brave_components_strings.h"
 #include "components/sync_preferences/testing_pref_service_syncable.h"
 #include "services/data_decoder/public/cpp/test_support/in_process_data_decoder.h"

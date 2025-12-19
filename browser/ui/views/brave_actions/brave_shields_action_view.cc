@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/views/brave_actions/brave_shields_action_view.h"
+#include "unknown/browser/ui/views/brave_actions/brave_shields_action_view.h"
 
 #include <memory>
 #include <string>
@@ -12,12 +12,12 @@
 #include "base/check_deref.h"
 #include "base/memory/weak_ptr.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/browser/ui/brave_icon_with_badge_image_source.h"
-#include "brave/browser/ui/webui/brave_shields/shields_panel_ui.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/constants/url_constants.h"
-#include "brave/components/constants/webui_url_constants.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/browser/ui/brave_icon_with_badge_image_source.h"
+#include "unknown/browser/ui/webui/brave_shields/shields_panel_ui.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/constants/url_constants.h"
+#include "unknown/components/constants/webui_url_constants.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/layout_constants.h"
 #include "chrome/browser/ui/omnibox/omnibox_theme.h"
@@ -47,7 +47,7 @@
 #include "url/gurl.h"
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/browser/ui/speedreader/speedreader_tab_helper.h"
+#include "unknown/browser/ui/speedreader/speedreader_tab_helper.h"
 #endif
 
 namespace {

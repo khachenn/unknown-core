@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/sidebar/sidebar_items_contents_view.h"
+#include "unknown/browser/ui/views/sidebar/sidebar_items_contents_view.h"
 
 #include <optional>
 #include <string>
@@ -16,26 +16,26 @@
 #include "base/i18n/case_conversion.h"
 #include "base/notreached.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/app/vector_icons/vector_icons.h"
-#include "brave/browser/misc_metrics/profile_misc_metrics_service.h"
-#include "brave/browser/misc_metrics/profile_misc_metrics_service_factory.h"
-#include "brave/browser/profiles/profile_util.h"
-#include "brave/browser/ui/brave_browser.h"
-#include "brave/browser/ui/color/brave_color_id.h"
-#include "brave/browser/ui/sidebar/sidebar_controller.h"
-#include "brave/browser/ui/sidebar/sidebar_model.h"
-#include "brave/browser/ui/sidebar/sidebar_service_factory.h"
-#include "brave/browser/ui/sidebar/sidebar_utils.h"
-#include "brave/browser/ui/views/sidebar/sidebar_edit_item_bubble_delegate_view.h"
-#include "brave/browser/ui/views/sidebar/sidebar_item_added_feedback_bubble.h"
-#include "brave/browser/ui/views/sidebar/sidebar_item_view.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/playlist/core/common/features.h"
-#include "brave/components/sidebar/browser/pref_names.h"
-#include "brave/components/sidebar/browser/sidebar_item.h"
-#include "brave/components/sidebar/browser/sidebar_service.h"
-#include "brave/components/vector_icons/vector_icons.h"
-#include "brave/grit/brave_generated_resources.h"
+#include "unknown/app/vector_icons/vector_icons.h"
+#include "unknown/browser/misc_metrics/profile_misc_metrics_service.h"
+#include "unknown/browser/misc_metrics/profile_misc_metrics_service_factory.h"
+#include "unknown/browser/profiles/profile_util.h"
+#include "unknown/browser/ui/brave_browser.h"
+#include "unknown/browser/ui/color/brave_color_id.h"
+#include "unknown/browser/ui/sidebar/sidebar_controller.h"
+#include "unknown/browser/ui/sidebar/sidebar_model.h"
+#include "unknown/browser/ui/sidebar/sidebar_service_factory.h"
+#include "unknown/browser/ui/sidebar/sidebar_utils.h"
+#include "unknown/browser/ui/views/sidebar/sidebar_edit_item_bubble_delegate_view.h"
+#include "unknown/browser/ui/views/sidebar/sidebar_item_added_feedback_bubble.h"
+#include "unknown/browser/ui/views/sidebar/sidebar_item_view.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/playlist/core/common/features.h"
+#include "unknown/components/sidebar/browser/pref_names.h"
+#include "unknown/components/sidebar/browser/sidebar_item.h"
+#include "unknown/components/sidebar/browser/sidebar_service.h"
+#include "unknown/components/vector_icons/vector_icons.h"
+#include "unknown/grit/brave_generated_resources.h"
 #include "chrome/app/vector_icons/vector_icons.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"
@@ -60,8 +60,8 @@
 #include "ui/views/layout/box_layout.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/browser/ai_chat_metrics.h"
-#include "brave/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_metrics.h"
+#include "unknown/components/ai_chat/core/common/features.h"
 #endif  // BUILDFLAG(ENABLE_AI_CHAT)
 
 namespace {

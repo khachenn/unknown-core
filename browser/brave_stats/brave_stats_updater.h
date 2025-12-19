@@ -14,7 +14,7 @@
 #include "base/memory/scoped_refptr.h"
 #include "base/memory/weak_ptr.h"
 #include "base/scoped_observation.h"
-#include "brave/components/brave_stats/browser/brave_stats_updater_util.h"
+#include "unknown/components/brave_stats/browser/brave_stats_updater_util.h"
 #include "chrome/browser/profiles/profile_manager_observer.h"
 #include "services/network/public/cpp/shared_url_loader_factory.h"
 #include "url/gurl.h"

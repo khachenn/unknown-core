@@ -6,7 +6,7 @@ index 417dd7ef40abc6c058631378749e83a06b02ab2d..fc2753b52a170babb6ec271a1f8bdf68
      "//url/mojom:url_mojom_gurl",
    ]
  
-+  import("//brave/services/printing/public/mojom/sources.gni") sources += brave_services_printing_public_mojom_sources public_deps += brave_services_printing_public_mojom_public_deps
++  import("//unknown/services/printing/public/mojom/sources.gni") sources += brave_services_printing_public_mojom_sources public_deps += brave_services_printing_public_mojom_public_deps
    enabled_features = []
  
    if (is_chromeos) {

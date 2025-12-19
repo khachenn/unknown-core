@@ -6,7 +6,7 @@ index 8e95c0a6257c9d63e4f439b96e951b8513bb65d4..4fda0a49110f2bffad8126983441c3d8
    ]
  
    deps = [ "//base" ]
-+  import("//brave/browser/updater/sources.gni") deps += brave_chrome_updater_scheduler_deps
++  import("//unknown/browser/updater/sources.gni") deps += brave_chrome_updater_scheduler_deps
  
    if (enable_updater) {
      if (is_mac) {

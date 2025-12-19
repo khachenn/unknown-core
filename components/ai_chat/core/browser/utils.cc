@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
 
 #include <string>
 #include <string_view>
@@ -18,12 +18,12 @@
 #include "base/strings/strcat.h"
 #include "base/strings/string_util.h"
 #include "base/time/time.h"
-#include "brave/brave_domains/service_domains.h"
-#include "brave/components/ai_chat/core/common/constants.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom-forward.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom-forward.h"
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/brave_domains/service_domains.h"
+#include "unknown/components/ai_chat/core/common/constants.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom-forward.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom-forward.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #include "components/grit/brave_components_strings.h"
 #include "components/prefs/pref_service.h"
 #include "mojo/public/cpp/bindings/struct_ptr.h"
@@ -41,11 +41,11 @@
 
 #if BUILDFLAG(IS_WIN)
 #include "base/task/bind_post_task.h"
-#include "brave/components/l10n/common/locale_util.h"
+#include "unknown/components/l10n/common/locale_util.h"
 #endif  // BUILDFLAG(IS_WIN)
 
 #if BUILDFLAG(ENABLE_TEXT_RECOGNITION)
-#include "brave/components/text_recognition/browser/text_recognition.h"
+#include "unknown/components/text_recognition/browser/text_recognition.h"
 #endif
 
 namespace ai_chat {

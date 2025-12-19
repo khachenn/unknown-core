@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/browser/service/new_tab_page_ad_prefetcher.h"
+#include "unknown/components/brave_ads/core/browser/service/new_tab_page_ad_prefetcher.h"
 
 #include <memory>
 #include <optional>
 
-#include "brave/components/brave_ads/core/browser/service/ads_service_mock.h"
-#include "brave/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_info.h"
+#include "unknown/components/brave_ads/core/browser/service/ads_service_mock.h"
+#include "unknown/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_info.h"
 #include "testing/gtest/include/gtest/gtest.h"
 #include "url/gurl.h"
 

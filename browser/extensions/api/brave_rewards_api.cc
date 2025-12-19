@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/extensions/api/brave_rewards_api.h"
+#include "unknown/browser/extensions/api/brave_rewards_api.h"
 
 #include <string>
 #include <utility>
@@ -11,19 +11,19 @@
 #include "base/check.h"
 #include "base/functional/bind.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/browser/brave_adaptive_captcha/brave_adaptive_captcha_service_factory.h"
-#include "brave/browser/brave_ads/ads_service_factory.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/browser/brave_rewards/rewards_tab_helper.h"
-#include "brave/browser/brave_rewards/rewards_util.h"
-#include "brave/browser/ui/brave_rewards/rewards_panel_coordinator.h"
-#include "brave/common/extensions/api/brave_rewards.h"
-#include "brave/components/brave_adaptive_captcha/brave_adaptive_captcha_service.h"
-#include "brave/components/brave_ads/core/browser/service/ads_service.h"
-#include "brave/components/brave_rewards/content/rewards_p3a.h"
-#include "brave/components/brave_rewards/content/rewards_service.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_rewards/core/rewards_util.h"
+#include "unknown/browser/brave_adaptive_captcha/brave_adaptive_captcha_service_factory.h"
+#include "unknown/browser/brave_ads/ads_service_factory.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/brave_rewards/rewards_tab_helper.h"
+#include "unknown/browser/brave_rewards/rewards_util.h"
+#include "unknown/browser/ui/brave_rewards/rewards_panel_coordinator.h"
+#include "unknown/common/extensions/api/brave_rewards.h"
+#include "unknown/components/brave_adaptive_captcha/brave_adaptive_captcha_service.h"
+#include "unknown/components/brave_ads/core/browser/service/ads_service.h"
+#include "unknown/components/brave_rewards/content/rewards_p3a.h"
+#include "unknown/components/brave_rewards/content/rewards_service.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_rewards/core/rewards_util.h"
 #include "chrome/browser/extensions/api/tabs/tabs_constants.h"
 #include "chrome/browser/extensions/extension_service.h"
 #include "chrome/browser/extensions/extension_tab_util.h"

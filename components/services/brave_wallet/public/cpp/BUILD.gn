@@ -5,7 +5,7 @@
 
 source_set("cpp") {
   visibility = [
-    "//brave/components/brave_wallet/browser:*",
+    "//unknown/components/brave_wallet/browser:*",
     "//chrome/utility:*",
   ]
 
@@ -17,13 +17,13 @@ source_set("cpp") {
   ]
 
   deps = [
-    "//brave/components/services/brave_wallet:lib",
-    "//brave/components/services/brave_wallet/public/mojom",
-    "//brave/components/services/brave_wallet/zcash:zcash_decoder",
+    "//unknown/components/services/brave_wallet:lib",
+    "//unknown/components/services/brave_wallet/public/mojom",
+    "//unknown/components/services/brave_wallet/zcash:zcash_decoder",
     "//mojo/public/cpp/bindings",
   ]
 
   if (!is_ios) {
-    deps += [ "//brave/components/services/brave_wallet/content" ]
+    deps += [ "//unknown/components/services/brave_wallet/content" ]
   }
 }

@@ -3,12 +3,12 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ai_chat/ai_chat_agent_profile_manager.h"
+#include "unknown/browser/ai_chat/ai_chat_agent_profile_manager.h"
 
-#include "brave/components/ai_chat/core/browser/utils.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/constants/brave_constants.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/constants/brave_constants.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile_manager.h"
 #include "third_party/skia/include/core/SkColor.h"

@@ -3,34 +3,34 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/ads_impl.h"
+#include "unknown/components/brave_ads/core/internal/ads_impl.h"
 
 #include <optional>
 #include <utility>
 
 #include "base/functional/bind.h"
 #include "base/trace_event/trace_event.h"
-#include "brave/components/brave_ads/core/internal/account/wallet/wallet_util.h"
-#include "brave/components/brave_ads/core/internal/ads_client/ads_client_util.h"
-#include "brave/components/brave_ads/core/internal/ads_core/ads_core_util.h"
-#include "brave/components/brave_ads/core/internal/ads_internals/ads_internals_util.h"
-#include "brave/components/brave_ads/core/internal/ads_notifier_manager.h"
-#include "brave/components/brave_ads/core/internal/common/logging_util.h"
-#include "brave/components/brave_ads/core/internal/creatives/notification_ads/notification_ad_manager.h"
-#include "brave/components/brave_ads/core/internal/database/database_maintenance.h"
-#include "brave/components/brave_ads/core/internal/database/database_manager.h"
-#include "brave/components/brave_ads/core/internal/deprecated/client/client_state_manager.h"
-#include "brave/components/brave_ads/core/internal/deprecated/confirmations/confirmation_state_manager.h"
-#include "brave/components/brave_ads/core/internal/diagnostics/diagnostic_manager.h"
-#include "brave/components/brave_ads/core/internal/history/ad_history_manager.h"
-#include "brave/components/brave_ads/core/internal/legacy_migration/client/legacy_client_migration.h"
-#include "brave/components/brave_ads/core/internal/legacy_migration/confirmations/legacy_confirmation_migration.h"
-#include "brave/components/brave_ads/core/internal/legacy_migration/legacy_migration.h"
-#include "brave/components/brave_ads/core/internal/user_engagement/ad_events/ad_events.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-data-view.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client.h"
-#include "brave/components/brave_ads/core/public/ads_constants.h"
-#include "brave/components/brave_ads/core/public/service/ads_service_callback.h"
+#include "unknown/components/brave_ads/core/internal/account/wallet/wallet_util.h"
+#include "unknown/components/brave_ads/core/internal/ads_client/ads_client_util.h"
+#include "unknown/components/brave_ads/core/internal/ads_core/ads_core_util.h"
+#include "unknown/components/brave_ads/core/internal/ads_internals/ads_internals_util.h"
+#include "unknown/components/brave_ads/core/internal/ads_notifier_manager.h"
+#include "unknown/components/brave_ads/core/internal/common/logging_util.h"
+#include "unknown/components/brave_ads/core/internal/creatives/notification_ads/notification_ad_manager.h"
+#include "unknown/components/brave_ads/core/internal/database/database_maintenance.h"
+#include "unknown/components/brave_ads/core/internal/database/database_manager.h"
+#include "unknown/components/brave_ads/core/internal/deprecated/client/client_state_manager.h"
+#include "unknown/components/brave_ads/core/internal/deprecated/confirmations/confirmation_state_manager.h"
+#include "unknown/components/brave_ads/core/internal/diagnostics/diagnostic_manager.h"
+#include "unknown/components/brave_ads/core/internal/history/ad_history_manager.h"
+#include "unknown/components/brave_ads/core/internal/legacy_migration/client/legacy_client_migration.h"
+#include "unknown/components/brave_ads/core/internal/legacy_migration/confirmations/legacy_confirmation_migration.h"
+#include "unknown/components/brave_ads/core/internal/legacy_migration/legacy_migration.h"
+#include "unknown/components/brave_ads/core/internal/user_engagement/ad_events/ad_events.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-data-view.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client.h"
+#include "unknown/components/brave_ads/core/public/ads_constants.h"
+#include "unknown/components/brave_ads/core/public/service/ads_service_callback.h"
 
 namespace brave_ads {
 

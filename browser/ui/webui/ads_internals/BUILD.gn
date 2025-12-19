@@ -10,18 +10,18 @@ source_set("ads_internals") {
   ]
 
   deps = [
-    "//brave/components/brave_ads/browser",
-    "//brave/components/brave_ads/browser/resources:generated_resources",
-    "//brave/components/brave_ads/core",
-    "//brave/components/brave_rewards/core",
+    "//unknown/components/brave_ads/browser",
+    "//unknown/components/brave_ads/browser/resources:generated_resources",
+    "//unknown/components/brave_ads/core",
+    "//unknown/components/brave_rewards/core",
     "//chrome/browser:browser_public_dependencies",
     "//chrome/browser/profiles:profile",
   ]
 
   public_deps = [
     "//base",
-    "//brave/components/brave_ads/core/public:headers",
-    "//brave/components/services/bat_ads/public/interfaces",
+    "//unknown/components/brave_ads/core/public:headers",
+    "//unknown/components/services/bat_ads/public/interfaces",
     "//components/prefs",
     "//content/public/browser",
     "//mojo/public/cpp/bindings",

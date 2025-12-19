@@ -12,18 +12,18 @@
 
 #undef RegisterComponentsForUpdate
 
-#include "brave/browser/brave_browser_process.h"
-#include "brave/components/brave_user_agent/browser/brave_user_agent_component_installer.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/local_ai/browser/local_models_updater.h"
-#include "brave/components/p3a/component_installer.h"
-#include "brave/components/p3a/p3a_service.h"
-#include "brave/components/psst/buildflags/buildflags.h"
+#include "unknown/browser/brave_browser_process.h"
+#include "unknown/components/brave_user_agent/browser/brave_user_agent_component_installer.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/local_ai/browser/local_models_updater.h"
+#include "unknown/components/p3a/component_installer.h"
+#include "unknown/components/p3a/p3a_service.h"
+#include "unknown/components/psst/buildflags/buildflags.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/component_updater/component_updater_utils.h"
 
 #if BUILDFLAG(ENABLE_PSST)
-#include "brave/components/psst/browser/core/psst_component_installer.h"
+#include "unknown/components/psst/browser/core/psst_component_installer.h"
 #endif
 
 #if BUILDFLAG(IS_ANDROID)
@@ -31,7 +31,7 @@
 #endif  // BUILDFLAG(IS_ANDROID)
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/browser/wallet_data_files_installer.h"
+#include "unknown/components/brave_wallet/browser/wallet_data_files_installer.h"
 #endif  // BUILDFLAG(ENABLE_BRAVE_WALLET)
 
 namespace component_updater {

@@ -5,7 +5,7 @@
 
 #include "third_party/blink/renderer/core/dom/document.h"
 
-#include "brave/components/brave_page_graph/common/buildflags.h"
+#include "unknown/components/brave_page_graph/common/buildflags.h"
 
 #define ProcessJavaScriptUrl ProcessJavaScriptUrl_ChromiumImpl
 #include <third_party/blink/renderer/core/dom/document.cc>

@@ -3,18 +3,18 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/bitcoin/bitcoin_knapsack_solver.h"
+#include "unknown/components/brave_wallet/browser/bitcoin/bitcoin_knapsack_solver.h"
 
 #include <utility>
 
 #include "base/containers/span.h"
 #include "base/rand_util.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/components/brave_wallet/browser/bip39.h"
-#include "brave/components/brave_wallet/browser/bitcoin/bitcoin_hd_keyring.h"
-#include "brave/components/brave_wallet/browser/bitcoin/bitcoin_serializer.h"
-#include "brave/components/brave_wallet/browser/test_utils.h"
-#include "brave/components/brave_wallet/common/bitcoin_utils.h"
+#include "unknown/components/brave_wallet/browser/bip39.h"
+#include "unknown/components/brave_wallet/browser/bitcoin/bitcoin_hd_keyring.h"
+#include "unknown/components/brave_wallet/browser/bitcoin/bitcoin_serializer.h"
+#include "unknown/components/brave_wallet/browser/test_utils.h"
+#include "unknown/components/brave_wallet/common/bitcoin_utils.h"
 #include "components/grit/brave_components_strings.h"
 #include "crypto/hash.h"
 #include "testing/gmock/include/gmock/gmock.h"

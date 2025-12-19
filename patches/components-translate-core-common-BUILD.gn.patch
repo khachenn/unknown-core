@@ -7,7 +7,7 @@ index 8ee97fbf459d7516c9037ca8da7afb1c35aaee01..d50c360f37a77a37b6832b7547a4fea0
      "//url",
    ]
 +
-+  import("//brave/components/translate/core/common/sources.gni") sources += brave_components_translate_core_common_sources public_deps = brave_components_translate_core_common_public_deps
++  import("//unknown/components/translate/core/common/sources.gni") sources += brave_components_translate_core_common_sources public_deps = brave_components_translate_core_common_public_deps
  }
  
  source_set("unit_tests") {

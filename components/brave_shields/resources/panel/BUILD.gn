@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # you can obtain one at http://mozilla.org/MPL/2.0/.
 
-import("//brave/components/common/typescript.gni")
+import("//unknown/components/common/typescript.gni")
 import("//mojo/public/tools/bindings/mojom.gni")
 
 transpile_web_ui("brave_shields_panel_ui") {
@@ -14,14 +14,14 @@ transpile_web_ui("brave_shields_panel_ui") {
       ] ]
   resource_name = "brave_shields_panel"
   imports_from = [
-    "//brave/components/brave_shields/resources/panel/",
-    "//brave/components/web-components/",
+    "//unknown/components/brave_shields/resources/panel/",
+    "//unknown/components/web-components/",
   ]
-  deps = [ "//brave/components/brave_shields/core/common:mojom_js" ]
+  deps = [ "//unknown/components/brave_shields/core/common:mojom_js" ]
 }
 
 pack_web_resources("brave_shields_panel_generated") {
   resource_name = "brave_shields_panel"
-  output_dir = "$root_gen_dir/brave/components/brave_shields/resources/panel"
+  output_dir = "$root_gen_dir/unknown/components/brave_shields/resources/panel"
   deps = [ ":brave_shields_panel_ui" ]
 }

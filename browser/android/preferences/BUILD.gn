@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 import("//build/config/android/rules.gni")
 
 source_set("preferences") {
@@ -11,15 +11,15 @@ source_set("preferences") {
 
   deps = [
     "//base",
-    "//brave/build/android:jni_headers",
-    "//brave/components/brave_adaptive_captcha",
-    "//brave/components/brave_news/common",
-    "//brave/components/brave_perf_predictor/common",
-    "//brave/components/brave_referrals/common",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_shields/core/browser",
-    "//brave/components/brave_sync:prefs",
-    "//brave/components/constants",
+    "//unknown/build/android:jni_headers",
+    "//unknown/components/brave_adaptive_captcha",
+    "//unknown/components/brave_news/common",
+    "//unknown/components/brave_perf_predictor/common",
+    "//unknown/components/brave_referrals/common",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_shields/core/browser",
+    "//unknown/components/brave_sync:prefs",
+    "//unknown/components/constants",
     "//chrome/browser:browser_process",
     "//chrome/browser:browser_public_dependencies",
     "//chrome/browser/content_settings:content_settings_factory",
@@ -35,30 +35,30 @@ source_set("preferences") {
 
 java_cpp_strings("java_pref_names_srcjar") {
   sources = [
-    "//brave/components/ai_chat/core/common/pref_names.h",
-    "//brave/components/brave_account/pref_names.h",
-    "//brave/components/brave_adaptive_captcha/pref_names.h",
-    "//brave/components/brave_origin/pref_names.h",
-    "//brave/components/brave_rewards/core/pref_names.h",
-    "//brave/components/brave_shields/core/common/pref_names.h",
-    "//brave/components/brave_vpn/common/pref_names.h",
-    "//brave/components/constants/pref_names.h",
-    "//brave/components/de_amp/common/pref_names.cc",
-    "//brave/components/de_amp/common/pref_names.h",
-    "//brave/components/debounce/core/common/pref_names.h",
-    "//brave/components/ntp_background_images/common/pref_names.h",
-    "//brave/components/omnibox/browser/brave_omnibox_prefs.cc",
-    "//brave/components/omnibox/browser/brave_omnibox_prefs.h",
-    "//brave/components/p3a/pref_names.h",
-    "//brave/components/request_otr/common/pref_names.h",
-    "//brave/components/search_engines/brave_search_engines_pref_names.h",
+    "//unknown/components/ai_chat/core/common/pref_names.h",
+    "//unknown/components/brave_account/pref_names.h",
+    "//unknown/components/brave_adaptive_captcha/pref_names.h",
+    "//unknown/components/brave_origin/pref_names.h",
+    "//unknown/components/brave_rewards/core/pref_names.h",
+    "//unknown/components/brave_shields/core/common/pref_names.h",
+    "//unknown/components/brave_vpn/common/pref_names.h",
+    "//unknown/components/constants/pref_names.h",
+    "//unknown/components/de_amp/common/pref_names.cc",
+    "//unknown/components/de_amp/common/pref_names.h",
+    "//unknown/components/debounce/core/common/pref_names.h",
+    "//unknown/components/ntp_background_images/common/pref_names.h",
+    "//unknown/components/omnibox/browser/brave_omnibox_prefs.cc",
+    "//unknown/components/omnibox/browser/brave_omnibox_prefs.h",
+    "//unknown/components/p3a/pref_names.h",
+    "//unknown/components/request_otr/common/pref_names.h",
+    "//unknown/components/search_engines/brave_search_engines_pref_names.h",
     "//components/translate/core/browser/translate_pref_names.h",
   ]
 
   if (enable_brave_wallet) {
-    sources += [ "//brave/components/decentralized_dns/core/pref_names.h" ]
+    sources += [ "//unknown/components/decentralized_dns/core/pref_names.h" ]
   }
 
   template =
-      "//brave/browser/preferences/android/java_templates/BravePref.java.tmpl"
+      "//unknown/browser/preferences/android/java_templates/BravePref.java.tmpl"
 }

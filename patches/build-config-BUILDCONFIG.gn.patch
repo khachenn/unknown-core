@@ -6,7 +6,7 @@ index 69f7eb1ac466fbd4e528e3cf2e4e2f96e622424f..9cddd247278ff1b8bece6bac8bc5ff9e
  
  # Holds all configs used for running the compiler.
  default_compiler_configs = [
-+  "//brave/build:compiler",
++  "//unknown/build:compiler",
    "//build/config/compiler/pgo:default_pgo_flags",
    "//build/config/compiler:afdo",
    "//build/config/compiler:afdo_optimize_size",

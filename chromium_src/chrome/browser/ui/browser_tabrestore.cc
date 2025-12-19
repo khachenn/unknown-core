@@ -6,9 +6,9 @@
 #include "chrome/browser/ui/browser_tabrestore.h"
 
 #include "base/strings/utf_string_conversions.h"
-#include "brave/browser/ui/tabs/brave_tab_strip_model.h"
-#include "brave/browser/ui/tabs/public/constants.h"
-#include "brave/components/containers/buildflags/buildflags.h"
+#include "unknown/browser/ui/tabs/brave_tab_strip_model.h"
+#include "unknown/browser/ui/tabs/public/constants.h"
+#include "unknown/components/containers/buildflags/buildflags.h"
 #include "chrome/browser/ui/tab_ui_helper.h"
 #include "chrome/browser/ui/tabs/features.h"
 #include "chrome/browser/ui/tabs/public/tab_features.h"

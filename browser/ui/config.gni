@@ -3,61 +3,61 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/containers/buildflags/buildflags.gni")
-import("//brave/components/speedreader/common/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/containers/buildflags/buildflags.gni")
+import("//unknown/components/speedreader/common/buildflags/buildflags.gni")
 import("//build/config/ui.gni")
 
 brave_ui_allow_circular_includes_from =
-    [ "//brave/browser/ui/webui/ads_internals" ]
+    [ "//unknown/browser/ui/webui/ads_internals" ]
 if (enable_ai_chat) {
   brave_ui_allow_circular_includes_from +=
-      [ "//brave/browser/ui/webui/ai_chat" ]
+      [ "//unknown/browser/ui/webui/ai_chat" ]
 }
 if (!is_android) {
   brave_ui_allow_circular_includes_from += [
-    "//brave/browser/ui/browser_window/internal",
-    "//brave/browser/ui/tabs:tabs_public",
-    "//brave/browser/ui/webui/brave_education",
-    "//brave/browser/ui/webui/brave_new_tab_page_refresh",
-    "//brave/browser/ui/webui/brave_news_internals",
-    "//brave/browser/ui/webui/side_panel/customize_chrome",
-    "//brave/browser/ui/tabs:tab_strip",
+    "//unknown/browser/ui/browser_window/internal",
+    "//unknown/browser/ui/tabs:tabs_public",
+    "//unknown/browser/ui/webui/brave_education",
+    "//unknown/browser/ui/webui/brave_new_tab_page_refresh",
+    "//unknown/browser/ui/webui/brave_news_internals",
+    "//unknown/browser/ui/webui/side_panel/customize_chrome",
+    "//unknown/browser/ui/tabs:tab_strip",
   ]
 }
 if (is_android) {
   brave_ui_allow_circular_includes_from +=
-      [ "//brave/browser/ui/webui/new_tab_takeover/android:new_tab_takeover" ]
+      [ "//unknown/browser/ui/webui/new_tab_takeover/android:new_tab_takeover" ]
 }
 if (toolkit_views) {
   brave_ui_allow_circular_includes_from += [
-    "//brave/browser/ui/email_aliases",
-    "//brave/browser/ui/sidebar",
-    "//brave/browser/ui/split_view",
-    "//brave/browser/ui/views:layout_provider",
-    "//brave/browser/ui/views/frame",
-    "//brave/browser/ui/views/frame/split_view",
-    "//brave/browser/ui/views/frame/vertical_tabs",
-    "//brave/browser/ui/views/location_bar",
-    "//brave/browser/ui/views/page_info",
-    "//brave/browser/ui/webui/email_aliases",
+    "//unknown/browser/ui/email_aliases",
+    "//unknown/browser/ui/sidebar",
+    "//unknown/browser/ui/split_view",
+    "//unknown/browser/ui/views:layout_provider",
+    "//unknown/browser/ui/views/frame",
+    "//unknown/browser/ui/views/frame/split_view",
+    "//unknown/browser/ui/views/frame/vertical_tabs",
+    "//unknown/browser/ui/views/location_bar",
+    "//unknown/browser/ui/views/page_info",
+    "//unknown/browser/ui/webui/email_aliases",
   ]
 
   if (enable_ai_chat) {
     brave_ui_allow_circular_includes_from +=
-        [ "//brave/browser/ui/views/side_panel/ai_chat" ]
+        [ "//unknown/browser/ui/views/side_panel/ai_chat" ]
   }
 
   if (enable_containers) {
-    brave_ui_allow_circular_includes_from += [ "//brave/browser/ui/containers" ]
+    brave_ui_allow_circular_includes_from += [ "//unknown/browser/ui/containers" ]
   }
 
   if (enable_speedreader) {
     brave_ui_allow_circular_includes_from +=
-        [ "//brave/browser/ui/views/speedreader" ]
+        [ "//unknown/browser/ui/views/speedreader" ]
   }
 }
 
 if (enable_speedreader) {
-  brave_ui_allow_circular_includes_from += [ "//brave/browser/ui/speedreader" ]
+  brave_ui_allow_circular_includes_from += [ "//unknown/browser/ui/speedreader" ]
 }

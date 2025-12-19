@@ -3,19 +3,19 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/webui/side_panel/customize_chrome/customize_toolbar/list_action_modifiers.h"
+#include "unknown/browser/ui/webui/side_panel/customize_chrome/customize_toolbar/list_action_modifiers.h"
 
 #include <utility>
 
 #include "base/containers/contains.h"
 #include "base/containers/fixed_flat_set.h"
-#include "brave/browser/brave_rewards/rewards_util.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_news/common/pref_names.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/vector_icons/vector_icons.h"
+#include "unknown/browser/brave_rewards/rewards_util.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_news/common/pref_names.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/vector_icons/vector_icons.h"
 #include "chrome/browser/ui/webui/util/image_util.h"
 #include "chrome/test/base/testing_profile.h"
 #include "components/grit/brave_components_strings.h"
@@ -33,18 +33,18 @@
 #include "ui/gfx/image/image_skia.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/common/common_utils.h"
-#include "brave/components/brave_wallet/common/features.h"
+#include "unknown/components/brave_wallet/common/common_utils.h"
+#include "unknown/components/brave_wallet/common/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/browser/utils.h"
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/browser/brave_vpn/vpn_utils.h"
-#include "brave/components/brave_vpn/common/pref_names.h"
+#include "unknown/browser/brave_vpn/vpn_utils.h"
+#include "unknown/components/brave_vpn/common/pref_names.h"
 #endif  // BUILDFLAG(ENABLE_BRAVE_VPN)
 
 using ActionId = side_panel::customize_chrome::mojom::ActionId;

@@ -7,7 +7,7 @@ index 5f9acdb7f355036ba23859ccbe26f7d2bce3b90d..5ce5ce26942a91dea11fa9f3d42fb83c
  }
  
 -action("mini_installer_archive") {
-+import("//brave/chromium_src/chrome/installer/mini_installer/build.gni") brave_mini_installer_archive_action("mini_installer_archive") {
++import("//unknown/chromium_src/chrome/installer/mini_installer/build.gni") brave_mini_installer_archive_action("mini_installer_archive") {
    script = "//chrome/tools/build/win/create_installer_archive.py"
  
    release_file = "chrome.release"

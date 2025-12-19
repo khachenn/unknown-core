@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/cardano/cardano_cip30_serializer.h"
+#include "unknown/components/brave_wallet/browser/cardano/cardano_cip30_serializer.h"
 
 #include <cstdint>
 #include <optional>
@@ -13,7 +13,7 @@
 #include "base/numerics/checked_math.h"
 #include "base/numerics/safe_conversions.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/components/brave_wallet/common/cardano_address.h"
+#include "unknown/components/brave_wallet/common/cardano_address.h"
 #include "components/cbor/reader.h"
 #include "components/cbor/values.h"
 #include "components/cbor/writer.h"

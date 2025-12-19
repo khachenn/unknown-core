@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 
 #include "base/memory/raw_ptr.h"
 #include "components/keyed_service/core/keyed_service.h"

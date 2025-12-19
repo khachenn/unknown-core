@@ -7,8 +7,8 @@
 #define BRAVE_BROWSER_UI_BROWSER_DIALOGS_H_
 
 #include "base/functional/callback_forward.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/text_recognition/common/buildflags/buildflags.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/text_recognition/common/buildflags/buildflags.h"
 
 class Browser;
 class SkBitmap;

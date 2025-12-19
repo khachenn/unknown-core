@@ -3,24 +3,24 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/legacy_migration/client/legacy_client_migration.h"
+#include "unknown/components/brave_ads/core/internal/legacy_migration/client/legacy_client_migration.h"
 
 #include <optional>
 #include <string>
 #include <utility>
 
 #include "base/functional/bind.h"
-#include "brave/components/brave_ads/core/internal/ads_client/ads_client_util.h"
-#include "brave/components/brave_ads/core/internal/common/logging_util.h"
-#include "brave/components/brave_ads/core/internal/deprecated/client/client_info.h"
-#include "brave/components/brave_ads/core/internal/history/ad_history_database_table.h"
-#include "brave/components/brave_ads/core/internal/legacy_migration/client/legacy_client_migration_ad_history_json_reader.h"
-#include "brave/components/brave_ads/core/internal/legacy_migration/client/legacy_client_migration_util.h"
-#include "brave/components/brave_ads/core/internal/prefs/pref_util.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client.h"
-#include "brave/components/brave_ads/core/public/ads_constants.h"
-#include "brave/components/brave_ads/core/public/history/ad_history_item_info.h"
-#include "brave/components/brave_ads/core/public/prefs/pref_names.h"
+#include "unknown/components/brave_ads/core/internal/ads_client/ads_client_util.h"
+#include "unknown/components/brave_ads/core/internal/common/logging_util.h"
+#include "unknown/components/brave_ads/core/internal/deprecated/client/client_info.h"
+#include "unknown/components/brave_ads/core/internal/history/ad_history_database_table.h"
+#include "unknown/components/brave_ads/core/internal/legacy_migration/client/legacy_client_migration_ad_history_json_reader.h"
+#include "unknown/components/brave_ads/core/internal/legacy_migration/client/legacy_client_migration_util.h"
+#include "unknown/components/brave_ads/core/internal/prefs/pref_util.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client.h"
+#include "unknown/components/brave_ads/core/public/ads_constants.h"
+#include "unknown/components/brave_ads/core/public/history/ad_history_item_info.h"
+#include "unknown/components/brave_ads/core/public/prefs/pref_names.h"
 
 namespace brave_ads {
 

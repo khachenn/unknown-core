@@ -6,7 +6,7 @@ index e67abbfa4ba9bdebd023c642c0efb2772483c49c..25f4d67c80c0f31ac9079bbf1a131745
        "enterprise/site_search_policy_handler.h",
      ]
    }
-+  import("//brave/components/search_engines/sources.gni") deps += brave_components_search_engines_deps
++  import("//unknown/components/search_engines/sources.gni") deps += brave_components_search_engines_deps
  }
  
  source_set("search_engine_utils") {

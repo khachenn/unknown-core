@@ -4,42 +4,42 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "base/feature_override.h"
-#include "brave/browser/android/safe_browsing/features.h"
-#include "brave/browser/android/youtube_script_injector/features.h"
-#include "brave/browser/brave_browser_features.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/brave_account/features.h"
-#include "brave/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_feature.h"
-#include "brave/components/brave_news/common/features.h"
-#include "brave/components/brave_origin/features.h"
-#include "brave/components/brave_rewards/core/features.h"
-#include "brave/components/brave_search_conversion/features.h"
-#include "brave/components/brave_shields/core/common/features.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/debounce/core/common/features.h"
-#include "brave/components/google_sign_in_permission/features.h"
-#include "brave/components/ntp_background_images/browser/features.h"
-#include "brave/components/playlist/core/common/features.h"
-#include "brave/components/request_otr/common/features.h"
-#include "brave/components/web_discovery/buildflags/buildflags.h"
-#include "brave/components/webcompat/core/common/features.h"
+#include "unknown/browser/android/safe_browsing/features.h"
+#include "unknown/browser/android/youtube_script_injector/features.h"
+#include "unknown/browser/brave_browser_features.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/brave_account/features.h"
+#include "unknown/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_feature.h"
+#include "unknown/components/brave_news/common/features.h"
+#include "unknown/components/brave_origin/features.h"
+#include "unknown/components/brave_rewards/core/features.h"
+#include "unknown/components/brave_search_conversion/features.h"
+#include "unknown/components/brave_shields/core/common/features.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/debounce/core/common/features.h"
+#include "unknown/components/google_sign_in_permission/features.h"
+#include "unknown/components/ntp_background_images/browser/features.h"
+#include "unknown/components/playlist/core/common/features.h"
+#include "unknown/components/request_otr/common/features.h"
+#include "unknown/components/web_discovery/buildflags/buildflags.h"
+#include "unknown/components/webcompat/core/common/features.h"
 #include "net/base/features.h"
 #include "third_party/blink/public/common/features.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/features.h"
+#include "unknown/components/brave_vpn/common/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/common/features.h"
+#include "unknown/components/brave_wallet/common/features.h"
 #endif
 
 #define BRAVE_AI_CHAT_FLAGS \
   &ai_chat::features::kAIChat, &ai_chat::features::kAIChatHistory,
 
 #if BUILDFLAG(ENABLE_WEB_DISCOVERY_NATIVE)
-#include "brave/components/web_discovery/common/features.h"
+#include "unknown/components/web_discovery/common/features.h"
 #define BRAVE_WEB_DISCOVERY_FLAG \
   &web_discovery::features::kBraveWebDiscoveryNative,
 #else

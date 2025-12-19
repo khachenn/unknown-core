@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/omnibox/browser/brave_shortcuts_provider.h"
+#include "unknown/components/omnibox/browser/brave_shortcuts_provider.h"
 
 #include <memory>
 #include <string_view>
@@ -14,8 +14,8 @@
 #include "base/strings/utf_string_conversions.h"
 #include "base/test/task_environment.h"
 #include "base/time/time.h"
-#include "brave/components/omnibox/browser/brave_fake_autocomplete_provider_client.h"
-#include "brave/components/omnibox/browser/brave_omnibox_prefs.h"
+#include "unknown/components/omnibox/browser/brave_fake_autocomplete_provider_client.h"
+#include "unknown/components/omnibox/browser/brave_omnibox_prefs.h"
 #include "components/history/core/browser/history_service.h"
 #include "components/omnibox/browser/autocomplete_input.h"
 #include "components/omnibox/browser/autocomplete_match.h"

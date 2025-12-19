@@ -12,13 +12,13 @@ cargo_crate("lib") {
   crate_name = "ciborium_ll"
   epoch = "0.2"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/dec.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/enc.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/hdr.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/seg.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/dec.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/enc.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/hdr.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/ciborium-ll-v0_2/src/seg.rs",
   ]
   inputs = []
 
@@ -31,8 +31,8 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.2.2"
 
   deps = [
-    "//brave/third_party/rust/ciborium_io/v0_2:lib",
-    "//brave/third_party/rust/half/v2:lib",
+    "//unknown/third_party/rust/ciborium_io/v0_2:lib",
+    "//unknown/third_party/rust/half/v2:lib",
   ]
   rustenv = []
   rustflags = []

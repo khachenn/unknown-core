@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/brave_browser_command_controller.h"
+#include "unknown/browser/ui/brave_browser_command_controller.h"
 
 #include <memory>
 #include <optional>
@@ -12,14 +12,14 @@
 #include "base/functional/callback_helpers.h"
 #include "base/test/run_until.h"
 #include "base/test/scoped_feature_list.h"
-#include "brave/app/brave_command_ids.h"
-#include "brave/browser/ui/browser_commands.h"
-#include "brave/browser/ui/views/tabs/vertical_tab_utils.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/skus/common/features.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/app/brave_command_ids.h"
+#include "unknown/browser/ui/browser_commands.h"
+#include "unknown/browser/ui/views/tabs/vertical_tab_utils.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/skus/common/features.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "chrome/app/chrome_command_ids.h"
 #include "chrome/browser/policy/configuration_policy_handler_list_factory.h"
 #include "chrome/browser/profiles/profile.h"
@@ -45,19 +45,19 @@
 #include "content/public/test/test_utils.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
 #endif
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/browser/tor/tor_profile_service_factory.h"
+#include "unknown/browser/tor/tor_profile_service_factory.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/browser/brave_vpn/brave_vpn_service_factory.h"
-#include "brave/components/brave_vpn/browser/brave_vpn_service.h"
-#include "brave/components/brave_vpn/common/brave_vpn_utils.h"
-#include "brave/components/brave_vpn/common/features.h"
-#include "brave/components/brave_vpn/common/pref_names.h"
+#include "unknown/browser/brave_vpn/brave_vpn_service_factory.h"
+#include "unknown/components/brave_vpn/browser/brave_vpn_service.h"
+#include "unknown/components/brave_vpn/common/brave_vpn_utils.h"
+#include "unknown/components/brave_vpn/common/features.h"
+#include "unknown/components/brave_vpn/common/pref_names.h"
 #endif
 
 #if defined(TOOLKIT_VIEWS)

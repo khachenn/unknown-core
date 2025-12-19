@@ -4,12 +4,12 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 brave_browser_profiles_sources = [
-  "//brave/browser/profiles/brave_profile_avatar_downloader.cc",
-  "//brave/browser/profiles/brave_profile_avatar_downloader.h",
-  "//brave/browser/profiles/brave_profile_manager.cc",
-  "//brave/browser/profiles/brave_profile_manager.h",
-  "//brave/browser/profiles/brave_renderer_updater.cc",
-  "//brave/browser/profiles/brave_renderer_updater.h",
-  "//brave/browser/profiles/brave_renderer_updater_factory.cc",
-  "//brave/browser/profiles/brave_renderer_updater_factory.h",
+  "//unknown/browser/profiles/brave_profile_avatar_downloader.cc",
+  "//unknown/browser/profiles/brave_profile_avatar_downloader.h",
+  "//unknown/browser/profiles/brave_profile_manager.cc",
+  "//unknown/browser/profiles/brave_profile_manager.h",
+  "//unknown/browser/profiles/brave_renderer_updater.cc",
+  "//unknown/browser/profiles/brave_renderer_updater.h",
+  "//unknown/browser/profiles/brave_renderer_updater_factory.cc",
+  "//unknown/browser/profiles/brave_renderer_updater_factory.h",
 ]

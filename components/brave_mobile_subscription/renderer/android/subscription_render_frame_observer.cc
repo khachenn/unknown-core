@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_mobile_subscription/renderer/android/subscription_render_frame_observer.h"
+#include "unknown/components/brave_mobile_subscription/renderer/android/subscription_render_frame_observer.h"
 
 #include <string>
 #include <string_view>
@@ -14,9 +14,9 @@
 #include "base/no_destructor.h"
 #include "base/strings/strcat.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/skus/renderer/skus_utils.h"
-#include "brave/gin/converter_specializations.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/skus/renderer/skus_utils.h"
+#include "unknown/gin/converter_specializations.h"
 #include "build/build_config.h"
 #include "content/public/renderer/render_frame.h"
 #include "gin/function_template.h"
@@ -27,7 +27,7 @@
 #include "url/url_util.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/brave_vpn_utils.h"
+#include "unknown/components/brave_vpn/common/brave_vpn_utils.h"
 #endif
 
 namespace brave_subscription {

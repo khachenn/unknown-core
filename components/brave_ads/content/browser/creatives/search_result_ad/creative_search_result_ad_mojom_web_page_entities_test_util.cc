@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_mojom_web_page_entities_test_util.h"
+#include "unknown/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_mojom_web_page_entities_test_util.h"
 
 #include <cstdint>
 #include <string>
@@ -11,9 +11,9 @@
 
 #include "base/containers/contains.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_constants.h"
-#include "brave/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_mojom_test_util.h"
-#include "brave/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_test_constants.h"
+#include "unknown/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_constants.h"
+#include "unknown/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_mojom_test_util.h"
+#include "unknown/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_test_constants.h"
 #include "components/schema_org/common/metadata.mojom.h"
 #include "third_party/blink/public/mojom/document_metadata/document_metadata.mojom.h"
 

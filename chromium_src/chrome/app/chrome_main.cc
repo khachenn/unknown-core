@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/app/brave_main_delegate.h"
+#include "unknown/app/brave_main_delegate.h"
 
 #define ChromeMainDelegate BraveMainDelegate
 #include <chrome/app/chrome_main.cc>

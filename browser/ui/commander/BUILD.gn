@@ -13,8 +13,8 @@ source_set("browser_tests") {
 
   deps = [
     "//base",
-    "//brave/components/commander/browser",
-    "//brave/components/resources:strings_grit",
+    "//unknown/components/commander/browser",
+    "//unknown/components/resources:strings_grit",
     "//chrome/browser/profiles",
     "//chrome/browser/profiles:profile",
     "//chrome/browser/ui",
@@ -39,7 +39,7 @@ source_set("unit_tests") {
   deps = [
     ":fuzzy_finder",
     "//base",
-    "//brave/components/commander/browser",
+    "//unknown/components/commander/browser",
     "//chrome/browser/ui",
     "//chrome/test:test_support",
     "//components/prefs:test_support",

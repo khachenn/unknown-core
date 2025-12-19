@@ -12,11 +12,11 @@
 
 #include "base/memory/raw_ptr.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/tor/brave_tor_client_updater.h"
-#include "brave/components/tor/brave_tor_pluggable_transport_updater.h"
-#include "brave/components/tor/tor_launcher_factory.h"
-#include "brave/components/tor/tor_launcher_observer.h"
-#include "brave/components/tor/tor_profile_service.h"
+#include "unknown/components/tor/brave_tor_client_updater.h"
+#include "unknown/components/tor/brave_tor_pluggable_transport_updater.h"
+#include "unknown/components/tor/tor_launcher_factory.h"
+#include "unknown/components/tor/tor_launcher_observer.h"
+#include "unknown/components/tor/tor_profile_service.h"
 #include "components/prefs/pref_change_registrar.h"
 #include "net/proxy_resolution/proxy_info.h"
 

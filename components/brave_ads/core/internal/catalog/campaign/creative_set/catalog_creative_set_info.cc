@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/catalog/campaign/creative_set/catalog_creative_set_info.h"
+#include "unknown/components/brave_ads/core/internal/catalog/campaign/creative_set/catalog_creative_set_info.h"
 
 #include <algorithm>
 #include <limits>
 
 #include "base/numerics/ranges.h"
-#include "brave/components/brave_ads/core/internal/common/platform/platform_helper.h"
+#include "unknown/components/brave_ads/core/internal/common/platform/platform_helper.h"
 
 namespace brave_ads {
 

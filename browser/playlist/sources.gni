@@ -4,13 +4,13 @@
 # You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 brave_browser_playlist_sources = [
-  "//brave/browser/playlist/playlist_service_factory.cc",
-  "//brave/browser/playlist/playlist_service_factory.h",
+  "//unknown/browser/playlist/playlist_service_factory.cc",
+  "//unknown/browser/playlist/playlist_service_factory.h",
 ]
 
 brave_browser_playlist_deps = [
   "//base",
-  "//brave/components/playlist/content/browser",
+  "//unknown/components/playlist/content/browser",
   "//chrome/browser:browser_process",
   "//chrome/browser/profiles:profile",
   "//chrome/common",
@@ -20,15 +20,15 @@ brave_browser_playlist_deps = [
 
 if (is_android) {
   brave_browser_playlist_sources +=
-      [ "//brave/browser/playlist/android/playlist_service_factory_android.cc" ]
+      [ "//unknown/browser/playlist/android/playlist_service_factory_android.cc" ]
 
   brave_browser_playlist_deps += [
-    "//brave/build/android:jni_headers",
+    "//unknown/build/android:jni_headers",
     "//mojo/public/cpp/bindings",
   ]
 } else {
   brave_browser_playlist_sources += [
-    "//brave/browser/playlist/playlist_data_source.cc",
-    "//brave/browser/playlist/playlist_data_source.h",
+    "//unknown/browser/playlist/playlist_data_source.cc",
+    "//unknown/browser/playlist/playlist_data_source.h",
   ]
 }

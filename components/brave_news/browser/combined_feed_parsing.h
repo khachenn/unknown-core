@@ -9,7 +9,7 @@
 #include <vector>
 
 #include "base/values.h"
-#include "brave/components/brave_news/common/brave_news.mojom.h"
+#include "unknown/components/brave_news/common/brave_news.mojom.h"
 
 namespace brave_news {
 

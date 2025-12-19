@@ -5,7 +5,7 @@
 
 #include "chrome/browser/ui/views/tabs/dragging/dragging_tabs_session.h"
 
-#include "brave/browser/ui/views/tabs/vertical_tab_utils.h"
+#include "unknown/browser/ui/views/tabs/vertical_tab_utils.h"
 #include "chrome/browser/ui/tabs/tab_strip_model.h"
 #include "chrome/browser/ui/tabs/tab_style.h"
 #include "chrome/browser/ui/views/frame/browser_view.h"

@@ -8,17 +8,17 @@
 #undef BRAVE_INIT
 
 #include "base/containers/fixed_flat_map.h"
-#include "brave/components/brave_shields/core/common/brave_shield_constants.h"
-#include "brave/components/brave_shields/core/common/brave_shields_settings_values.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/psst/buildflags/buildflags.h"
+#include "unknown/components/brave_shields/core/common/brave_shield_constants.h"
+#include "unknown/components/brave_shields/core/common/brave_shields_settings_values.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/psst/buildflags/buildflags.h"
 #include "components/content_settings/core/common/content_settings.h"
 #include "components/content_settings/core/common/content_settings.mojom.h"
 #include "net/base/features.h"
 
 #if BUILDFLAG(ENABLE_PSST)
-#include "brave/components/psst/common/constants.h"
-#include "brave/components/psst/common/features.h"
+#include "unknown/components/psst/common/constants.h"
+#include "unknown/components/psst/common/features.h"
 #endif  // BUILDFLAG(ENABLE_PSST)
 
 namespace content_settings {

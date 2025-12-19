@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ai_chat/page_content_blocks.h"
+#include "unknown/browser/ai_chat/page_content_blocks.h"
 
 #include <string>
 
@@ -11,10 +11,10 @@
 #include "base/strings/escape.h"
 #include "base/strings/strcat.h"
 #include "base/strings/string_util.h"
-#include "brave/components/ai_chat/core/browser/tools/tool_utils.h"
-#include "brave/components/ai_chat/core/common/constants.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/browser/tools/tool_utils.h"
+#include "unknown/components/ai_chat/core/common/constants.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
 #include "third_party/abseil-cpp/absl/strings/str_format.h"
 
 namespace ai_chat {

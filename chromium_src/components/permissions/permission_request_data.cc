@@ -7,7 +7,7 @@
 
 #include <optional>
 
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
 #include "components/permissions/content_setting_permission_context_base.h"
 
 namespace permissions {

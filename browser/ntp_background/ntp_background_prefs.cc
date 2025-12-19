@@ -3,14 +3,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ntp_background/ntp_background_prefs.h"
+#include "unknown/browser/ntp_background/ntp_background_prefs.h"
 
 #include <algorithm>
 #include <memory>
 #include <utility>
 
 #include "base/check.h"
-#include "brave/components/constants/pref_names.h"
+#include "unknown/components/constants/pref_names.h"
 #include "components/pref_registry/pref_registry_syncable.h"
 #include "components/prefs/pref_service.h"
 #include "components/prefs/scoped_user_pref_update.h"

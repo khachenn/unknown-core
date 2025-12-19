@@ -3,15 +3,15 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_rewards/extension_rewards_service_observer.h"
+#include "unknown/browser/brave_rewards/extension_rewards_service_observer.h"
 
 #include <string>
 #include <utility>
 #include <vector>
 
 #include "base/base64.h"
-#include "brave/common/extensions/api/brave_rewards.h"
-#include "brave/components/brave_rewards/content/rewards_service.h"
+#include "unknown/common/extensions/api/brave_rewards.h"
+#include "unknown/components/brave_rewards/content/rewards_service.h"
 #include "chrome/browser/profiles/profile.h"
 #include "extensions/browser/event_router.h"
 

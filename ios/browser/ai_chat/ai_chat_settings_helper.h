@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #ifdef __cplusplus
-#include "brave/components/ai_chat/core/common/mojom/ios/ai_chat.mojom.objc.h"
+#include "unknown/components/ai_chat/core/common/mojom/ios/ai_chat.mojom.objc.h"
 #else
 #include "ai_chat.mojom.objc.h"  // NOLINT
 #endif

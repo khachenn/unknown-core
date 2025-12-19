@@ -11,11 +11,11 @@
 
 #include "base/gtest_prod_util.h"
 #include "base/types/pass_key.h"
-#include "brave/browser/ui/views/brave_news/brave_news_action_icon_view.h"
-#include "brave/browser/ui/views/playlist/playlist_bubbles_controller.h"
-#include "brave/browser/ui/views/toolbar/brave_toolbar_view.h"
-#include "brave/browser/ui/views/view_shadow.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/browser/ui/views/brave_news/brave_news_action_icon_view.h"
+#include "unknown/browser/ui/views/playlist/playlist_bubbles_controller.h"
+#include "unknown/browser/ui/views/toolbar/brave_toolbar_view.h"
+#include "unknown/browser/ui/views/view_shadow.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "chrome/browser/ui/views/location_bar/location_bar_view.h"
 #include "ui/base/metadata/metadata_header_macros.h"
 

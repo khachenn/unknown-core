@@ -5,27 +5,27 @@
 
 // based on //chrome/browser/ui/webui/browser_command/browser_command_handler.cc
 
-#include "brave/browser/ui/webui/brave_browser_command/brave_browser_command_handler.h"
+#include "unknown/browser/ui/webui/brave_browser_command/brave_browser_command_handler.h"
 
 #include "base/containers/contains.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_education/education_urls.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/constants/webui_url_constants.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_education/education_urls.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/constants/webui_url_constants.h"
 #include "chrome/browser/profiles/profile.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/browser/ai_chat/ai_chat_service_factory.h"
+#include "unknown/browser/ai_chat/ai_chat_service_factory.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/browser/brave_vpn/vpn_utils.h"
+#include "unknown/browser/brave_vpn/vpn_utils.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/browser/brave_wallet/brave_wallet_service_factory.h"
+#include "unknown/browser/brave_wallet/brave_wallet_service_factory.h"
 #endif  // BUILDFLAG(ENABLE_BRAVE_WALLET)
 
 namespace {

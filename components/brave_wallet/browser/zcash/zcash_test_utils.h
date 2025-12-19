@@ -9,13 +9,13 @@
 #include <array>
 #include <vector>
 
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/zcash_utils.h"
-#include "brave/components/services/brave_wallet/public/mojom/zcash_decoder.mojom.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/zcash_utils.h"
+#include "unknown/components/services/brave_wallet/public/mojom/zcash_decoder.mojom.h"
 
 #if BUILDFLAG(ENABLE_ORCHARD)
-#include "brave/components/brave_wallet/browser/zcash/zcash_shield_sync_service.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_shield_sync_service.h"
 #endif
 
 namespace brave_wallet {

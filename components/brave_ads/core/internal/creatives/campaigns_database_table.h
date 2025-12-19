@@ -9,13 +9,13 @@
 #include <map>
 #include <string>
 
-#include "brave/components/brave_ads/core/internal/account/deposits/deposits_database_table.h"
-#include "brave/components/brave_ads/core/internal/creatives/creative_ad_info.h"
-#include "brave/components/brave_ads/core/internal/creatives/dayparts_database_table.h"
-#include "brave/components/brave_ads/core/internal/creatives/geo_targets_database_table.h"
-#include "brave/components/brave_ads/core/internal/creatives/segments_database_table.h"
-#include "brave/components/brave_ads/core/internal/database/database_table_interface.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
+#include "unknown/components/brave_ads/core/internal/account/deposits/deposits_database_table.h"
+#include "unknown/components/brave_ads/core/internal/creatives/creative_ad_info.h"
+#include "unknown/components/brave_ads/core/internal/creatives/dayparts_database_table.h"
+#include "unknown/components/brave_ads/core/internal/creatives/geo_targets_database_table.h"
+#include "unknown/components/brave_ads/core/internal/creatives/segments_database_table.h"
+#include "unknown/components/brave_ads/core/internal/database/database_table_interface.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
 
 namespace brave_ads {
 

@@ -10,7 +10,7 @@
 
 #include "base/containers/flat_map.h"
 #include "base/containers/flat_set.h"
-#include "brave/components/brave_news/common/brave_news.mojom-forward.h"
+#include "unknown/components/brave_news/common/brave_news.mojom-forward.h"
 
 namespace brave_news {
 

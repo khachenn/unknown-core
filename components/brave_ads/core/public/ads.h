@@ -10,10 +10,10 @@
 #include <string>
 
 #include "base/values.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
-#include "brave/components/brave_ads/core/public/ads_callback.h"
-#include "brave/components/brave_ads/core/public/ads_observer.h"
-#include "brave/components/brave_ads/core/public/service/ads_service_callback.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
+#include "unknown/components/brave_ads/core/public/ads_callback.h"
+#include "unknown/components/brave_ads/core/public/ads_observer.h"
+#include "unknown/components/brave_ads/core/public/service/ads_service_callback.h"
 
 namespace base {
 class Time;

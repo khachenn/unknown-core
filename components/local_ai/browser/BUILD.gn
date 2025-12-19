@@ -12,8 +12,8 @@ static_library("browser") {
   public_deps = [ "//base" ]
 
   deps = [
-    "//brave/components/brave_component_updater/browser:public",
-    "//brave/components/local_ai/common",
+    "//unknown/components/brave_component_updater/browser:public",
+    "//unknown/components/local_ai/common",
     "//components/component_updater",
     "//components/component_updater:component_updater_paths",
     "//components/update_client",
@@ -29,8 +29,8 @@ source_set("unit_tests") {
     ":browser",
     "//base",
     "//base/test:test_support",
-    "//brave/components/brave_component_updater/browser:test_support",
-    "//brave/components/local_ai/common",
+    "//unknown/components/brave_component_updater/browser:test_support",
+    "//unknown/components/local_ai/common",
     "//components/component_updater:test_support",
     "//testing/gmock",
     "//testing/gtest",

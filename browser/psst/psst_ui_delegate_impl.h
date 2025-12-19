@@ -9,9 +9,9 @@
 #include <cstddef>
 #include <optional>
 
-#include "brave/components/psst/browser/content/psst_tab_web_contents_observer.h"
-#include "brave/components/psst/common/psst_script_responses.h"
-#include "brave/components/psst/common/psst_ui_common.mojom-shared.h"
+#include "unknown/components/psst/browser/content/psst_tab_web_contents_observer.h"
+#include "unknown/components/psst/common/psst_script_responses.h"
+#include "unknown/components/psst/common/psst_ui_common.mojom-shared.h"
 #include "components/content_settings/core/browser/host_content_settings_map.h"
 
 namespace content {

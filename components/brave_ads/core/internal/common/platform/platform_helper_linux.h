@@ -6,7 +6,7 @@
 #ifndef BRAVE_COMPONENTS_BRAVE_ADS_CORE_INTERNAL_COMMON_PLATFORM_PLATFORM_HELPER_LINUX_H_
 #define BRAVE_COMPONENTS_BRAVE_ADS_CORE_INTERNAL_COMMON_PLATFORM_PLATFORM_HELPER_LINUX_H_
 
-#include "brave/components/brave_ads/core/internal/common/platform/platform_helper.h"
+#include "unknown/components/brave_ads/core/internal/common/platform/platform_helper.h"
 
 #include <string>
 

@@ -6,11 +6,11 @@
 #ifndef BRAVE_CHROMIUM_SRC_COMPONENTS_OMNIBOX_BROWSER_ACTIONS_OMNIBOX_ACTION_H_
 #define BRAVE_CHROMIUM_SRC_COMPONENTS_OMNIBOX_BROWSER_ACTIONS_OMNIBOX_ACTION_H_
 
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/commander/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/commander/common/buildflags/buildflags.h"
 
 #if BUILDFLAG(ENABLE_COMMANDER)
-#include "brave/components/commander/browser/commander_frontend_delegate.h"
+#include "unknown/components/commander/browser/commander_frontend_delegate.h"
 
 #define OpenSharingHub  \
   OpenSharingHub() = 0; \

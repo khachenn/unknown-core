@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/ios/browser/brave_stats/brave_stats_prefs.h"
+#include "unknown/ios/browser/brave_stats/brave_stats_prefs.h"
 
 #include "base/time/time.h"
-#include "brave/components/brave_wallet/browser/pref_names.h"
-#include "brave/components/constants/pref_names.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/constants/pref_names.h"
 #include "components/prefs/pref_registry_simple.h"
 
 namespace brave_stats {

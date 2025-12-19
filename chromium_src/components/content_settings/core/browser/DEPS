@@ -1,9 +1,9 @@
 include_rules = [
-  "+brave/components/content_settings/core/browser",
-  "+brave/components/brave_shields/core/common",
-  "+brave/components/brave_wallet/common/buildflags/buildflags.h",
-  "+brave/components/constants",
-  "+brave/components/psst/buildflags/buildflags.h",
-  "+brave/components/psst/common/constants.h",
-  "+brave/components/psst/common/features.h"
+  "+unknown/components/content_settings/core/browser",
+  "+unknown/components/brave_shields/core/common",
+  "+unknown/components/brave_wallet/common/buildflags/buildflags.h",
+  "+unknown/components/constants",
+  "+unknown/components/psst/buildflags/buildflags.h",
+  "+unknown/components/psst/common/constants.h",
+  "+unknown/components/psst/common/features.h"
 ]

@@ -6,7 +6,7 @@
 #ifndef BRAVE_COMPONENTS_BRAVE_ADS_CORE_BROWSER_SERVICE_OBLIVIOUS_HTTP_CLIENT_IMPL_H_
 #define BRAVE_COMPONENTS_BRAVE_ADS_CORE_BROWSER_SERVICE_OBLIVIOUS_HTTP_CLIENT_IMPL_H_
 
-#include "brave/components/brave_ads/core/browser/service/network_client_callback.h"
+#include "unknown/components/brave_ads/core/browser/service/network_client_callback.h"
 #include "services/network/public/mojom/oblivious_http_request.mojom.h"
 
 class GURL;

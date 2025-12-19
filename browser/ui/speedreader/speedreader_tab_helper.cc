@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/speedreader/speedreader_tab_helper.h"
+#include "unknown/browser/ui/speedreader/speedreader_tab_helper.h"
 
 #include <initializer_list>
 #include <string>
@@ -20,17 +20,17 @@
 #include "base/strings/string_number_conversions.h"
 #include "base/strings/string_util.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/browser/brave_browser_process.h"
-#include "brave/browser/speedreader/page_distiller.h"
-#include "brave/browser/speedreader/speedreader_service_factory.h"
-#include "brave/browser/ui/page_action/brave_page_action_icon_type.h"
-#include "brave/browser/ui/speedreader/speedreader_bubble_view.h"
-#include "brave/components/speedreader/common/features.h"
-#include "brave/components/speedreader/speedreader_extended_info_handler.h"
-#include "brave/components/speedreader/speedreader_rewriter_service.h"
-#include "brave/components/speedreader/speedreader_service.h"
-#include "brave/components/speedreader/speedreader_util.h"
-#include "brave/components/speedreader/tts_player.h"
+#include "unknown/browser/brave_browser_process.h"
+#include "unknown/browser/speedreader/page_distiller.h"
+#include "unknown/browser/speedreader/speedreader_service_factory.h"
+#include "unknown/browser/ui/page_action/brave_page_action_icon_type.h"
+#include "unknown/browser/ui/speedreader/speedreader_bubble_view.h"
+#include "unknown/components/speedreader/common/features.h"
+#include "unknown/components/speedreader/speedreader_extended_info_handler.h"
+#include "unknown/components/speedreader/speedreader_rewriter_service.h"
+#include "unknown/components/speedreader/speedreader_service.h"
+#include "unknown/components/speedreader/speedreader_util.h"
+#include "unknown/components/speedreader/tts_player.h"
 #include "chrome/common/chrome_isolated_world_ids.h"
 #include "components/dom_distiller/content/browser/distillable_page_utils.h"
 #include "components/grit/brave_components_resources.h"
@@ -46,7 +46,7 @@
 #include "ui/base/resource/resource_bundle.h"
 
 #if !BUILDFLAG(IS_ANDROID)
-#include "brave/browser/ui/brave_browser_window.h"
+#include "unknown/browser/ui/brave_browser_window.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_finder.h"
 #else

@@ -3,15 +3,15 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_wallet/brave_wallet_tab_helper.h"
+#include "unknown/browser/brave_wallet/brave_wallet_tab_helper.h"
 
 #include <memory>
 
 #include "base/test/scoped_feature_list.h"
-#include "brave/browser/ui/webui/brave_wallet/wallet_common_ui.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_utils.h"
-#include "brave/components/brave_wallet/browser/test_utils.h"
-#include "brave/components/brave_wallet/common/features.h"
+#include "unknown/browser/ui/webui/brave_wallet/wallet_common_ui.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_utils.h"
+#include "unknown/components/brave_wallet/browser/test_utils.h"
+#include "unknown/components/brave_wallet/common/features.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_commands.h"

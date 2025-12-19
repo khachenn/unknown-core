@@ -14,8 +14,8 @@
 #include "base/gtest_prod_util.h"
 #include "base/memory/raw_ptr.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
 
 class PrefService;
 

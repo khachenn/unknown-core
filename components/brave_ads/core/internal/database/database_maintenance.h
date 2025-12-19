@@ -9,9 +9,9 @@
 #include <string>
 
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_ads/core/internal/common/timer/timer.h"
-#include "brave/components/brave_ads/core/internal/database/database_manager_observer.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
+#include "unknown/components/brave_ads/core/internal/common/timer/timer.h"
+#include "unknown/components/brave_ads/core/internal/database/database_manager_observer.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
 
 namespace base {
 class TimeDelta;

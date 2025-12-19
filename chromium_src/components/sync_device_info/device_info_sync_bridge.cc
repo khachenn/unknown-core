@@ -6,7 +6,7 @@
 #include "components/sync_device_info/device_info_sync_bridge.h"
 
 #include "base/logging.h"
-#include "brave/components/sync_device_info/brave_device_info.h"
+#include "unknown/components/sync_device_info/brave_device_info.h"
 #include "components/sync/base/deletion_origin.h"
 
 #define BRAVE_MAKE_LOCAL_DEVICE_SPECIFICS \

@@ -8,7 +8,7 @@
 
 #include <cstddef>
 
-#include "brave/components/brave_ads/core/internal/account/transactions/transaction_info.h"
+#include "unknown/components/brave_ads/core/internal/account/transactions/transaction_info.h"
 
 namespace base {
 class Time;

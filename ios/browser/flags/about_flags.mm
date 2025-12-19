@@ -5,28 +5,28 @@
 
 // This file is included into //ios/chrome/browser/flags/about_flags.mm
 
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/brave_component_updater/browser/features.h"
-#include "brave/components/brave_rewards/core/features.h"
-#include "brave/components/brave_shields/core/common/features.h"
-#include "brave/components/brave_sync/features.h"
-#include "brave/components/brave_user_agent/common/features.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/de_amp/common/features.h"
-#include "brave/components/debounce/core/common/features.h"
-#include "brave/components/skus/common/features.h"
-#include "brave/ios/browser/api/translate/features.h"
-#include "brave/ios/browser/ui/tab_tray/features.h"
-#include "brave/ios/browser/ui/web_view/features.h"
-#include "brave/ios/browser/ui/webui/ai_chat/features.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/brave_component_updater/browser/features.h"
+#include "unknown/components/brave_rewards/core/features.h"
+#include "unknown/components/brave_shields/core/common/features.h"
+#include "unknown/components/brave_sync/features.h"
+#include "unknown/components/brave_user_agent/common/features.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/de_amp/common/features.h"
+#include "unknown/components/debounce/core/common/features.h"
+#include "unknown/components/skus/common/features.h"
+#include "unknown/ios/browser/api/translate/features.h"
+#include "unknown/ios/browser/ui/tab_tray/features.h"
+#include "unknown/ios/browser/ui/web_view/features.h"
+#include "unknown/ios/browser/ui/webui/ai_chat/features.h"
 #include "build/build_config.h"
 #include "components/webui/flags/feature_entry_macros.h"
 #include "components/webui/flags/flags_state.h"
 #include "net/base/features.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/common/features.h"
-#include "brave/ios/browser/brave_wallet/features.h"
+#include "unknown/components/brave_wallet/common/features.h"
+#include "unknown/ios/browser/brave_wallet/features.h"
 #endif
 
 #define EXPAND_FEATURE_ENTRIES(...) __VA_ARGS__,

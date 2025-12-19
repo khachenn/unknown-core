@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/zcash/zcash_shield_sync_service.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_shield_sync_service.h"
 
 #include <algorithm>
 #include <utility>
@@ -11,11 +11,11 @@
 #include "base/check.h"
 #include "base/strings/string_number_conversions.h"
 #include "base/task/thread_pool.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_scan_blocks_task.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_verify_chain_state_task.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
-#include "brave/components/brave_wallet/common/common_utils.h"
-#include "brave/components/brave_wallet/common/zcash_utils.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_scan_blocks_task.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_verify_chain_state_task.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
+#include "unknown/components/brave_wallet/common/common_utils.h"
+#include "unknown/components/brave_wallet/common/zcash_utils.h"
 
 namespace brave_wallet {
 

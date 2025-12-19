@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/bitcoin/bitcoin_hardware_keyring.h"
+#include "unknown/components/brave_wallet/browser/bitcoin/bitcoin_hardware_keyring.h"
 
 #include <array>
 #include <memory>
@@ -13,9 +13,9 @@
 #include "base/check.h"
 #include "base/notimplemented.h"
 #include "base/types/cxx23_to_underlying.h"
-#include "brave/components/brave_wallet/browser/internal/hd_key.h"
-#include "brave/components/brave_wallet/common/bitcoin_utils.h"
-#include "brave/components/brave_wallet/common/common_utils.h"
+#include "unknown/components/brave_wallet/browser/internal/hd_key.h"
+#include "unknown/components/brave_wallet/common/bitcoin_utils.h"
+#include "unknown/components/brave_wallet/common/common_utils.h"
 
 namespace brave_wallet {
 

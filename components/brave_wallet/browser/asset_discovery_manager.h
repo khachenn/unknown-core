@@ -14,11 +14,11 @@
 #include "base/gtest_prod_util.h"
 #include "base/memory/raw_ptr.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_wallet/browser/asset_discovery_task.h"
-#include "brave/components/brave_wallet/browser/keyring_service_observer_base.h"
-#include "brave/components/brave_wallet/browser/simple_hash_client.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_wallet/browser/asset_discovery_task.h"
+#include "unknown/components/brave_wallet/browser/keyring_service_observer_base.h"
+#include "unknown/components/brave_wallet/browser/simple_hash_client.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "mojo/public/cpp/bindings/receiver.h"
 
 class PrefService;

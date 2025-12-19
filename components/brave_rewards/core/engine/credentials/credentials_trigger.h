@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_rewards/core/mojom/rewards_engine_internal.mojom.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards_engine_internal.mojom.h"
 
 namespace brave_rewards::internal {
 namespace credential {

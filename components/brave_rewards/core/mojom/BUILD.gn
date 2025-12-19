@@ -34,6 +34,6 @@ mojom("webui") {
 
   deps = [
     ":mojom",
-    "//brave/components/services/bat_ads/public/interfaces",
+    "//unknown/components/services/bat_ads/public/interfaces",
   ]
 }

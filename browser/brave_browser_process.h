@@ -11,10 +11,10 @@
 #ifndef BRAVE_BROWSER_BRAVE_BROWSER_PROCESS_H_
 #define BRAVE_BROWSER_BRAVE_BROWSER_PROCESS_H_
 
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/request_otr/common/buildflags/buildflags.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/request_otr/common/buildflags/buildflags.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "build/build_config.h"
 #include "extensions/buildflags/buildflags.h"
 

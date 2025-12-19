@@ -6,7 +6,7 @@ index b1975a5cebebfa1a48dd9a856ef3d90714a3a89d..d91c3c18dddcae970b9749b5a6a592bf
      "//ui/android:ui_no_recycler_view_java",
    ]
    resources_package = "org.chromium.components.browser_ui.settings"
-+  import("//brave/components/browser_ui/settings/android/sources.gni") sources += brave_components_browser_ui_settings_android_java_sources
++  import("//unknown/components/browser_ui/settings/android/sources.gni") sources += brave_components_browser_ui_settings_android_java_sources
  }
  
  android_resources("java_resources") {

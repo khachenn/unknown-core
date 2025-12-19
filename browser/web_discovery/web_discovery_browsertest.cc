@@ -3,9 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/infobars/web_discovery_infobar_view.h"
-#include "brave/browser/web_discovery/web_discovery_infobar_delegate.h"
-#include "brave/browser/web_discovery/web_discovery_tab_helper.h"
+#include "unknown/browser/ui/views/infobars/web_discovery_infobar_view.h"
+#include "unknown/browser/web_discovery/web_discovery_infobar_delegate.h"
+#include "unknown/browser/web_discovery/web_discovery_tab_helper.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/tabs/tab_strip_model.h"

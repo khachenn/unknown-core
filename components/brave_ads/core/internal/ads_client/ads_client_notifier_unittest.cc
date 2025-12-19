@@ -3,12 +3,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/public/ads_client/ads_client_notifier.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client_notifier.h"
 
 #include <cstdint>
 
 #include "base/time/time.h"
-#include "brave/components/brave_ads/core/internal/ads_client/ads_client_notifier_observer_mock.h"
+#include "unknown/components/brave_ads/core/internal/ads_client/ads_client_notifier_observer_mock.h"
 #include "net/http/http_status_code.h"
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"

@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/polkadot/polkadot_tx_manager.h"
+#include "unknown/components/brave_wallet/browser/polkadot/polkadot_tx_manager.h"
 
 #include <memory>
 #include <utility>
@@ -12,14 +12,14 @@
 #include "base/files/scoped_temp_dir.h"
 #include "base/test/task_environment.h"
 #include "base/test/values_test_util.h"
-#include "brave/components/brave_wallet/browser/account_resolver_delegate_impl.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
-#include "brave/components/brave_wallet/browser/keyring_service.h"
-#include "brave/components/brave_wallet/browser/network_manager.h"
-#include "brave/components/brave_wallet/browser/pref_names.h"
-#include "brave/components/brave_wallet/browser/tx_service.h"
-#include "brave/components/brave_wallet/browser/tx_storage_delegate_impl.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/account_resolver_delegate_impl.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/brave_wallet/browser/keyring_service.h"
+#include "unknown/components/brave_wallet/browser/network_manager.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/tx_service.h"
+#include "unknown/components/brave_wallet/browser/tx_storage_delegate_impl.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "components/prefs/testing_pref_service.h"
 #include "components/sync_preferences/testing_pref_service_syncable.h"
 #include "services/network/public/cpp/weak_wrapper_shared_url_loader_factory.h"

@@ -3,18 +3,18 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/core/engine/contribution/contribution_external_wallet.h"
+#include "unknown/components/brave_rewards/core/engine/contribution/contribution_external_wallet.h"
 
 #include <utility>
 
-#include "brave/components/brave_rewards/core/engine/bitflyer/bitflyer.h"
-#include "brave/components/brave_rewards/core/engine/contribution/contribution.h"
-#include "brave/components/brave_rewards/core/engine/database/database.h"
-#include "brave/components/brave_rewards/core/engine/gemini/gemini.h"
-#include "brave/components/brave_rewards/core/engine/global_constants.h"
-#include "brave/components/brave_rewards/core/engine/publisher/publisher.h"
-#include "brave/components/brave_rewards/core/engine/rewards_engine.h"
-#include "brave/components/brave_rewards/core/engine/uphold/uphold.h"
+#include "unknown/components/brave_rewards/core/engine/bitflyer/bitflyer.h"
+#include "unknown/components/brave_rewards/core/engine/contribution/contribution.h"
+#include "unknown/components/brave_rewards/core/engine/database/database.h"
+#include "unknown/components/brave_rewards/core/engine/gemini/gemini.h"
+#include "unknown/components/brave_rewards/core/engine/global_constants.h"
+#include "unknown/components/brave_rewards/core/engine/publisher/publisher.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_engine.h"
+#include "unknown/components/brave_rewards/core/engine/uphold/uphold.h"
 
 namespace brave_rewards::internal::contribution {
 

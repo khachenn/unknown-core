@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/webui/welcome_page/welcome_dom_handler.h"
+#include "unknown/browser/ui/webui/welcome_page/welcome_dom_handler.h"
 
 #include <algorithm>
 
@@ -13,13 +13,13 @@
 #include "base/metrics/histogram_macros.h"
 #include "base/strings/string_util.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/browser/brave_browser_features.h"
-#include "brave/common/importer/importer_constants.h"
-#include "brave/components/brave_education/education_urls.h"
-#include "brave/components/brave_education/features.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/p3a/pref_names.h"
-#include "brave/components/web_discovery/buildflags/buildflags.h"
+#include "unknown/browser/brave_browser_features.h"
+#include "unknown/common/importer/importer_constants.h"
+#include "unknown/components/brave_education/education_urls.h"
+#include "unknown/components/brave_education/features.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/p3a/pref_names.h"
+#include "unknown/components/web_discovery/buildflags/buildflags.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/metrics/metrics_reporting_state.h"
 #include "chrome/browser/profiles/profile.h"

@@ -3,10 +3,10 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/ios/components/constants/pref_names_bridge.h"
+#include "unknown/ios/components/constants/pref_names_bridge.h"
 
 #include "base/strings/sys_string_conversions.h"
-#include "brave/components/constants/pref_names.h"
+#include "unknown/components/constants/pref_names.h"
 
 NSString* const kBraveTalkDisabledByPolicyPrefName =
     base::SysUTF8ToNSString(kBraveTalkDisabledByPolicy);

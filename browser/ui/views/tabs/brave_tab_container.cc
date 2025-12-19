@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/tabs/brave_tab_container.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_container.h"
 
 #include <algorithm>
 #include <memory>
@@ -15,14 +15,14 @@
 #include "base/check_op.h"
 #include "base/containers/flat_map.h"
 #include "base/feature_list.h"
-#include "brave/browser/ui/color/brave_color_id.h"
-#include "brave/browser/ui/tabs/brave_tab_prefs.h"
-#include "brave/browser/ui/views/frame/brave_browser_view.h"
-#include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_widget_delegate_view.h"
-#include "brave/browser/ui/views/tabs/brave_tab_group_header.h"
-#include "brave/browser/ui/views/tabs/brave_tab_strip.h"
-#include "brave/browser/ui/views/tabs/vertical_tab_utils.h"
-#include "brave/ui/color/nala/nala_color_id.h"
+#include "unknown/browser/ui/color/brave_color_id.h"
+#include "unknown/browser/ui/tabs/brave_tab_prefs.h"
+#include "unknown/browser/ui/views/frame/brave_browser_view.h"
+#include "unknown/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_widget_delegate_view.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_group_header.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_strip.h"
+#include "unknown/browser/ui/views/tabs/vertical_tab_utils.h"
+#include "unknown/ui/color/nala/nala_color_id.h"
 #include "cc/paint/paint_flags.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"

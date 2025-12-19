@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ntp_background_images/common/view_counter_pref_registry.h"
+#include "unknown/components/ntp_background_images/common/view_counter_pref_registry.h"
 
-#include "brave/components/ntp_background_images/common/infobar_constants.h"
-#include "brave/components/ntp_background_images/common/pref_names.h"
-#include "brave/components/ntp_background_images/common/view_counter_pref_names.h"
+#include "unknown/components/ntp_background_images/common/infobar_constants.h"
+#include "unknown/components/ntp_background_images/common/pref_names.h"
+#include "unknown/components/ntp_background_images/common/view_counter_pref_names.h"
 #include "components/pref_registry/pref_registry_syncable.h"
 #include "components/prefs/pref_registry_simple.h"
 #include "components/prefs/pref_service.h"

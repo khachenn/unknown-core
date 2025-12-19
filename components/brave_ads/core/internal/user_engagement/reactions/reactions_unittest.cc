@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/user_engagement/reactions/reactions.h"
+#include "unknown/components/brave_ads/core/internal/user_engagement/reactions/reactions.h"
 
 #include <optional>
 #include <utility>
@@ -11,16 +11,16 @@
 #include "base/run_loop.h"
 #include "base/test/gmock_callback_support.h"
 #include "base/test/mock_callback.h"
-#include "brave/components/brave_ads/core/internal/account/account.h"
-#include "brave/components/brave_ads/core/internal/account/account_observer_mock.h"
-#include "brave/components/brave_ads/core/internal/account/tokens/token_generator_test_util.h"
-#include "brave/components/brave_ads/core/internal/ad_units/ad_test_constants.h"
-#include "brave/components/brave_ads/core/internal/ads_core/ads_core_util.h"
-#include "brave/components/brave_ads/core/internal/common/test/test_base.h"
-#include "brave/components/brave_ads/core/internal/common/test/time_test_util.h"
-#include "brave/components/brave_ads/core/internal/user_engagement/reactions/reactions_test_util.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
-#include "brave/components/brave_ads/core/public/service/ads_service_callback.h"
+#include "unknown/components/brave_ads/core/internal/account/account.h"
+#include "unknown/components/brave_ads/core/internal/account/account_observer_mock.h"
+#include "unknown/components/brave_ads/core/internal/account/tokens/token_generator_test_util.h"
+#include "unknown/components/brave_ads/core/internal/ad_units/ad_test_constants.h"
+#include "unknown/components/brave_ads/core/internal/ads_core/ads_core_util.h"
+#include "unknown/components/brave_ads/core/internal/common/test/test_base.h"
+#include "unknown/components/brave_ads/core/internal/common/test/time_test_util.h"
+#include "unknown/components/brave_ads/core/internal/user_engagement/reactions/reactions_test_util.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/public/service/ads_service_callback.h"
 
 // npm run test -- brave_unit_tests --filter=BraveAds*
 

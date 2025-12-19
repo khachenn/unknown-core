@@ -3,36 +3,36 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
-import("//brave/components/psst/buildflags/buildflags.gni")
+import("//unknown/components/psst/buildflags/buildflags.gni")
 
 brave_components_content_settings_core_browser_sources = [
-  "//brave/components/content_settings/core/browser/brave_content_settings_utils.cc",
-  "//brave/components/content_settings/core/browser/brave_content_settings_utils.h",
+  "//unknown/components/content_settings/core/browser/brave_content_settings_utils.cc",
+  "//unknown/components/content_settings/core/browser/brave_content_settings_utils.h",
 ]
 
 brave_components_content_settings_core_browser_deps = [
   "//base",
-  "//brave/components/brave_shields/core/common",
-  "//brave/components/brave_wallet/common/buildflags",
-  "//brave/components/content_settings/core/common",
-  "//brave/components/psst/buildflags",
+  "//unknown/components/brave_shields/core/common",
+  "//unknown/components/brave_wallet/common/buildflags",
+  "//unknown/components/content_settings/core/common",
+  "//unknown/components/psst/buildflags",
   "//url",
 ]
 
 if (!is_ios) {
   brave_components_content_settings_core_browser_sources += [
-    "//brave/components/content_settings/core/browser/brave_content_settings_pref_provider.cc",
-    "//brave/components/content_settings/core/browser/brave_content_settings_pref_provider.h",
-    "//brave/components/content_settings/core/browser/brave_global_value_map.cc",
-    "//brave/components/content_settings/core/browser/brave_global_value_map.h",
-    "//brave/components/content_settings/core/browser/remote_list_provider.cc",
-    "//brave/components/content_settings/core/browser/remote_list_provider.h",
+    "//unknown/components/content_settings/core/browser/brave_content_settings_pref_provider.cc",
+    "//unknown/components/content_settings/core/browser/brave_content_settings_pref_provider.h",
+    "//unknown/components/content_settings/core/browser/brave_global_value_map.cc",
+    "//unknown/components/content_settings/core/browser/brave_global_value_map.h",
+    "//unknown/components/content_settings/core/browser/remote_list_provider.cc",
+    "//unknown/components/content_settings/core/browser/remote_list_provider.h",
   ]
 
   brave_components_content_settings_core_browser_deps += [
-    "//brave/components/constants",
-    "//brave/components/google_sign_in_permission",
-    "//brave/components/webcompat/content/browser",
+    "//unknown/components/constants",
+    "//unknown/components/google_sign_in_permission",
+    "//unknown/components/webcompat/content/browser",
     "//components/prefs",
     "//content/public/browser",
     "//net",
@@ -41,5 +41,5 @@ if (!is_ios) {
 
 if (enable_psst) {
   brave_components_content_settings_core_browser_deps +=
-      [ "//brave/components/psst/common" ]
+      [ "//unknown/components/psst/common" ]
 }

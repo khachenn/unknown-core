@@ -7,7 +7,7 @@
 #define BRAVE_IOS_APP_BRAVE_PROFILE_CONTROLLER_PRIVATE_H_
 
 #include "base/memory/raw_ptr.h"
-#include "brave/ios/app/brave_profile_controller.h"
+#include "unknown/ios/app/brave_profile_controller.h"
 
 class ScopedProfileKeepAliveIOS;
 

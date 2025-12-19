@@ -6,11 +6,11 @@
 #ifndef BRAVE_BROWSER_UI_BROWSER_COMMANDS_H_
 #define BRAVE_BROWSER_UI_BROWSER_COMMANDS_H_
 
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/brave_wayback_machine/buildflags/buildflags.h"
-#include "brave/components/commander/common/buildflags/buildflags.h"
-#include "brave/components/playlist/core/common/buildflags/buildflags.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wayback_machine/buildflags/buildflags.h"
+#include "unknown/components/commander/common/buildflags/buildflags.h"
+#include "unknown/components/playlist/core/common/buildflags/buildflags.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "chrome/browser/ui/tabs/split_tab_metrics.h"
 #include "chrome/browser/ui/tabs/tab_model.h"
 #include "content/public/browser/page_navigator.h"

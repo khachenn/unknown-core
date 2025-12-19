@@ -16,10 +16,10 @@
 #include "base/thread_annotations.h"
 #include "base/timer/timer.h"
 #include "base/values.h"
-#include "brave/components/brave_shields/core/browser/ad_block_component_filters_provider.h"
-#include "brave/components/brave_shields/core/browser/ad_block_filter_list_catalog_provider.h"
-#include "brave/components/brave_shields/core/browser/ad_block_filters_provider_manager.h"
-#include "brave/components/brave_shields/core/browser/ad_block_list_p3a.h"
+#include "unknown/components/brave_shields/core/browser/ad_block_component_filters_provider.h"
+#include "unknown/components/brave_shields/core/browser/ad_block_filter_list_catalog_provider.h"
+#include "unknown/components/brave_shields/core/browser/ad_block_filters_provider_manager.h"
+#include "unknown/components/brave_shields/core/browser/ad_block_list_p3a.h"
 #include "components/prefs/pref_service.h"
 
 class AdBlockServiceTest;

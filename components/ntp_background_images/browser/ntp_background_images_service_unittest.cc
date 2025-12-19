@@ -3,16 +3,16 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ntp_background_images/browser/ntp_background_images_service.h"
+#include "unknown/components/ntp_background_images/browser/ntp_background_images_service.h"
 
 #include <memory>
 #include <string>
 
 #include "base/memory/raw_ptr.h"
 #include "base/test/task_environment.h"
-#include "brave/components/ntp_background_images/browser/ntp_background_images_data.h"
-#include "brave/components/ntp_background_images/browser/ntp_sponsored_images_data.h"
-#include "brave/components/ntp_background_images/browser/url_constants.h"
+#include "unknown/components/ntp_background_images/browser/ntp_background_images_data.h"
+#include "unknown/components/ntp_background_images/browser/ntp_sponsored_images_data.h"
+#include "unknown/components/ntp_background_images/browser/url_constants.h"
 #include "build/build_config.h"
 #include "components/prefs/testing_pref_service.h"
 #include "testing/gmock/include/gmock/gmock.h"

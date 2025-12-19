@@ -15,8 +15,8 @@ static_library("common") {
   ]
 
   public_deps = [
-    "//brave/components/playlist/core/common/buildflags",
-    "//brave/components/playlist/core/common/mojom",
+    "//unknown/components/playlist/core/common/buildflags",
+    "//unknown/components/playlist/core/common/mojom",
   ]
 
   deps = [ "//base" ]
@@ -30,7 +30,7 @@ source_set("unit_tests") {
   deps = [
     "//base",
     "//base/test:test_support",
-    "//brave/components/playlist/core/common",
+    "//unknown/components/playlist/core/common",
     "//url",
   ]
 }

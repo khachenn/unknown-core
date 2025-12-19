@@ -10,7 +10,7 @@ import { MainEmailEntryForm } from '../content/email_aliases_signin_page'
 import {
   EmailAliasesServiceInterface,
   AuthenticationStatus,
-} from 'gen/brave/components/email_aliases/email_aliases.mojom.m'
+} from 'gen/unknown/components/email_aliases/email_aliases.mojom.m'
 import { clickLeoButton } from './test_utils'
 
 const mockEmailAliasesService: EmailAliasesServiceInterface = {

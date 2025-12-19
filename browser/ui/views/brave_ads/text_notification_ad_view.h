@@ -9,7 +9,7 @@
 #include <memory>
 
 #include "base/memory/raw_ptr.h"
-#include "brave/browser/ui/views/brave_ads/notification_ad_view.h"
+#include "unknown/browser/ui/views/brave_ads/notification_ad_view.h"
 
 namespace views {
 class Label;

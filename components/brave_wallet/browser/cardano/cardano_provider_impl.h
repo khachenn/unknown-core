@@ -13,10 +13,10 @@
 
 #include "base/memory/raw_ref.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_provider_delegate.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_service.h"
-#include "brave/components/brave_wallet/browser/keyring_service_observer_base.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_provider_delegate.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/keyring_service_observer_base.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "mojo/public/cpp/bindings/unique_receiver_set.h"
 
 namespace brave_wallet {

@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ai_chat/code_execution_tool.h"
+#include "unknown/browser/ai_chat/code_execution_tool.h"
 
 #include <memory>
 #include <string>
@@ -14,7 +14,7 @@
 #include "base/strings/strcat.h"
 #include "base/test/bind.h"
 #include "base/values.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/test/base/in_process_browser_test.h"

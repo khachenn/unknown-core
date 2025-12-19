@@ -14,7 +14,7 @@
 #include "base/memory/weak_ptr.h"
 #include "base/observer_list.h"
 #include "base/task/sequenced_task_runner.h"
-#include "brave/components/brave_wallet/browser/tx_storage_delegate.h"
+#include "unknown/components/brave_wallet/browser/tx_storage_delegate.h"
 #include "components/value_store/value_store_factory.h"
 
 class PrefService;

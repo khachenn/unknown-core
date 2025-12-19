@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 
 if (!is_android) {
   source_set("browser_tests") {
@@ -22,15 +22,15 @@ if (!is_android) {
     ]
 
     deps = [
-      "//brave/browser",
-      "//brave/components/brave_component_updater/browser",
-      "//brave/components/brave_shields/content/browser",
-      "//brave/components/brave_shields/content/test:test_support",
-      "//brave/components/brave_shields/core/browser",
-      "//brave/components/brave_shields/core/common",
-      "//brave/components/brave_wallet/common/buildflags",
-      "//brave/components/ephemeral_storage",
-      "//brave/components/google_sign_in_permission",
+      "//unknown/browser",
+      "//unknown/components/brave_component_updater/browser",
+      "//unknown/components/brave_shields/content/browser",
+      "//unknown/components/brave_shields/content/test:test_support",
+      "//unknown/components/brave_shields/core/browser",
+      "//unknown/components/brave_shields/core/common",
+      "//unknown/components/brave_wallet/common/buildflags",
+      "//unknown/components/ephemeral_storage",
+      "//unknown/components/google_sign_in_permission",
       "//chrome/browser",
       "//chrome/browser/content_settings:content_settings_factory",
       "//chrome/browser/permissions",
@@ -44,10 +44,10 @@ if (!is_android) {
     if (enable_brave_wallet) {
       sources += [ "brave_wallet_permission_context_browsertest.cc" ]
       deps += [
-        "//brave/browser/brave_wallet",
-        "//brave/components/brave_wallet/browser",
-        "//brave/components/brave_wallet/browser:permission_utils",
-        "//brave/components/brave_wallet/common",
+        "//unknown/browser/brave_wallet",
+        "//unknown/components/brave_wallet/browser",
+        "//unknown/components/brave_wallet/browser:permission_utils",
+        "//unknown/components/brave_wallet/common",
       ]
     }
   }
@@ -74,6 +74,6 @@ source_set("unit_tests") {
 
   if (enable_brave_wallet) {
     sources += [ "brave_wallet_permission_context_unittest.cc" ]
-    deps += [ "//brave/components/brave_wallet/browser:permission_utils" ]
+    deps += [ "//unknown/components/brave_wallet/browser:permission_utils" ]
   }
 }

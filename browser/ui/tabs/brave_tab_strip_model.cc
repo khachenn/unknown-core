@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/tabs/brave_tab_strip_model.h"
+#include "unknown/browser/ui/tabs/brave_tab_strip_model.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -13,10 +13,10 @@
 #include "base/containers/span.h"
 #include "base/feature_list.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/browser/ui/brave_browser_window.h"
-#include "brave/browser/ui/tabs/brave_tab_prefs.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/tabs/public/tree_tab_node.h"
+#include "unknown/browser/ui/brave_browser_window.h"
+#include "unknown/browser/ui/tabs/brave_tab_prefs.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/tabs/public/tree_tab_node.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_finder.h"

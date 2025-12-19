@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/tabs/brave_compound_tab_container.h"
+#include "unknown/browser/ui/views/tabs/brave_compound_tab_container.h"
 
 #include <algorithm>
 #include <memory>
@@ -13,11 +13,11 @@
 
 #include "base/check.h"
 #include "base/check_op.h"
-#include "brave/browser/ui/color/brave_color_id.h"
-#include "brave/browser/ui/tabs/brave_tab_prefs.h"
-#include "brave/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_region_view.h"
-#include "brave/browser/ui/views/tabs/brave_tab_container.h"
-#include "brave/browser/ui/views/tabs/vertical_tab_utils.h"
+#include "unknown/browser/ui/color/brave_color_id.h"
+#include "unknown/browser/ui/tabs/brave_tab_prefs.h"
+#include "unknown/browser/ui/views/frame/vertical_tabs/vertical_tab_strip_region_view.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_container.h"
+#include "unknown/browser/ui/views/tabs/vertical_tab_utils.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/tabs/features.h"

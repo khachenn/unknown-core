@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/test/base/testing_brave_browser_process.h"
+#include "unknown/test/base/testing_brave_browser_process.h"
 
 #include <utility>
 
@@ -13,13 +13,13 @@
 #include "base/memory/scoped_refptr.h"
 #include "base/task/sequenced_task_runner.h"
 #include "base/task/thread_pool.h"
-#include "brave/components/brave_origin/brave_origin_policy_manager.h"
-#include "brave/components/brave_shields/content/browser/ad_block_service.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/components/brave_origin/brave_origin_policy_manager.h"
+#include "unknown/components/brave_shields/content/browser/ad_block_service.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/browser/connection/brave_vpn_connection_manager.h"
+#include "unknown/components/brave_vpn/browser/connection/brave_vpn_connection_manager.h"
 #endif
 namespace tor {
 class BraveTorClientUpdater;

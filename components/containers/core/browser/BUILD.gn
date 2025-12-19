@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/containers/buildflags/buildflags.gni")
+import("//unknown/components/containers/buildflags/buildflags.gni")
 
 assert(enable_containers)
 
@@ -16,11 +16,11 @@ static_library("browser") {
     "prefs.h",
   ]
 
-  public_deps = [ "//brave/components/containers/core/mojom" ]
+  public_deps = [ "//unknown/components/containers/core/mojom" ]
 
   deps = [
     "//base",
-    "//brave/components/containers/core/common",
+    "//unknown/components/containers/core/common",
     "//components/pref_registry",
     "//components/prefs",
     "//components/user_prefs",
@@ -42,7 +42,7 @@ source_set("unit_tests") {
     ":browser",
     "//base",
     "//base/test:test_support",
-    "//brave/components/containers/core/common",
+    "//unknown/components/containers/core/common",
     "//components/sync_preferences:test_support",
     "//mojo/public/cpp/bindings",
     "//testing/gmock",

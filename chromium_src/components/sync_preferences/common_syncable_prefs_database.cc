@@ -10,11 +10,11 @@
 
 #include "base/containers/fixed_flat_map.h"
 #include "base/containers/map_util.h"
-#include "brave/components/containers/buildflags/buildflags.h"
+#include "unknown/components/containers/buildflags/buildflags.h"
 #include "components/search_engines/search_engines_pref_names.h"
 
 #if BUILDFLAG(ENABLE_CONTAINERS)
-#include "brave/components/containers/core/browser/pref_names.h"
+#include "unknown/components/containers/core/browser/pref_names.h"
 #endif
 
 namespace sync_preferences {

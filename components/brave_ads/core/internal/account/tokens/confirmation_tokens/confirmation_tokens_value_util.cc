@@ -3,14 +3,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/account/tokens/confirmation_tokens/confirmation_tokens_value_util.h"
+#include "unknown/components/brave_ads/core/internal/account/tokens/confirmation_tokens/confirmation_tokens_value_util.h"
 
 #include <optional>
 #include <string>
 #include <string_view>
 
-#include "brave/components/brave_ads/core/internal/common/challenge_bypass_ristretto/unblinded_token.h"
-#include "brave/components/brave_ads/core/internal/common/logging_util.h"
+#include "unknown/components/brave_ads/core/internal/common/challenge_bypass_ristretto/unblinded_token.h"
+#include "unknown/components/brave_ads/core/internal/common/logging_util.h"
 
 namespace brave_ads {
 

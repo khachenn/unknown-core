@@ -3,12 +3,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
-import("//brave/browser/updater/buildflags.gni")
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/browser/updater/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
 import("//build/config/ui.gni")
 
 group("ui") {
-  deps = [ "//brave/components/brave_vpn/common/buildflags" ]
+  deps = [ "//unknown/components/brave_vpn/common/buildflags" ]
 
   if (!is_android) {
     deps += [
@@ -19,24 +19,24 @@ group("ui") {
   }
 
   if (is_mac) {
-    deps += [ "//brave/browser/updater:buildflags" ]
+    deps += [ "//unknown/browser/updater:buildflags" ]
   }
 
   if (enable_omaha4) {
-    deps += [ "//brave/browser/updater:features" ]
+    deps += [ "//unknown/browser/updater:features" ]
   }
 
   if (toolkit_views) {
     deps += [
-      "//brave/browser/ui/darker_theme",
-      "//brave/components/sidebar/browser",
+      "//unknown/browser/ui/darker_theme",
+      "//unknown/components/sidebar/browser",
     ]
 
     if (enable_ai_chat) {
       deps += [
-        "//brave/components/ai_chat/content/browser",
-        "//brave/components/ai_chat/core/browser",
-        "//brave/components/ai_chat/core/common",
+        "//unknown/components/ai_chat/content/browser",
+        "//unknown/components/ai_chat/core/browser",
+        "//unknown/components/ai_chat/core/common",
       ]
     }
   }

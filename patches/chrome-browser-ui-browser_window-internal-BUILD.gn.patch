@@ -6,7 +6,7 @@ index c9ae5c16797ba303977864cdd71aa8515c83506d..4bc779d01db0a5709000f3b6b30f674a
        deps += [ "//chrome/browser/ui:overscroll_pref_manager" ]
      }
    }
-+  deps += [ "//brave/browser/ui/browser_window/internal" ]
++  deps += [ "//unknown/browser/ui/browser_window/internal" ]
  }
  
  source_set("unit_tests") {

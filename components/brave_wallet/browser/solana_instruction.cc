@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/solana_instruction.h"
+#include "unknown/components/brave_wallet/browser/solana_instruction.h"
 
 #include <algorithm>
 #include <limits>
@@ -14,13 +14,13 @@
 #include "base/base64.h"
 #include "base/containers/span.h"
 #include "base/values.h"
-#include "brave/components/brave_wallet/browser/solana_compiled_instruction.h"
-#include "brave/components/brave_wallet/browser/solana_instruction_data_decoder.h"
-#include "brave/components/brave_wallet/browser/solana_message_address_table_lookup.h"
-#include "brave/components/brave_wallet/browser/solana_message_header.h"
-#include "brave/components/brave_wallet/common/brave_wallet_constants.h"
-#include "brave/components/brave_wallet/common/solana_address.h"
-#include "brave/components/brave_wallet/common/solana_utils.h"
+#include "unknown/components/brave_wallet/browser/solana_compiled_instruction.h"
+#include "unknown/components/brave_wallet/browser/solana_instruction_data_decoder.h"
+#include "unknown/components/brave_wallet/browser/solana_message_address_table_lookup.h"
+#include "unknown/components/brave_wallet/browser/solana_message_header.h"
+#include "unknown/components/brave_wallet/common/brave_wallet_constants.h"
+#include "unknown/components/brave_wallet/common/solana_address.h"
+#include "unknown/components/brave_wallet/common/solana_utils.h"
 
 namespace {
 

@@ -8,8 +8,8 @@
 
 #include <cstddef>
 
-#include "brave/components/brave_ads/core/internal/user_engagement/ad_events/ad_event_info.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
+#include "unknown/components/brave_ads/core/internal/user_engagement/ad_events/ad_event_info.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
 
 namespace base {
 class TimeDelta;

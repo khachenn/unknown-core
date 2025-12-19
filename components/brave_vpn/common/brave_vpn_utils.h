@@ -8,7 +8,7 @@
 
 #include <string>
 
-#include "brave/components/brave_vpn/common/mojom/brave_vpn.mojom.h"
+#include "unknown/components/brave_vpn/common/mojom/brave_vpn.mojom.h"
 #include "build/build_config.h"
 
 class GURL;

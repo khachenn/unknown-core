@@ -10,7 +10,7 @@
 #include <vector>
 
 #include "base/containers/flat_map.h"
-#include "brave/components/brave_ads/core/internal/account/issuers/token_issuers/token_issuer_types.h"
+#include "unknown/components/brave_ads/core/internal/account/issuers/token_issuers/token_issuer_types.h"
 
 namespace brave_ads {
 

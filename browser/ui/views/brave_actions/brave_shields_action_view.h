@@ -10,7 +10,7 @@
 
 #include "base/memory/raw_ptr.h"
 #include "base/memory/raw_ref.h"
-#include "brave/browser/brave_shields/brave_shields_tab_helper.h"
+#include "unknown/browser/brave_shields/brave_shields_tab_helper.h"
 #include "chrome/browser/ui/tabs/tab_strip_model_observer.h"
 #include "chrome/browser/ui/views/bubble/webui_bubble_manager.h"
 #include "ui/base/metadata/metadata_header_macros.h"

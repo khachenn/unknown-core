@@ -3,12 +3,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_content_browser_client.h"
+#include "unknown/browser/brave_content_browser_client.h"
 
 #include "base/memory/raw_ptr.h"
 #include "base/values.h"
-#include "brave/components/brave_search/common/brave_search_utils.h"
-#include "brave/components/skus/common/skus_utils.h"
+#include "unknown/components/brave_search/common/brave_search_utils.h"
+#include "unknown/components/skus/common/skus_utils.h"
 #include "build/build_config.h"
 #include "chrome/browser/chrome_content_browser_client.h"
 #include "chrome/test/base/testing_browser_process.h"
@@ -30,7 +30,7 @@
 
 #if BUILDFLAG(IS_WIN)
 #include "base/test/scoped_os_info_override_win.h"
-#include "brave/components/windows_recall/windows_recall.h"
+#include "unknown/components/windows_recall/windows_recall.h"
 #endif
 
 class BraveContentBrowserClientTest : public testing::Test {

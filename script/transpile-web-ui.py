@@ -203,7 +203,7 @@ def verify_webpack_srcs(root_gen_dir, import_paths_file, depfile_path,
         files = [make_source_absolute(file) for file in f.read().split()[1:]]
 
     all_roots = src_roots + [
-        '//brave/node_modules',  # handled via package.json
+        '//unknown/node_modules',  # handled via package.json
         out_dir  # generated assets are deps and handled by gn already
     ] + [make_source_absolute(module) for module in extra_modules]
 

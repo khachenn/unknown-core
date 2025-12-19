@@ -9,7 +9,7 @@
 #include <map>
 #include <string>
 
-#include "brave/components/brave_ads/core/internal/user_engagement/conversions/resource/conversion_resource_id_pattern_search_in_types.h"
+#include "unknown/components/brave_ads/core/internal/user_engagement/conversions/resource/conversion_resource_id_pattern_search_in_types.h"
 
 namespace brave_ads {
 

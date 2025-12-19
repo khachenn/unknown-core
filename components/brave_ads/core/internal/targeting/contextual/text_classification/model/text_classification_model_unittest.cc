@@ -3,16 +3,16 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/targeting/contextual/text_classification/model/text_classification_model.h"
+#include "unknown/components/brave_ads/core/internal/targeting/contextual/text_classification/model/text_classification_model.h"
 
 #include <memory>
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_ads/core/internal/common/resources/language_components_test_constants.h"
-#include "brave/components/brave_ads/core/internal/common/test/test_base.h"
-#include "brave/components/brave_ads/core/internal/targeting/contextual/text_classification/resource/text_classification_resource.h"
-#include "brave/components/brave_ads/core/internal/targeting/contextual/text_classification/text_classification_processor.h"
+#include "unknown/components/brave_ads/core/internal/common/resources/language_components_test_constants.h"
+#include "unknown/components/brave_ads/core/internal/common/test/test_base.h"
+#include "unknown/components/brave_ads/core/internal/targeting/contextual/text_classification/resource/text_classification_resource.h"
+#include "unknown/components/brave_ads/core/internal/targeting/contextual/text_classification/text_classification_processor.h"
 
 // npm run test -- brave_unit_tests --filter=BraveAds*
 

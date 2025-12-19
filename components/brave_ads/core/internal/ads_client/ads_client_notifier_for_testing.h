@@ -15,8 +15,8 @@
 #include "base/check.h"
 #include "base/memory/raw_ptr.h"
 #include "base/test/task_environment.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client_notifier.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client_notifier_interface.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client_notifier.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client_notifier_interface.h"
 
 class GURL;
 

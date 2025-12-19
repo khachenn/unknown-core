@@ -1,1 +1,1 @@
-include_rules = ["+brave/components/constants"]
+include_rules = ["+unknown/components/constants"]

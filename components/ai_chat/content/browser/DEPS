@@ -1,5 +1,5 @@
 include_rules = [
-  "+brave/services/printing",
+  "+unknown/services/printing",
   "+components/keyed_service",
   "+components/paint_preview",
   "+components/pdf",

@@ -11,7 +11,7 @@
 #include <vector>
 
 #include "base/values.h"
-#include "brave/components/brave_vpn/common/mojom/brave_vpn.mojom.h"
+#include "unknown/components/brave_vpn/common/mojom/brave_vpn.mojom.h"
 
 namespace brave_vpn {
 mojom::RegionPtr GetRegionPtrWithNameFromRegionList(

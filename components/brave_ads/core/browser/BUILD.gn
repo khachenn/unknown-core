@@ -4,10 +4,10 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 group("browser") {
-  deps = [ "//brave/components/brave_ads/core/internal" ]
+  deps = [ "//unknown/components/brave_ads/core/internal" ]
 
   public_deps = [
-    "//brave/components/brave_ads/core/browser/internals",
-    "//brave/components/brave_ads/core/browser/service",
+    "//unknown/components/brave_ads/core/browser/internals",
+    "//unknown/components/brave_ads/core/browser/service",
   ]
 }

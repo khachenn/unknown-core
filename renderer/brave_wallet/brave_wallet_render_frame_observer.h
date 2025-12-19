@@ -8,12 +8,12 @@
 
 #include <optional>
 
-#include "brave/common/brave_renderer_configuration.mojom.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/renderer/js_cardano_provider.h"
-#include "brave/components/brave_wallet/renderer/js_ethereum_provider.h"
-#include "brave/components/brave_wallet/renderer/js_solana_provider.h"
-#include "brave/renderer/brave_wallet/brave_wallet_render_frame_observer_p3a_util.h"
+#include "unknown/common/brave_renderer_configuration.mojom.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/renderer/js_cardano_provider.h"
+#include "unknown/components/brave_wallet/renderer/js_ethereum_provider.h"
+#include "unknown/components/brave_wallet/renderer/js_solana_provider.h"
+#include "unknown/renderer/brave_wallet/brave_wallet_render_frame_observer_p3a_util.h"
 #include "content/public/renderer/render_frame.h"
 #include "content/public/renderer/render_frame_observer.h"
 #include "third_party/blink/public/web/web_navigation_type.h"

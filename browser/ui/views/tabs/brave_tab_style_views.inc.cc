@@ -9,7 +9,7 @@
 #include "base/check.h"
 #include "base/dcheck_is_on.h"
 #include "base/logging.h"
-#include "brave/ui/color/nala/nala_color_id.h"
+#include "unknown/ui/color/nala/nala_color_id.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"
 
 namespace {

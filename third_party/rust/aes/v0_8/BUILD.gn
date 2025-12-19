@@ -13,27 +13,27 @@ cargo_crate("lib") {
   epoch = "0.8"
   crate_type = "rlib"
   crate_root =
-      "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/lib.rs"
+      "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8/encdec.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8/expand.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8/hazmat.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8/intrinsics.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8/test_expand.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/autodetect.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/hazmat.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/aes128.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/aes192.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/aes256.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/hazmat.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/test_expand.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/utils.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/soft.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/soft/fixslice32.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/soft/fixslice64.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8/encdec.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8/expand.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8/hazmat.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8/intrinsics.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/armv8/test_expand.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/autodetect.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/hazmat.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/aes128.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/aes192.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/aes256.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/hazmat.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/test_expand.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/ni/utils.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/soft.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/soft/fixslice32.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aes-v0_8/src/soft/fixslice64.rs",
   ]
   inputs = []
 
@@ -46,11 +46,11 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.8.4"
 
   deps = [
-    "//brave/third_party/rust/cfg_if/v1:lib",
-    "//brave/third_party/rust/cipher/v0_4:lib",
+    "//unknown/third_party/rust/cfg_if/v1:lib",
+    "//unknown/third_party/rust/cipher/v0_4:lib",
   ]
   if (current_cpu == "arm64" || current_cpu == "x64" || current_cpu == "x86") {
-    deps += [ "//brave/third_party/rust/cpufeatures/v0_2:lib" ]
+    deps += [ "//unknown/third_party/rust/cpufeatures/v0_2:lib" ]
   }
   rustenv = []
   rustflags = []

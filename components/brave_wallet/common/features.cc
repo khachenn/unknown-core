@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/common/features.h"
+#include "unknown/components/brave_wallet/common/features.h"
 
 #include "base/feature_list.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
 #include "build/build_config.h"
 
 namespace brave_wallet::features {

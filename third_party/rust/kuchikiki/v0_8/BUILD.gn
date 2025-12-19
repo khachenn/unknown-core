@@ -12,18 +12,18 @@ cargo_crate("lib") {
   crate_name = "kuchikiki"
   epoch = "0.8"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/attributes.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/cell_extras.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/iter.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/node_data_ref.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/parser.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/select.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/serializer.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/tests.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/tree.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/attributes.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/cell_extras.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/iter.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/node_data_ref.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/parser.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/select.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/serializer.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/tests.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/kuchikiki-v0_8/src/tree.rs",
   ]
   inputs = []
 
@@ -36,10 +36,10 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.8.8-speedreader"
 
   deps = [
-    "//brave/third_party/rust/cssparser/v0_29:lib",
-    "//brave/third_party/rust/html5ever/v0_29:lib",
-    "//brave/third_party/rust/indexmap/v2:lib",
-    "//brave/third_party/rust/selectors/v0_24:lib",
+    "//unknown/third_party/rust/cssparser/v0_29:lib",
+    "//unknown/third_party/rust/html5ever/v0_29:lib",
+    "//unknown/third_party/rust/indexmap/v2:lib",
+    "//unknown/third_party/rust/selectors/v0_24:lib",
   ]
   rustenv = []
   rustflags = []

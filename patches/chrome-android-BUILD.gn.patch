@@ -54,7 +54,7 @@ index 1ae2a847ad4987e42d78370f748d8093c9ad74e7..7dd29ec729433df0bde19000bbc74e3d
          ":${_variant}_locale_pak_assets",
          ":${_variant}_paks",
        ]
-+      deps += [ "//brave:brave_pak_assets" ]
++      deps += [ "//unknown:brave_pak_assets" ]
        if (_is_monochrome) {
          deps += [ "//android_webview:locale_pak_assets" ]
        }

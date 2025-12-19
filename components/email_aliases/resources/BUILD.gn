@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/common/typescript.gni")
+import("//unknown/components/common/typescript.gni")
 
 transpile_web_ui("email_aliases_ui") {
   generate_grdp = true
@@ -20,14 +20,14 @@ transpile_web_ui("email_aliases_ui") {
   ]
 
   imports_from = [
-    "//brave/browser/resources/settings/email_aliases_page/",
-    "//brave/components/email_aliases/resources/",
+    "//unknown/browser/resources/settings/email_aliases_page/",
+    "//unknown/components/email_aliases/resources/",
   ]
 
   resource_name = "email_aliases"
 
   deps = [
-    "//brave/components/email_aliases:mojom_js",
-    "//brave/components/resources:strings",
+    "//unknown/components/email_aliases:mojom_js",
+    "//unknown/components/resources:strings",
   ]
 }

@@ -7,4 +7,4 @@
 description = 'Add brave/utility sources'
 re_pattern = '''(static_library\("utility"\) {[\s\S]*?)(^})'''
 re_flags = ['MULTILINE']
-replace = '''\1  import("//brave/utility/sources.gni") sources += brave_utility_sources deps += brave_utility_deps public_deps += brave_utility_public_deps\n\2'''
+replace = '''\1  import("//unknown/utility/sources.gni") sources += brave_utility_sources deps += brave_utility_deps public_deps += brave_utility_public_deps\n\2'''

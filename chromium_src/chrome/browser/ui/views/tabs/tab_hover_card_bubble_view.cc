@@ -8,8 +8,8 @@
 #include <string>
 
 #include "base/strings/strcat.h"
-#include "brave/browser/ui/brave_scheme_utils.h"
-#include "brave/browser/ui/tabs/brave_tab_prefs.h"
+#include "unknown/browser/ui/brave_scheme_utils.h"
+#include "unknown/browser/ui/tabs/brave_tab_prefs.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/views/tabs/tab.h"

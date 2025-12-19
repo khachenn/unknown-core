@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/internal/hd_key.h"
+#include "unknown/components/brave_wallet/browser/internal/hd_key.h"
 
 #include <array>
 #include <memory>
@@ -18,18 +18,18 @@
 #include "base/containers/to_vector.h"
 #include "base/logging.h"
 #include "base/numerics/byte_conversions.h"
-#include "brave/components/brave_wallet/browser/internal/hd_key_common.h"
-#include "brave/components/brave_wallet/common/hash_utils.h"
-#include "brave/components/brave_wallet/common/zcash_utils.h"
-#include "brave/third_party/bitcoin-core/src/src/base58.h"
-#include "brave/vendor/bat-native-tweetnacl/tweetnacl.h"
+#include "unknown/components/brave_wallet/browser/internal/hd_key_common.h"
+#include "unknown/components/brave_wallet/common/hash_utils.h"
+#include "unknown/components/brave_wallet/common/zcash_utils.h"
+#include "unknown/third_party/bitcoin-core/src/src/base58.h"
+#include "unknown/vendor/bat-native-tweetnacl/tweetnacl.h"
 #include "crypto/process_bound_string.h"
 #include "crypto/random.h"
 #include "third_party/boringssl/src/include/openssl/hmac.h"
 
 #define SECP256K1_BUILD  // This effectively turns off export attributes.
-#include "brave/third_party/bitcoin-core/src/src/secp256k1/include/secp256k1.h"
-#include "brave/third_party/bitcoin-core/src/src/secp256k1/include/secp256k1_recovery.h"
+#include "unknown/third_party/bitcoin-core/src/src/secp256k1/include/secp256k1.h"
+#include "unknown/third_party/bitcoin-core/src/src/secp256k1/include/secp256k1_recovery.h"
 
 namespace brave_wallet {
 

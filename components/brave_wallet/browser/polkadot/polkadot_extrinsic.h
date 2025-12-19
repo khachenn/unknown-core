@@ -13,9 +13,9 @@
 #include <string_view>
 
 #include "base/containers/span.h"
-#include "brave/components/brave_wallet/browser/internal/polkadot_extrinsic.rs.h"
-#include "brave/components/brave_wallet/browser/polkadot/polkadot_utils.h"
-#include "brave/components/brave_wallet/common/brave_wallet_types.h"
+#include "unknown/components/brave_wallet/browser/internal/polkadot_extrinsic.rs.h"
+#include "unknown/components/brave_wallet/browser/polkadot/polkadot_utils.h"
+#include "unknown/components/brave_wallet/common/brave_wallet_types.h"
 
 namespace brave_wallet {
 

@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/local_ai/browser/local_models_updater.h"
+#include "unknown/components/local_ai/browser/local_models_updater.h"
 
 #include <array>
 #include <cstdint>
@@ -21,8 +21,8 @@
 #include "base/path_service.h"
 #include "base/values.h"
 #include "base/version.h"
-#include "brave/components/brave_component_updater/browser/brave_on_demand_updater.h"
-#include "brave/components/local_ai/common/features.h"
+#include "unknown/components/brave_component_updater/browser/brave_on_demand_updater.h"
+#include "unknown/components/local_ai/common/features.h"
 #include "components/component_updater/component_installer.h"
 #include "components/component_updater/component_updater_paths.h"
 #include "components/component_updater/component_updater_service.h"

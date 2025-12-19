@@ -5,8 +5,8 @@
 
 #include "chrome/browser/ui/views/profiles/avatar_toolbar_button_state_manager.h"
 
-#include "brave/app/vector_icons/vector_icons.h"
-#include "brave/components/vector_icons/vector_icons.h"
+#include "unknown/app/vector_icons/vector_icons.h"
+#include "unknown/components/vector_icons/vector_icons.h"
 #include "chrome/browser/profiles/profile.h"
 
 namespace {

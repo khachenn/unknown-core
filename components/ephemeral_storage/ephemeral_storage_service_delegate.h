@@ -9,7 +9,7 @@
 #include <string_view>
 
 #include "base/functional/callback.h"
-#include "brave/components/ephemeral_storage/ephemeral_storage_types.h"
+#include "unknown/components/ephemeral_storage/ephemeral_storage_types.h"
 #include "url/gurl.h"
 
 namespace ephemeral_storage {

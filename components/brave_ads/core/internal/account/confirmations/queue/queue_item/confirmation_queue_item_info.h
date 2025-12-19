@@ -10,7 +10,7 @@
 #include <vector>
 
 #include "base/time/time.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/confirmation_info.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/confirmation_info.h"
 
 namespace brave_ads {
 

@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ai_chat/core/browser/ai_chat_database.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_database.h"
 
 #include <algorithm>
 #include <map>
@@ -22,10 +22,10 @@
 #include "base/strings/string_view_util.h"
 #include "base/threading/thread_restrictions.h"
 #include "base/types/cxx23_to_underlying.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
-#include "brave/components/ai_chat/core/common/proto_conversion.h"
-#include "brave/components/ai_chat/core/proto/store.pb.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/common/proto_conversion.h"
+#include "unknown/components/ai_chat/core/proto/store.pb.h"
 #include "components/os_crypt/async/common/encryptor.h"
 #include "sql/init_status.h"
 #include "sql/meta_table.h"

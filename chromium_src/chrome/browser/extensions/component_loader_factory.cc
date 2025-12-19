@@ -6,7 +6,7 @@
 #include "chrome/browser/extensions/component_loader_factory.h"
 
 #include "base/memory/ptr_util.h"
-#include "brave/browser/extensions/brave_component_loader.h"
+#include "unknown/browser/extensions/brave_component_loader.h"
 #include "chrome/browser/profiles/profile.h"
 #include "extensions/browser/extensions_browser_client.h"
 

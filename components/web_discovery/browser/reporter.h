@@ -13,10 +13,10 @@
 
 #include "base/memory/raw_ptr.h"
 #include "base/values.h"
-#include "brave/components/web_discovery/browser/credential_signer.h"
-#include "brave/components/web_discovery/browser/ecdh_aes.h"
-#include "brave/components/web_discovery/browser/request_queue.h"
-#include "brave/components/web_discovery/browser/server_config_loader.h"
+#include "unknown/components/web_discovery/browser/credential_signer.h"
+#include "unknown/components/web_discovery/browser/ecdh_aes.h"
+#include "unknown/components/web_discovery/browser/request_queue.h"
+#include "unknown/components/web_discovery/browser/server_config_loader.h"
 #include "net/http/http_response_headers.h"
 
 class PrefService;

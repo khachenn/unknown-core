@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/containers/core/common/features.h"
+#include "unknown/components/containers/core/common/features.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_navigator.h"
@@ -29,7 +29,7 @@ class ContainersBrowserTest : public InProcessBrowserTest {
 
     // Register a request handler for serving test HTML content
     https_server_.AddDefaultHandlers(
-        base::FilePath(FILE_PATH_LITERAL("brave/test/data")));
+        base::FilePath(FILE_PATH_LITERAL("unknown/test/data")));
 
     EXPECT_TRUE(https_server_.Start());
   }

@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/internal/orchard_sync_state.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_sync_state.h"
 
 #include <algorithm>
 #include <utility>
@@ -12,8 +12,8 @@
 #include "base/check_is_test.h"
 #include "base/containers/extend.h"
 #include "base/types/expected_macros.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_storage/orchard_shard_tree_types.h"
-#include "brave/components/brave_wallet/common/zcash_utils.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_storage/orchard_shard_tree_types.h"
+#include "unknown/components/brave_wallet/common/zcash_utils.h"
 
 namespace brave_wallet {
 

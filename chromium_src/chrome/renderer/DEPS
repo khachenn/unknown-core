@@ -2,12 +2,12 @@ from brave_chromium_utils import inline_file
 inline_file("//chrome/renderer/DEPS", globals(), locals())
 
 include_rules += [
-  "+brave/components/ai_chat/core/common",
-  "+brave/components/ai_chat/renderer",
-  "+brave/components/body_sniffer",
-  "+brave/components/brave_shields/core/common",
-  "+brave/components/content_settings/renderer",
-  "+brave/components/tor/buildflags",
-  "+brave/components/tor/renderer",
-  "+brave/renderer",
+  "+unknown/components/ai_chat/core/common",
+  "+unknown/components/ai_chat/renderer",
+  "+unknown/components/body_sniffer",
+  "+unknown/components/brave_shields/core/common",
+  "+unknown/components/content_settings/renderer",
+  "+unknown/components/tor/buildflags",
+  "+unknown/components/tor/renderer",
+  "+unknown/renderer",
 ]

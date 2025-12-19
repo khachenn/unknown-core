@@ -6,8 +6,8 @@
 #ifndef BRAVE_BROWSER_UI_WEBUI_BRAVE_ACCOUNT_BRAVE_ACCOUNT_UI_ANDROID_H_
 #define BRAVE_BROWSER_UI_WEBUI_BRAVE_ACCOUNT_BRAVE_ACCOUNT_UI_ANDROID_H_
 
-#include "brave/browser/brave_account/brave_account_service_factory.h"
-#include "brave/components/brave_account/brave_account_ui_base.h"
+#include "unknown/browser/brave_account/brave_account_service_factory.h"
+#include "unknown/components/brave_account/brave_account_ui_base.h"
 #include "content/public/browser/web_ui_controller.h"
 #include "content/public/browser/web_ui_data_source.h"
 #include "content/public/browser/webui_config.h"

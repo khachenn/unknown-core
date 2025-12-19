@@ -3,12 +3,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/flags/environment/environment_command_line_switch_parser_util.h"
+#include "unknown/components/brave_ads/core/internal/flags/environment/environment_command_line_switch_parser_util.h"
 
 #include "base/notreached.h"
 #include "base/types/cxx23_to_underlying.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
-#include "brave/components/brave_rewards/core/rewards_flags.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_rewards/core/rewards_flags.h"
 
 namespace brave_ads {
 

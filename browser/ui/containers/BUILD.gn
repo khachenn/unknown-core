@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/containers/buildflags/buildflags.gni")
+import("//unknown/components/containers/buildflags/buildflags.gni")
 
 assert(enable_containers,
        "Containers feature must be enabled to build this target.")
@@ -20,12 +20,12 @@ source_set("containers") {
 
   deps = [
     "//base",
-    "//brave/app:brave_generated_resources_grit",
-    "//brave/app:command_ids",
-    "//brave/components/containers/core/browser",
-    "//brave/components/containers/core/common",
-    "//brave/components/containers/core/mojom",
-    "//brave/components/vector_icons",
+    "//unknown/app:brave_generated_resources_grit",
+    "//unknown/app:command_ids",
+    "//unknown/components/containers/core/browser",
+    "//unknown/components/containers/core/common",
+    "//unknown/components/containers/core/mojom",
+    "//unknown/components/vector_icons",
     "//chrome/app:generated_resources",
     "//ui/base",
     "//ui/menus",
@@ -48,9 +48,9 @@ source_set("unit_tests") {
     ":containers",
     "//base",
     "//base/allocator/partition_allocator/src/partition_alloc:test_support",
-    "//brave/app:command_ids",
-    "//brave/components/containers/core/mojom",
-    "//brave/components/vector_icons",
+    "//unknown/app:command_ids",
+    "//unknown/components/containers/core/mojom",
+    "//unknown/components/vector_icons",
     "//testing/gmock",
     "//testing/gtest",
   ]

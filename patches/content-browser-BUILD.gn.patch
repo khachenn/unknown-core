@@ -6,7 +6,7 @@ index 548abd4a6857cc47691c276b4b11cb34eadedcdf..9cbd6b08026e37fd67bc7980d6cceb4d
    if (is_chromeos) {
      deps += [ "//ash/constants" ]
    }
-+  import("//brave/content/browser/sources.gni") sources += brave_content_browser_sources deps += brave_content_browser_deps
++  import("//unknown/content/browser/sources.gni") sources += brave_content_browser_sources deps += brave_content_browser_deps
  }
  
  if (is_android) {

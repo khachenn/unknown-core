@@ -4,19 +4,19 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 brave_components_sync_driver_sources = [
-  "//brave/components/sync/service/brave_sync_auth_manager.cc",
-  "//brave/components/sync/service/brave_sync_auth_manager.h",
-  "//brave/components/sync/service/brave_sync_service_impl.cc",
-  "//brave/components/sync/service/brave_sync_service_impl.h",
-  "//brave/components/sync/service/brave_sync_stopped_reporter.cc",
-  "//brave/components/sync/service/brave_sync_stopped_reporter.h",
-  "//brave/components/sync/service/sync_service_impl_delegate.h",
+  "//unknown/components/sync/service/brave_sync_auth_manager.cc",
+  "//unknown/components/sync/service/brave_sync_auth_manager.h",
+  "//unknown/components/sync/service/brave_sync_service_impl.cc",
+  "//unknown/components/sync/service/brave_sync_service_impl.h",
+  "//unknown/components/sync/service/brave_sync_stopped_reporter.cc",
+  "//unknown/components/sync/service/brave_sync_stopped_reporter.h",
+  "//unknown/components/sync/service/sync_service_impl_delegate.h",
 ]
 brave_components_sync_driver_deps = [
-  "//brave/components/brave_sync",
-  "//brave/components/brave_sync:crypto",
-  "//brave/components/brave_sync:features",
-  "//brave/components/brave_sync:network_time_helper",
-  "//brave/components/brave_sync:prefs",
-  "//brave/components/constants",
+  "//unknown/components/brave_sync",
+  "//unknown/components/brave_sync:crypto",
+  "//unknown/components/brave_sync:features",
+  "//unknown/components/brave_sync:network_time_helper",
+  "//unknown/components/brave_sync:prefs",
+  "//unknown/components/constants",
 ]

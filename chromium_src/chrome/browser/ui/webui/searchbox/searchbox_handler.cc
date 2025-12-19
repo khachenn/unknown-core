@@ -5,7 +5,7 @@
 
 #include "chrome/browser/ui/webui/searchbox/searchbox_handler.h"
 
-#include "brave/components/vector_icons/vector_icons.h"
+#include "unknown/components/vector_icons/vector_icons.h"
 #include "components/omnibox/browser/autocomplete_input.h"
 #include "components/omnibox/browser/vector_icons.h"
 

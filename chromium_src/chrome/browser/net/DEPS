@@ -1,5 +1,5 @@
 include_rules = [
-  "+brave/components/tor",
-  "+brave/components/brave_vpn/common",
-  "+brave/services/network/public",
+  "+unknown/components/tor",
+  "+unknown/components/brave_vpn/common",
+  "+unknown/services/network/public",
 ]

@@ -4,7 +4,7 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "base/feature_override.h"
-#include "brave/components/translate/core/common/brave_translate_constants.h"
+#include "unknown/components/translate/core/common/brave_translate_constants.h"
 
 #define GetTranslateSecurityOrigin GetTranslateSecurityOrigin_Chromium
 #include <components/translate/core/common/translate_util.cc>

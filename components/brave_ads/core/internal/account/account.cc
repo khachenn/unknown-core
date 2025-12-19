@@ -3,30 +3,30 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/account/account.h"
+#include "unknown/components/brave_ads/core/internal/account/account.h"
 
 #include <utility>
 
 #include "base/check.h"
 #include "base/check_op.h"
 #include "base/functional/bind.h"
-#include "brave/components/brave_ads/core/internal/account/account_util.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/confirmation_info.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/confirmations.h"
-#include "brave/components/brave_ads/core/internal/account/deposits/deposit_interface.h"
-#include "brave/components/brave_ads/core/internal/account/deposits/deposits_factory.h"
-#include "brave/components/brave_ads/core/internal/account/statement/statement.h"
-#include "brave/components/brave_ads/core/internal/account/transactions/transaction_info.h"
-#include "brave/components/brave_ads/core/internal/account/transactions/transactions.h"
-#include "brave/components/brave_ads/core/internal/account/user_rewards/user_rewards.h"
-#include "brave/components/brave_ads/core/internal/account/wallet/wallet_util.h"
-#include "brave/components/brave_ads/core/internal/ads_client/ads_client_util.h"
-#include "brave/components/brave_ads/core/internal/ads_notifier_manager.h"
-#include "brave/components/brave_ads/core/internal/common/logging_util.h"
-#include "brave/components/brave_ads/core/internal/prefs/pref_path_util.h"
-#include "brave/components/brave_ads/core/internal/settings/settings.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client.h"
+#include "unknown/components/brave_ads/core/internal/account/account_util.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/confirmation_info.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/confirmations.h"
+#include "unknown/components/brave_ads/core/internal/account/deposits/deposit_interface.h"
+#include "unknown/components/brave_ads/core/internal/account/deposits/deposits_factory.h"
+#include "unknown/components/brave_ads/core/internal/account/statement/statement.h"
+#include "unknown/components/brave_ads/core/internal/account/transactions/transaction_info.h"
+#include "unknown/components/brave_ads/core/internal/account/transactions/transactions.h"
+#include "unknown/components/brave_ads/core/internal/account/user_rewards/user_rewards.h"
+#include "unknown/components/brave_ads/core/internal/account/wallet/wallet_util.h"
+#include "unknown/components/brave_ads/core/internal/ads_client/ads_client_util.h"
+#include "unknown/components/brave_ads/core/internal/ads_notifier_manager.h"
+#include "unknown/components/brave_ads/core/internal/common/logging_util.h"
+#include "unknown/components/brave_ads/core/internal/prefs/pref_path_util.h"
+#include "unknown/components/brave_ads/core/internal/settings/settings.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client.h"
 
 namespace brave_ads {
 

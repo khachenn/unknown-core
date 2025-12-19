@@ -12,8 +12,8 @@
 #include <utility>
 
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_vpn/browser/brave_vpn_service_observer.h"
-#include "brave/components/brave_vpn/common/win/brave_windows_service_watcher.h"
+#include "unknown/components/brave_vpn/browser/brave_vpn_service_observer.h"
+#include "unknown/components/brave_vpn/common/win/brave_windows_service_watcher.h"
 #include "components/keyed_service/core/keyed_service.h"
 
 class PrefService;

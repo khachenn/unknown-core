@@ -6,7 +6,7 @@
 #ifndef BRAVE_COMPONENTS_BRAVE_ADS_CORE_INTERNAL_ACCOUNT_ISSUERS_ISSUERS_DELEGATE_MOCK_H_
 #define BRAVE_COMPONENTS_BRAVE_ADS_CORE_INTERNAL_ACCOUNT_ISSUERS_ISSUERS_DELEGATE_MOCK_H_
 
-#include "brave/components/brave_ads/core/internal/account/issuers/issuers_delegate.h"
+#include "unknown/components/brave_ads/core/internal/account/issuers/issuers_delegate.h"
 #include "testing/gmock/include/gmock/gmock.h"
 
 namespace brave_ads {

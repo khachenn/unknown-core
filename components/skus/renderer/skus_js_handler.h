@@ -9,8 +9,8 @@
 #include <memory>
 #include <string>
 
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/skus/common/skus_sdk.mojom.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/skus/common/skus_sdk.mojom.h"
 #include "content/public/renderer/render_frame.h"
 #include "content/public/renderer/render_frame_observer.h"
 #include "gin/wrappable.h"
@@ -19,7 +19,7 @@
 #include "v8/include/v8.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/mojom/brave_vpn.mojom.h"
+#include "unknown/components/brave_vpn/common/mojom/brave_vpn.mojom.h"
 #endif
 
 namespace skus {

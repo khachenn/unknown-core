@@ -3,11 +3,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wayback_machine/buildflags/buildflags.gni")
-import("//brave/components/psst/buildflags/buildflags.gni")
-import("//brave/components/speedreader/common/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wayback_machine/buildflags/buildflags.gni")
+import("//unknown/components/psst/buildflags/buildflags.gni")
+import("//unknown/components/speedreader/common/buildflags/buildflags.gni")
 import("//build/config/features.gni")
 import("//build/config/ui.gni")
 import("//testing/test.gni")
@@ -22,64 +22,64 @@ test("brave_components_unittests") {
 
   deps = [
     "//base",
-    "//brave/components/ai_chat/core/common/buildflags",
-    "//brave/components/api_request_helper:unit_tests",
-    "//brave/components/brave_account:unit_tests",
-    "//brave/components/brave_account/endpoint_client:unit_tests",
-    "//brave/components/brave_account/endpoints:unit_tests",
-    "//brave/components/brave_origin:unit_tests",
-    "//brave/components/brave_policy:unit_tests",
-    "//brave/components/brave_policy/ad_block_only_mode:unit_tests",
-    "//brave/components/brave_shields/core/browser:unit_tests",
-    "//brave/components/brave_shields/core/common:unit_tests",
-    "//brave/components/component_updater:unit_tests",
-    "//brave/components/email_aliases:unit_tests",
-    "//brave/components/json:unit_tests",
-    "//brave/components/local_ai/browser:unit_tests",
-    "//brave/components/static_redirect_helper:unit_tests",
-    "//brave/components/update_client:unit_tests",
-    "//brave/components/url_sanitizer/core/browser:unit_tests",
+    "//unknown/components/ai_chat/core/common/buildflags",
+    "//unknown/components/api_request_helper:unit_tests",
+    "//unknown/components/brave_account:unit_tests",
+    "//unknown/components/brave_account/endpoint_client:unit_tests",
+    "//unknown/components/brave_account/endpoints:unit_tests",
+    "//unknown/components/brave_origin:unit_tests",
+    "//unknown/components/brave_policy:unit_tests",
+    "//unknown/components/brave_policy/ad_block_only_mode:unit_tests",
+    "//unknown/components/brave_shields/core/browser:unit_tests",
+    "//unknown/components/brave_shields/core/common:unit_tests",
+    "//unknown/components/component_updater:unit_tests",
+    "//unknown/components/email_aliases:unit_tests",
+    "//unknown/components/json:unit_tests",
+    "//unknown/components/local_ai/browser:unit_tests",
+    "//unknown/components/static_redirect_helper:unit_tests",
+    "//unknown/components/update_client:unit_tests",
+    "//unknown/components/url_sanitizer/core/browser:unit_tests",
     "//components/test:run_all_unittests",
   ]
 
   if (enable_brave_wallet) {
     deps += [
-      "//brave/components/brave_wallet/browser:unit_tests",
-      "//brave/components/brave_wallet/common:unit_tests",
+      "//unknown/components/brave_wallet/browser:unit_tests",
+      "//unknown/components/brave_wallet/common:unit_tests",
     ]
   }
 
   if (enable_psst) {
     deps += [
-      "//brave/components/psst/browser/content:unit_tests",
-      "//brave/components/psst/browser/core:unit_tests",
+      "//unknown/components/psst/browser/content:unit_tests",
+      "//unknown/components/psst/browser/core:unit_tests",
     ]
   }
 
   if (enable_brave_wayback_machine) {
-    deps += [ "//brave/components/brave_wayback_machine:unit_tests" ]
+    deps += [ "//unknown/components/brave_wayback_machine:unit_tests" ]
   }
 
   if (enable_speedreader) {
-    deps += [ "//brave/components/speedreader:unit_tests" ]
+    deps += [ "//unknown/components/speedreader:unit_tests" ]
   }
 
   if (enable_ai_chat) {
     deps += [
-      "//brave/components/ai_chat/core/browser:unit_tests",
-      "//brave/components/ai_chat/core/browser/ollama:unit_tests",
-      "//brave/components/ai_chat/core/common:unit_tests",
+      "//unknown/components/ai_chat/core/browser:unit_tests",
+      "//unknown/components/ai_chat/core/browser/ollama:unit_tests",
+      "//unknown/components/ai_chat/core/common:unit_tests",
     ]
   }
 
   if (use_blink) {
     if (enable_ai_chat) {
-      deps += [ "//brave/components/ai_chat/content/browser:unit_tests" ]
+      deps += [ "//unknown/components/ai_chat/content/browser:unit_tests" ]
     }
     if (enable_brave_wallet) {
       deps += [
-        "//brave/components/brave_wallet/browser:unit_tests",
-        "//brave/components/brave_wallet/renderer/test:unit_tests",
+        "//unknown/components/brave_wallet/browser:unit_tests",
+        "//unknown/components/brave_wallet/renderer/test:unit_tests",
       ]
     }
   }
@@ -114,12 +114,12 @@ test("brave_components_unittests") {
   # Since //chrome depends on //extensions, we also only assert_no_deps on
   # extensions targets.
   assert_no_deps = [
-    "//brave/browser/*",
-    "//brave/build/*",
-    "//brave/common/*",
-    "//brave/renderer/*",
-    "//brave/updater/*",
-    "//brave/utility/*",
+    "//unknown/browser/*",
+    "//unknown/build/*",
+    "//unknown/common/*",
+    "//unknown/renderer/*",
+    "//unknown/updater/*",
+    "//unknown/utility/*",
     "//chrome/*",
   ]
   assert_no_deps += [
@@ -133,7 +133,7 @@ test("brave_components_unittests") {
   if (is_ios) {
     assert_no_deps += ios_assert_no_deps
     assert_no_deps += [ "//ios/chrome/*" ]
-    assert_no_deps += [ "//brave/ios/*" ]
+    assert_no_deps += [ "//unknown/ios/*" ]
     assert_no_deps += [
       "//extensions/common",
       "//extensions/common:mojom",
@@ -162,7 +162,7 @@ repack("components_tests_pak") {
 
   output = "$root_out_dir/brave_components_tests_resources.pak"
   public_deps = [
-    "//brave/components/resources",
-    "//brave/components/resources:strings",
+    "//unknown/components/resources",
+    "//unknown/components/resources:strings",
   ]
 }

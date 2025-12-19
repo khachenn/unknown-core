@@ -4,11 +4,11 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 import(
-    "//brave/browser/brave_vpn/win/brave_vpn_wireguard_service/allowlist.gni")
-import("//brave/build/config.gni")
-import("//brave/build/redirect_cc.gni")
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
-import("//brave/tools/crates/config.gni")
+    "//unknown/browser/brave_vpn/win/brave_vpn_wireguard_service/allowlist.gni")
+import("//unknown/build/config.gni")
+import("//unknown/build/redirect_cc.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/tools/crates/config.gni")
 import("//build/config/locales.gni")
 import("//build/config/zip.gni")
 import("//chrome/browser/buildflags.gni")
@@ -25,20 +25,20 @@ if (enable_library_cdms) {
 }
 
 if (!is_ios) {
-  import("//brave/brave_paks.gni")
+  import("//unknown/brave_paks.gni")
 }
 
 if (is_mac) {
-  import("//brave/build/mac/tweak_info_plist.gni")
+  import("//unknown/build/mac/tweak_info_plist.gni")
   import("//build/config/mac/rules.gni")
 }
 
 if (is_win) {
-  import("//brave/build/win/sign.gni")
+  import("//unknown/build/win/sign.gni")
 }
 
 if (is_linux) {
-  import("//brave/build/linux/channels.gni")
+  import("//unknown/build/linux/channels.gni")
 }
 
 declare_args() {
@@ -74,21 +74,21 @@ group("chromium_unit_tests") {
 
 # Only add tests to this list if you want them to run by default for
 # brave_all_unit_tests.
-brave_all_unit_tests_deps = [ "//brave/components:brave_components_unittests" ]
+brave_all_unit_tests_deps = [ "//unknown/components:brave_components_unittests" ]
 if (!is_ios) {
-  brave_all_unit_tests_deps += [ "//brave/test:brave_unit_tests" ]
+  brave_all_unit_tests_deps += [ "//unknown/test:brave_unit_tests" ]
 } else {
   brave_all_unit_tests_deps += [
-    "//brave/ios/testing:ios_brave_unit_tests",
-    "//brave/ios/web:ios_brave_web_inttests",
-    "//brave/ios/web:ios_brave_web_unittests",
+    "//unknown/ios/testing:ios_brave_unit_tests",
+    "//unknown/ios/web:ios_brave_web_inttests",
+    "//unknown/ios/web:ios_brave_web_unittests",
   ]
 }
 if (!is_ios && !is_android) {
-  brave_all_unit_tests_deps += [ "//brave/test:brave_installer_unittests" ]
+  brave_all_unit_tests_deps += [ "//unknown/test:brave_installer_unittests" ]
 }
 if (is_win || is_mac || is_linux) {
-  brave_all_unit_tests_deps += [ "//brave/updater:brave_updater_unittests" ]
+  brave_all_unit_tests_deps += [ "//unknown/updater:brave_updater_unittests" ]
 }
 
 if (is_win) {
@@ -122,7 +122,7 @@ group("all") {
 
   if (!is_android && !is_ios) {
     deps += [
-      "//brave/test:brave_network_audit_tests",
+      "//unknown/test:brave_network_audit_tests",
       "//chrome/test:browser_tests",
     ]
   }
@@ -132,14 +132,14 @@ group("all") {
   }
 
   if (!is_ios) {
-    deps += [ "//brave/test:brave_browser_tests" ]
+    deps += [ "//unknown/test:brave_browser_tests" ]
   }
 
   if (is_android) {
     deps += [
-      "//brave/build/android:brave",
-      "//brave/test:brave_java_unit_tests",
-      "//brave/test:brave_junit_tests",
+      "//unknown/build/android:brave",
+      "//unknown/test:brave_java_unit_tests",
+      "//unknown/test:brave_junit_tests",
     ]
   }
 }
@@ -148,8 +148,8 @@ if (!is_ios) {
   group("child_dependencies") {
     deps = [
       "common",
-      "//brave/renderer",
-      "//brave/utility",
+      "//unknown/renderer",
+      "//unknown/utility",
     ]
   }
 
@@ -171,7 +171,7 @@ if (!is_ios) {
   }
 
   group("storybook") {
-    deps = [ "//brave/.storybook:storybook" ]
+    deps = [ "//unknown/.storybook:storybook" ]
   }
 }
 
@@ -179,7 +179,7 @@ if (is_win) {
   packed_files_rc_file =
       "$root_out_dir/gen/chrome/installer/mini_installer/packed_delta_files.rc"
   action("delta_installer_archive") {
-    script = "//brave/tools/win/create_delta_archive.py"
+    script = "//unknown/tools/win/create_delta_archive.py"
     if (skip_signing) {
       setup_exe = "setup.exe"
     } else {
@@ -235,7 +235,7 @@ if (is_win) {
     sign("signed_brave_exe") {
       sources = [ "$root_out_dir/brave.exe" ]
       outputs = [ "$root_out_dir/presigned_binaries/brave.exe" ]
-      deps = [ "//brave/build/win:copy_exe" ]
+      deps = [ "//unknown/build/win:copy_exe" ]
     }
     sign("signed_chrome_dll") {
       sources = [ "$root_out_dir/chrome.dll" ]
@@ -254,8 +254,8 @@ if (is_win) {
       ]
       if (enable_widevine && enable_cdm_host_verification) {
         deps += [
-          "//brave/browser/widevine:brave_exe_sig",
-          "//brave/browser/widevine:chrome_dll_sig",
+          "//unknown/browser/widevine:brave_exe_sig",
+          "//unknown/browser/widevine:chrome_dll_sig",
         ]
       }
     }
@@ -266,7 +266,7 @@ group("brave") {
   deps = [ "build/$target_os:brave" ]
   if (!is_android && !is_ios) {
     deps += [
-      "//brave/components/version_info:generate_version",
+      "//unknown/components/version_info:generate_version",
       "//chrome",
     ]
   }
@@ -275,27 +275,27 @@ group("brave") {
 group("resources") {
   public_deps = [
     # TODO(bridiver)
-    # "//brave/browser:resources",
-    # "//brave/common:resources",
-    # "//brave/renderer:resources",
-    "//brave/components/resources",
+    # "//unknown/browser:resources",
+    # "//unknown/common:resources",
+    # "//unknown/renderer:resources",
+    "//unknown/components/resources",
   ]
 
-  data_deps = [ "//brave/components/resources:about_credits" ]
+  data_deps = [ "//unknown/components/resources:about_credits" ]
 }
 
 if (is_android) {
   android_assets("brave_file_assets") {
     sources = [
-      "//brave/LICENSE.html",
-      "//brave/android/java/org/chromium/chrome/browser/ntp/ntp_news_optin_icon_animation.json",
-      "//brave/android/java/org/chromium/chrome/browser/onboarding/animations/onboarding_ads.json",
-      "//brave/android/java/org/chromium/chrome/browser/onboarding/animations/onboarding_ads_notification.json",
-      "//brave/android/java/org/chromium/chrome/browser/onboarding/animations/onboarding_rewards.json",
-      "//brave/android/java/org/chromium/chrome/browser/onboarding/animations/privacy_protection.json",
-      "//brave/android/java/org/chromium/chrome/browser/onboarding/animations/save_data_and_battery.json",
-      "//brave/android/java/org/chromium/chrome/browser/onboarding/animations/website_loads_faster.json",
-      "//brave/android/java/org/chromium/chrome/browser/vpn/brave_vpn_confirm.json",
+      "//unknown/LICENSE.html",
+      "//unknown/android/java/org/chromium/chrome/browser/ntp/ntp_news_optin_icon_animation.json",
+      "//unknown/android/java/org/chromium/chrome/browser/onboarding/animations/onboarding_ads.json",
+      "//unknown/android/java/org/chromium/chrome/browser/onboarding/animations/onboarding_ads_notification.json",
+      "//unknown/android/java/org/chromium/chrome/browser/onboarding/animations/onboarding_rewards.json",
+      "//unknown/android/java/org/chromium/chrome/browser/onboarding/animations/privacy_protection.json",
+      "//unknown/android/java/org/chromium/chrome/browser/onboarding/animations/save_data_and_battery.json",
+      "//unknown/android/java/org/chromium/chrome/browser/onboarding/animations/website_loads_faster.json",
+      "//unknown/android/java/org/chromium/chrome/browser/vpn/brave_vpn_confirm.json",
     ]
     disable_compression = false
   }
@@ -322,7 +322,7 @@ group("unpacked_resources") {
     deps = []
     if (enable_extensions) {
       deps = [
-        "//brave/components/brave_extension/extension/brave_extension:locales",
+        "//unknown/components/brave_extension/extension/brave_extension:locales",
       ]
     }
   }
@@ -342,7 +342,7 @@ if (!is_ios) {
       ]
     }
     if (use_libfuzzer) {
-      deps += [ "//brave/fuzzers:brave_fuzzers" ]
+      deps += [ "//unknown/fuzzers:brave_fuzzers" ]
     }
   }
 }
@@ -418,25 +418,25 @@ group("create_dist") {
 
   if (is_win) {
     deps += [
-      "//brave/build/win:create_signed_installer",
-      "//brave/components/policy:pack_policy_templates",
+      "//unknown/build/win:create_signed_installer",
+      "//unknown/components/policy:pack_policy_templates",
     ]
 
     if (build_omaha) {
-      deps += [ "//brave/vendor/omaha" ]
+      deps += [ "//unknown/vendor/omaha" ]
     }
 
     if (build_delta_installer) {
-      deps += [ "//brave/build/win:signed_delta_installer" ]
+      deps += [ "//unknown/build/win:signed_delta_installer" ]
     }
   }
   if (is_mac) {
-    deps += [ "//brave/build/mac:create_dist_mac" ]
+    deps += [ "//unknown/build/mac:create_dist_mac" ]
   }
   if (is_linux) {
     deps += [
       ":theme_files",
-      "//brave/app/linux:dist_resources",
+      "//unknown/app/linux:dist_resources",
       "//chrome/installer/linux:$linux_channel",
     ]
   }
@@ -456,7 +456,7 @@ if (!is_mac && !is_android && !is_ios) {
   if (enable_extensions) {
     group("brave_extensions_locale_dist_resources") {
       deps = [
-        "//brave/components/brave_extension/extension/brave_extension:locales",
+        "//unknown/components/brave_extension/extension/brave_extension:locales",
       ]
 
       public_deps = []
@@ -469,7 +469,7 @@ if (!is_mac && !is_android && !is_ios) {
 
     foreach(locale, platform_pak_locales) {
       copy("brave_shields_locales_${locale}") {
-        deps = [ "//brave/components/brave_extension/extension/brave_extension:locales_$locale" ]
+        deps = [ "//unknown/components/brave_extension/extension/brave_extension:locales_$locale" ]
 
         locale = string_replace(locale, "-", "_")
         sources = [ "$root_out_dir/resources/brave_extension/_locales/$locale/messages.json" ]
@@ -480,7 +480,7 @@ if (!is_mac && !is_android && !is_ios) {
 }
 
 copy("brave_license_dist_resources") {
-  sources = [ "//brave/LICENSE" ]
+  sources = [ "//unknown/LICENSE" ]
 
   outputs = [ "$brave_dist_dir/{{source_file_part}}" ]
 }
@@ -494,7 +494,7 @@ if (!is_android && !is_ios) {
       ":brave_license_dist_resources",
       ":packed_resources",
       "build/$target_os:brave",
-      "//brave/components/version_info:generate_version",
+      "//unknown/components/version_info:generate_version",
       "//chrome:packed_resources",
       "//third_party/icu:icudata",
     ]
@@ -549,7 +549,7 @@ template("create_dist_template") {
 
     dir_inputs = invoker.dir_inputs
 
-    script = "//brave/script/create-dist.py"
+    script = "//unknown/script/create-dist.py"
 
     deps = [ ":brave_license_dist_resources" ]
     if (defined(invoker.deps)) {
@@ -573,7 +573,7 @@ if (should_generate_symbols) {
       output = "$brave_dist_dir/$brave_product_name-v$brave_version-$brave_platform-$target_arch-symbols.zip"
     }
 
-    deps = [ "//brave/app/$current_os:symbol_dist_resources" ]
+    deps = [ "//unknown/app/$current_os:symbol_dist_resources" ]
 
     if (is_win) {
       dir_inputs = [ "$brave_product_name.syms" ]
@@ -598,7 +598,7 @@ if (should_generate_symbols) {
 group("create_symbols_dist") {
   # Currently on some platforms (Android, Linux) this target generate more
   # than just symbols, so always depend on it.
-  public_deps = [ "//brave/app/$current_os:symbol_dist_resources" ]
+  public_deps = [ "//unknown/app/$current_os:symbol_dist_resources" ]
 
   if (should_generate_symbols) {
     public_deps += [
@@ -617,7 +617,7 @@ action("create_dist_zips") {
     # Besides changing from 7z to zip, the directory structure is a bit different.
     # TODO(atuchin): support other platforms.
 
-    script = "//brave/script/repack-archive.py"
+    script = "//unknown/script/repack-archive.py"
     deps = [ "//chrome/installer/mini_installer:mini_installer_archive" ]
 
     input = "$root_out_dir/chrome.7z"
@@ -629,7 +629,7 @@ action("create_dist_zips") {
       "--target_dir=Chrome-bin",
     ]
   } else {  # !is_win
-    script = "//brave/script/create-dist.py"
+    script = "//unknown/script/create-dist.py"
 
     inputs = []
     deps = [ "app/$current_os:dist_resources" ]
@@ -724,7 +724,7 @@ if (is_mac) {
 }
 
 action("audit_deps") {
-  script = "//brave/script/audit_deps.py"
+  script = "//unknown/script/audit_deps.py"
   output = "$target_gen_dir/audit_deps.json"
 
   # Action must have outputs, and these outputs must be created, otherwise
@@ -741,12 +741,12 @@ action("audit_deps") {
     args += [ "--audit_dev_deps" ]
   }
 
-  deps = [ "//brave/tools/crates:build_cargo_audit($host_toolchain)" ]
+  deps = [ "//unknown/tools/crates:build_cargo_audit($host_toolchain)" ]
 }
 
 if (is_redirect_cc_build) {
   group("redirect_cc") {
-    deps = [ "//brave/tools/redirect_cc" ]
+    deps = [ "//unknown/tools/redirect_cc" ]
   }
 }
 if (is_win && enable_resource_allowlist_generation) {
@@ -754,11 +754,11 @@ if (is_win && enable_resource_allowlist_generation) {
   # wireguard resources in pak files.
   action("merge_allowlists") {
     deps = [
-      "//brave/browser/brave_vpn/win/brave_vpn_wireguard_service:wireguard_resource_allowlist",
+      "//unknown/browser/brave_vpn/win/brave_vpn_wireguard_service:wireguard_resource_allowlist",
       "//chrome:resource_allowlist",
     ]
 
-    script = "//brave//resources/brave_allowlist.py"
+    script = "//unknown//resources/brave_allowlist.py"
     source_allowlist = "$root_gen_dir/chrome/chrome_resource_allowlist.txt"
     args = [
       "--repack_allowlist",

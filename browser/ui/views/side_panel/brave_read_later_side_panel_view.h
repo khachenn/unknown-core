@@ -7,7 +7,7 @@
 #define BRAVE_BROWSER_UI_VIEWS_SIDE_PANEL_BRAVE_READ_LATER_SIDE_PANEL_VIEW_H_
 
 #include "base/functional/callback_forward.h"
-#include "brave/browser/ui/views/side_panel/brave_side_panel_view_base.h"
+#include "unknown/browser/ui/views/side_panel/brave_side_panel_view_base.h"
 #include "ui/base/metadata/metadata_header_macros.h"
 
 class Profile;

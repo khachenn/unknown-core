@@ -6,9 +6,9 @@
 #ifndef BRAVE_IOS_BROWSER_UI_WEBUI_BRAVE_ACCOUNT_BRAVE_ACCOUNT_UI_IOS_H_
 #define BRAVE_IOS_BROWSER_UI_WEBUI_BRAVE_ACCOUNT_BRAVE_ACCOUNT_UI_IOS_H_
 
-#include "brave/components/brave_account/brave_account_ui_base.h"
-#include "brave/ios/browser/brave_account/brave_account_service_factory_ios.h"
-#include "brave/ios/web/webui/brave_web_ui_ios_data_source.h"
+#include "unknown/components/brave_account/brave_account_ui_base.h"
+#include "unknown/ios/browser/brave_account/brave_account_service_factory_ios.h"
+#include "unknown/ios/web/webui/brave_web_ui_ios_data_source.h"
 #include "ios/web/public/webui/web_ui_ios_controller.h"
 
 class GURL;

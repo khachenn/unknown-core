@@ -9,10 +9,10 @@
 #include <string>
 #include <variant>
 
-#include "brave/components/brave_wallet/browser/internal/orchard_sync_state.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_action_context.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_transaction_utils.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_sync_state.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_action_context.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_transaction_utils.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
 
 namespace brave_wallet {
 

@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_sync/network_time_helper.h"
+#include "unknown/components/brave_sync/network_time_helper.h"
 
 #include "base/test/gtest_util.h"
-#include "brave/components/brave_sync/brave_sync_prefs.h"
+#include "unknown/components/brave_sync/brave_sync_prefs.h"
 #include "build/build_config.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"

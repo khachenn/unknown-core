@@ -7,7 +7,7 @@
 
 #include "base/check.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
 #include "chrome/browser/ui/browser_finder.h"
 #include "chrome/browser/ui/browser_navigator_params.h"
 #include "chrome/browser/ui/tabs/tab_strip_model.h"
@@ -19,15 +19,15 @@
 #include "url/origin.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/browser/ai_chat/ai_chat_service_factory.h"
-#include "brave/components/ai_chat/core/browser/ai_chat_service.h"
-#include "brave/components/ai_chat/core/browser/constants.h"
-#include "brave/components/ai_chat/core/browser/engine/engine_consumer.h"
-#include "brave/components/ai_chat/core/browser/types.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/browser/ai_chat/ai_chat_service_factory.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_service.h"
+#include "unknown/components/ai_chat/core/browser/constants.h"
+#include "unknown/components/ai_chat/core/browser/engine/engine_consumer.h"
+#include "unknown/components/ai_chat/core/browser/types.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #endif  // BUILDFLAG(ENABLE_AI_CHAT)
 
 #define TabSearchPageHandler TabSearchPageHandler_ChromiumImpl

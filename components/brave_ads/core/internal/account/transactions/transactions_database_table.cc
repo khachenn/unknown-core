@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/account/transactions/transactions_database_table.h"
+#include "unknown/components/brave_ads/core/internal/account/transactions/transactions_database_table.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -17,16 +17,16 @@
 #include "base/location.h"
 #include "base/strings/string_util.h"
 #include "base/time/time.h"
-#include "brave/components/brave_ads/core/internal/account/transactions/transaction_info.h"
-#include "brave/components/brave_ads/core/internal/common/database/database_column_util.h"
-#include "brave/components/brave_ads/core/internal/common/database/database_statement_util.h"
-#include "brave/components/brave_ads/core/internal/common/database/database_table_util.h"
-#include "brave/components/brave_ads/core/internal/common/database/database_transaction_util.h"
-#include "brave/components/brave_ads/core/internal/common/logging_util.h"
-#include "brave/components/brave_ads/core/internal/common/time/time_util.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
-#include "brave/components/brave_ads/core/public/account/confirmations/confirmation_type.h"
-#include "brave/components/brave_ads/core/public/ad_units/ad_type.h"
+#include "unknown/components/brave_ads/core/internal/account/transactions/transaction_info.h"
+#include "unknown/components/brave_ads/core/internal/common/database/database_column_util.h"
+#include "unknown/components/brave_ads/core/internal/common/database/database_statement_util.h"
+#include "unknown/components/brave_ads/core/internal/common/database/database_table_util.h"
+#include "unknown/components/brave_ads/core/internal/common/database/database_transaction_util.h"
+#include "unknown/components/brave_ads/core/internal/common/logging_util.h"
+#include "unknown/components/brave_ads/core/internal/common/time/time_util.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/public/account/confirmations/confirmation_type.h"
+#include "unknown/components/brave_ads/core/public/ad_units/ad_type.h"
 
 namespace brave_ads::database::table {
 

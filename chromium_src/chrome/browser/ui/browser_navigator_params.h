@@ -6,7 +6,7 @@
 #ifndef BRAVE_CHROMIUM_SRC_CHROME_BROWSER_UI_BROWSER_NAVIGATOR_PARAMS_H_
 #define BRAVE_CHROMIUM_SRC_CHROME_BROWSER_UI_BROWSER_NAVIGATOR_PARAMS_H_
 
-#include "brave/components/containers/buildflags/buildflags.h"
+#include "unknown/components/containers/buildflags/buildflags.h"
 #include "content/public/browser/storage_partition_config.h"
 
 #if BUILDFLAG(ENABLE_CONTAINERS)

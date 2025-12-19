@@ -6,7 +6,7 @@ index 5bad83b0abb9ddadd137698ba2272e12539d6735..f1d7ec4e9c999f00e6cb3ac09f4ce646
        "reporting/reporting_uploader.h",
      ]
    }
-+  sources += brave_net_sources import("//brave/components/brave_wallet/sources.gni") deps += brave_net_deps
++  sources += brave_net_sources import("//unknown/components/brave_wallet/sources.gni") deps += brave_net_deps
  
    if (enable_device_bound_sessions) {
      sources += [

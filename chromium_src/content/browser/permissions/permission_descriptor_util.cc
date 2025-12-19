@@ -5,7 +5,7 @@
 
 #include "content/public/browser/permission_descriptor_util.h"
 
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
 #define BRAVE_WALLET_NUM_CASES                         \

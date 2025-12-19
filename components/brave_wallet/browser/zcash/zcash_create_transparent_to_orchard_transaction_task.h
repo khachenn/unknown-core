@@ -13,11 +13,11 @@
 #include <variant>
 
 #include "base/memory/raw_ref.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_bundle_manager.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_sync_state.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_action_context.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
-#include "brave/components/brave_wallet/common/zcash_utils.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_bundle_manager.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_sync_state.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_action_context.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
+#include "unknown/components/brave_wallet/common/zcash_utils.h"
 
 namespace brave_wallet {
 

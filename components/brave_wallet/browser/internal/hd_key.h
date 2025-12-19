@@ -14,8 +14,8 @@
 
 #include "base/containers/span.h"
 #include "base/gtest_prod_util.h"
-#include "brave/components/brave_wallet/browser/internal/hd_key_common.h"
-#include "brave/components/brave_wallet/browser/internal/secp256k1_signature.h"
+#include "unknown/components/brave_wallet/browser/internal/hd_key_common.h"
+#include "unknown/components/brave_wallet/browser/internal/secp256k1_signature.h"
 #include "crypto/process_bound_string.h"
 
 namespace brave_wallet {

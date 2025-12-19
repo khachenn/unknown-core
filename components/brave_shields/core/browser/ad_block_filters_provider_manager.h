@@ -12,9 +12,9 @@
 #include "base/containers/flat_set.h"
 #include "base/functional/callback.h"
 #include "base/task/cancelable_task_tracker.h"
-#include "brave/components/brave_component_updater/browser/dat_file_util.h"
-#include "brave/components/brave_shields/core/browser/ad_block_filters_provider.h"
-#include "brave/components/brave_shields/core/browser/adblock/rs/src/lib.rs.h"
+#include "unknown/components/brave_component_updater/browser/dat_file_util.h"
+#include "unknown/components/brave_shields/core/browser/ad_block_filters_provider.h"
+#include "unknown/components/brave_shields/core/browser/adblock/rs/src/lib.rs.h"
 #include "third_party/rust/cxx/v1/cxx.h"
 
 using brave_component_updater::DATFileDataBuffer;

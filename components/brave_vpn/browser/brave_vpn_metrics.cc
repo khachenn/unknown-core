@@ -3,14 +3,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_vpn/browser/brave_vpn_metrics.h"
+#include "unknown/components/brave_vpn/browser/brave_vpn_metrics.h"
 
 #include "base/metrics/histogram_macros.h"
-#include "brave/components/brave_vpn/common/brave_vpn_constants.h"
-#include "brave/components/brave_vpn/common/pref_names.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/p3a_utils/bucket.h"
-#include "brave/components/p3a_utils/feature_usage.h"
+#include "unknown/components/brave_vpn/common/brave_vpn_constants.h"
+#include "unknown/components/brave_vpn/common/pref_names.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/p3a_utils/bucket.h"
+#include "unknown/components/p3a_utils/feature_usage.h"
 #include "components/prefs/pref_change_registrar.h"
 #include "components/prefs/pref_service.h"
 

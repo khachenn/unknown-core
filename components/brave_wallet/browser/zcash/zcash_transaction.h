@@ -12,9 +12,9 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_wallet/common/hash_utils.h"
-#include "brave/components/brave_wallet/common/zcash_utils.h"
-#include "brave/components/services/brave_wallet/public/mojom/zcash_decoder.mojom.h"
+#include "unknown/components/brave_wallet/common/hash_utils.h"
+#include "unknown/components/brave_wallet/common/zcash_utils.h"
+#include "unknown/components/services/brave_wallet/public/mojom/zcash_decoder.mojom.h"
 
 namespace brave_wallet {
 

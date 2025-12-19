@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/core/engine/global_constants.h"
-#include "brave/components/brave_rewards/core/engine/test/rewards_engine_test.h"
-#include "brave/components/brave_rewards/core/engine/util/rewards_prefs.h"
-#include "brave/components/brave_rewards/core/engine/wallet/wallet_util.h"
-#include "brave/components/brave_rewards/core/mojom/rewards.mojom.h"
+#include "unknown/components/brave_rewards/core/engine/global_constants.h"
+#include "unknown/components/brave_rewards/core/engine/test/rewards_engine_test.h"
+#include "unknown/components/brave_rewards/core/engine/util/rewards_prefs.h"
+#include "unknown/components/brave_rewards/core/engine/wallet/wallet_util.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards.mojom.h"
 
 using testing::Test;
 using testing::Values;

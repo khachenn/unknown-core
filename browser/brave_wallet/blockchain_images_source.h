@@ -11,7 +11,7 @@
 
 #include "base/gtest_prod_util.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_wallet/browser/blockchain_images_source_base.h"
+#include "unknown/components/brave_wallet/browser/blockchain_images_source_base.h"
 #include "content/public/browser/url_data_source.h"
 
 namespace base {

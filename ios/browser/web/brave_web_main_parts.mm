@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/ios/browser/web/brave_web_main_parts.h"
+#include "unknown/ios/browser/web/brave_web_main_parts.h"
 
 #include "base/check.h"
 #include "base/command_line.h"
@@ -11,10 +11,10 @@
 #include "base/strings/sys_string_conversions.h"
 #include "base/task/sequenced_task_runner.h"
 #include "base/task/thread_pool.h"
-#include "brave/components/brave_component_updater/browser/brave_on_demand_updater.h"
-#include "brave/components/brave_user_agent/browser/brave_user_agent_component_installer.h"
-#include "brave/components/brave_wallet/browser/wallet_data_files_installer.h"
-#include "brave/ios/browser/application_context/brave_application_context_impl.h"
+#include "unknown/components/brave_component_updater/browser/brave_on_demand_updater.h"
+#include "unknown/components/brave_user_agent/browser/brave_user_agent_component_installer.h"
+#include "unknown/components/brave_wallet/browser/wallet_data_files_installer.h"
+#include "unknown/ios/browser/application_context/brave_application_context_impl.h"
 #include "chrome/browser/component_updater/zxcvbn_data_component_installer.h"
 #include "components/component_updater/installer_policies/safety_tips_component_installer.h"
 #include "ios/chrome/browser/application_context/model/application_context_impl.h"

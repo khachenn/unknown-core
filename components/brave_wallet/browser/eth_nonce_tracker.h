@@ -11,9 +11,9 @@
 #include <vector>
 
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_wallet/browser/nonce_tracker.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/brave_wallet_types.h"
+#include "unknown/components/brave_wallet/browser/nonce_tracker.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/brave_wallet_types.h"
 
 namespace brave_wallet {
 

@@ -6,9 +6,9 @@
 #include <memory>
 #include <utility>
 
-#include "brave/components/brave_ads/core/internal/ads_notifier_manager.h"
-#include "brave/components/brave_ads/core/internal/ads_observer_mock.h"
-#include "brave/components/brave_ads/core/internal/ads_observer_test_util.h"
+#include "unknown/components/brave_ads/core/internal/ads_notifier_manager.h"
+#include "unknown/components/brave_ads/core/internal/ads_observer_mock.h"
+#include "unknown/components/brave_ads/core/internal/ads_observer_test_util.h"
 
 namespace brave_ads::test {
 

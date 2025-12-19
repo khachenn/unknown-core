@@ -8,7 +8,7 @@
 
 #include "base/run_loop.h"
 #include "base/scoped_observation.h"
-#include "brave/components/brave_ads/core/browser/service/ads_service_observer.h"
+#include "unknown/components/brave_ads/core/browser/service/ads_service_observer.h"
 
 namespace brave_ads {
 

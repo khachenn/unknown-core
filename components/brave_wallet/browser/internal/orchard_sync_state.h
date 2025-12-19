@@ -12,11 +12,11 @@
 #include <vector>
 
 #include "base/sequence_checker.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_block_scanner.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_storage/orchard_shard_tree_types.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_storage/orchard_storage.h"
-#include "brave/components/brave_wallet/browser/zcash/rust/orchard_shard_tree.h"
-#include "brave/components/brave_wallet/common/zcash_utils.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_block_scanner.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_storage/orchard_shard_tree_types.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_storage/orchard_storage.h"
+#include "unknown/components/brave_wallet/browser/zcash/rust/orchard_shard_tree.h"
+#include "unknown/components/brave_wallet/common/zcash_utils.h"
 
 namespace brave_wallet {
 

@@ -3,14 +3,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/application_state/browser_util.h"
+#include "unknown/components/brave_ads/core/internal/application_state/browser_util.h"
 
 #include <optional>
 
 #include "base/check_is_test.h"
-#include "brave/components/brave_ads/core/internal/prefs/pref_util.h"
-#include "brave/components/brave_ads/core/public/prefs/pref_names.h"
-#include "brave/components/version_info/version_info.h"
+#include "unknown/components/brave_ads/core/internal/prefs/pref_util.h"
+#include "unknown/components/brave_ads/core/public/prefs/pref_names.h"
+#include "unknown/components/version_info/version_info.h"
 
 namespace brave_ads {
 

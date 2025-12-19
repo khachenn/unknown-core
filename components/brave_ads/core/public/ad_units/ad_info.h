@@ -8,7 +8,7 @@
 
 #include <string>
 
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom.h"
 #include "url/gurl.h"
 
 namespace brave_ads {

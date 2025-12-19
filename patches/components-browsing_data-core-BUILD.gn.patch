@@ -6,7 +6,7 @@ index 752b59c8305e509799e5e9d844afd8064ddbcd33..d0e723f301e2aadfb11489cd1d60dde5
  if (is_android) {
    import("//build/config/android/rules.gni")
  }
-+import("//brave/components/browsing_data/core/sources.gni")
++import("//unknown/components/browsing_data/core/sources.gni")
  
  static_library("core") {
    sources = [

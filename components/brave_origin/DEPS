@@ -1,5 +1,5 @@
 include_rules = [
-  "+brave/components/brave_policy",
+  "+unknown/components/brave_policy",
   "+components/keyed_service/core",
   "+components/prefs",
   "+components/policy",

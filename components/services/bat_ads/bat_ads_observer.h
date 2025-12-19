@@ -6,8 +6,8 @@
 #ifndef BRAVE_COMPONENTS_SERVICES_BAT_ADS_BAT_ADS_OBSERVER_H_
 #define BRAVE_COMPONENTS_SERVICES_BAT_ADS_BAT_ADS_OBSERVER_H_
 
-#include "brave/components/brave_ads/core/public/ads_observer.h"
-#include "brave/components/services/bat_ads/public/interfaces/bat_ads.mojom.h"
+#include "unknown/components/brave_ads/core/public/ads_observer.h"
+#include "unknown/components/services/bat_ads/public/interfaces/bat_ads.mojom.h"
 #include "mojo/public/cpp/bindings/pending_remote.h"
 #include "mojo/public/cpp/bindings/remote.h"
 

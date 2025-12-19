@@ -6,7 +6,7 @@ index a74f60a38066f5ec7def095168c355de748f49ac..66311a71076c0d8008d9918fbd35d209
        "//ui/base:types",
      ]
    }
-+  deps += [ "//brave/browser/ui/browser_window" ]
++  deps += [ "//unknown/browser/ui/browser_window" ]
  }
  
  source_set("create_browser_window") {

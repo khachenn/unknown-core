@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/toolbar/brave_vpn_button.h"
+#include "unknown/browser/ui/views/toolbar/brave_vpn_button.h"
 
 #include <memory>
 #include <utility>
@@ -11,13 +11,13 @@
 #include "base/functional/callback_helpers.h"
 #include "base/memory/scoped_refptr.h"
 #include "base/run_loop.h"
-#include "brave/browser/brave_vpn/brave_vpn_service_factory.h"
-#include "brave/components/brave_vpn/browser/brave_vpn_service.h"
-#include "brave/components/brave_vpn/browser/connection/brave_vpn_connection_manager.h"
-#include "brave/components/brave_vpn/browser/connection/connection_api_impl.h"
-#include "brave/components/brave_vpn/browser/connection/ikev2/connection_api_impl_sim.h"
-#include "brave/components/skus/browser/skus_utils.h"
-#include "brave/test/base/testing_brave_browser_process.h"
+#include "unknown/browser/brave_vpn/brave_vpn_service_factory.h"
+#include "unknown/components/brave_vpn/browser/brave_vpn_service.h"
+#include "unknown/components/brave_vpn/browser/connection/brave_vpn_connection_manager.h"
+#include "unknown/components/brave_vpn/browser/connection/connection_api_impl.h"
+#include "unknown/components/brave_vpn/browser/connection/ikev2/connection_api_impl_sim.h"
+#include "unknown/components/skus/browser/skus_utils.h"
+#include "unknown/test/base/testing_brave_browser_process.h"
 #include "chrome/browser/prefs/browser_prefs.h"
 #include "chrome/browser/themes/theme_service_factory.h"
 #include "chrome/browser/ui/views/chrome_layout_provider.h"

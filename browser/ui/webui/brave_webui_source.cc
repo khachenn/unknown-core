@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/webui/brave_webui_source.h"
+#include "unknown/browser/ui/webui/brave_webui_source.h"
 
 #include <string_view>
 #include <vector>
@@ -11,9 +11,9 @@
 #include "base/containers/flat_map.h"
 #include "base/containers/span.h"
 #include "base/logging.h"
-#include "brave/components/constants/url_constants.h"
-#include "brave/components/tor/buildflags/buildflags.h"
-#include "brave/components/webui/webui_resources.h"
+#include "unknown/components/constants/url_constants.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
+#include "unknown/components/webui/webui_resources.h"
 #include "build/build_config.h"
 #include "chrome/browser/profiles/profile.h"
 #include "components/grit/brave_components_resources.h"
@@ -26,8 +26,8 @@
 #include "ui/base/webui/web_ui_util.h"
 
 #if !BUILDFLAG(IS_ANDROID)
-#include "brave/browser/ui/webui/navigation_bar_data_provider.h"
-#include "brave/components/brave_rewards/resources/grit/brave_rewards_resources.h"
+#include "unknown/browser/ui/webui/navigation_bar_data_provider.h"
+#include "unknown/components/brave_rewards/resources/grit/brave_rewards_resources.h"
 #include "chrome/browser/ui/browser_finder.h"
 #include "chrome/browser/ui/browser_window.h"
 #include "chrome/browser/ui/color/chrome_color_id.h"

@@ -50,8 +50,8 @@ def merge_rewrapper_cfg(rewrapper_cfg, tool, _host_os):
                 'inputs': [
                     ('{src_dir}/buildtools/reclient_cfgs/python/'
                      'python_remote_wrapper'),
-                    '{src_dir}/brave/script/brave_chromium_utils.py',
-                    '{src_dir}/brave/script/override_utils.py',
+                    '{src_dir}/unknown/script/brave_chromium_utils.py',
+                    '{src_dir}/unknown/script/override_utils.py',
                 ],
                 'remote_wrapper': ('{src_dir}/buildtools/reclient_cfgs/'
                                    'python/python_remote_wrapper'),

@@ -7,7 +7,7 @@
 #define BRAVE_COMPONENTS_AI_CHAT_CORE_BROWSER_ENGINE_CONVERSATION_API_PARSING_H_
 
 #include "base/values.h"
-#include "brave/components/ai_chat/core/browser/engine/conversation_api_client.h"
+#include "unknown/components/ai_chat/core/browser/engine/conversation_api_client.h"
 
 namespace ai_chat {
 

@@ -14,11 +14,11 @@ source_set("browser_tests") {
     ]
 
     deps = [
-      "//brave/components/brave_news/browser",
-      "//brave/components/brave_news/common",
-      "//brave/components/brave_news/common:mojom",
-      "//brave/components/brave_rewards/content",
-      "//brave/components/constants",
+      "//unknown/components/brave_news/browser",
+      "//unknown/components/brave_news/common",
+      "//unknown/components/brave_news/common:mojom",
+      "//unknown/components/brave_rewards/content",
+      "//unknown/components/constants",
       "//chrome/browser",
       "//chrome/browser:browser_process",
       "//chrome/browser/profiles",

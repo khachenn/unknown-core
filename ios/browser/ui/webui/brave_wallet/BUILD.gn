@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/build/config.gni")
+import("//unknown/build/config.gni")
 import("//build/config/features.gni")
 
 source_set("brave_wallet") {
@@ -23,20 +23,20 @@ source_set("brave_wallet") {
   ]
 
   deps = [
-    "//brave/components/brave_wallet/browser",
-    "//brave/components/brave_wallet/browser:constants",
-    "//brave/components/brave_wallet/browser:wallet_handler",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/ios/browser",
-    "//brave/components/brave_wallet_ui/line_chart:line_chart_display_generated",
-    "//brave/components/brave_wallet_ui/market:market_display_generated",
-    "//brave/components/brave_wallet_ui/nft:nft_display_generated",
-    "//brave/components/brave_wallet_ui/page:brave_wallet_page_generated",
-    "//brave/components/constants",
-    "//brave/components/resources:static_resources_grit",
-    "//brave/ios/browser/brave_wallet",
-    "//brave/ios/browser/ui/webui:data_sources",
-    "//brave/ios/web/webui",
+    "//unknown/components/brave_wallet/browser",
+    "//unknown/components/brave_wallet/browser:constants",
+    "//unknown/components/brave_wallet/browser:wallet_handler",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/ios/browser",
+    "//unknown/components/brave_wallet_ui/line_chart:line_chart_display_generated",
+    "//unknown/components/brave_wallet_ui/market:market_display_generated",
+    "//unknown/components/brave_wallet_ui/nft:nft_display_generated",
+    "//unknown/components/brave_wallet_ui/page:brave_wallet_page_generated",
+    "//unknown/components/constants",
+    "//unknown/components/resources:static_resources_grit",
+    "//unknown/ios/browser/brave_wallet",
+    "//unknown/ios/browser/ui/webui:data_sources",
+    "//unknown/ios/web/webui",
     "//ios/chrome/browser/shared/model/profile",
     "//ios/web/public",
     "//ios/web/public/webui",

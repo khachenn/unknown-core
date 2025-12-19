@@ -6,7 +6,7 @@
 #import "brave/ios/browser/api/ads/new_tab_page_ad_ios.h"
 
 #include "base/strings/sys_string_conversions.h"
-#include "brave/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_info.h"
+#include "unknown/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_info.h"
 
 @interface NewTabPageAdIOS ()
 @property(nonatomic, copy) NSString* placementID;

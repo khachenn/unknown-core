@@ -3,14 +3,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/build/config.gni")
+import("//unknown/build/config.gni")
 import("//build/buildflag_header.gni")
 
 static_library("webui") {
   visibility = [
-    "//brave/browser/ui",
-    "//brave/ios/browser/ui/webui",
-    "//brave/ios/web/webui",
+    "//unknown/browser/ui",
+    "//unknown/ios/browser/ui/webui",
+    "//unknown/ios/web/webui",
   ]
 
   sources = [
@@ -22,13 +22,13 @@ static_library("webui") {
 
   deps = [
     "//base",
-    "//brave/components/ai_rewriter/common/buildflags",
-    "//brave/components/brave_rewards/resources:static_resources",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/constants",
-    "//brave/components/resources:static_resources",
-    "//brave/components/resources:strings_grit",
-    "//brave/components/tor/buildflags",
+    "//unknown/components/ai_rewriter/common/buildflags",
+    "//unknown/components/brave_rewards/resources:static_resources",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/constants",
+    "//unknown/components/resources:static_resources",
+    "//unknown/components/resources:strings_grit",
+    "//unknown/components/tor/buildflags",
     "//components/resources:components_resources_grit",
     "//components/strings:components_strings",
     "//third_party/re2",

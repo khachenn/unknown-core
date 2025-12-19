@@ -12,10 +12,10 @@ cargo_crate("lib") {
   crate_name = "getopts"
   epoch = "0.2"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/getopts-v0_2/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/getopts-v0_2/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/getopts-v0_2/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/getopts-v0_2/src/tests/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getopts-v0_2/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/getopts-v0_2/src/tests/mod.rs",
   ]
   inputs = []
 
@@ -27,7 +27,7 @@ cargo_crate("lib") {
   cargo_pkg_repository = "https://github.com/rust-lang/getopts"
   cargo_pkg_version = "0.2.23"
 
-  deps = [ "//brave/third_party/rust/unicode_width/v0_2:lib" ]
+  deps = [ "//unknown/third_party/rust/unicode_width/v0_2:lib" ]
   rustenv = []
   rustflags = []
 

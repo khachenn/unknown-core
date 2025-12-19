@@ -4,41 +4,41 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 brave_chrome_common_sources = [
-  "//brave/common/brave_channel_info.cc",
-  "//brave/common/brave_channel_info.h",
-  "//brave/common/pref_names.h",
-  "//brave/common/resource_bundle_helper.cc",
-  "//brave/common/resource_bundle_helper.h",
+  "//unknown/common/brave_channel_info.cc",
+  "//unknown/common/brave_channel_info.h",
+  "//unknown/common/pref_names.h",
+  "//unknown/common/resource_bundle_helper.cc",
+  "//unknown/common/resource_bundle_helper.h",
 ]
 
 brave_chrome_common_deps = [
   "//base",
-  "//brave/common:mojo_bindings",
+  "//unknown/common:mojo_bindings",
   "//components/version_info:channel",
   "//extensions/buildflags",
   "//services/service_manager",
   "//ui/base",
 ]
 
-brave_chrome_common_public_deps = [ "//brave/components/constants" ]
+brave_chrome_common_public_deps = [ "//unknown/components/constants" ]
 
 if (is_android) {
   brave_chrome_common_deps += [ "//components/user_data_importer/common" ]
 }
 
 if (!is_android && !is_ios) {
-  brave_chrome_common_deps += [ "//brave/common/importer" ]
+  brave_chrome_common_deps += [ "//unknown/common/importer" ]
 }
 
 if (!is_ios) {
   brave_chrome_common_sources += [
-    "//brave/common/brave_content_client.cc",
-    "//brave/common/brave_content_client.h",
+    "//unknown/common/brave_content_client.cc",
+    "//unknown/common/brave_content_client.h",
   ]
 
   brave_chrome_common_deps += [
-    "//brave/components/resources",
-    "//brave/components/resources:static_resources_grit",
+    "//unknown/components/resources",
+    "//unknown/components/resources:static_resources_grit",
     "//chrome/common:channel_info",
     "//chrome/common:constants",
     "//components/resources",

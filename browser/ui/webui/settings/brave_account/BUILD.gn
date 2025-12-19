@@ -13,9 +13,9 @@ source_set("brave_account") {
 
   deps = [
     "//base",
-    "//brave/browser/ui/webui/brave_account",
-    "//brave/components/brave_account",
-    "//brave/components/brave_account/mojom",
+    "//unknown/browser/ui/webui/brave_account",
+    "//unknown/components/brave_account",
+    "//unknown/components/brave_account/mojom",
     "//chrome/browser/profiles:profile",
     "//components/prefs",
     "//mojo/public/cpp/bindings",
@@ -30,10 +30,10 @@ source_set("unit_tests") {
   deps = [
     "//base",
     "//base/test:test_support",
-    "//brave/browser/ui/webui/settings/brave_account",
-    "//brave/components/brave_account",
-    "//brave/components/brave_account:features",
-    "//brave/components/brave_account/mojom",
+    "//unknown/browser/ui/webui/settings/brave_account",
+    "//unknown/components/brave_account",
+    "//unknown/components/brave_account:features",
+    "//unknown/components/brave_account/mojom",
     "//chrome/test:test_support",
     "//components/prefs",
     "//content/public/browser",

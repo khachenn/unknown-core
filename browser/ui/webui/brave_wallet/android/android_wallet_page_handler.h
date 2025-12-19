@@ -7,8 +7,8 @@
 #define BRAVE_BROWSER_UI_WEBUI_BRAVE_WALLET_ANDROID_ANDROID_WALLET_PAGE_HANDLER_H_
 
 #include "base/memory/raw_ptr.h"
-#include "brave/browser/ui/webui/brave_wallet/page_handler/wallet_page_handler.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/browser/ui/webui/brave_wallet/page_handler/wallet_page_handler.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "ui/webui/mojo_web_ui_controller.h"
 
 class AndroidWalletPageHandler : WalletPageHandler {

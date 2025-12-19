@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_ads/application_state/background_helper/background_helper_linux.h"
+#include "unknown/browser/brave_ads/application_state/background_helper/background_helper_linux.h"
 
 // Something in (or included in) chrome/browser/ui/browser.h causes a build
 // error when ui/base/x/x11_util.h is included after it:

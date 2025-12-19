@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/speedreader/speedreader_rewriter_service.h"
+#include "unknown/components/speedreader/speedreader_rewriter_service.h"
 
 #include <string_view>
 #include <utility>
@@ -21,10 +21,10 @@
 #include "base/task/bind_post_task.h"
 #include "base/task/sequenced_task_runner.h"
 #include "base/task/thread_pool.h"
-#include "brave/components/speedreader/common/features.h"
-#include "brave/components/speedreader/common/url_readable_hints.h"
-#include "brave/components/speedreader/rust/ffi/speedreader.h"
-#include "brave/components/speedreader/speedreader_util.h"
+#include "unknown/components/speedreader/common/features.h"
+#include "unknown/components/speedreader/common/url_readable_hints.h"
+#include "unknown/components/speedreader/rust/ffi/speedreader.h"
+#include "unknown/components/speedreader/speedreader_util.h"
 #include "components/grit/brave_components_resources.h"
 #include "crypto/sha2.h"
 #include "ui/base/resource/resource_bundle.h"

@@ -14,7 +14,7 @@ index 3c2b5fa2e853c500f2599ca59b3e9f075d8c72ab..0cd0d23cccdf5b07abf3b5190031a131
      "//components/browser_ui/styles/android:java_resources",
      "//ui/android:ui_java_resources",
    ]
-+  deps += [ "//brave/browser/ui/android/toolbar:java_resources" ]
++  deps += [ "//unknown/browser/ui/android/toolbar:java_resources" ]
  }
  
  robolectric_library("junit") {

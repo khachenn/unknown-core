@@ -5,7 +5,7 @@
 
 #include "chrome/browser/privacy_sandbox/privacy_sandbox_settings_factory.h"
 
-#include "brave/components/privacy_sandbox/brave_privacy_sandbox_settings.h"
+#include "unknown/components/privacy_sandbox/brave_privacy_sandbox_settings.h"
 #include "chrome/browser/privacy_sandbox/tracking_protection_settings_factory.h"
 #include "chrome/browser/tpcd/experiment/experiment_manager_impl.h"
 

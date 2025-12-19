@@ -89,7 +89,7 @@ hooks = [
     'condition': 'checkout_mac',
     'action': ['vpython3', 'build/download_dep.py',
                'omaha4/BraveUpdater-143.1.87.74.zip',
-               '//brave/third_party/updater/mac',
+               '//unknown/third_party/updater/mac',
                'BraveUpdater.app/'],
   },
   {
@@ -118,7 +118,7 @@ hooks = [
     'condition': 'checkout_win',
     'action': ['vpython3', 'build/download_dep.py',
                'brave-vpn-wireguard-dlls/brave-vpn-wireguard-nt-dlls-0.10.1.zip',
-               '//brave/third_party/brave-vpn-wireguard-nt-dlls'],
+               '//unknown/third_party/brave-vpn-wireguard-nt-dlls'],
   },
   {
     'name': 'wireguard_tunnel',
@@ -126,7 +126,7 @@ hooks = [
     'condition': 'checkout_win',
     'action': ['vpython3', 'build/download_dep.py',
                'brave-vpn-wireguard-dlls/brave-vpn-wireguard-tunnel-dlls-v0.5.3.zip',
-               '//brave/third_party/brave-vpn-wireguard-tunnel-dlls'],
+               '//unknown/third_party/brave-vpn-wireguard-tunnel-dlls'],
   },
   {
     # Install Web Discovery Project dependencies for Windows, Linux, and macOS
@@ -202,6 +202,6 @@ include_rules = [
   "-third_party/rust",
 
   # Everybody can use some things.
-  "+brave/base",
-  "+brave/brave_domains",
+  "+unknown/base",
+  "+unknown/brave_domains",
 ]

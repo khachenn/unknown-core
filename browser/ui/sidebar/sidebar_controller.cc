@@ -3,22 +3,22 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/sidebar/sidebar_controller.h"
+#include "unknown/browser/ui/sidebar/sidebar_controller.h"
 
 #include <optional>
 #include <vector>
 
 #include "base/check.h"
 #include "base/check_op.h"
-#include "brave/browser/ui/sidebar/sidebar.h"
-#include "brave/browser/ui/sidebar/sidebar_model.h"
-#include "brave/browser/ui/sidebar/sidebar_service_factory.h"
-#include "brave/browser/ui/sidebar/sidebar_utils.h"
-#include "brave/browser/ui/sidebar/sidebar_web_panel_controller.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/sidebar/browser/pref_names.h"
-#include "brave/components/sidebar/browser/sidebar_service.h"
-#include "brave/components/sidebar/common/features.h"
+#include "unknown/browser/ui/sidebar/sidebar.h"
+#include "unknown/browser/ui/sidebar/sidebar_model.h"
+#include "unknown/browser/ui/sidebar/sidebar_service_factory.h"
+#include "unknown/browser/ui/sidebar/sidebar_utils.h"
+#include "unknown/browser/ui/sidebar/sidebar_web_panel_controller.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/sidebar/browser/pref_names.h"
+#include "unknown/components/sidebar/browser/sidebar_service.h"
+#include "unknown/components/sidebar/common/features.h"
 #include "chrome/browser/history/history_service_factory.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"

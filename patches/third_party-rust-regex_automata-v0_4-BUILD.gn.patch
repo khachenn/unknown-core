@@ -7,5 +7,5 @@ index 452be1de7ea15c871bbbf52a6999f09b8a0be365..1a9157d4b4dbd1bf645b7d08b493c231
    proc_macro_configs -= _configs_to_remove
    proc_macro_configs += _configs_to_add
 +  features += [ "alloc", "dfa-onepass", "dfa-search", "hybrid", "meta", "nfa-backtrack", "nfa-pikevm", "nfa-thompson", "perf-inline", "perf-literal", "perf-literal-multisubstring", "perf-literal-substring", "std", "syntax", "unicode", "unicode-age", "unicode-bool", "unicode-case", "unicode-gencat", "unicode-perl", "unicode-script", "unicode-segment", "unicode-word-boundary" ]
-+  deps = [ "//brave/third_party/rust/aho_corasick/v1:lib", "//brave/third_party/rust/regex_syntax/v0_8:lib", "//third_party/rust/memchr/v2:lib" ]
++  deps = [ "//unknown/third_party/rust/aho_corasick/v1:lib", "//unknown/third_party/rust/regex_syntax/v0_8:lib", "//third_party/rust/memchr/v2:lib" ]
  }

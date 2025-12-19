@@ -5,11 +5,11 @@
 
 #include "chrome/browser/lifetime/application_lifetime_desktop.h"
 
-#include "brave/browser/sparkle_buildflags.h"
+#include "unknown/browser/sparkle_buildflags.h"
 
 #if BUILDFLAG(ENABLE_SPARKLE)
 
-#include "brave/browser/ui/webui/settings/brave_relaunch_handler_mac.h"
+#include "unknown/browser/ui/webui/settings/brave_relaunch_handler_mac.h"
 
 #define AttemptRestart AttemptRestart_ChromiumImpl
 #define RelaunchIgnoreUnloadHandlers RelaunchIgnoreUnloadHandlers_ChromiumImpl

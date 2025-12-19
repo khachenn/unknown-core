@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/web_discovery/browser/signature_basename.h"
+#include "unknown/components/web_discovery/browser/signature_basename.h"
 
 #include <algorithm>
 #include <string>
@@ -16,10 +16,10 @@
 #include "base/strings/string_number_conversions.h"
 #include "base/strings/string_split.h"
 #include "base/strings/string_util.h"
-#include "brave/components/web_discovery/browser/payload_generator.h"
-#include "brave/components/web_discovery/browser/pref_names.h"
-#include "brave/components/web_discovery/browser/server_config_loader.h"
-#include "brave/components/web_discovery/browser/util.h"
+#include "unknown/components/web_discovery/browser/payload_generator.h"
+#include "unknown/components/web_discovery/browser/pref_names.h"
+#include "unknown/components/web_discovery/browser/server_config_loader.h"
+#include "unknown/components/web_discovery/browser/util.h"
 #include "components/prefs/scoped_user_pref_update.h"
 #include "crypto/sha2.h"
 

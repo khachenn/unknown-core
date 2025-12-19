@@ -10,7 +10,7 @@
 #include "base/environment.h"
 #include "base/strings/strcat.h"
 #include "base/strings/string_util.h"
-#include "brave/common/brave_channel_info_posix.h"
+#include "unknown/common/brave_channel_info_posix.h"
 #include "build/build_config.h"
 #include "components/version_info/version_info.h"
 

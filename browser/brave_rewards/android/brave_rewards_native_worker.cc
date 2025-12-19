@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_rewards/android/brave_rewards_native_worker.h"
+#include "unknown/browser/brave_rewards/android/brave_rewards_native_worker.h"
 
 #include <algorithm>
 #include <utility>
@@ -16,18 +16,18 @@
 #include "base/feature_list.h"
 #include "base/json/json_writer.h"
 #include "base/time/time.h"
-#include "brave/browser/brave_ads/ads_service_factory.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/components/brave_adaptive_captcha/brave_adaptive_captcha_service.h"
-#include "brave/components/brave_adaptive_captcha/server_util.h"
-#include "brave/components/brave_ads/core/browser/service/ads_service.h"
-#include "brave/components/brave_ads/core/public/prefs/pref_names.h"
-#include "brave/components/brave_rewards/content/rewards_p3a.h"
-#include "brave/components/brave_rewards/content/rewards_service.h"
-#include "brave/components/brave_rewards/core/engine/global_constants.h"
-#include "brave/components/brave_rewards/core/features.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_rewards/core/rewards_util.h"
+#include "unknown/browser/brave_ads/ads_service_factory.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/components/brave_adaptive_captcha/brave_adaptive_captcha_service.h"
+#include "unknown/components/brave_adaptive_captcha/server_util.h"
+#include "unknown/components/brave_ads/core/browser/service/ads_service.h"
+#include "unknown/components/brave_ads/core/public/prefs/pref_names.h"
+#include "unknown/components/brave_rewards/content/rewards_p3a.h"
+#include "unknown/components/brave_rewards/content/rewards_service.h"
+#include "unknown/components/brave_rewards/core/engine/global_constants.h"
+#include "unknown/components/brave_rewards/core/features.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_rewards/core/rewards_util.h"
 #include "chrome/android/chrome_jni_headers/BraveRewardsNativeWorker_jni.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/profiles/profile_manager.h"

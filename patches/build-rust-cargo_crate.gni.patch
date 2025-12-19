@@ -14,7 +14,7 @@ index f3527b3f1e8b9e97aed7c9896ae9f3f1d794407f..856c9858176fc4492cde1c62921cf68d
        testonly = _testonly
        if (defined(invoker.visibility)) {
          visibility = invoker.visibility
-+      visibility += [ "//brave/third_party/*", "//brave/components/*",  ]
++      visibility += [ "//unknown/third_party/*", "//unknown/components/*",  ]
        }
        crate_name = _crate_name
  

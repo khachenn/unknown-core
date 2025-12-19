@@ -13,8 +13,8 @@
 #include "base/memory/raw_ref.h"
 #include "base/memory/weak_ptr.h"
 #include "base/types/optional_ref.h"
-#include "brave/components/brave_ads/core/internal/tabs/tab_manager_observer.h"
-#include "brave/components/brave_ads/core/internal/targeting/contextual/text_classification/model/text_classification_alias.h"
+#include "unknown/components/brave_ads/core/internal/tabs/tab_manager_observer.h"
+#include "unknown/components/brave_ads/core/internal/targeting/contextual/text_classification/model/text_classification_alias.h"
 
 class GURL;
 

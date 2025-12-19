@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/email_aliases/email_aliases_service.h"
+#include "unknown/components/email_aliases/email_aliases_service.h"
 
 #include <string>
 #include <utility>
@@ -18,10 +18,10 @@
 #include "base/test/task_environment.h"
 #include "base/test/test_future.h"
 #include "base/types/expected.h"
-#include "brave/components/brave_account/features.h"
-#include "brave/components/constants/brave_services_key.h"
-#include "brave/components/email_aliases/features.h"
-#include "brave/components/email_aliases/test_utils.h"
+#include "unknown/components/brave_account/features.h"
+#include "unknown/components/constants/brave_services_key.h"
+#include "unknown/components/email_aliases/features.h"
+#include "unknown/components/email_aliases/test_utils.h"
 #include "components/grit/brave_components_strings.h"
 #include "components/os_crypt/async/browser/test_utils.h"
 #include "components/prefs/testing_pref_service.h"

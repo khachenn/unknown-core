@@ -13,28 +13,28 @@ cargo_crate("lib") {
   epoch = "0.8"
   crate_type = "rlib"
   crate_root =
-      "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/lib.rs"
+      "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/bytes.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/dec.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/ext.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/sint.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/str.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/uint.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/bin.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/buffer.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/dec.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/ext.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/map.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/sint.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/str.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/uint.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/vec.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/errors.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/marker.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/bytes.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/dec.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/ext.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/sint.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/str.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/decode/uint.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/bin.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/buffer.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/dec.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/ext.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/map.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/sint.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/str.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/uint.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/encode/vec.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/errors.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/rmp-v0_8/src/marker.rs",
   ]
   inputs = []
 
@@ -47,9 +47,9 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.8.11"
 
   deps = [
-    "//brave/third_party/rust/byteorder/v1:lib",
-    "//brave/third_party/rust/num_traits/v0_2:lib",
-    "//brave/third_party/rust/paste/v1:lib",
+    "//unknown/third_party/rust/byteorder/v1:lib",
+    "//unknown/third_party/rust/num_traits/v0_2:lib",
+    "//unknown/third_party/rust/paste/v1:lib",
   ]
   features = [
     "default",

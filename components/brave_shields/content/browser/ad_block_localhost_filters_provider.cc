@@ -3,13 +3,13 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_shields/content/browser/ad_block_localhost_filters_provider.h"
+#include "unknown/components/brave_shields/content/browser/ad_block_localhost_filters_provider.h"
 
 #include <utility>
 #include <vector>
 
 #include "base/task/single_thread_task_runner.h"
-#include "brave/components/brave_shields/core/browser/ad_block_filters_provider_manager.h"
+#include "unknown/components/brave_shields/core/browser/ad_block_filters_provider_manager.h"
 #include "components/prefs/pref_service.h"
 
 namespace brave_shields {

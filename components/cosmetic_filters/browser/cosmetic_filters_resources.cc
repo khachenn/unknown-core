@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/cosmetic_filters/browser/cosmetic_filters_resources.h"
+#include "unknown/components/cosmetic_filters/browser/cosmetic_filters_resources.h"
 
 #include <algorithm>
 #include <optional>
@@ -14,9 +14,9 @@
 #include "base/json/json_reader.h"
 #include "base/strings/string_util.h"
 #include "base/values.h"
-#include "brave/components/brave_shields/content/browser/ad_block_service.h"
-#include "brave/components/brave_shields/core/common/brave_shield_constants.h"
-#include "brave/components/brave_shields/core/common/features.h"
+#include "unknown/components/brave_shields/content/browser/ad_block_service.h"
+#include "unknown/components/brave_shields/core/common/brave_shield_constants.h"
+#include "unknown/components/brave_shields/core/common/features.h"
 #include "components/content_settings/core/browser/host_content_settings_map.h"
 
 namespace {

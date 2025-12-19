@@ -12,17 +12,17 @@ cargo_crate("lib") {
   crate_name = "tracing"
   epoch = "0.1"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/dispatcher.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/field.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/instrument.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/level_filters.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/macros.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/span.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/stdlib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/subscriber.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/dispatcher.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/field.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/instrument.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/level_filters.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/macros.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/span.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/stdlib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-v0_1/src/subscriber.rs",
   ]
   inputs = []
 
@@ -36,9 +36,9 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.1.41"
 
   deps = [
-    "//brave/third_party/rust/pin_project_lite/v0_2:lib",
-    "//brave/third_party/rust/tracing_attributes/v0_1:lib",
-    "//brave/third_party/rust/tracing_core/v0_1:lib",
+    "//unknown/third_party/rust/pin_project_lite/v0_2:lib",
+    "//unknown/third_party/rust/tracing_attributes/v0_1:lib",
+    "//unknown/third_party/rust/tracing_core/v0_1:lib",
   ]
   features = [
     "attributes",

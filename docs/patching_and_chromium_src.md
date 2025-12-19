@@ -130,7 +130,7 @@ We should also prefer extensible patches in gn files where possible.
 
 Multiple deps should never be added to the same target. Always create a generic brave dep and then add other deps (public_deps if needed) inside that.
 
-The same thing goes for sources, but those should be added as `sources += my_brave_sources` where `my_brave_sources` is defined in a brave gni file. We have a gni file that is already included in nearly every gn build file in chromium through a patch in chrome_build.gni (`import("//brave/build/config/brave_build.gni"`). Add new gni imports inside brave_build.gni instead of patching them into another gn/gni file
+The same thing goes for sources, but those should be added as `sources += my_brave_sources` where `my_brave_sources` is defined in a brave gni file. We have a gni file that is already included in nearly every gn build file in chromium through a patch in chrome_build.gni (`import("//unknown/build/config/brave_build.gni"`). Add new gni imports inside brave_build.gni instead of patching them into another gn/gni file
 
 ## Patching `mojom` files
 Mojom files can be patched using an override placed at the same location in `src/brave/chromium_src` directory. It's possible to:
@@ -283,5 +283,5 @@ bool BraveDoSomething(...) {
 
 brave/browser/sources.gni
 ```gn
-deps += [ "//brave/browser/chrome_feature" ]
+deps += [ "//unknown/browser/chrome_feature" ]
 ```

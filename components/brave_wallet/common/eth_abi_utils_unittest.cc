@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/common/eth_abi_utils.h"
+#include "unknown/components/brave_wallet/common/eth_abi_utils.h"
 
 #include <algorithm>
 #include <optional>
@@ -11,7 +11,7 @@
 #include <vector>
 
 #include "base/containers/span.h"
-#include "brave/components/brave_wallet/common/hex_utils.h"
+#include "unknown/components/brave_wallet/common/hex_utils.h"
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
 

@@ -11,8 +11,8 @@
 
 #include "base/gtest_prod_util.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_sync/brave_sync_p3a.h"
-#include "brave/components/brave_sync/brave_sync_prefs.h"
+#include "unknown/components/brave_sync/brave_sync_p3a.h"
+#include "unknown/components/brave_sync/brave_sync_prefs.h"
 #include "components/prefs/pref_change_registrar.h"
 #include "components/sync/engine/sync_protocol_error.h"
 #include "components/sync/service/sync_service_impl.h"

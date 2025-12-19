@@ -10,7 +10,7 @@
 #include <vector>
 
 #include "base/memory/raw_ptr.h"
-#include "brave/browser/ui/brave_wallet/wallet_bubble_manager_delegate.h"
+#include "unknown/browser/ui/brave_wallet/wallet_bubble_manager_delegate.h"
 #include "url/gurl.h"
 
 namespace brave_wallet {

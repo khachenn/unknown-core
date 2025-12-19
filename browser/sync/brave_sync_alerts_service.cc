@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/sync/brave_sync_alerts_service.h"
+#include "unknown/browser/sync/brave_sync_alerts_service.h"
 
 #include "base/check.h"
-#include "brave/browser/infobars/brave_sync_account_deleted_infobar_delegate.h"
-#include "brave/components/brave_sync/brave_sync_prefs.h"
+#include "unknown/browser/infobars/brave_sync_account_deleted_infobar_delegate.h"
+#include "unknown/components/brave_sync/brave_sync_prefs.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/sync/sync_service_factory.h"
 #include "chrome/browser/ui/browser_finder.h"
@@ -15,7 +15,7 @@
 
 #if BUILDFLAG(IS_ANDROID)
 #include "base/android/jni_android.h"
-#include "brave/build/android/jni_headers/BraveSyncAccountDeletedInformer_jni.h"
+#include "unknown/build/android/jni_headers/BraveSyncAccountDeletedInformer_jni.h"
 #else
 #include "chrome/browser/ui/browser.h"
 #endif

@@ -3,8 +3,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/tor/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/tor/buildflags/buildflags.gni")
 import("//build/config/locales.gni")
 import("//chrome/common/features.gni")
 import("//extensions/buildflags/buildflags.gni")
@@ -34,13 +34,13 @@ template("brave_repack_percent") {
 
     # All sources should also have deps for completeness.
     sources = [
-      "$root_gen_dir/brave/brave_theme_resources_${percent}_percent.pak",
-      "$root_gen_dir/brave/browser/resources/bookmark_icon/bookmark_icon_resources_${percent}_percent.pak",
+      "$root_gen_dir/unknown/brave_theme_resources_${percent}_percent.pak",
+      "$root_gen_dir/unknown/browser/resources/bookmark_icon/bookmark_icon_resources_${percent}_percent.pak",
     ]
 
     deps = [
-      "//brave/app/theme:brave_theme_resources",
-      "//brave/browser/resources/bookmark_icon:bookmark_icon_resources",
+      "//unknown/app/theme:brave_theme_resources",
+      "//unknown/browser/resources/bookmark_icon:bookmark_icon_resources",
     ]
 
     if (defined(invoker.deps)) {
@@ -61,57 +61,57 @@ template("brave_extra_paks") {
                            ])
     output = "${invoker.output_dir}/brave_resources.pak"
     sources = [
-      "$root_gen_dir/brave/components/brave_rewards/resources/brave_rewards_resources.pak",
+      "$root_gen_dir/unknown/components/brave_rewards/resources/brave_rewards_resources.pak",
       "$root_gen_dir/components/brave_components_resources.pak",
     ]
 
     if (!is_android) {
       sources += [
-        "$root_gen_dir/brave/brave_education_resources.pak",
-        "$root_gen_dir/brave/brave_generated_resources.pak",
-        "$root_gen_dir/brave/brave_unscaled_resources.pak",
-        "$root_gen_dir/brave/browser/resources/brave_new_tab_page_refresh/brave_new_tab_page_refresh_generated.pak",
-        "$root_gen_dir/brave/browser/resources/brave_welcome_page/brave_welcome_page_generated.pak",
-        "$root_gen_dir/brave/browser/resources/settings/brave_settings_resources.pak",
+        "$root_gen_dir/unknown/brave_education_resources.pak",
+        "$root_gen_dir/unknown/brave_generated_resources.pak",
+        "$root_gen_dir/unknown/brave_unscaled_resources.pak",
+        "$root_gen_dir/unknown/browser/resources/brave_new_tab_page_refresh/brave_new_tab_page_refresh_generated.pak",
+        "$root_gen_dir/unknown/browser/resources/brave_welcome_page/brave_welcome_page_generated.pak",
+        "$root_gen_dir/unknown/browser/resources/settings/brave_settings_resources.pak",
       ]
     }
 
     deps = [
-      "//brave/components/brave_rewards/resources",
-      "//brave/components/resources",
+      "//unknown/components/brave_rewards/resources",
+      "//unknown/components/resources",
     ]
 
     if (!is_android) {
       deps += [
-        "//brave/app:brave_generated_resources_grit",
-        "//brave/app/theme:brave_unscaled_resources",
-        "//brave/browser/resources/brave_education:resources_grit",
-        "//brave/browser/resources/brave_new_tab_page_refresh:generated_resources",
-        "//brave/browser/resources/brave_welcome_page:generated_resources",
-        "//brave/browser/resources/settings:resources",
-        "//brave/components/resources:strings",
+        "//unknown/app:brave_generated_resources_grit",
+        "//unknown/app/theme:brave_unscaled_resources",
+        "//unknown/browser/resources/brave_education:resources_grit",
+        "//unknown/browser/resources/brave_new_tab_page_refresh:generated_resources",
+        "//unknown/browser/resources/brave_welcome_page:generated_resources",
+        "//unknown/browser/resources/settings:resources",
+        "//unknown/components/resources:strings",
       ]
     }
 
     if (enable_brave_ai_chat_agent_profile) {
-      sources += [ "$root_gen_dir/brave/browser/resources/ai_chat_agent_new_tab_page/ai_chat_agent_new_tab_page_all.pak" ]
+      sources += [ "$root_gen_dir/unknown/browser/resources/ai_chat_agent_new_tab_page/ai_chat_agent_new_tab_page_all.pak" ]
 
-      deps += [ "//brave/browser/resources/ai_chat_agent_new_tab_page" ]
+      deps += [ "//unknown/browser/resources/ai_chat_agent_new_tab_page" ]
     }
 
     if (enable_tor) {
       sources +=
-          [ "$root_gen_dir/brave/components/tor/resources/tor_resources.pak" ]
+          [ "$root_gen_dir/unknown/components/tor/resources/tor_resources.pak" ]
 
-      deps += [ "//brave/components/tor/resources" ]
+      deps += [ "//unknown/components/tor/resources" ]
     }
 
     if (enable_extensions) {
-      sources += [ "$root_gen_dir/brave/components/brave_extension/brave_extension_resources.pak" ]
+      sources += [ "$root_gen_dir/unknown/components/brave_extension/brave_extension_resources.pak" ]
 
       deps += [
-        "//brave/common/extensions/api",
-        "//brave/components/brave_extension:resources",
+        "//unknown/common/extensions/api",
+        "//unknown/components/brave_extension:resources",
       ]
     }
 

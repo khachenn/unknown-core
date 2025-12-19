@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/browser/service/virtual_pref_provider.h"
+#include "unknown/components/brave_ads/core/browser/service/virtual_pref_provider.h"
 
 #include <memory>
 #include <string>
@@ -14,10 +14,10 @@
 #include "base/test/values_test_util.h"
 #include "base/values.h"
 #include "base/version_info/version_info.h"
-#include "brave/components/brave_ads/core/browser/service/virtual_pref_provider_util.h"
-#include "brave/components/brave_ads/core/public/common/locale/scoped_locale_for_testing.h"
-#include "brave/components/ntp_background_images/common/pref_names.h"
-#include "brave/components/skus/browser/pref_names.h"
+#include "unknown/components/brave_ads/core/browser/service/virtual_pref_provider_util.h"
+#include "unknown/components/brave_ads/core/public/common/locale/scoped_locale_for_testing.h"
+#include "unknown/components/ntp_background_images/common/pref_names.h"
+#include "unknown/components/skus/browser/pref_names.h"
 #include "components/prefs/pref_registry_simple.h"
 #include "components/prefs/testing_pref_service.h"
 #include "testing/gmock/include/gmock/gmock.h"

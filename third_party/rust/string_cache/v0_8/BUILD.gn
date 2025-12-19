@@ -12,13 +12,13 @@ cargo_crate("lib") {
   crate_name = "string_cache"
   epoch = "0.8"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/atom.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/dynamic_set.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/static_sets.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/trivial_impls.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/atom.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/dynamic_set.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/static_sets.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/string_cache-v0_8/src/trivial_impls.rs",
   ]
   inputs = []
 
@@ -31,15 +31,15 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.8.7"
 
   deps = [
-    "//brave/third_party/rust/new_debug_unreachable/v1:lib",
-    "//brave/third_party/rust/once_cell/v1:lib",
-    "//brave/third_party/rust/parking_lot/v0_12:lib",
-    "//brave/third_party/rust/phf_shared/v0_10:lib",
-    "//brave/third_party/rust/precomputed_hash/v0_1:lib",
-    "//brave/third_party/rust/serde/v1:lib",
+    "//unknown/third_party/rust/new_debug_unreachable/v1:lib",
+    "//unknown/third_party/rust/once_cell/v1:lib",
+    "//unknown/third_party/rust/parking_lot/v0_12:lib",
+    "//unknown/third_party/rust/phf_shared/v0_10:lib",
+    "//unknown/third_party/rust/precomputed_hash/v0_1:lib",
+    "//unknown/third_party/rust/serde/v1:lib",
   ]
   aliased_deps = {
-    debug_unreachable = "//brave/third_party/rust/new_debug_unreachable/v1:lib"
+    debug_unreachable = "//unknown/third_party/rust/new_debug_unreachable/v1:lib"
   }
   features = [
     "default",

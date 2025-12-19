@@ -7,14 +7,14 @@
 
 #include <string_view>
 
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
 
 #define LookupSuffixInReversedSet LookupSuffixInReversedSet_ChromiumImpl
 #include <net/base/lookup_string_in_fixed_set.cc>
 #undef LookupSuffixInReversedSet
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/net/decentralized_dns/constants.h"
+#include "unknown/net/decentralized_dns/constants.h"
 #endif
 
 namespace net {

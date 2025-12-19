@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_origin/brave_origin_service_factory.h"
+#include "unknown/browser/brave_origin/brave_origin_service_factory.h"
 
 #include <string_view>
 
@@ -11,16 +11,16 @@
 #include "base/containers/fixed_flat_map.h"
 #include "base/containers/map_util.h"
 #include "base/no_destructor.h"
-#include "brave/browser/policy/brave_simple_policy_map.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_origin/brave_origin_policy_manager.h"
-#include "brave/components/brave_origin/brave_origin_service.h"
-#include "brave/components/brave_origin/profile_id.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/brave_wayback_machine/pref_names.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/p3a/pref_names.h"
+#include "unknown/browser/policy/brave_simple_policy_map.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_origin/brave_origin_policy_manager.h"
+#include "unknown/components/brave_origin/brave_origin_service.h"
+#include "unknown/components/brave_origin/profile_id.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wayback_machine/pref_names.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/p3a/pref_names.h"
 #include "build/build_config.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"
@@ -28,23 +28,23 @@
 #include "components/policy/core/browser/browser_policy_connector_base.h"
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/components/tor/pref_names.h"
+#include "unknown/components/tor/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/components/speedreader/speedreader_pref_names.h"
+#include "unknown/components/speedreader/speedreader_pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/pref_names.h"
+#include "unknown/components/brave_vpn/common/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
 #endif
 
 namespace policy {

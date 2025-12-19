@@ -11,9 +11,9 @@ source_set("unit_tests") {
   sources = []
 
   deps = [
-    "//brave/components/brave_shields/content/browser",
-    "//brave/components/brave_shields/core/browser",
-    "//brave/components/brave_shields/core/common",
+    "//unknown/components/brave_shields/content/browser",
+    "//unknown/components/brave_shields/core/browser",
+    "//unknown/components/brave_shields/core/common",
     "//chrome/test:test_support",
     "//testing/gtest",
   ]

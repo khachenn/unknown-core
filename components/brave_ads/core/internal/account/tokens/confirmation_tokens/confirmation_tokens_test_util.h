@@ -8,7 +8,7 @@
 
 #include <cstddef>
 
-#include "brave/components/brave_ads/core/internal/account/tokens/confirmation_tokens/confirmation_token_info.h"
+#include "unknown/components/brave_ads/core/internal/account/tokens/confirmation_tokens/confirmation_token_info.h"
 
 namespace brave_ads {
 

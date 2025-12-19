@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/common/cardano_address.h"
+#include "unknown/components/brave_wallet/common/cardano_address.h"
 
 #include <optional>
 #include <utility>
@@ -12,7 +12,7 @@
 #include "base/check_op.h"
 #include "base/containers/span_writer.h"
 #include "base/containers/to_vector.h"
-#include "brave/components/brave_wallet/common/bech32.h"
+#include "unknown/components/brave_wallet/common/bech32.h"
 
 namespace brave_wallet {
 

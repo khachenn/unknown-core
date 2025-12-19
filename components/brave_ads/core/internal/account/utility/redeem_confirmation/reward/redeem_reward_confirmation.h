@@ -11,8 +11,8 @@
 
 #include "base/memory/weak_ptr.h"
 #include "base/types/expected.h"
-#include "brave/components/brave_ads/core/internal/account/utility/redeem_confirmation/redeem_confirmation_delegate.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
+#include "unknown/components/brave_ads/core/internal/account/utility/redeem_confirmation/redeem_confirmation_delegate.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
 
 namespace base {
 class TimeDelta;

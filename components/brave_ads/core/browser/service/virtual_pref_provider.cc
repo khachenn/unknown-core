@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/browser/service/virtual_pref_provider.h"
+#include "unknown/components/brave_ads/core/browser/service/virtual_pref_provider.h"
 
 #include <string_view>
 #include <utility>
@@ -11,10 +11,10 @@
 #include "base/check.h"
 #include "base/json/json_reader.h"
 #include "base/version_info/version_info.h"
-#include "brave/components/brave_ads/core/browser/service/virtual_pref_provider_util.h"
-#include "brave/components/brave_ads/core/public/common/locale/locale_util.h"
-#include "brave/components/ntp_background_images/common/pref_names.h"
-#include "brave/components/skus/browser/pref_names.h"
+#include "unknown/components/brave_ads/core/browser/service/virtual_pref_provider_util.h"
+#include "unknown/components/brave_ads/core/public/common/locale/locale_util.h"
+#include "unknown/components/ntp_background_images/common/pref_names.h"
+#include "unknown/components/skus/browser/pref_names.h"
 #include "components/prefs/pref_service.h"
 
 namespace brave_ads {

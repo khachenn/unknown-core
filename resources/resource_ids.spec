@@ -239,6 +239,6 @@
   },
   # WARNING: The upstream ChromeOS/Ash strings currently run through 40000. We
   # must be careful not to exceed that maximum when adding new strings here.
-  # Check out/<BUILD_TYPE>/gen/brave/resources/brave_resource_ids for how much
+  # Check out/<BUILD_TYPE>/gen/unknown/resources/brave_resource_ids for how much
   # the ids got expanded after the build.
 }

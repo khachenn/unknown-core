@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/webui/brave_wallet/wallet_panel_ui.h"
+#include "unknown/browser/ui/webui/brave_wallet/wallet_panel_ui.h"
 
 #include <string>
 #include <string_view>
@@ -12,16 +12,16 @@
 #include "base/memory/scoped_refptr.h"
 #include "base/run_loop.h"
 #include "base/test/bind.h"
-#include "brave/browser/brave_wallet/asset_ratio_service_factory.h"
-#include "brave/browser/brave_wallet/brave_wallet_service_factory.h"
-#include "brave/browser/ui/webui/brave_settings_ui.h"
-#include "brave/components/brave_wallet/browser/asset_ratio_service.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_service.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_utils.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
-#include "brave/components/brave_wallet/browser/keyring_service.h"
-#include "brave/components/brave_wallet/browser/pref_names.h"
-#include "brave/components/constants/webui_url_constants.h"
+#include "unknown/browser/brave_wallet/asset_ratio_service_factory.h"
+#include "unknown/browser/brave_wallet/brave_wallet_service_factory.h"
+#include "unknown/browser/ui/webui/brave_settings_ui.h"
+#include "unknown/components/brave_wallet/browser/asset_ratio_service.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_utils.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/brave_wallet/browser/keyring_service.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/constants/webui_url_constants.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_tabstrip.h"

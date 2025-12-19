@@ -7,12 +7,12 @@
 
 #include "base/command_line.h"
 #include "base/logging.h"
-#include "brave/components/constants/brave_switches.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/components/constants/brave_switches.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "chrome/browser/ui/startup/startup_browser_creator_impl.h"
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/browser/tor/tor_profile_manager.h"
+#include "unknown/browser/tor/tor_profile_manager.h"
 #endif
 
 #ifdef LaunchModeRecorder

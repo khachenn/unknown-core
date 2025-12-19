@@ -3,10 +3,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/brave_browser.h"
-#include "brave/browser/ui/browser_commands.h"
-#include "brave/browser/ui/views/tabs/vertical_tab_utils.h"
-#include "brave/components/constants/pref_names.h"
+#include "unknown/browser/ui/brave_browser.h"
+#include "unknown/browser/ui/browser_commands.h"
+#include "unknown/browser/ui/views/tabs/vertical_tab_utils.h"
+#include "unknown/components/constants/pref_names.h"
 #include "build/build_config.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser_element_identifiers.h"

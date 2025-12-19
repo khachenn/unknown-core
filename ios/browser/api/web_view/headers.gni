@@ -4,6 +4,6 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 brave_web_view_public_headers = [
-  "//brave/ios/browser/api/web_view/brave_web_view.h",
-  "//brave/ios/browser/api/web_view/brave_web_view_configuration.h",
+  "//unknown/ios/browser/api/web_view/brave_web_view.h",
+  "//unknown/ios/browser/api/web_view/brave_web_view_configuration.h",
 ]

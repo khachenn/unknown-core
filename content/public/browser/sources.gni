@@ -4,10 +4,10 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 brave_content_public_browser_sources = [
-  "//brave/content/public/browser/devtools/adblock_devtools_instumentation.h",
+  "//unknown/content/public/browser/devtools/adblock_devtools_instumentation.h",
 ]
 
 if (is_android) {
   brave_content_public_browser_sources +=
-      [ "//brave/content/public/browser/fullscreen_page_data.h" ]
+      [ "//unknown/content/public/browser/fullscreen_page_data.h" ]
 }

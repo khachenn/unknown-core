@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/core/engine/contribution/contribution_monthly.h"
+#include "unknown/components/brave_rewards/core/engine/contribution/contribution_monthly.h"
 
 #include <optional>
 #include <string>
@@ -13,10 +13,10 @@
 #include "base/check.h"
 #include "base/functional/bind.h"
 #include "base/uuid.h"
-#include "brave/components/brave_rewards/core/engine/contribution/contribution.h"
-#include "brave/components/brave_rewards/core/engine/database/database.h"
-#include "brave/components/brave_rewards/core/engine/rewards_engine.h"
-#include "brave/components/brave_rewards/core/engine/util/time_util.h"
+#include "unknown/components/brave_rewards/core/engine/contribution/contribution.h"
+#include "unknown/components/brave_rewards/core/engine/database/database.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_engine.h"
+#include "unknown/components/brave_rewards/core/engine/util/time_util.h"
 
 namespace brave_rewards::internal::contribution {
 

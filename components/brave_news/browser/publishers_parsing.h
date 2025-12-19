@@ -10,9 +10,9 @@
 #include <vector>
 
 #include "base/values.h"
-#include "brave/components/brave_news/browser/brave_news_pref_manager.h"
-#include "brave/components/brave_news/common/brave_news.mojom-forward.h"
-#include "brave/components/brave_news/common/locales_helper.h"
+#include "unknown/components/brave_news/browser/brave_news_pref_manager.h"
+#include "unknown/components/brave_news/common/brave_news.mojom-forward.h"
+#include "unknown/components/brave_news/common/locales_helper.h"
 
 namespace brave_news {
 

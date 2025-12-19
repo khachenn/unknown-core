@@ -10,8 +10,8 @@
 #include <variant>
 
 #include "base/types/pass_key.h"
-#include "brave/components/brave_wallet/browser/zcash/rust/lib.rs.h"
-#include "brave/components/brave_wallet/browser/zcash/rust/orchard_extended_spending_key.h"
+#include "unknown/components/brave_wallet/browser/zcash/rust/lib.rs.h"
+#include "unknown/components/brave_wallet/browser/zcash/rust/orchard_extended_spending_key.h"
 #include "third_party/rust/cxx/v1/cxx.h"
 
 namespace brave_wallet::orchard {

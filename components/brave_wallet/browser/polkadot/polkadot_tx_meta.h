@@ -8,9 +8,9 @@
 
 #include "base/numerics/safe_conversions.h"
 #include "base/values.h"
-#include "brave/components/brave_wallet/browser/polkadot/polkadot_extrinsic.h"
-#include "brave/components/brave_wallet/browser/tx_meta.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/polkadot/polkadot_extrinsic.h"
+#include "unknown/components/brave_wallet/browser/tx_meta.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 
 namespace brave_wallet {
 

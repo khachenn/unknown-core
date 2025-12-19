@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/commands/accelerator_service.h"
+#include "unknown/browser/ui/commands/accelerator_service.h"
 
 #include <algorithm>
 #include <iterator>
@@ -15,21 +15,21 @@
 #include "base/containers/flat_map.h"
 #include "base/containers/flat_set.h"
 #include "base/containers/map_util.h"
-#include "brave/app/brave_command_ids.h"
-#include "brave/app/command_utils.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_news/common/pref_names.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/brave_wayback_machine/buildflags/buildflags.h"
-#include "brave/components/commands/browser/accelerator_pref_manager.h"
-#include "brave/components/commands/common/accelerator_parsing.h"
-#include "brave/components/commands/common/commands.mojom-forward.h"
-#include "brave/components/commands/common/commands.mojom.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/app/brave_command_ids.h"
+#include "unknown/app/command_utils.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_news/common/pref_names.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wayback_machine/buildflags/buildflags.h"
+#include "unknown/components/commands/browser/accelerator_pref_manager.h"
+#include "unknown/components/commands/common/accelerator_parsing.h"
+#include "unknown/components/commands/common/commands.mojom-forward.h"
+#include "unknown/components/commands/common/commands.mojom.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "build/build_config.h"
 #include "chrome/app/chrome_command_ids.h"
 #include "chrome/browser/browser_process.h"
@@ -38,27 +38,27 @@
 #include "ui/base/accelerators/accelerator.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #endif  // BUILDFLAG(ENABLE_AI_CHAT)
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/components/tor/pref_names.h"
+#include "unknown/components/tor/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/pref_names.h"
+#include "unknown/components/brave_vpn/common/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/components/speedreader/speedreader_pref_names.h"
+#include "unknown/components/speedreader/speedreader_pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WAYBACK_MACHINE)
-#include "brave/components/brave_wayback_machine/pref_names.h"
+#include "unknown/components/brave_wayback_machine/pref_names.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
 #endif
 
 namespace commands {

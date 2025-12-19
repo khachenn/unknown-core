@@ -1,5 +1,5 @@
 include_rules = [
-  "+brave/components/skus/common",
-  "+brave/components/skus/browser",
-  "+brave/components/constants",
+  "+unknown/components/skus/common",
+  "+unknown/components/skus/browser",
+  "+unknown/components/constants",
 ]

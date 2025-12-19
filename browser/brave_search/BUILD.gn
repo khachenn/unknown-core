@@ -14,9 +14,9 @@ source_set("brave_search") {
   ]
 
   deps = [
-    "//brave/components/brave_search/browser",
-    "//brave/components/brave_search/common",
-    "//brave/components/brave_shields/core/browser",
+    "//unknown/components/brave_search/browser",
+    "//unknown/components/brave_search/common",
+    "//unknown/components/brave_shields/core/browser",
     "//chrome/browser:browser_process",
     "//chrome/browser/content_extraction",
     "//chrome/browser/content_settings:content_settings_factory",
@@ -43,10 +43,10 @@ if (!is_android) {
     deps = [
       ":brave_search",
       "//base/test:test_support",
-      "//brave/components/brave_ads/core/public:headers",
-      "//brave/components/brave_rewards/core",
-      "//brave/components/brave_search/browser",
-      "//brave/components/brave_search/common",
+      "//unknown/components/brave_ads/core/public:headers",
+      "//unknown/components/brave_rewards/core",
+      "//unknown/components/brave_search/browser",
+      "//unknown/components/brave_search/common",
       "//chrome/browser/profiles:profile",
       "//chrome/browser/search_engines",
       "//chrome/browser/ui",

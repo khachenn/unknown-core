@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/build/config.gni")
+import("//unknown/build/config.gni")
 
 # TODO(sko) This should be component() target.
 # https://github.com/brave/brave-browser/issues/27764
@@ -41,15 +41,15 @@ static_library("browser") {
     "type_converter.h",
   ]
 
-  public_deps = [ "//brave/components/playlist/core/common" ]
+  public_deps = [ "//unknown/components/playlist/core/common" ]
 
   deps = [
     "//base",
-    "//brave/components/api_request_helper",
-    "//brave/components/brave_component_updater/browser:public",
-    "//brave/components/p3a_utils",
-    "//brave/components/resources:static_resources",
-    "//brave/components/resources:strings",
+    "//unknown/components/api_request_helper",
+    "//unknown/components/brave_component_updater/browser:public",
+    "//unknown/components/p3a_utils",
+    "//unknown/components/resources:static_resources",
+    "//unknown/components/resources:strings",
     "//components/component_updater",
     "//components/download/public/common:public",
     "//components/keyed_service/core",

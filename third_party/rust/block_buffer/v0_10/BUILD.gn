@@ -12,10 +12,10 @@ cargo_crate("lib") {
   crate_name = "block_buffer"
   epoch = "0.10"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/block-buffer-v0_10/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/block-buffer-v0_10/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/block-buffer-v0_10/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/block-buffer-v0_10/src/sealed.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/block-buffer-v0_10/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/block-buffer-v0_10/src/sealed.rs",
   ]
   inputs = []
 
@@ -27,7 +27,7 @@ cargo_crate("lib") {
   cargo_pkg_repository = "https://github.com/RustCrypto/utils"
   cargo_pkg_version = "0.10.4"
 
-  deps = [ "//brave/third_party/rust/generic_array/v0_14:lib" ]
+  deps = [ "//unknown/third_party/rust/generic_array/v0_14:lib" ]
   rustenv = []
   rustflags = []
 

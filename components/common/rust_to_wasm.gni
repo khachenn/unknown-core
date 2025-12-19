@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/tools/crates/config.gni")
+import("//unknown/tools/crates/config.gni")
 
 template("rust_to_wasm") {
   assert(defined(invoker.rust_packages),
@@ -16,7 +16,7 @@ template("rust_to_wasm") {
   }
 
   action_foreach(target_name) {
-    deps = [ "//brave/tools/crates:build_wasm_pack($host_toolchain)" ]
+    deps = [ "//unknown/tools/crates:build_wasm_pack($host_toolchain)" ]
     if (defined(invoker.deps)) {
       deps += invoker.deps
     }
@@ -28,7 +28,7 @@ template("rust_to_wasm") {
       inputs += invoker.inputs
     }
 
-    script = "//brave/script/rust_to_wasm.py"
+    script = "//unknown/script/rust_to_wasm.py"
 
     wasm_pack_target = "bundler"
     if (defined(invoker.wasm_pack_target)) {

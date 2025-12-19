@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/sync/service/brave_sync_service_impl.h"
+#include "unknown/components/sync/service/brave_sync_service_impl.h"
 
 #include <utility>
 #include <vector>
@@ -14,11 +14,11 @@
 #include "base/logging.h"
 #include "base/metrics/histogram_functions.h"
 #include "base/strings/string_util.h"
-#include "brave/components/brave_sync/brave_sync_p3a.h"
-#include "brave/components/brave_sync/crypto/crypto.h"
-#include "brave/components/brave_sync/features.h"
-#include "brave/components/sync/service/brave_sync_auth_manager.h"
-#include "brave/components/sync/service/sync_service_impl_delegate.h"
+#include "unknown/components/brave_sync/brave_sync_p3a.h"
+#include "unknown/components/brave_sync/crypto/crypto.h"
+#include "unknown/components/brave_sync/features.h"
+#include "unknown/components/sync/service/brave_sync_auth_manager.h"
+#include "unknown/components/sync/service/sync_service_impl_delegate.h"
 #include "build/build_config.h"
 #include "components/prefs/pref_service.h"
 #include "components/sync/engine/sync_protocol_error.h"

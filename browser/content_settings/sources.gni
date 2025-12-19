@@ -4,6 +4,6 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 brave_browser_content_settings_deps = [
-  "//brave/components/brave_shields/content/browser",
+  "//unknown/components/brave_shields/content/browser",
   "//components/user_prefs",
 ]

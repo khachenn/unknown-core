@@ -3,19 +3,19 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/brave_actions/brave_actions_container.h"
+#include "unknown/browser/ui/views/brave_actions/brave_actions_container.h"
 
 #include <memory>
 #include <utility>
 
 #include "base/feature_list.h"
-#include "brave/browser/brave_rewards/rewards_util.h"
-#include "brave/browser/ui/page_info/features.h"
-#include "brave/browser/ui/views/brave_actions/brave_rewards_action_view.h"
-#include "brave/browser/ui/views/brave_actions/brave_shields_action_view.h"
-#include "brave/browser/ui/views/rounded_separator.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/constants/pref_names.h"
+#include "unknown/browser/brave_rewards/rewards_util.h"
+#include "unknown/browser/ui/page_info/features.h"
+#include "unknown/browser/ui/views/brave_actions/brave_rewards_action_view.h"
+#include "unknown/browser/ui/views/brave_actions/brave_shields_action_view.h"
+#include "unknown/browser/ui/views/rounded_separator.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/constants/pref_names.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/layout_constants.h"

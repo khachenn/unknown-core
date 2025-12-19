@@ -9,7 +9,7 @@
 #include <optional>
 
 #include "base/values.h"
-#include "brave/components/brave_ads/core/public/history/ad_history_item_info.h"
+#include "unknown/components/brave_ads/core/public/history/ad_history_item_info.h"
 
 namespace brave_ads::json::reader {
 

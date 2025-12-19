@@ -13,8 +13,8 @@ source_set("browser_tests") {
   ]
 
   deps = [
-    "//brave/browser/ui/tabs:tabs_public",
-    "//brave/components/constants",
+    "//unknown/browser/ui/tabs:tabs_public",
+    "//unknown/components/constants",
     "//chrome/app:command_ids",
     "//chrome/browser",
     "//chrome/browser/profiles:profile",
@@ -32,7 +32,7 @@ source_set("browser_tests") {
       "shared_pinned_tab_service_browsertest.h",
     ]
     deps += [
-      "//brave/browser/ui/tabs:tab_strip",
+      "//unknown/browser/ui/tabs:tab_strip",
       "//chrome/browser/ui:ui_features",
       "//chrome/browser/ui/browser_window",
       "//chrome/browser/ui/toasts",
@@ -56,8 +56,8 @@ source_set("unit_tests") {
   if (!is_android) {
     sources += [ "tree_tab_node_unittest.cc" ]
     deps += [
-      "//brave/browser/ui/tabs:tabs_public",
-      "//brave/components/tabs",
+      "//unknown/browser/ui/tabs:tabs_public",
+      "//unknown/components/tabs",
       "//chrome/browser/ui/tabs:test_support",
       "//chrome/test:test_support",
       "//components/tabs:test_support",

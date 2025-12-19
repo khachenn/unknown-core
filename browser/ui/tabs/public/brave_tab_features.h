@@ -8,8 +8,8 @@
 
 #include <memory>
 
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/psst/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/psst/buildflags/buildflags.h"
 #include "chrome/browser/ui/tabs/public/tab_features.h"
 
 class Profile;

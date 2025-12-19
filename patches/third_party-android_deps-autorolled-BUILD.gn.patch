@@ -6,7 +6,7 @@ index 3059d0ac1a1af68b636bfa954a819d5196e4b1fb..11324676cc9e397ea0c3a31a93ccaa68
            "//third_party/android_deps:google_android_datatransport_transport_runtime_java",
            "//third_party/androidx:androidx_annotation_annotation_java",
          ]
-+        import("//brave/third_party/android_deps/sources.gni") visibility += brave_third_party_android_deps_visibility
++        import("//unknown/third_party/android_deps/sources.gni") visibility += brave_third_party_android_deps_visibility
        }
      }
  
@@ -14,7 +14,7 @@ index 3059d0ac1a1af68b636bfa954a819d5196e4b1fb..11324676cc9e397ea0c3a31a93ccaa68
            "//third_party/android_deps:javax_inject_javax_inject_java",
            "//third_party/androidx:androidx_annotation_annotation_java",
          ]
-+        import("//brave/third_party/android_deps/sources.gni") visibility += brave_third_party_android_deps_visibility
++        import("//unknown/third_party/android_deps/sources.gni") visibility += brave_third_party_android_deps_visibility
        }
      }
  

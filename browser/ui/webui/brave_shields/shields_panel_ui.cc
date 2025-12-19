@@ -3,20 +3,20 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/webui/brave_shields/shields_panel_ui.h"
+#include "unknown/browser/ui/webui/brave_shields/shields_panel_ui.h"
 
 #include <utility>
 
 #include "base/check.h"
 #include "base/feature_list.h"
-#include "brave/browser/ui/brave_browser_window.h"
-#include "brave/components/brave_shields/core/browser/brave_shields_utils.h"
-#include "brave/components/brave_shields/core/common/brave_shield_localized_strings.h"
-#include "brave/components/brave_shields/core/common/features.h"
-#include "brave/components/brave_shields/resources/panel/grit/brave_shields_panel_generated_map.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/constants/webui_url_constants.h"
-#include "brave/components/webcompat/core/common/features.h"
+#include "unknown/browser/ui/brave_browser_window.h"
+#include "unknown/components/brave_shields/core/browser/brave_shields_utils.h"
+#include "unknown/components/brave_shields/core/common/brave_shield_localized_strings.h"
+#include "unknown/components/brave_shields/core/common/features.h"
+#include "unknown/components/brave_shields/resources/panel/grit/brave_shields_panel_generated_map.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/constants/webui_url_constants.h"
+#include "unknown/components/webcompat/core/common/features.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_finder.h"

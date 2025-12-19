@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/infobars/core/brave_confirm_infobar_delegate.h"
+#include "unknown/components/infobars/core/brave_confirm_infobar_delegate.h"
 #include "components/infobars/core/infobar_delegate.h"
 
 class PrefService;

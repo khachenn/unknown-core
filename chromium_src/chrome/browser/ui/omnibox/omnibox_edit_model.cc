@@ -8,15 +8,15 @@
 #include <optional>
 
 #include "base/memory/raw_ptr.h"
-#include "brave/components/commander/common/buildflags/buildflags.h"
-#include "brave/components/omnibox/browser/brave_search_provider.h"
+#include "unknown/components/commander/common/buildflags/buildflags.h"
+#include "unknown/components/omnibox/browser/brave_search_provider.h"
 #include "chrome/browser/ui/omnibox/omnibox_controller.h"
 #include "components/omnibox/browser/autocomplete_classifier.h"
 #include "components/vector_icons/vector_icons.h"
 
 #if BUILDFLAG(ENABLE_COMMANDER)
-#include "brave/components/commander/common/constants.h"
-#include "brave/components/commander/common/features.h"
+#include "unknown/components/commander/common/constants.h"
+#include "unknown/components/commander/common/features.h"
 #endif
 
 namespace {

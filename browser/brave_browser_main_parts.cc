@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_browser_main_parts.h"
+#include "unknown/browser/brave_browser_main_parts.h"
 
 #include <memory>
 #include <utility>
@@ -11,16 +11,16 @@
 #include "base/check.h"
 #include "base/command_line.h"
 #include "base/path_service.h"
-#include "brave/browser/browsing_data/brave_clear_browsing_data.h"
-#include "brave/components/brave_component_updater/browser/brave_on_demand_updater.h"
-#include "brave/components/brave_rewards/core/rewards_flags.h"
-#include "brave/components/brave_rewards/core/rewards_util.h"
-#include "brave/components/brave_sync/features.h"
-#include "brave/components/constants/brave_constants.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/ipfs/buildflags/buildflags.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/browser/browsing_data/brave_clear_browsing_data.h"
+#include "unknown/components/brave_component_updater/browser/brave_on_demand_updater.h"
+#include "unknown/components/brave_rewards/core/rewards_flags.h"
+#include "unknown/components/brave_rewards/core/rewards_util.h"
+#include "unknown/components/brave_sync/features.h"
+#include "unknown/components/constants/brave_constants.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/ipfs/buildflags/buildflags.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "build/build_config.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"
@@ -38,14 +38,14 @@
 #include "media/base/media_switches.h"
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/components/speedreader/speedreader_extended_info_handler.h"
+#include "unknown/components/speedreader/speedreader_extended_info_handler.h"
 #include "components/sessions/content/content_serialized_navigation_driver.h"
 #endif
 
 #if BUILDFLAG(ENABLE_TOR)
 #include <string>
 #include "base/files/file_util.h"
-#include "brave/components/tor/tor_constants.h"
+#include "unknown/components/tor/tor_constants.h"
 #include "chrome/browser/browser_process_impl.h"
 #include "chrome/browser/profiles/profile_attributes_init_params.h"
 #include "chrome/browser/profiles/profile_attributes_storage.h"
@@ -55,18 +55,18 @@
 #endif
 
 #if !BUILDFLAG(IS_ANDROID)
-#include "brave/browser/infobars/brave_confirm_p3a_infobar_delegate.h"
-#include "brave/browser/infobars/brave_sync_account_deleted_infobar_delegate.h"
-#include "brave/browser/infobars/sync_cannot_run_infobar_delegate.h"
+#include "unknown/browser/infobars/brave_confirm_p3a_infobar_delegate.h"
+#include "unknown/browser/infobars/brave_sync_account_deleted_infobar_delegate.h"
+#include "unknown/browser/infobars/sync_cannot_run_infobar_delegate.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_finder.h"
 #include "components/infobars/content/content_infobar_manager.h"
 #else
-#include "brave/browser/android/youtube_script_injector/features.h"
+#include "unknown/browser/android/youtube_script_injector/features.h"
 #endif
 
 #if BUILDFLAG(DEPRECATE_IPFS)
-#include "brave/components/ipfs/ipfs_component_cleaner.h"
+#include "unknown/components/ipfs/ipfs_component_cleaner.h"
 #endif  // BUILDFLAG(DEPRECATE_IPFS)
 
 ChromeBrowserMainParts::ChromeBrowserMainParts(bool is_integration_test,

@@ -11,9 +11,9 @@
 #include <vector>
 
 #include "base/values.h"
-#include "brave/components/brave_rewards/content/rewards_notification_service.h"
-#include "brave/components/brave_rewards/content/rewards_service_observer.h"
-#include "brave/components/brave_rewards/core/mojom/rewards.mojom.h"
+#include "unknown/components/brave_rewards/content/rewards_notification_service.h"
+#include "unknown/components/brave_rewards/content/rewards_service_observer.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards.mojom.h"
 #include "extensions/buildflags/buildflags.h"
 
 class PrefService;

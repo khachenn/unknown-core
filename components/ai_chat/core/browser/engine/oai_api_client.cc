@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/ai_chat/core/browser/engine/oai_api_client.h"
+#include "unknown/components/ai_chat/core/browser/engine/oai_api_client.h"
 
 #include <ios>
 #include <optional>
@@ -24,12 +24,12 @@
 #include "base/strings/string_util.h"
 #include "base/strings/utf_string_conversions.h"
 #include "base/types/expected.h"
-#include "brave/components/ai_chat/core/browser/engine/oai_message_utils.h"
-#include "brave/components/ai_chat/core/browser/engine/oai_parsing.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
-#include "brave/components/constants/brave_services_key.h"
+#include "unknown/components/ai_chat/core/browser/engine/oai_message_utils.h"
+#include "unknown/components/ai_chat/core/browser/engine/oai_parsing.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/constants/brave_services_key.h"
 #include "components/grit/brave_components_strings.h"
 #include "net/http/http_request_headers.h"
 #include "net/traffic_annotation/network_traffic_annotation.h"

@@ -12,16 +12,16 @@ cargo_crate("lib") {
   crate_name = "chacha20"
   epoch = "0.9"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/backends.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/backends/avx2.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/backends/neon.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/backends/soft.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/backends/sse2.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/legacy.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/xchacha.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/backends.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/backends/avx2.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/backends/neon.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/backends/soft.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/backends/sse2.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/legacy.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/chacha20-v0_9/src/xchacha.rs",
   ]
   inputs = []
 
@@ -34,17 +34,17 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.9.1"
 
   deps = [
-    "//brave/third_party/rust/cfg_if/v1:lib",
-    "//brave/third_party/rust/cipher/v0_4:lib",
+    "//unknown/third_party/rust/cfg_if/v1:lib",
+    "//unknown/third_party/rust/cipher/v0_4:lib",
   ]
   if (current_cpu == "x64" || current_cpu == "x86") {
-    deps += [ "//brave/third_party/rust/cpufeatures/v0_2:lib" ]
+    deps += [ "//unknown/third_party/rust/cpufeatures/v0_2:lib" ]
   }
   features = [ "zeroize" ]
   rustenv = []
   rustflags = []
   if (target_cpu == "x64" || target_cpu == "x86") {
-    deps += [ "//brave/third_party/rust/cpufeatures/v0_2:lib" ]
+    deps += [ "//unknown/third_party/rust/cpufeatures/v0_2:lib" ]
   }
 
   #####################################################################

@@ -3,18 +3,18 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/misc_metrics/profile_misc_metrics_service.h"
+#include "unknown/browser/misc_metrics/profile_misc_metrics_service.h"
 
 #include "base/metrics/histogram_macros.h"
-#include "brave/browser/brave_stats/first_run_util.h"
-#include "brave/browser/misc_metrics/profile_new_tab_metrics.h"
-#include "brave/browser/misc_metrics/theme_metrics.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/misc_metrics/autofill_metrics.h"
-#include "brave/components/misc_metrics/language_metrics.h"
-#include "brave/components/misc_metrics/page_metrics.h"
-#include "brave/components/ntp_background_images/browser/features.h"
-#include "brave/components/ntp_background_images/common/pref_names.h"
+#include "unknown/browser/brave_stats/first_run_util.h"
+#include "unknown/browser/misc_metrics/profile_new_tab_metrics.h"
+#include "unknown/browser/misc_metrics/theme_metrics.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/misc_metrics/autofill_metrics.h"
+#include "unknown/components/misc_metrics/language_metrics.h"
+#include "unknown/components/misc_metrics/page_metrics.h"
+#include "unknown/components/ntp_background_images/browser/features.h"
+#include "unknown/components/ntp_background_images/common/pref_names.h"
 #include "chrome/browser/autofill/personal_data_manager_factory.h"
 #include "chrome/browser/bookmarks/bookmark_model_factory.h"
 #include "chrome/browser/browser_process.h"
@@ -28,15 +28,15 @@
 #include "content/public/browser/browser_context.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/browser/ai_chat_metrics.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_metrics.h"
 #endif  // BUILDFLAG(ENABLE_AI_CHAT)
 
 #if BUILDFLAG(IS_ANDROID)
-#include "brave/browser/brave_browser_process.h"
-#include "brave/browser/misc_metrics/misc_android_metrics.h"
-#include "brave/browser/search_engines/search_engine_tracker.h"
+#include "unknown/browser/brave_browser_process.h"
+#include "unknown/browser/misc_metrics/misc_android_metrics.h"
+#include "unknown/browser/search_engines/search_engine_tracker.h"
 #else
-#include "brave/browser/misc_metrics/extension_metrics.h"
+#include "unknown/browser/misc_metrics/extension_metrics.h"
 #include "extensions/browser/extension_registry_factory.h"
 #endif
 

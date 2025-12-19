@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ai_chat/print_preview_extractor.h"
+#include "unknown/browser/ai_chat/print_preview_extractor.h"
 
 #include <memory>
 #include <string>
@@ -12,7 +12,7 @@
 
 #include "base/memory/weak_ptr.h"
 #include "base/types/expected.h"
-#include "brave/components/ai_chat/content/browser/pdf_utils.h"
+#include "unknown/components/ai_chat/content/browser/pdf_utils.h"
 #include "printing/buildflags/buildflags.h"
 
 static_assert(BUILDFLAG(ENABLE_PRINT_PREVIEW));

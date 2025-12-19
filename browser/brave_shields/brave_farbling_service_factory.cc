@@ -3,10 +3,10 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/brave_shields/brave_farbling_service_factory.h"
+#include "unknown/browser/brave_shields/brave_farbling_service_factory.h"
 
 #include "base/no_destructor.h"
-#include "brave/components/brave_shields/content/browser/brave_farbling_service.h"
+#include "unknown/components/brave_shields/content/browser/brave_farbling_service.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
 #include "chrome/browser/profiles/profile.h"
 #include "content/public/browser/browser_context.h"

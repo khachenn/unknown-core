@@ -6,8 +6,8 @@
 #ifndef BRAVE_COMPONENTS_SIDEBAR_BROWSER_SIDEBAR_ITEM_H_
 #define BRAVE_COMPONENTS_SIDEBAR_BROWSER_SIDEBAR_ITEM_H_
 
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/sidebar/common/features.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/sidebar/common/features.h"
 #include "url/gurl.h"
 
 namespace sidebar {

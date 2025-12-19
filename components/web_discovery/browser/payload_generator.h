@@ -11,8 +11,8 @@
 #include <vector>
 
 #include "base/values.h"
-#include "brave/components/web_discovery/browser/content_scraper.h"
-#include "brave/components/web_discovery/browser/patterns.h"
+#include "unknown/components/web_discovery/browser/content_scraper.h"
+#include "unknown/components/web_discovery/browser/patterns.h"
 
 namespace web_discovery {
 

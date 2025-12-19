@@ -3,13 +3,13 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wayback_machine/buildflags/buildflags.gni")
-import("//brave/components/ipfs/buildflags/buildflags.gni")
-import("//brave/components/speedreader/common/buildflags/buildflags.gni")
-import("//brave/components/tor/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wayback_machine/buildflags/buildflags.gni")
+import("//unknown/components/ipfs/buildflags/buildflags.gni")
+import("//unknown/components/speedreader/common/buildflags/buildflags.gni")
+import("//unknown/components/tor/buildflags/buildflags.gni")
 import("//build/config/features.gni")
 
 source_set("brave_origin") {
@@ -20,20 +20,20 @@ source_set("brave_origin") {
 
   deps = [
     "//base",
-    "//brave/browser/policy:brave_simple_policy_map",
-    "//brave/components/ai_chat/core/common/buildflags",
-    "//brave/components/brave_news/common",
-    "//brave/components/brave_origin",
-    "//brave/components/brave_policy",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/brave_wayback_machine/buildflags",
-    "//brave/components/constants",
-    "//brave/components/ipfs/buildflags",
-    "//brave/components/p3a",
-    "//brave/components/speedreader/common/buildflags",
-    "//brave/components/tor/buildflags",
+    "//unknown/browser/policy:brave_simple_policy_map",
+    "//unknown/components/ai_chat/core/common/buildflags",
+    "//unknown/components/brave_news/common",
+    "//unknown/components/brave_origin",
+    "//unknown/components/brave_policy",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/brave_wayback_machine/buildflags",
+    "//unknown/components/constants",
+    "//unknown/components/ipfs/buildflags",
+    "//unknown/components/p3a",
+    "//unknown/components/speedreader/common/buildflags",
+    "//unknown/components/tor/buildflags",
     "//chrome/browser:browser_process",
     "//chrome/browser/profiles",
     "//components/keyed_service/content",
@@ -43,35 +43,35 @@ source_set("brave_origin") {
 
   if (is_android) {
     sources += [ "android/brave_origin_service_factory_android.cc" ]
-    deps += [ "//brave/browser/brave_origin/android:jni_headers" ]
+    deps += [ "//unknown/browser/brave_origin/android:jni_headers" ]
   }
 
   if (enable_ai_chat) {
-    deps += [ "//brave/components/ai_chat/core/common" ]
+    deps += [ "//unknown/components/ai_chat/core/common" ]
   }
 
   if (enable_brave_vpn) {
-    deps += [ "//brave/components/brave_vpn/common" ]
+    deps += [ "//unknown/components/brave_vpn/common" ]
   }
 
   if (enable_brave_wayback_machine) {
-    deps += [ "//brave/components/brave_wayback_machine" ]
+    deps += [ "//unknown/components/brave_wayback_machine" ]
   }
 
   if (enable_speedreader) {
-    deps += [ "//brave/components/speedreader" ]
+    deps += [ "//unknown/components/speedreader" ]
   }
 
   if (enable_tor) {
-    deps += [ "//brave/components/tor:pref_names" ]
+    deps += [ "//unknown/components/tor:pref_names" ]
   }
 
   if (deprecate_ipfs) {
-    deps += [ "//brave/components/ipfs" ]
+    deps += [ "//unknown/components/ipfs" ]
   }
 
   if (enable_brave_wallet) {
-    deps += [ "//brave/components/brave_wallet/browser:pref_names" ]
+    deps += [ "//unknown/components/brave_wallet/browser:pref_names" ]
   }
 }
 
@@ -83,11 +83,11 @@ source_set("unit_tests") {
   deps = [
     ":brave_origin",
     "//base/test:test_support",
-    "//brave/browser/policy:brave_simple_policy_map",
-    "//brave/components/brave_origin",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/constants",
-    "//brave/components/p3a",
+    "//unknown/browser/policy:brave_simple_policy_map",
+    "//unknown/components/brave_origin",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/constants",
+    "//unknown/components/p3a",
     "//chrome/browser/profiles",
     "//chrome/test:test_support",
     "//components/policy/core/common:test_support",
@@ -96,6 +96,6 @@ source_set("unit_tests") {
   ]
 
   if (enable_tor) {
-    deps += [ "//brave/components/tor:pref_names" ]
+    deps += [ "//unknown/components/tor:pref_names" ]
   }
 }

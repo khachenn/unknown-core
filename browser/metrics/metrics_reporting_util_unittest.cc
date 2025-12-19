@@ -5,8 +5,8 @@
 
 #include <memory>
 
-#include "brave/browser/metrics/buildflags/buildflags.h"
-#include "brave/browser/metrics/metrics_reporting_util.h"
+#include "unknown/browser/metrics/buildflags/buildflags.h"
+#include "unknown/browser/metrics/metrics_reporting_util.h"
 #include "chrome/test/base/testing_browser_process.h"
 #include "components/metrics/metrics_pref_names.h"
 #include "components/prefs/pref_service.h"

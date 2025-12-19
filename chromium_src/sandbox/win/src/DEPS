@@ -1,4 +1,4 @@
 include_rules = [
-  "+brave/sandbox/win/src",
+  "+unknown/sandbox/win/src",
   "+sandbox/win/src",
 ]

@@ -5,7 +5,7 @@
 
 #include "base/test/launcher/test_launcher.h"
 
-#include "brave/base/test/launcher/teamcity_reporter.h"
+#include "unknown/base/test/launcher/teamcity_reporter.h"
 
 #define TestLauncher TestLauncher_ChromiumImpl
 #define AddTestResult(...) AddTestResult(OnTestResult(__VA_ARGS__));

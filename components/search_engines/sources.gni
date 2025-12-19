@@ -4,14 +4,14 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 brave_components_search_engines_deps =
-    [ "//brave/components/resources:strings" ]
+    [ "//unknown/components/resources:strings" ]
 
 # These are targeting third_party/search_engines_data/BUILD.gn
 
 brave_third_party_search_engines_data_prepopulated_engines_sources = [
-  "//brave/components/search_engines/brave_prepopulated_engines.cc",
-  "//brave/components/search_engines/brave_prepopulated_engines.h",
-  "//brave/components/search_engines/brave_search_engines_pref_names.h",
+  "//unknown/components/search_engines/brave_prepopulated_engines.cc",
+  "//unknown/components/search_engines/brave_prepopulated_engines.h",
+  "//unknown/components/search_engines/brave_search_engines_pref_names.h",
 ]
 
 brave_third_party_search_engines_data_prepopulated_engines_deps =

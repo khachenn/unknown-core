@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/webui/brave_account/brave_account_ui_desktop.h"
+#include "unknown/browser/ui/webui/brave_account/brave_account_ui_desktop.h"
 
 #include <memory>
 #include <string>
@@ -12,9 +12,9 @@
 #include "base/check_deref.h"
 #include "base/functional/bind.h"
 #include "base/memory/raw_ref.h"
-#include "brave/components/brave_account/features.h"
-#include "brave/components/brave_account/pref_names.h"
-#include "brave/components/constants/webui_url_constants.h"
+#include "unknown/components/brave_account/features.h"
+#include "unknown/components/brave_account/pref_names.h"
+#include "unknown/components/constants/webui_url_constants.h"
 #include "chrome/browser/profiles/profile.h"
 #include "components/prefs/pref_service.h"
 #include "content/public/browser/web_contents.h"

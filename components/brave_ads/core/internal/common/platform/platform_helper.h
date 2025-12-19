@@ -9,7 +9,7 @@
 #include <string>
 
 #include "base/no_destructor.h"
-#include "brave/components/brave_ads/core/internal/common/platform/platform_helper_types.h"
+#include "unknown/components/brave_ads/core/internal/common/platform/platform_helper_types.h"
 
 namespace brave_ads {
 

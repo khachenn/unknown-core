@@ -6,10 +6,10 @@
 #ifndef BRAVE_COMPONENTS_BRAVE_REWARDS_CORE_ENGINE_ENDPOINT_GEMINI_GEMINI_SERVER_H_
 #define BRAVE_COMPONENTS_BRAVE_REWARDS_CORE_ENGINE_ENDPOINT_GEMINI_GEMINI_SERVER_H_
 
-#include "brave/components/brave_rewards/core/engine/endpoint/gemini/post_account/post_account_gemini.h"
-#include "brave/components/brave_rewards/core/engine/endpoint/gemini/post_balance/post_balance_gemini.h"
-#include "brave/components/brave_rewards/core/engine/endpoint/gemini/post_oauth/post_oauth_gemini.h"
-#include "brave/components/brave_rewards/core/engine/endpoint/gemini/post_recipient_id/post_recipient_id_gemini.h"
+#include "unknown/components/brave_rewards/core/engine/endpoint/gemini/post_account/post_account_gemini.h"
+#include "unknown/components/brave_rewards/core/engine/endpoint/gemini/post_balance/post_balance_gemini.h"
+#include "unknown/components/brave_rewards/core/engine/endpoint/gemini/post_oauth/post_oauth_gemini.h"
+#include "unknown/components/brave_rewards/core/engine/endpoint/gemini/post_recipient_id/post_recipient_id_gemini.h"
 
 namespace brave_rewards::internal {
 class RewardsEngine;

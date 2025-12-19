@@ -6,9 +6,9 @@
 config("internal_config") {
   visibility = [
     ":*",
-    "//brave/components/brave_ads/core",
-    "//brave/components/brave_ads/core/browser",
-    "//brave/components/brave_ads/core/test:brave_ads_unit_tests",
+    "//unknown/components/brave_ads/core",
+    "//unknown/components/brave_ads/core/browser",
+    "//unknown/components/brave_ads/core/test:brave_ads_unit_tests",
   ]
 }
 
@@ -1149,13 +1149,13 @@ static_library("internal") {
 
   deps = [
     "//base",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/challenge_bypass_ristretto",
-    "//brave/components/constants",
-    "//brave/components/l10n/common",
-    "//brave/components/ntp_background_images/common",
-    "//brave/components/version_info",
-    "//brave/vendor/bat-native-tweetnacl:tweetnacl",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/challenge_bypass_ristretto",
+    "//unknown/components/constants",
+    "//unknown/components/l10n/common",
+    "//unknown/components/ntp_background_images/common",
+    "//unknown/components/version_info",
+    "//unknown/vendor/bat-native-tweetnacl:tweetnacl",
     "//components/country_codes",
     "//components/pref_registry",
     "//components/prefs",
@@ -1171,8 +1171,8 @@ static_library("internal") {
   ]
 
   public_deps = [
-    "//brave/components/brave_ads/core/internal/common/resources/flat:text_classification_model",
-    "//brave/components/brave_ads/core/mojom",
-    "//brave/components/brave_ads/core/public:headers",
+    "//unknown/components/brave_ads/core/internal/common/resources/flat:text_classification_model",
+    "//unknown/components/brave_ads/core/mojom",
+    "//unknown/components/brave_ads/core/public:headers",
   ]
 }

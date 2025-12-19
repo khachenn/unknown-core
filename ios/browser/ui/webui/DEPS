@@ -1,8 +1,8 @@
 include_rules = [
-  "+brave/components/brave_account/features.h",
-  "+brave/components/brave_private_cdn",
-  "+brave/components/constants",
-  "+brave/components/webui",
+  "+unknown/components/brave_account/features.h",
+  "+unknown/components/brave_private_cdn",
+  "+unknown/components/constants",
+  "+unknown/components/webui",
   "+components/favicon/core",
   "+components/favicon_base",
   "+components/history/core/browser",

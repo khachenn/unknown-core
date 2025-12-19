@@ -11,8 +11,8 @@
 #include "base/memory/raw_ptr.h"
 #include "base/memory/weak_ptr.h"
 #include "base/timer/timer.h"
-#include "brave/components/misc_metrics/uptime_monitor.h"
-#include "brave/components/time_period_storage/weekly_storage.h"
+#include "unknown/components/misc_metrics/uptime_monitor.h"
+#include "unknown/components/time_period_storage/weekly_storage.h"
 
 class PrefService;
 class PrefRegistrySimple;

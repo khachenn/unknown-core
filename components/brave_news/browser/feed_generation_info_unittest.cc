@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_news/browser/feed_generation_info.h"
+#include "unknown/components/brave_news/browser/feed_generation_info.h"
 
 #include <cstddef>
 #include <optional>
@@ -16,12 +16,12 @@
 #include "base/containers/flat_map.h"
 #include "base/functional/bind.h"
 #include "base/strings/string_number_conversions.h"
-#include "brave/components/brave_news/browser/channels_controller.h"
-#include "brave/components/brave_news/browser/feed_fetcher.h"
-#include "brave/components/brave_news/browser/feed_sampling.h"
-#include "brave/components/brave_news/browser/publishers_controller.h"
-#include "brave/components/brave_news/browser/topics_fetcher.h"
-#include "brave/components/brave_news/common/brave_news.mojom.h"
+#include "unknown/components/brave_news/browser/channels_controller.h"
+#include "unknown/components/brave_news/browser/feed_fetcher.h"
+#include "unknown/components/brave_news/browser/feed_sampling.h"
+#include "unknown/components/brave_news/browser/publishers_controller.h"
+#include "unknown/components/brave_news/browser/topics_fetcher.h"
+#include "unknown/components/brave_news/common/brave_news.mojom.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace brave_news {

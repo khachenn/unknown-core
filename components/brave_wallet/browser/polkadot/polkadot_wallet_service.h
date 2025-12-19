@@ -6,9 +6,9 @@
 #ifndef BRAVE_COMPONENTS_BRAVE_WALLET_BROWSER_POLKADOT_POLKADOT_WALLET_SERVICE_H_
 #define BRAVE_COMPONENTS_BRAVE_WALLET_BROWSER_POLKADOT_POLKADOT_WALLET_SERVICE_H_
 
-#include "brave/components/brave_wallet/browser/keyring_service_observer_base.h"
-#include "brave/components/brave_wallet/browser/polkadot/polkadot_substrate_rpc.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/keyring_service_observer_base.h"
+#include "unknown/components/brave_wallet/browser/polkadot/polkadot_substrate_rpc.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "mojo/public/cpp/bindings/receiver_set.h"
 #include "services/network/public/cpp/shared_url_loader_factory.h"
 

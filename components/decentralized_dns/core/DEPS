@@ -1,4 +1,4 @@
 include_rules = [
-  "+brave/net/decentralized_dns",
+  "+unknown/net/decentralized_dns",
   "+components/prefs",
 ]

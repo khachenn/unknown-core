@@ -6,7 +6,7 @@ index f58433a19d2c355b8261098239447146456ad23b..51e809059b903d6e143e200173902012
  
        foreach(src, sources) {
          _extension = get_path_info(src, "extension")
-+        if (label_matches(src, ["//brave/*"])) { src = get_path_info(src, "name") }
++        if (label_matches(src, ["//unknown/*"])) { src = get_path_info(src, "name") }
          _relative_file_name = rebase_path(src, _rootdir)
          _fileName = get_path_info(_relative_file_name, "dir") + "/" +
                      get_path_info(_relative_file_name, "name")

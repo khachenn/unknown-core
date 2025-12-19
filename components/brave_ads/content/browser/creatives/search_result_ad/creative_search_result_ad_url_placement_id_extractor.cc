@@ -3,12 +3,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_url_placement_id_extractor.h"
+#include "unknown/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_url_placement_id_extractor.h"
 
 #include <optional>
 #include <string_view>
 
-#include "brave/components/brave_search/common/brave_search_utils.h"
+#include "unknown/components/brave_search/common/brave_search_utils.h"
 #include "net/base/url_util.h"
 #include "url/gurl.h"
 

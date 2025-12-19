@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/solana_compiled_instruction.h"
+#include "unknown/components/brave_wallet/browser/solana_compiled_instruction.h"
 
 #include <vector>
 
-#include "brave/components/brave_wallet/common/solana_address.h"
+#include "unknown/components/brave_wallet/common/solana_address.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace brave_wallet {

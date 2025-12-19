@@ -287,7 +287,7 @@ class ChromiumSrcOverridesChecker:
                     "\n  If this symbol is intended to " +
                     "propagate beyond this header then add it to " +
                     "exceptions in " +
-                    "//brave/chromium_src/check_chromium_src_config.json5.")
+                    "//unknown/chromium_src/check_chromium_src_config.json5.")
             self.AddError(message)
 
         return found['other']
@@ -406,7 +406,7 @@ class ChromiumSrcOverridesChecker:
                     f"  No source for override {display_override_filepath}.\n" +
                     "  If this is not a true override, then add the " +
                     "path to the `path_excludes` in " +
-                    "//brave/chromium_src/check_chromium_src_config.json5.\n" +
+                    "//unknown/chromium_src/check_chromium_src_config.json5.\n" +
                     "  Otherwise, the upstream file is gone and a fix " +
                     "is required.")
                 continue
@@ -429,7 +429,7 @@ class ChromiumSrcOverridesChecker:
                               f"override chromium_src/{path} cannot be " +
                               "found.\n  If the symbol was removed then " +
                               "also remove it from the exclusions list in " +
-                              "//brave/chromium_src/" +
+                              "//unknown/chromium_src/" +
                               "check_chromium_src_config.json5.")
                 return False
         return True
@@ -441,11 +441,11 @@ class ChromiumSrcOverridesChecker:
         override_path = os.path.join(BRAVE_CHROMIUM_SRC, path)
         if not os.path.isfile(override_path):
             self.AddError(
-                "  Path listed in //brave/chromium_src/" +
+                "  Path listed in //unknown/chromium_src/" +
                 "check_chromium_src_config.json5 " +
                 f"cannot be found:\n  chromium_src/{path}.\n  If the file " +
                 "was removed then also remove it from the list in " +
-                "//brave/chromium_src/check_chromium_src_config.json5")
+                "//unknown/chromium_src/check_chromium_src_config.json5")
             return False
         return True
 

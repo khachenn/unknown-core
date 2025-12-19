@@ -6,7 +6,7 @@ index 441a1794aafc0685e957379682d3b70768ce78e9..d2151f2bcfb1792e410becc3f45c3343
    if (use_clang_profiling_inside_sandbox) {
      sources += [ "profiling_utils.h" ]
    }
-+  import("//brave/content/public/browser/sources.gni") sources += brave_content_public_browser_sources
++  import("//unknown/content/public/browser/sources.gni") sources += brave_content_public_browser_sources
  }
  
  if (is_android) {

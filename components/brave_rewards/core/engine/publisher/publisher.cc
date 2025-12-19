@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/core/engine/publisher/publisher.h"
+#include "unknown/components/brave_rewards/core/engine/publisher/publisher.h"
 
 #include <algorithm>
 #include <cmath>
@@ -16,18 +16,18 @@
 #include "base/containers/map_util.h"
 #include "base/feature_list.h"
 #include "base/uuid.h"
-#include "brave/components/brave_rewards/core/engine/constants.h"
-#include "brave/components/brave_rewards/core/engine/contribution/contribution.h"
-#include "brave/components/brave_rewards/core/engine/database/database.h"
-#include "brave/components/brave_rewards/core/engine/global_constants.h"
-#include "brave/components/brave_rewards/core/engine/publisher/media/media.h"
-#include "brave/components/brave_rewards/core/engine/publisher/prefix_util.h"
-#include "brave/components/brave_rewards/core/engine/publisher/publisher_prefix_list_updater.h"
-#include "brave/components/brave_rewards/core/engine/publisher/server_publisher_fetcher.h"
-#include "brave/components/brave_rewards/core/engine/publisher/static_values.h"
-#include "brave/components/brave_rewards/core/engine/rewards_engine.h"
-#include "brave/components/brave_rewards/core/engine/util/rewards_prefs.h"
-#include "brave/components/brave_rewards/core/features.h"
+#include "unknown/components/brave_rewards/core/engine/constants.h"
+#include "unknown/components/brave_rewards/core/engine/contribution/contribution.h"
+#include "unknown/components/brave_rewards/core/engine/database/database.h"
+#include "unknown/components/brave_rewards/core/engine/global_constants.h"
+#include "unknown/components/brave_rewards/core/engine/publisher/media/media.h"
+#include "unknown/components/brave_rewards/core/engine/publisher/prefix_util.h"
+#include "unknown/components/brave_rewards/core/engine/publisher/publisher_prefix_list_updater.h"
+#include "unknown/components/brave_rewards/core/engine/publisher/server_publisher_fetcher.h"
+#include "unknown/components/brave_rewards/core/engine/publisher/static_values.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_engine.h"
+#include "unknown/components/brave_rewards/core/engine/util/rewards_prefs.h"
+#include "unknown/components/brave_rewards/core/features.h"
 #include "third_party/abseil-cpp/absl/strings/str_format.h"
 
 namespace brave_rewards::internal {

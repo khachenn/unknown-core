@@ -21,7 +21,7 @@ module.exports = (program) =>
     .option('--suite [suite]', 'filter by a test suite group')
     .option(
       '--filters [filters...]',
-      'filter tests by a gn target pattern. eg. //brave/*. '
+      'filter tests by a gn target pattern. eg. //unknown/*. '
         + 'Make sure you put the list of filters in quotes. defaults to //*',
       (x) => x.split(' '),
     )

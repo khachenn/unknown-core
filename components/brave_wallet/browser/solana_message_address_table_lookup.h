@@ -10,8 +10,8 @@
 #include <vector>
 
 #include "base/values.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/solana_address.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/solana_address.h"
 
 namespace brave_wallet {
 

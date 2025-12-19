@@ -10,8 +10,8 @@ source_set("unit_tests") {
 
   deps = [
     "//base",
-    "//brave/common",
-    "//brave/components/infobars/core",
+    "//unknown/common",
+    "//unknown/components/infobars/core",
     "//chrome/browser/ui",
     "//chrome/test:test_support",
     "//testing/gtest",

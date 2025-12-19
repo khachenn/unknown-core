@@ -3,15 +3,15 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/brave_pages.h"
+#include "unknown/browser/ui/brave_pages.h"
 
 #include <string_view>
 
 #include "base/strings/strcat.h"
-#include "brave/browser/ui/webui/webcompat_reporter/webcompat_reporter_dialog.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/constants/webui_url_constants.h"
-#include "brave/components/sidebar/browser/constants.h"
+#include "unknown/browser/ui/webui/webcompat_reporter/webcompat_reporter_dialog.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/constants/webui_url_constants.h"
+#include "unknown/components/sidebar/browser/constants.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_navigator_params.h"
 #include "chrome/browser/ui/chrome_pages.h"

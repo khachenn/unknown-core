@@ -11,9 +11,9 @@
 #include "base/run_loop.h"
 #include "base/task/single_thread_task_runner.h"
 #include "base/test/scoped_run_loop_timeout.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
-#include "brave/browser/net/brave_network_audit_test_helper.h"
-#include "brave/components/brave_rewards/content/rewards_service_impl.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/net/brave_network_audit_test_helper.h"
+#include "unknown/components/brave_rewards/content/rewards_service_impl.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/test/base/in_process_browser_test.h"
@@ -27,7 +27,7 @@ namespace brave {
 namespace {
 
 // Max amount of time to wait after getting an URL loaded, in milliseconds. Note
-// that the value passed to --ui-test-action-timeout in //brave/package.json, as
+// that the value passed to --ui-test-action-timeout in //unknown/package.json, as
 // part of the 'network-audit' script, must be big enough to accomodate this.
 //
 // In particular:

@@ -7,8 +7,8 @@
 #define BRAVE_COMPONENTS_BRAVE_WALLET_BROWSER_POLKADOT_POLKADOT_KEYRING_H_
 
 #include "base/containers/flat_map.h"
-#include "brave/components/brave_wallet/browser/internal/hd_key_sr25519.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/internal/hd_key_sr25519.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 
 namespace brave_wallet {
 

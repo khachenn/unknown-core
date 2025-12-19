@@ -8,7 +8,7 @@ import("//build/config/features.gni")
 source_set("brave_wallet") {
   visibility = [
     "//brave:child_dependencies",
-    "//brave/renderer/*",
+    "//unknown/renderer/*",
     "//chrome/renderer/*",
   ]
 
@@ -21,11 +21,11 @@ source_set("brave_wallet") {
 
   deps = [
     "//base",
-    "//brave/common",
-    "//brave/common:mojo_bindings",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/components/brave_wallet/renderer",
+    "//unknown/common",
+    "//unknown/common:mojo_bindings",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/components/brave_wallet/renderer",
     "//content/public/common",
     "//content/public/renderer",
     "//gin",

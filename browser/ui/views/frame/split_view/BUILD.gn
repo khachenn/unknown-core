@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import("//brave/components/speedreader/common/buildflags/buildflags.gni")
+import("//unknown/components/speedreader/common/buildflags/buildflags.gni")
 
 source_set("split_view") {
   sources = [
@@ -16,9 +16,9 @@ source_set("split_view") {
   ]
 
   deps = [
-    "//brave/browser/ui/tabs:tab_model",
-    "//brave/browser/ui/views/frame",
-    "//brave/components/vector_icons",
+    "//unknown/browser/ui/tabs:tab_model",
+    "//unknown/browser/ui/views/frame",
+    "//unknown/components/vector_icons",
     "//chrome/browser/profiles:profile",
     "//chrome/browser/ui:ui_features",
     "//chrome/browser/ui/browser_window",
@@ -30,6 +30,6 @@ source_set("split_view") {
   ]
 
   if (enable_speedreader) {
-    deps += [ "//brave/browser/ui/views/speedreader" ]
+    deps += [ "//unknown/browser/ui/views/speedreader" ]
   }
 }

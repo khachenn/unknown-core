@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 import("//extensions/buildflags/buildflags.gni")
 import("//testing/test.gni")
 
@@ -16,8 +16,8 @@ source_set("brave_rewards") {
 
   deps = [
     "//base",
-    "//brave/components/brave_rewards/content",
-    "//brave/components/script_injector/common/mojom",
+    "//unknown/components/brave_rewards/content",
+    "//unknown/components/script_injector/common/mojom",
     "//chrome/browser/profiles",
     "//components/keyed_service/content",
     "//components/sessions",
@@ -39,11 +39,11 @@ source_set("brave_rewards_impl") {
   deps = [
     ":util",
     "//base",
-    "//brave/components/brave_rewards/content",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_rewards/core:features",
-    "//brave/components/brave_rewards/resources/creator_detection:creator_detection_generated_grit",
-    "//brave/components/brave_wallet/common/buildflags",
+    "//unknown/components/brave_rewards/content",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_rewards/core:features",
+    "//unknown/components/brave_rewards/resources/creator_detection:creator_detection_generated_grit",
+    "//unknown/components/brave_wallet/common/buildflags",
     "//chrome/browser/bitmap_fetcher",
     "//chrome/browser/favicon",
     "//chrome/browser/profiles",
@@ -55,7 +55,7 @@ source_set("brave_rewards_impl") {
   ]
 
   if (enable_brave_wallet) {
-    deps += [ "//brave/browser/brave_wallet" ]
+    deps += [ "//unknown/browser/brave_wallet" ]
   }
 
   if (enable_extensions) {
@@ -75,7 +75,7 @@ source_set("util") {
   ]
 
   deps = [
-    "//brave/components/brave_rewards/core",
+    "//unknown/components/brave_rewards/core",
     "//chrome/browser/profiles:profile",
     "//components/prefs",
   ]

@@ -6,8 +6,8 @@
 #ifndef BRAVE_COMPONENTS_PSST_BROWSER_CORE_BRAVE_PSST_UTILS_H_
 #define BRAVE_COMPONENTS_PSST_BROWSER_CORE_BRAVE_PSST_UTILS_H_
 
-#include "brave/components/psst/common/psst_metadata_schema.h"
-#include "brave/components/psst/common/psst_ui_common.mojom-forward.h"
+#include "unknown/components/psst/common/psst_metadata_schema.h"
+#include "unknown/components/psst/common/psst_ui_common.mojom-forward.h"
 #include "components/content_settings/core/browser/host_content_settings_map.h"
 #include "url/origin.h"
 

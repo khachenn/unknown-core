@@ -6,5 +6,5 @@ index 2e4b14e09755ff0194454863c4de36e99a290253..f50482466991dc87a15c829dd728cc09
      "permissions.cc",
      "permissions.h",
    ]
-+  import("//brave/components/brave_wallet/sources.gni") deps = brave_blink_renderer_modules_permissions_deps
++  import("//unknown/components/brave_wallet/sources.gni") deps = brave_blink_renderer_modules_permissions_deps
  }

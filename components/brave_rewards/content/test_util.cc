@@ -3,11 +3,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/content/test_util.h"
+#include "unknown/components/brave_rewards/content/test_util.h"
 
 #include <utility>
 
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
+#include "unknown/browser/brave_rewards/rewards_service_factory.h"
 #include "chrome/browser/bitmap_fetcher/bitmap_fetcher_service_factory.h"
 #include "chrome/browser/prefs/browser_prefs.h"
 #include "chrome/test/base/testing_profile.h"

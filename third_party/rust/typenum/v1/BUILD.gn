@@ -13,17 +13,17 @@ cargo_crate("lib") {
   epoch = "1"
   crate_type = "rlib"
   crate_root =
-      "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/lib.rs"
+      "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/array.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/bit.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/int.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/marker_traits.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/operator_aliases.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/private.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/type_operators.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/uint.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/array.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/bit.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/int.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/marker_traits.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/operator_aliases.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/private.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/type_operators.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/uint.rs",
   ]
   inputs = []
 
@@ -36,13 +36,13 @@ cargo_crate("lib") {
   cargo_pkg_repository = "https://github.com/paholg/typenum"
   cargo_pkg_version = "1.16.0"
 
-  build_root = "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/build/main.rs"
-  build_sources = [ "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/build/main.rs" ]
+  build_root = "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/build/main.rs"
+  build_sources = [ "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/build/main.rs" ]
   build_script_inputs = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/../build/generic_const_mappings.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/../build/main.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/../build/op.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/../build/tests.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/../build/generic_const_mappings.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/../build/main.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/../build/op.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/typenum-v1/src/../build/tests.rs",
   ]
   build_script_outputs = [
     "consts.rs",

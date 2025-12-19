@@ -14,7 +14,7 @@
 
 #include "base/containers/span.h"
 #include "base/values.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom-forward.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom-forward.h"
 
 namespace brave_wallet {
 

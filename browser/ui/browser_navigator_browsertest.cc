@@ -5,7 +5,7 @@
 
 #include "base/test/run_until.h"
 #include "base/test/scoped_feature_list.h"
-#include "brave/browser/ui/brave_ui_features.h"
+#include "unknown/browser/ui/brave_ui_features.h"
 #include "chrome/browser/ui/browser_list.h"
 #include "chrome/test/base/in_process_browser_test.h"
 #include "chrome/test/base/ui_test_utils.h"

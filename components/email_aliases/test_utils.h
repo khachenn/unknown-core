@@ -8,9 +8,9 @@
 
 #include <memory>
 
-#include "brave/components/email_aliases/email_aliases.mojom.h"
-#include "brave/components/email_aliases/email_aliases_auth.h"
-#include "brave/components/email_aliases/email_aliases_service.h"
+#include "unknown/components/email_aliases/email_aliases.mojom.h"
+#include "unknown/components/email_aliases/email_aliases_auth.h"
+#include "unknown/components/email_aliases/email_aliases_service.h"
 #include "mojo/public/cpp/bindings/pending_receiver.h"
 #include "mojo/public/cpp/bindings/receiver.h"
 

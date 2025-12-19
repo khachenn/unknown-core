@@ -3,14 +3,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/config.gni")
+import("//unknown/components/brave_wallet/common/config.gni")
 import("//build/rust/rust_static_library.gni")
 
 assert(enable_orchard)
 
 group("rust") {
   # This should only be used by internal wallet code
-  visibility = [ "//brave/components/brave_wallet/browser/internal:*" ]
+  visibility = [ "//unknown/components/brave_wallet/browser/internal:*" ]
 
   public_deps = [ ":orchard_headers" ]
 
@@ -19,7 +19,7 @@ group("rust") {
 
 group("test_support") {
   visibility =
-      [ "//brave/components/brave_wallet/browser/internal:test_support" ]
+      [ "//unknown/components/brave_wallet/browser/internal:test_support" ]
 
   public_deps = [ ":test_support_headers" ]
   deps = [ ":test_support_impl" ]
@@ -28,7 +28,7 @@ group("test_support") {
 source_set("test_support_headers") {
   visibility = [
     ":*",
-    "//brave/components/brave_wallet/browser/internal:test_support",
+    "//unknown/components/brave_wallet/browser/internal:test_support",
   ]
   sources = [
     "orchard_test_utils.h",
@@ -66,9 +66,9 @@ source_set("orchard_headers") {
 
   public_deps = [
     "//base",
-    "//brave/components/brave_wallet/browser/internal/orchard_storage:headers",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/services/brave_wallet/public/mojom",
+    "//unknown/components/brave_wallet/browser/internal/orchard_storage:headers",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/services/brave_wallet/public/mojom",
   ]
 }
 
@@ -96,7 +96,7 @@ source_set("orchard_impl") {
     ":orchard_headers",
     ":rust_lib",
     "//base",
-    "//brave/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common",
     "//build/rust:cxx_cppdeps",
   ]
 }
@@ -107,7 +107,7 @@ source_set("cxx_interfaces") {
 
   public_deps = [
     "//base",
-    "//brave/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common",
     "//build/rust:cxx_cppdeps",
   ]
 }
@@ -128,16 +128,16 @@ rust_static_library("rust_lib") {
     "librustzcash:zcash_client_backend",
     "librustzcash:zcash_primitives",
     "librustzcash:zcash_protocol",
-    "//brave/components/brave_wallet/common:rust_lib",
-    "//brave/third_party/rust/byteorder/v1:lib",
-    "//brave/third_party/rust/incrementalmerkletree/v0_5:lib",
-    "//brave/third_party/rust/memuse/v0_2:lib",
-    "//brave/third_party/rust/nonempty/v0_7:lib",
-    "//brave/third_party/rust/orchard/v0_8:lib",
-    "//brave/third_party/rust/pasta_curves/v0_5:lib",
-    "//brave/third_party/rust/rand/v0_8:lib",
-    "//brave/third_party/rust/shardtree/v0_3:lib",
-    "//brave/third_party/rust/zcash_note_encryption/v0_4:lib",
+    "//unknown/components/brave_wallet/common:rust_lib",
+    "//unknown/third_party/rust/byteorder/v1:lib",
+    "//unknown/third_party/rust/incrementalmerkletree/v0_5:lib",
+    "//unknown/third_party/rust/memuse/v0_2:lib",
+    "//unknown/third_party/rust/nonempty/v0_7:lib",
+    "//unknown/third_party/rust/orchard/v0_8:lib",
+    "//unknown/third_party/rust/pasta_curves/v0_5:lib",
+    "//unknown/third_party/rust/rand/v0_8:lib",
+    "//unknown/third_party/rust/shardtree/v0_3:lib",
+    "//unknown/third_party/rust/zcash_note_encryption/v0_4:lib",
   ]
 
   public_deps = [ ":cxx_interfaces" ]

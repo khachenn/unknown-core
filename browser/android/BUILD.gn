@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/build/config.gni")
+import("//unknown/build/config.gni")
 
 assert(is_android)
 
@@ -20,21 +20,21 @@ source_set("android_browser_process") {
 
   deps = [
     "//base",
-    "//brave/brave_domains/android:jni_headers",
-    "//brave/browser/android/preferences",
-    "//brave/browser/android/safe_browsing",
-    "//brave/browser/brave_ads/android:jni_headers",
-    "//brave/browser/brave_origin/android:jni_headers",
-    "//brave/browser/skus/android:jni_headers",
-    "//brave/build/android:jni_headers",
-    "//brave/components/brave_ads/browser",
-    "//brave/components/brave_shields/content/browser",
-    "//brave/components/brave_shields/core/browser",
-    "//brave/components/brave_sync",
-    "//brave/components/brave_sync:crypto",
-    "//brave/components/brave_sync:prefs",
-    "//brave/components/brave_sync:sync_service_impl_helper",
-    "//brave/components/brave_sync:time_limited_codes",
+    "//unknown/brave_domains/android:jni_headers",
+    "//unknown/browser/android/preferences",
+    "//unknown/browser/android/safe_browsing",
+    "//unknown/browser/brave_ads/android:jni_headers",
+    "//unknown/browser/brave_origin/android:jni_headers",
+    "//unknown/browser/skus/android:jni_headers",
+    "//unknown/build/android:jni_headers",
+    "//unknown/components/brave_ads/browser",
+    "//unknown/components/brave_shields/content/browser",
+    "//unknown/components/brave_shields/core/browser",
+    "//unknown/components/brave_sync",
+    "//unknown/components/brave_sync:crypto",
+    "//unknown/components/brave_sync:prefs",
+    "//unknown/components/brave_sync:sync_service_impl_helper",
+    "//unknown/components/brave_sync:time_limited_codes",
     "//chrome/android:jni_headers",
     "//chrome/browser:browser_process",
     "//chrome/browser:browser_public_dependencies",
@@ -67,7 +67,7 @@ source_set("tabs_impl") {
   deps = [
     ":tabs_public",
     "//base",
-    "//brave/browser/ai_chat",
+    "//unknown/browser/ai_chat",
     "//chrome/browser/profiles:profile",
     "//content/public/browser",
   ]

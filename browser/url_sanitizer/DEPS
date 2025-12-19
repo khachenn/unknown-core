@@ -1,3 +1,3 @@
 include_rules = [
-  "+brave/components/url_sanitizer/core/common",
+  "+unknown/components/url_sanitizer/core/common",
 ]

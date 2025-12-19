@@ -16,7 +16,7 @@ source_set("brave_ads") {
 
   public_deps = [
     "//base",
-    "//brave/components/brave_ads/browser",
+    "//unknown/components/brave_ads/browser",
     "//chrome/browser/profiles:profile",
     "//components/keyed_service/content",
     "//components/prefs",
@@ -54,17 +54,17 @@ source_set("impl") {
   deps = [
     ":brave_ads",
     "//base",
-    "//brave/browser/brave_adaptive_captcha",
-    "//brave/browser/brave_ads/device_id",
-    "//brave/browser/brave_ads/services",
-    "//brave/browser/brave_ads/tooltips",
-    "//brave/browser/brave_rewards",
-    "//brave/browser/brave_rewards:util",
-    "//brave/browser/brave_stats",
-    "//brave/browser/ui/brave_ads",
-    "//brave/components/brave_adaptive_captcha",
-    "//brave/components/brave_ads/browser/application_state",
-    "//brave/components/p3a_utils",
+    "//unknown/browser/brave_adaptive_captcha",
+    "//unknown/browser/brave_ads/device_id",
+    "//unknown/browser/brave_ads/services",
+    "//unknown/browser/brave_ads/tooltips",
+    "//unknown/browser/brave_rewards",
+    "//unknown/browser/brave_rewards:util",
+    "//unknown/browser/brave_stats",
+    "//unknown/browser/ui/brave_ads",
+    "//unknown/components/brave_adaptive_captcha",
+    "//unknown/components/brave_ads/browser/application_state",
+    "//unknown/components/p3a_utils",
     "//chrome/browser:browser_process",
     "//chrome/browser:browser_public_dependencies",
     "//chrome/browser:primitives",
@@ -113,8 +113,8 @@ source_set("impl") {
     ]
 
     deps += [
-      "//brave/browser/brave_ads/android:jni_headers",
-      "//brave/build/android:jni_headers",
+      "//unknown/browser/brave_ads/android:jni_headers",
+      "//unknown/build/android:jni_headers",
       "//chrome/browser/notifications:jni_headers",
       "//chrome/browser/notifications:notifications_java_enum_srcjar",
     ]

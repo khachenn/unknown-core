@@ -421,7 +421,7 @@ Config.prototype.buildArgs = function () {
   versionParts = versionParts.split('.')
 
   let args = {
-    'import("//brave/build/args/brave_defaults.gni")': null,
+    'import("//unknown/build/args/brave_defaults.gni")': null,
     is_asan: this.isAsan(),
     enable_full_stack_frames_for_profiling: this.isAsan(),
     v8_enable_verify_heap: this.isAsan(),
@@ -450,15 +450,15 @@ Config.prototype.buildArgs = function () {
   }
 
   if (this.targetOS !== 'ios') {
-    args['import("//brave/build/args/blink_platform_defaults.gni")'] = null
+    args['import("//unknown/build/args/blink_platform_defaults.gni")'] = null
   } else {
-    args['import("//brave/build/args/ios_defaults.gni")'] = null
+    args['import("//unknown/build/args/ios_defaults.gni")'] = null
   }
   if (this.targetOS === 'android') {
-    args['import("//brave/build/args/android_defaults.gni")'] = null
+    args['import("//unknown/build/args/android_defaults.gni")'] = null
   }
   if (this.targetOS !== 'ios' && this.targetOS !== 'android') {
-    args['import("//brave/build/args/desktop_defaults.gni")'] = null
+    args['import("//unknown/build/args/desktop_defaults.gni")'] = null
   }
 
   for (const key of this.forwardEnvArgsToGn) {
@@ -1002,7 +1002,7 @@ Config.prototype.updateInternal = function (options) {
   if (options.xcode_gen) {
     assert(process.platform === 'darwin' || options.target_os === 'ios')
     if (options.xcode_gen === 'ios') {
-      this.xcode_gen_target = '//brave/ios:*'
+      this.xcode_gen_target = '//unknown/ios:*'
     } else {
       this.xcode_gen_target = options.xcode_gen
     }

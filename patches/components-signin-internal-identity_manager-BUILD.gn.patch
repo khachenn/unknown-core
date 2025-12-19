@@ -6,7 +6,7 @@ index 0c269a8f79036b9b928db12e3a2ff7135362fe5e..29f6fc735828889a43faabcd8790b64b
        "device_accounts_synchronizer_impl.h",
      ]
    }
-+  import("//brave/components/signin/internal/identity_manager/sources.gni") sources += brave_components_signin_internal_identity_manager_sources
++  import("//unknown/components/signin/internal/identity_manager/sources.gni") sources += brave_components_signin_internal_identity_manager_sources
  }
  
  source_set("capabilities") {

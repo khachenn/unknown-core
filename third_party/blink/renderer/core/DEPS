@@ -6,5 +6,5 @@ include_rules += [ "+third_party/blink/renderer/bindings/modules" ]
 include_rules += [
   "!brave/components/brave_page_graph/common/features.h",
   "!brave/components/brave_shields/core/common/brave_shield_constants.h",
-  "+brave/v8/include/v8-isolate-page-graph-utils.h",
+  "+unknown/v8/include/v8-isolate-page-graph-utils.h",
 ]

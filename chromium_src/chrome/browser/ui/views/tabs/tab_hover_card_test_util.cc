@@ -10,6 +10,6 @@
 // override on TabStrip to replace TabHoverCardController with
 // BraveTabHoverCardController, so we need to add the header to avoid the
 // member access into incomplete type error.
-#include "brave/browser/ui/views/tabs/brave_tab_hover_card_controller.h"
+#include "unknown/browser/ui/views/tabs/brave_tab_hover_card_controller.h"
 
 #include <chrome/browser/ui/views/tabs/tab_hover_card_test_util.cc>

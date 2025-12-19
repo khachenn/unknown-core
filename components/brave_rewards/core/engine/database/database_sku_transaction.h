@@ -9,7 +9,7 @@
 #include <string>
 
 #include "base/types/expected.h"
-#include "brave/components/brave_rewards/core/engine/database/database_table.h"
+#include "unknown/components/brave_rewards/core/engine/database/database_table.h"
 
 namespace brave_rewards::internal {
 namespace database {

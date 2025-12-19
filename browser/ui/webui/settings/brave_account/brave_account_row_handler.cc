@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/webui/settings/brave_account/brave_account_row_handler.h"
+#include "unknown/browser/ui/webui/settings/brave_account/brave_account_row_handler.h"
 
 #include <string>
 #include <utility>
@@ -12,8 +12,8 @@
 #include "base/check_deref.h"
 #include "base/functional/bind.h"
 #include "base/functional/callback.h"
-#include "brave/browser/ui/webui/brave_account/brave_account_ui_desktop.h"
-#include "brave/components/brave_account/pref_names.h"
+#include "unknown/browser/ui/webui/brave_account/brave_account_ui_desktop.h"
+#include "unknown/components/brave_account/pref_names.h"
 #include "chrome/browser/profiles/profile.h"
 #include "components/prefs/pref_service.h"
 

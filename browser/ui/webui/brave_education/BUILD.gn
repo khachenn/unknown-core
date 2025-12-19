@@ -5,9 +5,9 @@
 
 # based on //chrome/browser/ui/webui/whats_new/BUILD.gn
 
-import("//brave/components/brave_education/buildflags.gni")
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_education/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 import("//mojo/public/tools/bindings/mojom.gni")
 
 assert(enable_brave_education)
@@ -35,11 +35,11 @@ source_set("brave_education") {
   ]
 
   deps = [
-    "//brave/browser/resources/brave_education:resources",
-    "//brave/browser/ui/webui/brave_browser_command",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/resources:strings_grit",
+    "//unknown/browser/resources/brave_education:resources",
+    "//unknown/browser/ui/webui/brave_browser_command",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/resources:strings_grit",
     "//chrome/browser:browser_public_dependencies",
     "//chrome/browser/profiles:profile",
     "//chrome/browser/ui/browser_window",
@@ -50,13 +50,13 @@ source_set("brave_education") {
   ]
 
   if (enable_brave_vpn) {
-    deps += [ "//brave/browser/ui/brave_vpn" ]
+    deps += [ "//unknown/browser/ui/brave_vpn" ]
   }
 
   public_deps = [
-    "//brave/browser/ui/webui/brave_education:mojo_bindings",
-    "//brave/components/brave_education",
-    "//brave/ui/webui/resources/js/brave_browser_command:mojo_bindings",
+    "//unknown/browser/ui/webui/brave_education:mojo_bindings",
+    "//unknown/components/brave_education",
+    "//unknown/ui/webui/resources/js/brave_browser_command:mojo_bindings",
   ]
 }
 
@@ -68,10 +68,10 @@ source_set("browser_tests") {
   deps = [
     ":brave_education",
     "//base/test:test_support",
-    "//brave/components/brave_education",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/constants",
+    "//unknown/components/brave_education",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/constants",
     "//chrome/browser/ui",
     "//chrome/test:test_support",
     "//chrome/test:test_support_ui",
@@ -93,10 +93,10 @@ source_set("unit_tests") {
   deps = [
     ":brave_education",
     "//base/test:test_support",
-    "//brave/browser/ui/webui/brave_browser_command",
-    "//brave/components/brave_education",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/brave_wallet/common/buildflags",
+    "//unknown/browser/ui/webui/brave_browser_command",
+    "//unknown/components/brave_education",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/brave_wallet/common/buildflags",
     "//chrome/browser/ui",
     "//chrome/test:test_support",
     "//components/language/core/browser",

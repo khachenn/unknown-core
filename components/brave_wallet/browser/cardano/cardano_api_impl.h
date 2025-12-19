@@ -10,10 +10,10 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_wallet/browser/brave_wallet_provider_delegate.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_service.h"
-#include "brave/components/brave_wallet/browser/internal/cardano_tx_decoder.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_provider_delegate.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/internal/cardano_tx_decoder.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 
 namespace brave_wallet {
 

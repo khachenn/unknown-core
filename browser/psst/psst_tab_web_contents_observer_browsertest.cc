@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/psst/browser/content/psst_tab_web_contents_observer.h"
+#include "unknown/components/psst/browser/content/psst_tab_web_contents_observer.h"
 
 #include <string>
 #include <vector>
@@ -12,11 +12,11 @@
 #include "base/run_loop.h"
 #include "base/test/bind.h"
 #include "base/test/scoped_feature_list.h"
-#include "brave/components/psst/browser/core/psst_rule.h"
-#include "brave/components/psst/browser/core/psst_rule_registry.h"
-#include "brave/components/psst/buildflags/buildflags.h"
-#include "brave/components/psst/common/features.h"
-#include "brave/components/psst/common/pref_names.h"
+#include "unknown/components/psst/browser/core/psst_rule.h"
+#include "unknown/components/psst/browser/core/psst_rule_registry.h"
+#include "unknown/components/psst/buildflags/buildflags.h"
+#include "unknown/components/psst/common/features.h"
+#include "unknown/components/psst/common/pref_names.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/test/base/chrome_test_utils.h"
@@ -43,7 +43,7 @@ class PsstTabWebContentsObserverBrowserTest : public PlatformBrowserTest {
 
     base::RunLoop run_loop;
     PsstRuleRegistry::GetInstance()->LoadRules(
-        test_data_dir.AppendASCII("brave/components/test/data/psst"),
+        test_data_dir.AppendASCII("unknown/components/test/data/psst"),
         base::BindLambdaForTesting(
             [&run_loop](const std::string& contents,
                         const std::vector<PsstRule>& rules) {
@@ -52,7 +52,7 @@ class PsstTabWebContentsObserverBrowserTest : public PlatformBrowserTest {
     run_loop.Run();
 
     https_server_.ServeFilesFromDirectory(
-        test_data_dir.AppendASCII("brave/test/data"));
+        test_data_dir.AppendASCII("unknown/test/data"));
     https_server_.AddDefaultHandlers(GetChromeTestDataDir());
     https_server_.SetSSLConfig(net::EmbeddedTestServer::CERT_TEST_NAMES);
 

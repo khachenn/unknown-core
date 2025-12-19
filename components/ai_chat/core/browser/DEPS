@@ -1,5 +1,5 @@
 include_rules = [
-  "+brave/net/base",
+  "+unknown/net/base",
   "+cc/port",
   "+cc/task/core",
   "+cc/task/text",

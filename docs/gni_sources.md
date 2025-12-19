@@ -4,7 +4,7 @@
 
 The use of sources.gni was initially added to help deal with the issue of circular dependencies. We
 often subclass upstream code like `BraveContentBrowserClient` -> `ChromeContentBrowserClient`, but in
-`//brave/browser` instead of `//chrome/browser`. This created a circular dependency because:
+`//unknown/browser` instead of `//chrome/browser`. This created a circular dependency because:
 
 - `BraveContentBrowserClient` depends on `//chrome/brave`.
 - `//chrome/brave` depends on `//chrome/brave` because it now was to instantiate
@@ -38,7 +38,7 @@ and [Dependency Inversion] for examples.
 
 An interface/impl pattern can also often be used where header files and possibly some cc files are
 included in the direct dependency and the code that would cause the circular dependency is included
-in a higher level target like `//brave/browser` to ensure that the implementation code is always
+in a higher level target like `//unknown/browser` to ensure that the implementation code is always
 linked into the final output. See [tabs:tabs_public], [tabs:impl] and [//chrome/browser impl
 dependency].
 

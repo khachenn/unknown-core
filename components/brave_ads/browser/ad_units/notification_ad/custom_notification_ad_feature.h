@@ -10,7 +10,7 @@
 
 #include "base/feature_list.h"
 #include "base/metrics/field_trial_params.h"
-#include "brave/components/brave_ads/browser/ad_units/notification_ad/custom_notification_ad_constants.h"
+#include "unknown/components/brave_ads/browser/ad_units/notification_ad/custom_notification_ad_constants.h"
 #include "build/build_config.h"
 
 namespace brave_ads {

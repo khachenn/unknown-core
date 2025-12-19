@@ -3,26 +3,26 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_ads/application_state/background_helper/background_helper_holder.h"
+#include "unknown/browser/brave_ads/application_state/background_helper/background_helper_holder.h"
 
 #include "base/no_destructor.h"
-#include "brave/components/brave_ads/browser/application_state/background_helper.h"
+#include "unknown/components/brave_ads/browser/application_state/background_helper.h"
 #include "build/build_config.h"
 
 #if BUILDFLAG(IS_ANDROID)
-#include "brave/browser/brave_ads/application_state/background_helper/background_helper_android.h"
+#include "unknown/browser/brave_ads/application_state/background_helper/background_helper_android.h"
 #endif  // BUILDFLAG(IS_ANDROID)
 
 #if BUILDFLAG(IS_LINUX)
-#include "brave/browser/brave_ads/application_state/background_helper/background_helper_linux.h"
+#include "unknown/browser/brave_ads/application_state/background_helper/background_helper_linux.h"
 #endif  // BUILDFLAG(IS_LINUX)
 
 #if BUILDFLAG(IS_MAC)
-#include "brave/browser/brave_ads/application_state/background_helper/background_helper_mac.h"
+#include "unknown/browser/brave_ads/application_state/background_helper/background_helper_mac.h"
 #endif  // BUILDFLAG(IS_MAC)
 
 #if BUILDFLAG(IS_WIN)
-#include "brave/browser/brave_ads/application_state/background_helper/background_helper_win.h"
+#include "unknown/browser/brave_ads/application_state/background_helper/background_helper_win.h"
 #endif  // BUILDFLAG(IS_WIN)
 
 namespace brave_ads {

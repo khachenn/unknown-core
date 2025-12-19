@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/serving/permission_rules/full_screen_mode_permission_rule.h"
+#include "unknown/components/brave_ads/core/internal/serving/permission_rules/full_screen_mode_permission_rule.h"
 
-#include "brave/components/brave_ads/core/internal/ads_client/ads_client_util.h"
-#include "brave/components/brave_ads/core/internal/common/logging_util.h"
-#include "brave/components/brave_ads/core/internal/common/platform/platform_helper.h"
-#include "brave/components/brave_ads/core/internal/serving/permission_rules/permission_rule_feature.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client.h"
+#include "unknown/components/brave_ads/core/internal/ads_client/ads_client_util.h"
+#include "unknown/components/brave_ads/core/internal/common/logging_util.h"
+#include "unknown/components/brave_ads/core/internal/common/platform/platform_helper.h"
+#include "unknown/components/brave_ads/core/internal/serving/permission_rules/permission_rule_feature.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client.h"
 
 namespace brave_ads {
 

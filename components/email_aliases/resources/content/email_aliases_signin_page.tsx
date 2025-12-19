@@ -19,7 +19,7 @@ import {
   AuthenticationStatus,
   AuthState,
   EmailAliasesServiceInterface,
-} from 'gen/brave/components/email_aliases/email_aliases.mojom.m'
+} from 'gen/unknown/components/email_aliases/email_aliases.mojom.m'
 
 const SignupRow = styled(Row)`
   justify-content: space-between;

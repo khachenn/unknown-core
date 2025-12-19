@@ -3,12 +3,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 
 # Generate a JSON config file with build flags for Jest tests
 generated_file("jest_build_config") {
-  outputs = [ "$root_gen_dir/brave/jest_build_config.json" ]
+  outputs = [ "$root_gen_dir/unknown/jest_build_config.json" ]
 
   contents = {
     enable_ai_chat = enable_ai_chat
@@ -19,7 +19,7 @@ generated_file("jest_build_config") {
 }
 
 action("generate_tsconfig") {
-  script = "//brave/script/generate-tsconfig.py"
+  script = "//unknown/script/generate-tsconfig.py"
   deps = [
     ":jest_build_config",
 
@@ -28,10 +28,10 @@ action("generate_tsconfig") {
     "//ui/webui/resources/js:build_ts",
   ]
   inputs = [
-    "//brave/package.json",
-    "//brave/build/commands/lib/config.js",
-    "//brave/build/commands/lib/genTsConfig.js",
-    "//brave/build/commands/scripts/genTsConfig.js",
+    "//unknown/package.json",
+    "//unknown/build/commands/lib/config.js",
+    "//unknown/build/commands/lib/genTsConfig.js",
+    "//unknown/build/commands/scripts/genTsConfig.js",
     "path-map.js",
   ]
   outputs = [ "$root_gen_dir/tsconfig-webpack.json" ]

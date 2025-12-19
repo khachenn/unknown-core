@@ -10,10 +10,10 @@
 #include <string>
 
 #include "base/functional/callback.h"
-#include "brave/components/p3a/constellation/rs/cxx/src/lib.rs.h"
-#include "brave/components/p3a/metric_log_type.h"
-#include "brave/components/p3a/star_randomness_meta.h"
-#include "brave/components/p3a/star_randomness_points.h"
+#include "unknown/components/p3a/constellation/rs/cxx/src/lib.rs.h"
+#include "unknown/components/p3a/metric_log_type.h"
+#include "unknown/components/p3a/star_randomness_meta.h"
+#include "unknown/components/p3a/star_randomness_points.h"
 
 class PrefService;
 class PrefRegistrySimple;

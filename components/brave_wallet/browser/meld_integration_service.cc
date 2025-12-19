@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/meld_integration_service.h"
+#include "unknown/components/brave_wallet/browser/meld_integration_service.h"
 
 #include <memory>
 #include <optional>
@@ -20,15 +20,15 @@
 #include "base/no_destructor.h"
 #include "base/task/thread_pool.h"
 #include "base/values.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_constants.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_utils.h"
-#include "brave/components/brave_wallet/browser/json_rpc_requests_helper.h"
-#include "brave/components/brave_wallet/browser/meld_integration_response_parser.h"
-#include "brave/components/brave_wallet/browser/meld_integration_responses.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/meld_integration.mojom-forward.h"
-#include "brave/components/constants/brave_services_key.h"
-#include "brave/components/json/json_helper.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_constants.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_utils.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_requests_helper.h"
+#include "unknown/components/brave_wallet/browser/meld_integration_response_parser.h"
+#include "unknown/components/brave_wallet/browser/meld_integration_responses.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/meld_integration.mojom-forward.h"
+#include "unknown/components/constants/brave_services_key.h"
+#include "unknown/components/json/json_helper.h"
 #include "net/base/url_util.h"
 #include "services/network/public/cpp/shared_url_loader_factory.h"
 #include "services/network/public/cpp/simple_url_loader.h"

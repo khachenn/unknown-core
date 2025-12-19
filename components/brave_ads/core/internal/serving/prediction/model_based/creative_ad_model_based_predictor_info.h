@@ -8,7 +8,7 @@
 
 #include <vector>
 
-#include "brave/components/brave_ads/core/internal/serving/prediction/model_based/input_variable/creative_ad_model_based_predictor_input_variable_info.h"
+#include "unknown/components/brave_ads/core/internal/serving/prediction/model_based/input_variable/creative_ad_model_based_predictor_input_variable_info.h"
 
 namespace brave_ads {
 

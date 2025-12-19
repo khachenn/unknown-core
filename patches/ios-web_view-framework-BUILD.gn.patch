@@ -6,7 +6,7 @@ index af0a72f2d1f886528ac68636cd44910003e2efbb..e4b39d602d60e016127843321ea17f31
    # TODO(crbug.com/40031409): Fix code that adds exit-time destructors and
    # enable the diagnostic by removing this line.
    configs += [ "//build/config/compiler:no_exit_time_destructors" ]
-+  import("//brave/ios/web_view/sources.gni") sources -= brave_ios_web_view_excluded_sources public_deps -= brave_ios_web_view_excluded_public_deps
++  import("//unknown/ios/web_view/sources.gni") sources -= brave_ios_web_view_excluded_sources public_deps -= brave_ios_web_view_excluded_public_deps
  }
  
  if (current_toolchain == _framework_toolchain) {

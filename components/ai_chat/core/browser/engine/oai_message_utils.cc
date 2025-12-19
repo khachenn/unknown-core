@@ -3,12 +3,12 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/ai_chat/core/browser/engine/oai_message_utils.h"
+#include "unknown/components/ai_chat/core/browser/engine/oai_message_utils.h"
 
 #include "base/containers/adapters.h"
 #include "base/strings/escape.h"
-#include "brave/components/ai_chat/core/browser/constants.h"
-#include "brave/components/ai_chat/core/common/prefs.h"
+#include "unknown/components/ai_chat/core/browser/constants.h"
+#include "unknown/components/ai_chat/core/common/prefs.h"
 #include "components/prefs/pref_service.h"
 
 namespace ai_chat {

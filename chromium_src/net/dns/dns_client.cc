@@ -5,7 +5,7 @@
 
 #include "base/containers/fixed_flat_map.h"
 #include "base/feature_list.h"
-#include "brave/net/dns/secure_dns_endpoints.h"
+#include "unknown/net/dns/secure_dns_endpoints.h"
 #include "net/base/features.h"
 #include "net/dns/dns_util.h"
 #include "net/dns/public/dns_over_https_server_config.h"

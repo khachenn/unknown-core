@@ -3,14 +3,14 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/ai_rewriter/ai_rewriter_dialog_delegate.h"
+#include "unknown/browser/ui/ai_rewriter/ai_rewriter_dialog_delegate.h"
 
 #include "base/path_service.h"
 #include "base/run_loop.h"
 #include "base/test/scoped_feature_list.h"
-#include "brave/browser/ui/webui/ai_rewriter/ai_rewriter_ui.h"
-#include "brave/components/ai_rewriter/common/features.h"
-#include "brave/components/constants/brave_paths.h"
+#include "unknown/browser/ui/webui/ai_rewriter/ai_rewriter_ui.h"
+#include "unknown/components/ai_rewriter/common/features.h"
+#include "unknown/components/constants/brave_paths.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_window.h"
 #include "chrome/test/base/in_process_browser_test.h"

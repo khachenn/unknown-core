@@ -11,11 +11,11 @@ source_set("skus") {
     "skus_service_factory.mm",
   ]
   deps = [
-    "//brave/components/skus/browser",
-    "//brave/components/skus/common",
-    "//brave/components/skus/common:mojom",
-    "//brave/ios/browser/api/skus:skus_mojom_wrappers",
-    "//brave/ios/browser/keyed_service",
+    "//unknown/components/skus/browser",
+    "//unknown/components/skus/common",
+    "//unknown/components/skus/common:mojom",
+    "//unknown/ios/browser/api/skus:skus_mojom_wrappers",
+    "//unknown/ios/browser/keyed_service",
     "//components/keyed_service/core",
     "//components/pref_registry",
     "//ios/chrome/browser/shared/model/application_context",

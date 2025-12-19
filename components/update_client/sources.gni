@@ -4,16 +4,16 @@
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
 brave_components_update_client_sources = [
-  "//brave/components/update_client/privacy_preserving_protocol_handler.cc",
-  "//brave/components/update_client/privacy_preserving_protocol_handler.h",
-  "//brave/components/update_client/privacy_preserving_protocol_serializer.cc",
-  "//brave/components/update_client/privacy_preserving_protocol_serializer.h",
+  "//unknown/components/update_client/privacy_preserving_protocol_handler.cc",
+  "//unknown/components/update_client/privacy_preserving_protocol_handler.h",
+  "//unknown/components/update_client/privacy_preserving_protocol_serializer.cc",
+  "//unknown/components/update_client/privacy_preserving_protocol_serializer.h",
 ]
 
 brave_components_update_client_deps = [
-  "//brave/components/constants",
-  "//brave/components/widevine:constants",
+  "//unknown/components/constants",
+  "//unknown/components/widevine:constants",
 ]
 
 brave_components_update_client_public_deps =
-    [ "//brave/components/update_client:buildflags" ]
+    [ "//unknown/components/update_client:buildflags" ]

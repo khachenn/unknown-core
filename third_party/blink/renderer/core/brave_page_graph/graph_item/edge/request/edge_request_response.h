@@ -8,8 +8,8 @@
 
 #include <string>
 
-#include "brave/third_party/blink/renderer/core/brave_page_graph/graph_item/edge/request/edge_request.h"
-#include "brave/third_party/blink/renderer/core/brave_page_graph/utilities/response_metadata.h"
+#include "unknown/third_party/blink/renderer/core/brave_page_graph/graph_item/edge/request/edge_request.h"
+#include "unknown/third_party/blink/renderer/core/brave_page_graph/utilities/response_metadata.h"
 #include "third_party/blink/renderer/platform/wtf/casting.h"
 
 namespace brave_page_graph {

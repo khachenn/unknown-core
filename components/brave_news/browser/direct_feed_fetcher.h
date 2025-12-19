@@ -14,7 +14,7 @@
 
 #include "base/functional/callback_forward.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_news/common/brave_news.mojom-forward.h"
+#include "unknown/components/brave_news/common/brave_news.mojom-forward.h"
 #include "services/network/public/cpp/shared_url_loader_factory.h"
 #include "services/network/public/cpp/simple_url_loader.h"
 #include "url/gurl.h"

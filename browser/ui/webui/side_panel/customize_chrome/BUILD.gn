@@ -3,9 +3,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 
 source_set("customize_chrome") {
   sources = [
@@ -16,15 +16,15 @@ source_set("customize_chrome") {
 
   deps = [
     "//base",
-    "//brave/browser/brave_rewards:util",
-    "//brave/components/ai_chat/core/common/buildflags",
-    "//brave/components/brave_news/common",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/constants",
-    "//brave/components/resources:strings_grit",
-    "//brave/components/vector_icons",
+    "//unknown/browser/brave_rewards:util",
+    "//unknown/components/ai_chat/core/common/buildflags",
+    "//unknown/components/brave_news/common",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/constants",
+    "//unknown/components/resources:strings_grit",
+    "//unknown/components/vector_icons",
     "//chrome/browser/profiles:profile",
     "//chrome/browser/ui/webui/side_panel/customize_chrome:mojo_bindings",
     "//chrome/browser/ui/webui/util",
@@ -35,22 +35,22 @@ source_set("customize_chrome") {
 
   if (enable_brave_wallet) {
     deps += [
-      "//brave/components/brave_wallet/browser:pref_names",
-      "//brave/components/brave_wallet/common",
+      "//unknown/components/brave_wallet/browser:pref_names",
+      "//unknown/components/brave_wallet/common",
     ]
   }
 
   if (enable_ai_chat) {
     deps += [
-      "//brave/components/ai_chat/core/browser",
-      "//brave/components/ai_chat/core/common",
+      "//unknown/components/ai_chat/core/browser",
+      "//unknown/components/ai_chat/core/common",
     ]
   }
 
   if (enable_brave_vpn_panel) {
     deps += [
-      "//brave/browser/brave_vpn",
-      "//brave/components/brave_vpn/common",
+      "//unknown/browser/brave_vpn",
+      "//unknown/components/brave_vpn/common",
     ]
   }
 }
@@ -79,14 +79,14 @@ source_set("unit_tests") {
   deps = [
     ":customize_chrome",
     "//base",
-    "//brave/browser/brave_rewards:util",
-    "//brave/components/ai_chat/core/common/buildflags",
-    "//brave/components/brave_news/common",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/resources:strings_grit",
-    "//brave/components/vector_icons",
+    "//unknown/browser/brave_rewards:util",
+    "//unknown/components/ai_chat/core/common/buildflags",
+    "//unknown/components/brave_news/common",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/resources:strings_grit",
+    "//unknown/components/vector_icons",
     "//chrome/browser/ui/webui/util",
     "//chrome/test:test_support",
     "//components/prefs",
@@ -100,20 +100,20 @@ source_set("unit_tests") {
   ]
 
   if (enable_brave_wallet) {
-    deps += [ "//brave/components/brave_wallet/common" ]
+    deps += [ "//unknown/components/brave_wallet/common" ]
   }
 
   if (enable_ai_chat) {
     deps += [
-      "//brave/components/ai_chat/core/browser",
-      "//brave/components/ai_chat/core/common",
+      "//unknown/components/ai_chat/core/browser",
+      "//unknown/components/ai_chat/core/common",
     ]
   }
 
   if (enable_brave_vpn_panel) {
     deps += [
-      "//brave/browser/brave_vpn",
-      "//brave/components/brave_vpn/common",
+      "//unknown/browser/brave_vpn",
+      "//unknown/components/brave_vpn/common",
     ]
   }
 }

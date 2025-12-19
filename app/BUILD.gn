@@ -3,19 +3,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/browser/shell_integrations/buildflags/buildflags.gni")
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
-import("//brave/components/containers/buildflags/buildflags.gni")
-import("//brave/components/playlist/core/common/buildflags/buildflags.gni")
-import("//brave/components/request_otr/common/buildflags/buildflags.gni")
-import("//brave/components/speedreader/common/buildflags/buildflags.gni")
-import("//brave/components/text_recognition/common/buildflags/buildflags.gni")
-import("//brave/resources/brave_grit.gni")
+import("//unknown/browser/shell_integrations/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/containers/buildflags/buildflags.gni")
+import("//unknown/components/playlist/core/common/buildflags/buildflags.gni")
+import("//unknown/components/request_otr/common/buildflags/buildflags.gni")
+import("//unknown/components/speedreader/common/buildflags/buildflags.gni")
+import("//unknown/components/text_recognition/common/buildflags/buildflags.gni")
+import("//unknown/resources/brave_grit.gni")
 import("//build/config/features.gni")
 import("//build/config/locales.gni")
 
 action("generate_command_metadata") {
-  command_files = [ "//brave/app/brave_command_ids.h" ]
+  command_files = [ "//unknown/app/brave_command_ids.h" ]
   cc_template = "command_utils.cc.template"
 
   sources = command_files + [ cc_template ]
@@ -38,7 +38,7 @@ source_set("command_ids") {
 
   deps = [
     "//base",
-    "//brave/components/resources:strings",
+    "//unknown/components/resources:strings",
     "//chrome/app:command_ids",
     "//chrome/app:generated_resources",
     "//components/strings:components_strings",
@@ -95,7 +95,7 @@ source_set("browser_tests") {
     deps = [
       ":command_ids",
       "//base",
-      "//brave/components/commands/common",
+      "//unknown/components/commands/common",
       "//chrome/app:command_ids",
       "//chrome/browser",
       "//chrome/browser/promos:utils",
@@ -124,7 +124,7 @@ source_set("unit_tests") {
   deps = [
     "//base",
     "//base/test:test_support",
-    "//brave/components/variations:buildflags",
+    "//unknown/components/variations:buildflags",
     "//chrome/browser",
     "//chrome/browser/devtools",
     "//chrome/browser/policy:policy_util",
@@ -184,7 +184,7 @@ source_set("unit_tests") {
   } else {
     deps += [
       ":command_ids",
-      "//brave/components/commands/common",
+      "//unknown/components/commands/common",
       "//chrome/app:command_ids",
       "//chrome/browser/ui/toasts",
       "//chrome/common:chrome_features",

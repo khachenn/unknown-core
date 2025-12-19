@@ -10,7 +10,7 @@
 #include <string>
 
 #include "base/values.h"
-#include "brave/components/brave_wallet/common/brave_wallet_types.h"
+#include "unknown/components/brave_wallet/common/brave_wallet_types.h"
 
 namespace brave_wallet {
 

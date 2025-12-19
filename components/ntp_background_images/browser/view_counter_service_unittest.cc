@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ntp_background_images/browser/view_counter_service.h"
+#include "unknown/components/ntp_background_images/browser/view_counter_service.h"
 
 #include <memory>
 #include <optional>
@@ -16,19 +16,19 @@
 #include "base/test/metrics/histogram_tester.h"
 #include "base/test/task_environment.h"
 #include "base/test/values_test_util.h"
-#include "brave/components/brave_ads/core/browser/service/ads_service_mock.h"
-#include "brave/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_info.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_rewards/core/pref_registry.h"
-#include "brave/components/ntp_background_images/browser/features.h"
-#include "brave/components/ntp_background_images/browser/ntp_background_images_data.h"
-#include "brave/components/ntp_background_images/browser/ntp_background_images_service.h"
-#include "brave/components/ntp_background_images/browser/ntp_sponsored_images_data.h"
-#include "brave/components/ntp_background_images/browser/url_constants.h"
-#include "brave/components/ntp_background_images/browser/view_counter_model.h"
-#include "brave/components/ntp_background_images/buildflags/buildflags.h"
-#include "brave/components/ntp_background_images/common/pref_names.h"
-#include "brave/components/ntp_background_images/common/view_counter_pref_registry.h"
+#include "unknown/components/brave_ads/core/browser/service/ads_service_mock.h"
+#include "unknown/components/brave_ads/core/public/ad_units/new_tab_page_ad/new_tab_page_ad_info.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_rewards/core/pref_registry.h"
+#include "unknown/components/ntp_background_images/browser/features.h"
+#include "unknown/components/ntp_background_images/browser/ntp_background_images_data.h"
+#include "unknown/components/ntp_background_images/browser/ntp_background_images_service.h"
+#include "unknown/components/ntp_background_images/browser/ntp_sponsored_images_data.h"
+#include "unknown/components/ntp_background_images/browser/url_constants.h"
+#include "unknown/components/ntp_background_images/browser/view_counter_model.h"
+#include "unknown/components/ntp_background_images/buildflags/buildflags.h"
+#include "unknown/components/ntp_background_images/common/pref_names.h"
+#include "unknown/components/ntp_background_images/common/view_counter_pref_registry.h"
 #include "build/build_config.h"
 #include "components/content_settings/core/browser/host_content_settings_map.h"
 #include "components/content_settings/core/common/content_settings_types.h"
@@ -37,7 +37,7 @@
 #include "testing/gtest/include/gtest/gtest.h"
 
 #if BUILDFLAG(ENABLE_CUSTOM_BACKGROUND)
-#include "brave/components/ntp_background_images/browser/brave_ntp_custom_background_service.h"
+#include "unknown/components/ntp_background_images/browser/brave_ntp_custom_background_service.h"
 #endif  // BUILDFLAG(ENABLE_CUSTOM_BACKGROUND)
 
 namespace ntp_background_images {

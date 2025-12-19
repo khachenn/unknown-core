@@ -11,7 +11,7 @@
 #include "base/logging.h"
 #include "base/path_service.h"
 #include "base/run_loop.h"
-#include "brave/components/constants/brave_paths.h"
+#include "unknown/components/constants/brave_paths.h"
 #include "chrome/browser/extensions/crx_installer.h"
 #include "chrome/browser/extensions/install_tracker_factory.h"
 #include "chrome/browser/profiles/profile.h"

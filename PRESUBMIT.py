@@ -55,7 +55,7 @@ def CheckLeoVariables(input_api, output_api):
 def CheckPatchFormatted(input_api, output_api):
     cmd = [
         brave_chromium_utils.wspath(
-            '//brave/build/commands/scripts/format.js'), '--presubmit'
+            '//unknown/build/commands/scripts/format.js'), '--presubmit'
     ]
     if input_api.change.UpstreamBranch():
         cmd.extend(['--base', input_api.change.UpstreamBranch()])

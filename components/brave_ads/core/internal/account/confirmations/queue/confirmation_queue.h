@@ -9,12 +9,12 @@
 #include "base/check_op.h"
 #include "base/memory/raw_ptr.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/confirmation_queue_database_table.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/confirmation_queue_delegate.h"
-#include "brave/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_info.h"
-#include "brave/components/brave_ads/core/internal/account/utility/redeem_confirmation/redeem_confirmation_delegate.h"
-#include "brave/components/brave_ads/core/internal/common/timer/timer.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/confirmation_queue_database_table.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/confirmation_queue_delegate.h"
+#include "unknown/components/brave_ads/core/internal/account/confirmations/queue/queue_item/confirmation_queue_item_info.h"
+#include "unknown/components/brave_ads/core/internal/account/utility/redeem_confirmation/redeem_confirmation_delegate.h"
+#include "unknown/components/brave_ads/core/internal/common/timer/timer.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client_notifier_observer.h"
 
 namespace brave_ads {
 

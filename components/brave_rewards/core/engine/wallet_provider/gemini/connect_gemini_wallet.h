@@ -9,10 +9,10 @@
 #include <string>
 
 #include "base/containers/flat_map.h"
-#include "brave/components/brave_rewards/core/engine/endpoint/gemini/gemini_server.h"
-#include "brave/components/brave_rewards/core/engine/endpoints/gemini/get_recipient_id_gemini.h"
-#include "brave/components/brave_rewards/core/engine/rewards_callbacks.h"
-#include "brave/components/brave_rewards/core/engine/wallet_provider/connect_external_wallet.h"
+#include "unknown/components/brave_rewards/core/engine/endpoint/gemini/gemini_server.h"
+#include "unknown/components/brave_rewards/core/engine/endpoints/gemini/get_recipient_id_gemini.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_callbacks.h"
+#include "unknown/components/brave_rewards/core/engine/wallet_provider/connect_external_wallet.h"
 
 namespace brave_rewards::internal {
 class RewardsEngine;

@@ -9,11 +9,11 @@
 #include <string>
 
 #include "base/functional/callback.h"
-#include "brave/components/brave_ads/core/internal/account/tokens/payment_tokens/payment_token_info.h"
-#include "brave/components/brave_ads/core/internal/account/transactions/transaction_info.h"
-#include "brave/components/brave_ads/core/internal/database/database_table_interface.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
-#include "brave/components/brave_ads/core/public/ads_callback.h"
+#include "unknown/components/brave_ads/core/internal/account/tokens/payment_tokens/payment_token_info.h"
+#include "unknown/components/brave_ads/core/internal/account/transactions/transaction_info.h"
+#include "unknown/components/brave_ads/core/internal/database/database_table_interface.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
+#include "unknown/components/brave_ads/core/public/ads_callback.h"
 
 namespace base {
 class Time;

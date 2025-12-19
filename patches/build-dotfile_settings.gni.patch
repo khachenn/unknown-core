@@ -6,4 +6,4 @@ index 4911002e5c18b9532af94ea1ef725d9e497ecc59..aeb5c222833b43b62d7df6653c649eb6
      "//build/util/branding.gni",
    ]
  }
-+import("//brave/build/dotfile_settings.gni") build_dotfile_settings.exec_script_allowlist += brave_exec_script_allowlist
++import("//unknown/build/dotfile_settings.gni") build_dotfile_settings.exec_script_allowlist += brave_exec_script_allowlist

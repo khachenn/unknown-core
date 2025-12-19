@@ -6,7 +6,7 @@
 #ifndef BRAVE_CHROMIUM_SRC_CHROME_BROWSER_UI_VIEWS_BOOKMARKS_BOOKMARK_CONTEXT_MENU_H_
 #define BRAVE_CHROMIUM_SRC_CHROME_BROWSER_UI_VIEWS_BOOKMARKS_BOOKMARK_CONTEXT_MENU_H_
 
-#include "brave/browser/ui/toolbar/brave_bookmark_context_menu_controller.h"
+#include "unknown/browser/ui/toolbar/brave_bookmark_context_menu_controller.h"
 
 #define BookmarkContextMenuController BraveBookmarkContextMenuController
 #define close_on_remove_ \

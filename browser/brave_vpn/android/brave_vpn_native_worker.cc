@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_vpn/android/brave_vpn_native_worker.h"
+#include "unknown/browser/brave_vpn/android/brave_vpn_native_worker.h"
 
 #include "base/android/jni_android.h"
 #include "base/android/jni_array.h"
@@ -11,8 +11,8 @@
 #include "base/functional/bind.h"
 #include "base/json/json_writer.h"
 #include "base/values.h"
-#include "brave/browser/brave_vpn/brave_vpn_service_factory.h"
-#include "brave/components/brave_vpn/browser/brave_vpn_service.h"
+#include "unknown/browser/brave_vpn/brave_vpn_service_factory.h"
+#include "unknown/components/brave_vpn/browser/brave_vpn_service.h"
 #include "chrome/android/chrome_jni_headers/BraveVpnNativeWorker_jni.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/profiles/profile_manager.h"

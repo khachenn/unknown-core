@@ -12,14 +12,14 @@ cargo_crate("lib") {
   crate_name = "futures_channel"
   epoch = "0.3"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/lock.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/mpsc/mod.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/mpsc/queue.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/mpsc/sink_impl.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/oneshot.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/lock.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/mpsc/mod.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/mpsc/queue.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/mpsc/sink_impl.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/futures-channel-v0_3/src/oneshot.rs",
   ]
   inputs = []
 
@@ -32,8 +32,8 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.3.31"
 
   deps = [
-    "//brave/third_party/rust/futures_core/v0_3:lib",
-    "//brave/third_party/rust/futures_sink/v0_3:lib",
+    "//unknown/third_party/rust/futures_core/v0_3:lib",
+    "//unknown/third_party/rust/futures_sink/v0_3:lib",
   ]
   features = [
     "alloc",

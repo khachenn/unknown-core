@@ -11,7 +11,7 @@
 #include <string>
 
 #include "base/check.h"
-#include "brave/components/challenge_bypass_ristretto/public_key.h"
+#include "unknown/components/challenge_bypass_ristretto/public_key.h"
 
 namespace brave_ads::cbr {
 

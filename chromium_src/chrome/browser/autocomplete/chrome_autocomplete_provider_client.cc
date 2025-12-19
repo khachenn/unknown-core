@@ -5,8 +5,8 @@
 
 #include "base/check.h"
 #include "base/strings/utf_string_conversions.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/commander/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/commander/common/buildflags/buildflags.h"
 #include "build/build_config.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_features.h"
@@ -15,26 +15,26 @@
 #include "ui/base/window_open_disposition.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/browser/ai_chat/ai_chat_service_factory.h"
-#include "brave/components/ai_chat/content/browser/ai_chat_tab_helper.h"
-#include "brave/components/ai_chat/core/browser/ai_chat_metrics.h"
-#include "brave/components/ai_chat/core/browser/ai_chat_service.h"
-#include "brave/components/ai_chat/core/browser/conversation_handler.h"
-#include "brave/components/ai_chat/core/common/ai_chat_urls.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/ai_chat/core/common/pref_names.h"
+#include "unknown/browser/ai_chat/ai_chat_service_factory.h"
+#include "unknown/components/ai_chat/content/browser/ai_chat_tab_helper.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_metrics.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_service.h"
+#include "unknown/components/ai_chat/core/browser/conversation_handler.h"
+#include "unknown/components/ai_chat/core/common/ai_chat_urls.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/common/pref_names.h"
 #endif
 
 #if !BUILDFLAG(IS_ANDROID)
-#include "brave/browser/misc_metrics/profile_misc_metrics_service.h"
-#include "brave/browser/misc_metrics/profile_misc_metrics_service_factory.h"
-#include "brave/browser/ui/brave_browser.h"
-#include "brave/browser/ui/sidebar/sidebar_controller.h"
+#include "unknown/browser/misc_metrics/profile_misc_metrics_service.h"
+#include "unknown/browser/misc_metrics/profile_misc_metrics_service_factory.h"
+#include "unknown/browser/ui/brave_browser.h"
+#include "unknown/browser/ui/sidebar/sidebar_controller.h"
 #endif  // BUILDFLAG(!IS_ANDROID)
 
 #if BUILDFLAG(ENABLE_COMMANDER)
-#include "brave/browser/ui/commander/commander_service_factory.h"
-#include "brave/components/commander/browser/commander_frontend_delegate.h"
+#include "unknown/browser/ui/commander/commander_service_factory.h"
+#include "unknown/components/commander/browser/commander_frontend_delegate.h"
 #endif  // BUILDFLAG(ENABLE_COMMANDER)
 
 #include <chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc>

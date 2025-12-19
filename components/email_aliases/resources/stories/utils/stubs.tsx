@@ -11,7 +11,7 @@ import {
   EmailAliasesServiceInterface,
   EmailAliasesServiceObserverInterface,
   EmailAliasesServiceObserverRemote,
-} from 'gen/brave/components/email_aliases/email_aliases.mojom.m'
+} from 'gen/unknown/components/email_aliases/email_aliases.mojom.m'
 
 export const demoData = {
   email: 'aguscr182@gmail.com',

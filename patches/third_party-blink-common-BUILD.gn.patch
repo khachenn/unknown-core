@@ -6,7 +6,7 @@ index 256e5433c3f004098e5be985ff579b1ea93e70ff..4bda25f96f3d99fd4fe74fff81f99e45
    # TODO(crbug.com/40031409): Fix code that adds exit-time destructors and
    # enable the diagnostic by removing this line.
    configs += [ "//build/config/compiler:no_exit_time_destructors" ]
-+  import("//brave/components/brave_wallet/sources.gni") deps += brave_blink_common_deps
++  import("//unknown/components/brave_wallet/sources.gni") deps += brave_blink_common_deps
  }
  
  test("blink_common_unittests") {
@@ -14,7 +14,7 @@ index 256e5433c3f004098e5be985ff579b1ea93e70ff..4bda25f96f3d99fd4fe74fff81f99e45
    # TODO(crbug.com/40031409): Fix code that adds exit-time destructors and
    # enable the diagnostic by removing this line.
    configs += [ "//build/config/compiler:no_exit_time_destructors" ]
-+  import("//brave/components/brave_wallet/sources.gni") deps += brave_blink_common_deps
++  import("//unknown/components/brave_wallet/sources.gni") deps += brave_blink_common_deps
  }
  
  group("common_unittests_data") {

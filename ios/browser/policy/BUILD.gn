@@ -3,8 +3,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 
 source_set("policy") {
   sources = [
@@ -12,20 +12,20 @@ source_set("policy") {
     "configuration_policy_handler_list_factory_impl.mm",
   ]
   deps = [
-    "//brave/components/ai_chat/core/common",
-    "//brave/components/brave_news/common",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_vpn/common/buildflags",
-    "//brave/components/constants",
-    "//brave/components/p3a",
-    "//brave/components/playlist/core/common",
+    "//unknown/components/ai_chat/core/common",
+    "//unknown/components/brave_news/common",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_vpn/common/buildflags",
+    "//unknown/components/constants",
+    "//unknown/components/p3a",
+    "//unknown/components/playlist/core/common",
     "//components/policy/core/browser",
     "//ios/chrome/browser/policy/model",
   ]
   if (enable_brave_vpn) {
-    deps += [ "//brave/components/brave_vpn/common" ]
+    deps += [ "//unknown/components/brave_vpn/common" ]
   }
   if (enable_brave_wallet) {
-    deps += [ "//brave/components/brave_wallet/browser:pref_names" ]
+    deps += [ "//unknown/components/brave_wallet/browser:pref_names" ]
   }
 }

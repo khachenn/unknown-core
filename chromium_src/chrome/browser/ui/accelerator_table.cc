@@ -6,8 +6,8 @@
 #include "chrome/browser/ui/accelerator_table.h"
 
 #include "base/containers/extend.h"
-#include "brave/app/brave_command_ids.h"
-#include "brave/components/commander/common/buildflags/buildflags.h"
+#include "unknown/app/brave_command_ids.h"
+#include "unknown/components/commander/common/buildflags/buildflags.h"
 #include "build/build_config.h"
 
 #define GetAcceleratorList GetAcceleratorList_ChromiumImpl

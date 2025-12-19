@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_stats/brave_stats_updater.h"
+#include "unknown/browser/brave_stats/brave_stats_updater.h"
 
 #include <memory>
 #include <utility>
@@ -17,17 +17,17 @@
 #include "base/test/metrics/histogram_tester.h"
 #include "base/test/scoped_feature_list.h"
 #include "base/time/time.h"
-#include "brave/browser/brave_ads/analytics/p3a/brave_stats_helper.h"
-#include "brave/browser/brave_stats/brave_stats_updater_params.h"
-#include "brave/browser/brave_stats/features.h"
-#include "brave/components/brave_ads/core/public/prefs/pref_names.h"
-#include "brave/components/brave_referrals/browser/brave_referrals_service.h"
-#include "brave/components/brave_referrals/common/pref_names.h"
-#include "brave/components/brave_rewards/content/rewards_service.h"
-#include "brave/components/brave_stats/browser/brave_stats_updater_util.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/misc_metrics/general_browser_usage.h"
+#include "unknown/browser/brave_ads/analytics/p3a/brave_stats_helper.h"
+#include "unknown/browser/brave_stats/brave_stats_updater_params.h"
+#include "unknown/browser/brave_stats/features.h"
+#include "unknown/components/brave_ads/core/public/prefs/pref_names.h"
+#include "unknown/components/brave_referrals/browser/brave_referrals_service.h"
+#include "unknown/components/brave_referrals/common/pref_names.h"
+#include "unknown/components/brave_rewards/content/rewards_service.h"
+#include "unknown/components/brave_stats/browser/brave_stats_updater_util.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/misc_metrics/general_browser_usage.h"
 #include "build/build_config.h"
 #include "chrome/browser/prefs/browser_prefs.h"
 #include "components/sync_preferences/testing_pref_service_syncable.h"
@@ -41,7 +41,7 @@
 #include "ui/gfx/switches.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
 #endif
 
 using testing::HasSubstr;

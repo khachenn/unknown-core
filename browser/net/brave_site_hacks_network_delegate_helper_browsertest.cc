@@ -9,9 +9,9 @@
 #include "base/path_service.h"
 #include "base/test/bind.h"
 #include "base/types/zip.h"
-#include "brave/components/brave_shields/core/browser/brave_shields_utils.h"
-#include "brave/components/constants/brave_paths.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/components/brave_shields/core/browser/brave_shields_utils.h"
+#include "unknown/components/constants/brave_paths.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "chrome/browser/content_settings/host_content_settings_map_factory.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
@@ -28,9 +28,9 @@
 #include "url/origin.h"
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/browser/tor/tor_profile_manager.h"
-#include "brave/components/tor/tor_navigation_throttle.h"
-#include "brave/net/proxy_resolution/proxy_config_service_tor.h"
+#include "unknown/browser/tor/tor_profile_manager.h"
+#include "unknown/components/tor/tor_navigation_throttle.h"
+#include "unknown/net/proxy_resolution/proxy_config_service_tor.h"
 #endif
 
 class BraveSiteHacksNetworkDelegateBrowserTest : public InProcessBrowserTest {

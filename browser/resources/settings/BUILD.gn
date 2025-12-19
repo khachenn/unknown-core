@@ -3,17 +3,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # you can obtain one at http://mozilla.org/MPL/2.0/.
 
-import("//brave/browser/shell_integrations/buildflags/buildflags.gni")
-import("//brave/build/config.gni")
-import("//brave/components/ai_chat/core/common/buildflags/buildflags.gni")
-import("//brave/components/brave_vpn/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
-import("//brave/components/brave_wayback_machine/buildflags/buildflags.gni")
-import("//brave/components/containers/buildflags/buildflags.gni")
-import("//brave/components/speedreader/common/buildflags/buildflags.gni")
-import("//brave/components/tor/buildflags/buildflags.gni")
-import("//brave/components/web_discovery/buildflags/buildflags.gni")
-import("//brave/resources/brave_grit.gni")
+import("//unknown/browser/shell_integrations/buildflags/buildflags.gni")
+import("//unknown/build/config.gni")
+import("//unknown/components/ai_chat/core/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wayback_machine/buildflags/buildflags.gni")
+import("//unknown/components/containers/buildflags/buildflags.gni")
+import("//unknown/components/speedreader/common/buildflags/buildflags.gni")
+import("//unknown/components/tor/buildflags/buildflags.gni")
+import("//unknown/components/web_discovery/buildflags/buildflags.gni")
+import("//unknown/resources/brave_grit.gni")
 import("//chrome/common/features.gni")
 import("//extensions/buildflags/buildflags.gni")
 import("//tools/grit/preprocess_if_expr.gni")
@@ -65,15 +65,15 @@ generate_grd("build_grd") {
   ]
   input_files_base_dir = rebase_path(".", "//")
 
-  grdp_files = [ "$root_gen_dir/brave/web-ui-email_aliases/email_aliases.grdp" ]
+  grdp_files = [ "$root_gen_dir/unknown/web-ui-email_aliases/email_aliases.grdp" ]
 
   deps = [
     ":preprocess",
-    "//brave/components/email_aliases/resources:email_aliases_ui",
+    "//unknown/components/email_aliases/resources:email_aliases_ui",
   ]
 
   if (!is_android) {
-    grdp_files += [ "$root_gen_dir/brave/web-ui-commands/commands.grdp" ]
+    grdp_files += [ "$root_gen_dir/unknown/web-ui-commands/commands.grdp" ]
     deps += [ "shortcuts_page:commands_ui" ]
   }
 }

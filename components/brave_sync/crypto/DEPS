@@ -1,4 +1,4 @@
 include_rules = [
-  "+brave/vendor/bat-native-tweetnacl",
+  "+unknown/vendor/bat-native-tweetnacl",
   "+crypto",
 ]

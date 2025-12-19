@@ -10,7 +10,7 @@ import platform
 import subprocess
 
 parser = argparse.ArgumentParser(
-    description='Build crates in //brave/tools/crates/config.gni')
+    description='Build crates in //unknown/tools/crates/config.gni')
 parser.add_argument('--temp_dir_path', required=True)
 args, cargo_args = parser.parse_known_args()
 env = os.environ.copy()

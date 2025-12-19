@@ -12,9 +12,9 @@
 #include <string>
 
 #include "base/memory/raw_ref.h"
-#include "brave/components/brave_ads/core/internal/segments/segment_alias.h"
-#include "brave/components/brave_ads/core/internal/tabs/tab_manager_observer.h"
-#include "brave/components/brave_ads/core/internal/targeting/behavioral/purchase_intent/keyphrase/purchase_intent_keyphrase_alias.h"
+#include "unknown/components/brave_ads/core/internal/segments/segment_alias.h"
+#include "unknown/components/brave_ads/core/internal/tabs/tab_manager_observer.h"
+#include "unknown/components/brave_ads/core/internal/targeting/behavioral/purchase_intent/keyphrase/purchase_intent_keyphrase_alias.h"
 
 class GURL;
 

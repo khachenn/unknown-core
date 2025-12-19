@@ -4,8 +4,8 @@
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
 #include "base/check.h"
-#include "brave/browser/infobars/dev_channel_deprecation_infobar_delegate.h"
-#include "brave/browser/ui/startup/brave_obsolete_system_infobar_delegate.h"
+#include "unknown/browser/infobars/dev_channel_deprecation_infobar_delegate.h"
+#include "unknown/browser/ui/startup/brave_obsolete_system_infobar_delegate.h"
 #include "build/build_config.h"
 #include "chrome/browser/ui/session_crashed_bubble.h"
 #include "chrome/browser/ui/startup/google_api_keys_infobar_delegate.h"

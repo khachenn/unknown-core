@@ -3,14 +3,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/views/side_panel/side_panel_registry.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/browser/ai_chat/ai_chat_service_factory.h"
-#include "brave/browser/ui/side_panel/ai_chat/ai_chat_side_panel_utils.h"
-#include "brave/browser/ui/views/side_panel/ai_chat/ai_chat_side_panel_web_view.h"
+#include "unknown/browser/ai_chat/ai_chat_service_factory.h"
+#include "unknown/browser/ui/side_panel/ai_chat/ai_chat_side_panel_utils.h"
+#include "unknown/browser/ui/views/side_panel/ai_chat/ai_chat_side_panel_web_view.h"
 #endif
 
 namespace brave {

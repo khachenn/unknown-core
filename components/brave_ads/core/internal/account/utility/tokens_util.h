@@ -9,10 +9,10 @@
 #include <optional>
 
 #include "base/values.h"
-#include "brave/components/brave_ads/core/internal/common/challenge_bypass_ristretto/blinded_token.h"
-#include "brave/components/brave_ads/core/internal/common/challenge_bypass_ristretto/signed_token.h"
-#include "brave/components/brave_ads/core/internal/common/challenge_bypass_ristretto/token.h"
-#include "brave/components/brave_ads/core/internal/common/challenge_bypass_ristretto/unblinded_token.h"
+#include "unknown/components/brave_ads/core/internal/common/challenge_bypass_ristretto/blinded_token.h"
+#include "unknown/components/brave_ads/core/internal/common/challenge_bypass_ristretto/signed_token.h"
+#include "unknown/components/brave_ads/core/internal/common/challenge_bypass_ristretto/token.h"
+#include "unknown/components/brave_ads/core/internal/common/challenge_bypass_ristretto/unblinded_token.h"
 
 namespace brave_ads {
 

@@ -10,7 +10,7 @@
 #include <string>
 
 #include "base/scoped_observation.h"
-#include "brave/browser/ui/webui/playlist_ui.h"
+#include "unknown/browser/ui/webui/playlist_ui.h"
 #include "chrome/browser/ui/exclusive_access/fullscreen_observer.h"
 #include "chrome/browser/ui/webui/top_chrome/webui_contents_wrapper.h"
 

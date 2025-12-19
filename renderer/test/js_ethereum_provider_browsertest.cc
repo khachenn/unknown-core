@@ -9,13 +9,13 @@
 #include "base/metrics/statistics_recorder.h"
 #include "base/path_service.h"
 #include "base/test/metrics/histogram_tester.h"
-#include "brave/browser/brave_wallet/brave_wallet_service_factory.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_service.h"
-#include "brave/components/brave_wallet/browser/brave_wallet_utils.h"
-#include "brave/components/brave_wallet/browser/json_rpc_service.h"
-#include "brave/components/brave_wallet/browser/keyring_service.h"
-#include "brave/components/brave_wallet/common/brave_wallet_types.h"
-#include "brave/components/constants/brave_paths.h"
+#include "unknown/browser/brave_wallet/brave_wallet_service_factory.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_service.h"
+#include "unknown/components/brave_wallet/browser/brave_wallet_utils.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_service.h"
+#include "unknown/components/brave_wallet/browser/keyring_service.h"
+#include "unknown/components/brave_wallet/common/brave_wallet_types.h"
+#include "unknown/components/constants/brave_paths.h"
 #include "build/build_config.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
@@ -76,9 +76,9 @@ std::string NonWriteableScriptMethod(const std::string& provider,
 }
 }  // namespace
 
-// TODO(darkdh): Move this browser test to //brave/browser/brave_wallet/ because
+// TODO(darkdh): Move this browser test to //unknown/browser/brave_wallet/ because
 // it has layer violation (//chrome/browser,
-// //brave/components/brave_wallet/browser and //brave/browser)
+// //unknown/components/brave_wallet/browser and //unknown/browser)
 class JSEthereumProviderBrowserTest : public InProcessBrowserTest {
  public:
   JSEthereumProviderBrowserTest()

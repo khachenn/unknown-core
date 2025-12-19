@@ -3,20 +3,20 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/views/infobars/web_discovery_infobar_content_view.h"
+#include "unknown/browser/ui/views/infobars/web_discovery_infobar_content_view.h"
 
 #include <array>
 #include <limits>
 #include <utility>
 #include <vector>
 
-#include "brave/app/vector_icons/vector_icons.h"
-#include "brave/browser/ui/color/brave_color_id.h"
-#include "brave/browser/ui/views/infobars/custom_styled_label.h"
-#include "brave/browser/web_discovery/web_discovery_infobar_delegate.h"
-#include "brave/components/constants/url_constants.h"
-#include "brave/grit/brave_generated_resources.h"
-#include "brave/grit/brave_theme_resources.h"
+#include "unknown/app/vector_icons/vector_icons.h"
+#include "unknown/browser/ui/color/brave_color_id.h"
+#include "unknown/browser/ui/views/infobars/custom_styled_label.h"
+#include "unknown/browser/web_discovery/web_discovery_infobar_delegate.h"
+#include "unknown/components/constants/url_constants.h"
+#include "unknown/grit/brave_generated_resources.h"
+#include "unknown/grit/brave_theme_resources.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_interface.h"
 #include "chrome/browser/ui/browser_window/public/browser_window_interface_iterator.h"
 #include "chrome/browser/ui/singleton_tabs.h"

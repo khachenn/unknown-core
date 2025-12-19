@@ -7,8 +7,8 @@
 #define BRAVE_COMPONENTS_BRAVE_ACCOUNT_ENDPOINT_CLIENT_WITH_HEADERS_H_
 
 #include "base/memory/scoped_refptr.h"
-#include "brave/components/brave_account/endpoint_client/is_request.h"
-#include "brave/components/brave_account/endpoint_client/is_response.h"
+#include "unknown/components/brave_account/endpoint_client/is_request.h"
+#include "unknown/components/brave_account/endpoint_client/is_response.h"
 #include "net/http/http_request_headers.h"
 #include "net/http/http_response_headers.h"
 

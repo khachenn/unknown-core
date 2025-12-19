@@ -10,6 +10,6 @@ source_set("brave_news") {
   ]
   deps = [
     "//base",
-    "//brave/components/brave_news/common",
+    "//unknown/components/brave_news/common",
   ]
 }

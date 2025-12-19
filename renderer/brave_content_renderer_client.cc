@@ -3,30 +3,30 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/renderer/brave_content_renderer_client.h"
+#include "unknown/renderer/brave_content_renderer_client.h"
 
 #include <algorithm>
 #include <utility>
 
 #include "base/feature_list.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/ai_rewriter/common/buildflags/buildflags.h"
-#include "brave/components/brave_search/common/brave_search_utils.h"
-#include "brave/components/brave_search/renderer/brave_search_render_frame_observer.h"
-#include "brave/components/brave_shields/core/common/features.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/cosmetic_filters/renderer/cosmetic_filters_js_render_frame_observer.h"
-#include "brave/components/playlist/content/renderer/playlist_render_frame_observer.h"
-#include "brave/components/playlist/core/common/features.h"
-#include "brave/components/safe_builtins/renderer/safe_builtins.h"
-#include "brave/components/script_injector/renderer/script_injector_render_frame_observer.h"
-#include "brave/components/skus/common/features.h"
-#include "brave/components/skus/renderer/skus_render_frame_observer.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
-#include "brave/components/web_discovery/buildflags/buildflags.h"
-#include "brave/renderer/brave_render_frame_observer.h"
-#include "brave/renderer/brave_render_thread_observer.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/ai_rewriter/common/buildflags/buildflags.h"
+#include "unknown/components/brave_search/common/brave_search_utils.h"
+#include "unknown/components/brave_search/renderer/brave_search_render_frame_observer.h"
+#include "unknown/components/brave_shields/core/common/features.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/cosmetic_filters/renderer/cosmetic_filters_js_render_frame_observer.h"
+#include "unknown/components/playlist/content/renderer/playlist_render_frame_observer.h"
+#include "unknown/components/playlist/core/common/features.h"
+#include "unknown/components/safe_builtins/renderer/safe_builtins.h"
+#include "unknown/components/script_injector/renderer/script_injector_render_frame_observer.h"
+#include "unknown/components/skus/common/features.h"
+#include "unknown/components/skus/renderer/skus_render_frame_observer.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/components/web_discovery/buildflags/buildflags.h"
+#include "unknown/renderer/brave_render_frame_observer.h"
+#include "unknown/renderer/brave_render_thread_observer.h"
 #include "chrome/common/chrome_isolated_world_ids.h"
 #include "chrome/renderer/chrome_render_thread_observer.h"
 #include "chrome/renderer/process_state.h"
@@ -42,24 +42,24 @@
 #include "url/gurl.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/ai_chat/renderer/page_content_extractor.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/renderer/page_content_extractor.h"
 #endif  // BUILDFLAG(ENABLE_AI_CHAT)
 
 #if BUILDFLAG(ENABLE_AI_REWRITER)
-#include "brave/components/ai_rewriter/common/features.h"
-#include "brave/components/ai_rewriter/renderer/ai_rewriter_agent.h"
+#include "unknown/components/ai_rewriter/common/features.h"
+#include "unknown/components/ai_rewriter/renderer/ai_rewriter_agent.h"
 #endif
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/components/speedreader/common/features.h"
-#include "brave/components/speedreader/renderer/speedreader_render_frame_observer.h"
+#include "unknown/components/speedreader/common/features.h"
+#include "unknown/components/speedreader/renderer/speedreader_render_frame_observer.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/brave_vpn_utils.h"
+#include "unknown/components/brave_vpn/common/brave_vpn_utils.h"
 #if BUILDFLAG(IS_ANDROID)
-#include "brave/components/brave_mobile_subscription/renderer/android/subscription_render_frame_observer.h"
+#include "unknown/components/brave_mobile_subscription/renderer/android/subscription_render_frame_observer.h"
 #endif  // BUILDFLAG(IS_ANDROID)
 #endif  // BUILDFLAG(ENABLE_BRAVE_VPN)
 
@@ -69,13 +69,13 @@
 #endif
 
 #if BUILDFLAG(ENABLE_WEB_DISCOVERY_NATIVE)
-#include "brave/components/web_discovery/common/features.h"
-#include "brave/components/web_discovery/renderer/blink_document_extractor.h"
+#include "unknown/components/web_discovery/common/features.h"
+#include "unknown/components/web_discovery/renderer/blink_document_extractor.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/common/features.h"
-#include "brave/renderer/brave_wallet/brave_wallet_render_frame_observer.h"
+#include "unknown/components/brave_wallet/common/features.h"
+#include "unknown/renderer/brave_wallet/brave_wallet_render_frame_observer.h"
 #endif
 
 namespace {

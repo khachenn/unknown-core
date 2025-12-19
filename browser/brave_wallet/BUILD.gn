@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 import("//extensions/buildflags/buildflags.gni")
 import("//testing/test.gni")
 
@@ -32,13 +32,13 @@ source_set("brave_wallet") {
     sources += [ "wallet_notification_helper.h" ]
   }
   deps = [
-    "//brave/components/brave_wallet/browser",
-    "//brave/components/brave_wallet/browser:constants",
-    "//brave/components/brave_wallet/browser:pref_names",
-    "//brave/components/brave_wallet/browser:utils",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/components/brave_wallet/common/buildflags",
+    "//unknown/components/brave_wallet/browser",
+    "//unknown/components/brave_wallet/browser:constants",
+    "//unknown/components/brave_wallet/browser:pref_names",
+    "//unknown/components/brave_wallet/browser:utils",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/components/brave_wallet/common/buildflags",
     "//chrome/browser:browser_process",
     "//chrome/browser/profiles",
     "//chrome/browser/profiles:profile",
@@ -66,14 +66,14 @@ source_set("brave_wallet_delegate") {
     "brave_wallet_service_delegate_helper.cc",
   ]
   deps = [
-    "//brave/browser/brave_wallet",
-    "//brave/browser/brave_wallet:tab_helper",
-    "//brave/components/brave_wallet/browser",
-    "//brave/components/brave_wallet/browser:constants",
-    "//brave/components/brave_wallet/browser:permission_utils",
-    "//brave/components/brave_wallet/browser:utils",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/components/resources:strings_grit",
+    "//unknown/browser/brave_wallet",
+    "//unknown/browser/brave_wallet:tab_helper",
+    "//unknown/components/brave_wallet/browser",
+    "//unknown/components/brave_wallet/browser:constants",
+    "//unknown/components/brave_wallet/browser:permission_utils",
+    "//unknown/components/brave_wallet/browser:utils",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/components/resources:strings_grit",
     "//chrome/browser/profiles:profile",
     "//components/content_settings/core/common",
     "//components/permissions",
@@ -87,7 +87,7 @@ source_set("brave_wallet_delegate") {
       "brave_wallet_service_delegate_impl_android.h",
     ]
     deps += [
-      "//brave/build/android:jni_headers",
+      "//unknown/build/android:jni_headers",
       "//chrome/browser/ui",
       "//chrome/browser/ui/android/tab_model",
       "//chrome/browser/ui/android/tab_model:enums_java",
@@ -115,10 +115,10 @@ source_set("external_wallets_importer") {
     "external_wallets_importer.h",
   ]
   deps = [
-    "//brave/components/brave_wallet/browser",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/third_party/argon2",
+    "//unknown/components/brave_wallet/browser",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/third_party/argon2",
     "//components/value_store",
   ]
   if (enable_extensions) {
@@ -138,13 +138,13 @@ source_set("tab_helper") {
   ]
 
   deps = [
-    "//brave/browser/brave_wallet",
-    "//brave/common",
-    "//brave/components/brave_wallet/browser",
-    "//brave/components/brave_wallet/browser:constants",
-    "//brave/components/brave_wallet/browser:permission_utils",
-    "//brave/components/brave_wallet/browser:utils",
-    "//brave/components/brave_wallet/common/buildflags",
+    "//unknown/browser/brave_wallet",
+    "//unknown/common",
+    "//unknown/components/brave_wallet/browser",
+    "//unknown/components/brave_wallet/browser:constants",
+    "//unknown/components/brave_wallet/browser:permission_utils",
+    "//unknown/components/brave_wallet/browser:utils",
+    "//unknown/components/brave_wallet/common/buildflags",
     "//chrome/browser/content_settings:content_settings_factory",
     "//components/permissions",
     "//components/sessions",
@@ -152,10 +152,10 @@ source_set("tab_helper") {
     "//content/public/browser",
   ]
 
-  public_deps = [ "//brave/components/brave_wallet/common:mojom" ]
+  public_deps = [ "//unknown/components/brave_wallet/common:mojom" ]
 
   if (!is_android) {
-    deps += [ "//brave/browser/ui/brave_wallet" ]
+    deps += [ "//unknown/browser/ui/brave_wallet" ]
   }
 }
 
@@ -170,23 +170,23 @@ source_set("unit_tests") {
   ]
   deps = [
     "//base/test:test_support",
-    "//brave/browser/brave_wallet",
-    "//brave/browser/brave_wallet:tab_helper",
-    "//brave/common",
-    "//brave/components/brave_wallet/browser",
-    "//brave/components/brave_wallet/browser:constants",
-    "//brave/components/brave_wallet/browser:hd_keyring",
-    "//brave/components/brave_wallet/browser:permission_utils",
-    "//brave/components/brave_wallet/browser:pref_names",
-    "//brave/components/brave_wallet/browser:test_support",
-    "//brave/components/brave_wallet/browser:transaction",
-    "//brave/components/brave_wallet/browser:utils",
-    "//brave/components/brave_wallet/common",
-    "//brave/components/brave_wallet/common:mojom",
-    "//brave/components/brave_wallet/common:rust_lib",
-    "//brave/components/brave_wallet/common:test_support",
-    "//brave/components/resources:strings_grit",
-    "//brave/components/version_info",
+    "//unknown/browser/brave_wallet",
+    "//unknown/browser/brave_wallet:tab_helper",
+    "//unknown/common",
+    "//unknown/components/brave_wallet/browser",
+    "//unknown/components/brave_wallet/browser:constants",
+    "//unknown/components/brave_wallet/browser:hd_keyring",
+    "//unknown/components/brave_wallet/browser:permission_utils",
+    "//unknown/components/brave_wallet/browser:pref_names",
+    "//unknown/components/brave_wallet/browser:test_support",
+    "//unknown/components/brave_wallet/browser:transaction",
+    "//unknown/components/brave_wallet/browser:utils",
+    "//unknown/components/brave_wallet/common",
+    "//unknown/components/brave_wallet/common:mojom",
+    "//unknown/components/brave_wallet/common:rust_lib",
+    "//unknown/components/brave_wallet/common:test_support",
+    "//unknown/components/resources:strings_grit",
+    "//unknown/components/version_info",
     "//chrome/browser",
     "//chrome/browser/permissions",
     "//chrome/browser/prefs",
@@ -202,8 +202,8 @@ source_set("unit_tests") {
     ]
     deps += [
       ":brave_wallet_delegate",
-      "//brave/components/brave_wallet/common",
-      "//brave/components/brave_wallet/common:common_constants",
+      "//unknown/components/brave_wallet/common",
+      "//unknown/components/brave_wallet/common:common_constants",
       "//chrome/browser/content_settings:content_settings_factory",
       "//chrome/browser/ui/hid",
     ]
@@ -222,14 +222,14 @@ source_set("browser_tests") {
     deps = [
       ":brave_wallet",
       "//base/test:test_support",
-      "//brave/app:command_ids",
-      "//brave/browser",
-      "//brave/browser/ui/sidebar",
-      "//brave/components/brave_wallet/browser:pref_names",
-      "//brave/components/brave_wallet/browser:utils",
-      "//brave/components/brave_wallet/common",
-      "//brave/components/sidebar/browser",
-      "//brave/components/tor/buildflags",
+      "//unknown/app:command_ids",
+      "//unknown/browser",
+      "//unknown/browser/ui/sidebar",
+      "//unknown/components/brave_wallet/browser:pref_names",
+      "//unknown/components/brave_wallet/browser:utils",
+      "//unknown/components/brave_wallet/common",
+      "//unknown/components/sidebar/browser",
+      "//unknown/components/tor/buildflags",
       "//chrome/browser/ui",
       "//chrome/browser/ui/browser_window",
       "//chrome/test:test_support",

@@ -18,7 +18,7 @@ source_set("android") {
 
   deps = [
     "//base",
-    "//brave/browser/password_entry_edit/android/internal:jni",
+    "//unknown/browser/password_entry_edit/android/internal:jni",
     "//chrome/app:generated_resources",
     "//chrome/browser/ui",
     "//components/password_manager/core/browser",
@@ -30,16 +30,16 @@ source_set("android") {
 
 android_library("java") {
   sources = [
-    "//brave/browser/password_entry_edit/android/java/src/org/chromium/chrome/browser/password_entry_edit/BlockedCredentialFragmentView.java",
-    "//brave/browser/password_entry_edit/android/java/src/org/chromium/chrome/browser/password_entry_edit/CredentialEditFragmentView.java",
-    "//brave/browser/password_entry_edit/android/java/src/org/chromium/chrome/browser/password_entry_edit/CredentialEntryFragmentViewBase.java",
-    "//brave/browser/password_entry_edit/android/java/src/org/chromium/chrome/browser/password_entry_edit/FederatedCredentialFragmentView.java",
+    "//unknown/browser/password_entry_edit/android/java/src/org/chromium/chrome/browser/password_entry_edit/BlockedCredentialFragmentView.java",
+    "//unknown/browser/password_entry_edit/android/java/src/org/chromium/chrome/browser/password_entry_edit/CredentialEditFragmentView.java",
+    "//unknown/browser/password_entry_edit/android/java/src/org/chromium/chrome/browser/password_entry_edit/CredentialEntryFragmentViewBase.java",
+    "//unknown/browser/password_entry_edit/android/java/src/org/chromium/chrome/browser/password_entry_edit/FederatedCredentialFragmentView.java",
   ]
 
   deps = [
     ":java_resources",
     "//base:supplier_java",
-    "//brave/build/android:android_brave_strings_grd",
+    "//unknown/build/android:android_brave_strings_grd",
     "//components/browser_ui/settings/android:java",
     "//third_party/android_deps:material_design_java",
     "//third_party/androidx:androidx_annotation_annotation_java",
@@ -79,5 +79,5 @@ android_library_factory("factory_java") {
 
   # This internal file will be replaced by a generated file so the resulting
   # android_library target does not actually depend on this internal file.
-  sources = [ "//brave/browser/password_entry_edit/android/internal/java/src/org/chromium/chrome/browser/password_entry_edit/CredentialEditUiFactory.java" ]
+  sources = [ "//unknown/browser/password_entry_edit/android/internal/java/src/org/chromium/chrome/browser/password_entry_edit/CredentialEditUiFactory.java" ]
 }

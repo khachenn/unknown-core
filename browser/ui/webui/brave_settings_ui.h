@@ -6,25 +6,25 @@
 #ifndef BRAVE_BROWSER_UI_WEBUI_BRAVE_SETTINGS_UI_H_
 #define BRAVE_BROWSER_UI_WEBUI_BRAVE_SETTINGS_UI_H_
 
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_account/mojom/brave_account.mojom.h"
-#include "brave/components/brave_account/mojom/brave_account_row.mojom.h"
-#include "brave/components/brave_origin/common/mojom/brave_origin_settings.mojom.h"
-#include "brave/components/commands/common/commands.mojom.h"
-#include "brave/components/containers/buildflags/buildflags.h"
-#include "brave/components/email_aliases/email_aliases.mojom.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_account/mojom/brave_account.mojom.h"
+#include "unknown/components/brave_account/mojom/brave_account_row.mojom.h"
+#include "unknown/components/brave_origin/common/mojom/brave_origin_settings.mojom.h"
+#include "unknown/components/commands/common/commands.mojom.h"
+#include "unknown/components/containers/buildflags/buildflags.h"
+#include "unknown/components/email_aliases/email_aliases.mojom.h"
 #include "chrome/browser/ui/webui/settings/settings_ui.h"
 #include "mojo/public/cpp/bindings/pending_receiver.h"
 #include "ui/webui/resources/cr_components/color_change_listener/color_change_listener.mojom.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/common/mojom/customization_settings.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/ollama.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/settings_helper.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/customization_settings.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/ollama.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/settings_helper.mojom.h"
 #endif
 
 #if BUILDFLAG(ENABLE_CONTAINERS)
-#include "brave/components/containers/core/mojom/containers.mojom.h"
+#include "unknown/components/containers/core/mojom/containers.mojom.h"
 #endif
 
 class BraveSettingsUI;

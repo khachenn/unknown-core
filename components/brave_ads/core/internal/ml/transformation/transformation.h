@@ -8,7 +8,7 @@
 
 #include <memory>
 
-#include "brave/components/brave_ads/core/internal/ml/transformation/transformation_types.h"
+#include "unknown/components/brave_ads/core/internal/ml/transformation/transformation_types.h"
 
 namespace brave_ads::ml {
 

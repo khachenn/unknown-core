@@ -16,9 +16,9 @@
 #include "base/memory/raw_ref.h"
 #include "base/time/time.h"
 #include "base/timer/timer.h"
-#include "brave/components/brave_rewards/core/engine/rewards_callbacks.h"
-#include "brave/components/brave_rewards/core/engine/wallet_provider/connect_external_wallet.h"
-#include "brave/components/brave_rewards/core/engine/wallet_provider/transfer.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_callbacks.h"
+#include "unknown/components/brave_rewards/core/engine/wallet_provider/connect_external_wallet.h"
+#include "unknown/components/brave_rewards/core/engine/wallet_provider/transfer.h"
 
 namespace brave_rewards::internal {
 class RewardsEngine;

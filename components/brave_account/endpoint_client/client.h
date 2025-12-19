@@ -24,11 +24,11 @@
 #include "base/types/expected.h"
 #include "base/types/is_instantiation.h"
 #include "base/values.h"
-#include "brave/components/brave_account/endpoint_client/is_endpoint.h"
-#include "brave/components/brave_account/endpoint_client/maybe_strip_with_headers.h"
-#include "brave/components/brave_account/endpoint_client/request_handle.h"
-#include "brave/components/brave_account/endpoint_client/response.h"
-#include "brave/components/brave_account/endpoint_client/with_headers.h"
+#include "unknown/components/brave_account/endpoint_client/is_endpoint.h"
+#include "unknown/components/brave_account/endpoint_client/maybe_strip_with_headers.h"
+#include "unknown/components/brave_account/endpoint_client/request_handle.h"
+#include "unknown/components/brave_account/endpoint_client/response.h"
+#include "unknown/components/brave_account/endpoint_client/with_headers.h"
 #include "net/base/load_flags.h"
 #include "net/base/net_errors.h"
 #include "net/http/http_request_headers.h"
@@ -42,7 +42,7 @@
 #include "services/network/public/mojom/url_response_head.mojom.h"
 #include "url/gurl.h"
 
-// See //brave/components/brave_account/endpoint_client/README.md
+// See //unknown/components/brave_account/endpoint_client/README.md
 // for design, motivation, usage, and examples.
 
 namespace brave_account::endpoint_client {

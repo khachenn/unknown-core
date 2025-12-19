@@ -6,9 +6,9 @@
 #ifndef BRAVE_COMPONENTS_BRAVE_ADS_CORE_INTERNAL_TARGETING_BEHAVIORAL_PURCHASE_INTENT_PURCHASE_INTENT_TEST_HELPER_H_
 #define BRAVE_COMPONENTS_BRAVE_ADS_CORE_INTERNAL_TARGETING_BEHAVIORAL_PURCHASE_INTENT_PURCHASE_INTENT_TEST_HELPER_H_
 
-#include "brave/components/brave_ads/core/internal/segments/segment_alias.h"
-#include "brave/components/brave_ads/core/internal/targeting/behavioral/purchase_intent/purchase_intent_processor.h"
-#include "brave/components/brave_ads/core/internal/targeting/behavioral/purchase_intent/resource/purchase_intent_resource.h"
+#include "unknown/components/brave_ads/core/internal/segments/segment_alias.h"
+#include "unknown/components/brave_ads/core/internal/targeting/behavioral/purchase_intent/purchase_intent_processor.h"
+#include "unknown/components/brave_ads/core/internal/targeting/behavioral/purchase_intent/resource/purchase_intent_resource.h"
 
 namespace brave_ads::test {
 

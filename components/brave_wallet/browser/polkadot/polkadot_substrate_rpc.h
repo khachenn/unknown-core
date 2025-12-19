@@ -7,9 +7,9 @@
 #define BRAVE_COMPONENTS_BRAVE_WALLET_BROWSER_POLKADOT_POLKADOT_SUBSTRATE_RPC_H_
 
 #include "base/memory/weak_ptr.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
-#include "brave/components/brave_wallet/browser/polkadot/polkadot_utils.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/brave_wallet/browser/polkadot/polkadot_utils.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
 #include "services/network/public/cpp/shared_url_loader_factory.h"
 
 namespace brave_wallet {

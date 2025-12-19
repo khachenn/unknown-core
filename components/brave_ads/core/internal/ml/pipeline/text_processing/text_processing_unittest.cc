@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_ads/core/internal/ml/pipeline/text_processing/text_processing.h"
+#include "unknown/components/brave_ads/core/internal/ml/pipeline/text_processing/text_processing.h"
 
 #include <map>
 #include <memory>
@@ -12,17 +12,17 @@
 
 #include "base/files/file.h"
 #include "base/files/file_path.h"
-#include "brave/components/brave_ads/core/internal/common/test/file_path_test_util.h"
-#include "brave/components/brave_ads/core/internal/common/test/file_test_util.h"
-#include "brave/components/brave_ads/core/internal/common/test/test_base.h"
-#include "brave/components/brave_ads/core/internal/ml/data/data.h"
-#include "brave/components/brave_ads/core/internal/ml/data/text_data.h"
-#include "brave/components/brave_ads/core/internal/ml/data/vector_data.h"
-#include "brave/components/brave_ads/core/internal/ml/model/linear/linear.h"
-#include "brave/components/brave_ads/core/internal/ml/pipeline/linear_pipeline_test_util.h"
-#include "brave/components/brave_ads/core/internal/ml/transformation/hashed_ngrams_transformation.h"
-#include "brave/components/brave_ads/core/internal/ml/transformation/lowercase_transformation.h"
-#include "brave/components/brave_ads/core/public/common/locale/scoped_locale_for_testing.h"
+#include "unknown/components/brave_ads/core/internal/common/test/file_path_test_util.h"
+#include "unknown/components/brave_ads/core/internal/common/test/file_test_util.h"
+#include "unknown/components/brave_ads/core/internal/common/test/test_base.h"
+#include "unknown/components/brave_ads/core/internal/ml/data/data.h"
+#include "unknown/components/brave_ads/core/internal/ml/data/text_data.h"
+#include "unknown/components/brave_ads/core/internal/ml/data/vector_data.h"
+#include "unknown/components/brave_ads/core/internal/ml/model/linear/linear.h"
+#include "unknown/components/brave_ads/core/internal/ml/pipeline/linear_pipeline_test_util.h"
+#include "unknown/components/brave_ads/core/internal/ml/transformation/hashed_ngrams_transformation.h"
+#include "unknown/components/brave_ads/core/internal/ml/transformation/lowercase_transformation.h"
+#include "unknown/components/brave_ads/core/public/common/locale/scoped_locale_for_testing.h"
 
 // npm run test -- brave_unit_tests --filter=BraveAds*
 

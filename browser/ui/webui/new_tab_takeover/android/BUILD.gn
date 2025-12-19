@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/build/config.gni")
+import("//unknown/build/config.gni")
 
 assert(is_android)
 
@@ -17,10 +17,10 @@ source_set("new_tab_takeover") {
 
   deps = [
     "//base",
-    "//brave/browser/brave_ads",
-    "//brave/components/constants",
-    "//brave/components/new_tab_takeover:new_tab_takeover_generated_resources",
-    "//brave/components/ntp_background_images/browser",
+    "//unknown/browser/brave_ads",
+    "//unknown/components/constants",
+    "//unknown/components/new_tab_takeover:new_tab_takeover_generated_resources",
+    "//unknown/components/ntp_background_images/browser",
     "//chrome/browser:browser_public_dependencies",
     "//chrome/browser/profiles:profile",
     "//chrome/browser/ui/android/tab_model",
@@ -31,9 +31,9 @@ source_set("new_tab_takeover") {
   ]
 
   public_deps = [
-    "//brave/browser/ntp_background",
-    "//brave/components/new_tab_takeover/mojom",
-    "//brave/components/ntp_background_images/browser/mojom",
+    "//unknown/browser/ntp_background",
+    "//unknown/components/new_tab_takeover/mojom",
+    "//unknown/components/ntp_background_images/browser/mojom",
     "//mojo/public/cpp/bindings",
   ]
 }

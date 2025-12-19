@@ -14,7 +14,7 @@ static_library("common") {
 
   deps = [
     "//base",
-    "//brave/components/resources:strings",
+    "//unknown/components/resources:strings",
     "//components/prefs",
     "//ui/base",
   ]

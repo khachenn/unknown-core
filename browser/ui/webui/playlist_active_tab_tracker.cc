@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/webui/playlist_active_tab_tracker.h"
+#include "unknown/browser/ui/webui/playlist_active_tab_tracker.h"
 
 #include <vector>
 
 #include "base/check.h"
-#include "brave/browser/ui/playlist/playlist_browser_finder.h"
-#include "brave/components/playlist/content/browser/playlist_tab_helper.h"
+#include "unknown/browser/ui/playlist/playlist_browser_finder.h"
+#include "unknown/components/playlist/content/browser/playlist_tab_helper.h"
 #include "chrome/browser/ui/browser.h"
 
 namespace playlist {

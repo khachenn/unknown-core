@@ -40,11 +40,11 @@ static_library("brave_ads") {
 
   deps = [
     "//base",
-    "//brave/app:brave_generated_resources_grit",
-    "//brave/app/vector_icons",
-    "//brave/browser/ui/brave_ads",
-    "//brave/components/brave_ads/browser",
-    "//brave/components/brave_ads/core",
+    "//unknown/app:brave_generated_resources_grit",
+    "//unknown/app/vector_icons",
+    "//unknown/browser/ui/brave_ads",
+    "//unknown/components/brave_ads/browser",
+    "//unknown/components/brave_ads/core",
     "//chrome/browser/profiles:profile",
     "//components/prefs",
     "//skia",
@@ -80,9 +80,9 @@ source_set("browser_tests") {
 
   deps = [
     ":brave_ads",
-    "//brave/browser/ui/brave_ads",
-    "//brave/components/brave_ads/browser",
-    "//brave/test/views/snapshot",
+    "//unknown/browser/ui/brave_ads",
+    "//unknown/components/brave_ads/browser",
+    "//unknown/test/views/snapshot",
     "//chrome/browser",
     "//chrome/browser:browser_process",
     "//chrome/browser/ui",

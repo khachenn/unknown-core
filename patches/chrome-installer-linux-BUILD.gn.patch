@@ -6,7 +6,7 @@ index c692f23adf4a60a513758f569396dbbf47280d5b..7aabe0bb89deb05e3cc88dfc8d9e2772
  import("//third_party/widevine/cdm/widevine.gni")
  import("//ui/gl/features.gni")
  import("//ui/qt/qt.gni")
-+import("//brave/build/config.gni")
++import("//unknown/build/config.gni")
  
  if (bundle_widevine_cdm) {
    import("//media/cdm/library_cdm/cdm_paths.gni")

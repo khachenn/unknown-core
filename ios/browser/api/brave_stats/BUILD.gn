@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at http://mozilla.org/MPL/2.0/.
 
-import("//brave/components/brave_wallet/common/buildflags/buildflags.gni")
+import("//unknown/components/brave_wallet/common/buildflags/buildflags.gni")
 
 source_set("brave_stats") {
   sources = [
@@ -13,18 +13,18 @@ source_set("brave_stats") {
   ]
   deps = [
     "//base",
-    "//brave/components/brave_ads/core",
-    "//brave/components/brave_stats/browser",
-    "//brave/components/brave_stats/browser:buildflags",
-    "//brave/components/brave_wallet/common/buildflags",
-    "//brave/components/constants",
-    "//brave/components/webcompat_reporter/buildflags",
+    "//unknown/components/brave_ads/core",
+    "//unknown/components/brave_stats/browser",
+    "//unknown/components/brave_stats/browser:buildflags",
+    "//unknown/components/brave_wallet/common/buildflags",
+    "//unknown/components/constants",
+    "//unknown/components/webcompat_reporter/buildflags",
     "//components/prefs",
     "//ios/chrome/browser/shared/model/application_context",
     "//ios/chrome/browser/shared/model/profile",
   ]
 
   if (enable_brave_wallet) {
-    deps += [ "//brave/components/brave_wallet/browser:pref_names" ]
+    deps += [ "//unknown/components/brave_wallet/browser:pref_names" ]
   }
 }

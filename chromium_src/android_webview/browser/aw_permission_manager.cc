@@ -5,7 +5,7 @@
 
 #include "android_webview/browser/aw_permission_manager.h"
 
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
 #include "components/permissions/permission_util.h"
 #include "third_party/blink/public/common/permissions/permission_utils.h"
 

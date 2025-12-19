@@ -12,10 +12,10 @@ cargo_crate("lib") {
   crate_name = "phf_generator"
   epoch = "0.10"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/phf_generator-v0_10/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/phf_generator-v0_10/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/phf_generator-v0_10/src/bin/gen_hash_test.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/phf_generator-v0_10/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/phf_generator-v0_10/src/bin/gen_hash_test.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/phf_generator-v0_10/src/lib.rs",
   ]
   inputs = []
 
@@ -28,8 +28,8 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.10.0"
 
   deps = [
-    "//brave/third_party/rust/phf_shared/v0_10:lib",
-    "//brave/third_party/rust/rand/v0_8:lib",
+    "//unknown/third_party/rust/phf_shared/v0_10:lib",
+    "//unknown/third_party/rust/rand/v0_8:lib",
   ]
   rustenv = []
   rustflags = []

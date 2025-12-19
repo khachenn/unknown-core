@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/solana_message.h"
+#include "unknown/components/brave_wallet/browser/solana_message.h"
 
 #include <optional>
 #include <utility>
@@ -12,13 +12,13 @@
 #include "base/sys_byteorder.h"
 #include "base/test/gtest_util.h"
 #include "base/test/values_test_util.h"
-#include "brave/components/brave_wallet/browser/simple_hash_client.h"
-#include "brave/components/brave_wallet/browser/solana_account_meta.h"
-#include "brave/components/brave_wallet/browser/solana_instruction.h"
-#include "brave/components/brave_wallet/browser/solana_instruction_builder.h"
-#include "brave/components/brave_wallet/browser/solana_test_utils.h"
-#include "brave/components/brave_wallet/common/brave_wallet.mojom.h"
-#include "brave/components/brave_wallet/common/brave_wallet_constants.h"
+#include "unknown/components/brave_wallet/browser/simple_hash_client.h"
+#include "unknown/components/brave_wallet/browser/solana_account_meta.h"
+#include "unknown/components/brave_wallet/browser/solana_instruction.h"
+#include "unknown/components/brave_wallet/browser/solana_instruction_builder.h"
+#include "unknown/components/brave_wallet/browser/solana_test_utils.h"
+#include "unknown/components/brave_wallet/common/brave_wallet.mojom.h"
+#include "unknown/components/brave_wallet/common/brave_wallet_constants.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace brave_wallet {

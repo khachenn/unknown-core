@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ui/webui/ai_chat/ai_chat_ui_page_handler.h"
+#include "unknown/browser/ui/webui/ai_chat/ai_chat_ui_page_handler.h"
 
 #include "base/check.h"
 #include "base/path_service.h"
@@ -12,13 +12,13 @@
 #include "base/test/gtest_util.h"
 #include "base/test/run_until.h"
 #include "base/test/test_future.h"
-#include "brave/browser/ai_chat/ai_chat_service_factory.h"
-#include "brave/browser/ai_chat/tab_tracker_service_factory.h"
-#include "brave/browser/ui/webui/ai_chat/ai_chat_ui.h"
-#include "brave/components/ai_chat/core/browser/ai_chat_service.h"
-#include "brave/components/ai_chat/core/browser/tab_tracker_service.h"
-#include "brave/components/ai_chat/core/common/mojom/tab_tracker.mojom.h"
-#include "brave/components/constants/brave_paths.h"
+#include "unknown/browser/ai_chat/ai_chat_service_factory.h"
+#include "unknown/browser/ai_chat/tab_tracker_service_factory.h"
+#include "unknown/browser/ui/webui/ai_chat/ai_chat_ui.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_service.h"
+#include "unknown/components/ai_chat/core/browser/tab_tracker_service.h"
+#include "unknown/components/ai_chat/core/common/mojom/tab_tracker.mojom.h"
+#include "unknown/components/constants/brave_paths.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/test/base/chrome_test_utils.h"
 #include "chrome/test/base/in_process_browser_test.h"

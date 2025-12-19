@@ -6,4 +6,4 @@ index 03012cc382eae65b745a8b999e034c4aa99329dc..9a29f8370de541939989373df4f13356
    "//clank/android_webview/*",
    "//clank/java/*",
  ]
-+allowed_visibility += [ "//brave/ios/browser/svg" ]
++allowed_visibility += [ "//unknown/ios/browser/svg" ]

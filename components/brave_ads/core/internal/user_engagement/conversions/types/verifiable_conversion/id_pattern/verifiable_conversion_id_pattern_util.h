@@ -10,7 +10,7 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_ads/core/internal/user_engagement/conversions/resource/conversion_resource_id_pattern_info.h"
+#include "unknown/components/brave_ads/core/internal/user_engagement/conversions/resource/conversion_resource_id_pattern_info.h"
 
 class GURL;
 

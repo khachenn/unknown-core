@@ -7,7 +7,7 @@
 #define BRAVE_BROWSER_UI_EMAIL_ALIASES_EMAIL_ALIASES_CONTROLLER_H_
 
 #include "base/memory/raw_ptr.h"
-#include "brave/components/email_aliases/email_aliases_service.h"
+#include "unknown/components/email_aliases/email_aliases_service.h"
 
 class BrowserView;
 

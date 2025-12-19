@@ -12,21 +12,21 @@ cargo_crate("lib") {
   crate_name = "flatbuffers"
   epoch = "25"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/array.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/builder.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/endian_scalar.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/follow.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/get_root.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/primitives.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/push.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/table.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/vector.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/verifier.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/vtable.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/vtable_writer.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/array.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/builder.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/endian_scalar.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/follow.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/get_root.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/primitives.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/push.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/table.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/vector.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/verifier.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/vtable.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/src/vtable_writer.rs",
   ]
   inputs = []
 
@@ -39,14 +39,14 @@ cargo_crate("lib") {
   cargo_pkg_repository = "https://github.com/google/flatbuffers"
   cargo_pkg_version = "25.2.10"
 
-  deps = [ "//brave/third_party/rust/bitflags/v2:lib" ]
-  build_deps = [ "//brave/third_party/rust/rustc_version/v0_4:buildrs_support" ]
+  deps = [ "//unknown/third_party/rust/bitflags/v2:lib" ]
+  build_deps = [ "//unknown/third_party/rust/rustc_version/v0_4:buildrs_support" ]
   features = [
     "default",
     "std",
   ]
-  build_root = "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/build.rs"
-  build_sources = [ "//brave/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/build.rs" ]
+  build_root = "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/build.rs"
+  build_sources = [ "//unknown/third_party/rust/chromium_crates_io/vendor/flatbuffers-v25/build.rs" ]
   rustenv = []
   rustflags = []
 

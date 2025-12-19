@@ -14,10 +14,10 @@
 
 #include "base/gtest_prod_util.h"
 #include "base/memory/weak_ptr.h"
-#include "brave/components/brave_wallet/browser/simple_hash_client.h"
-#include "brave/components/brave_wallet/browser/solana_block_tracker.h"
-#include "brave/components/brave_wallet/browser/tx_manager.h"
-#include "brave/components/brave_wallet/common/solana_address.h"
+#include "unknown/components/brave_wallet/browser/simple_hash_client.h"
+#include "unknown/components/brave_wallet/browser/solana_block_tracker.h"
+#include "unknown/components/brave_wallet/browser/tx_manager.h"
+#include "unknown/components/brave_wallet/common/solana_address.h"
 
 namespace brave_wallet {
 

@@ -12,13 +12,13 @@ cargo_crate("lib") {
   crate_name = "multibase"
   epoch = "0.9"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/base.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/encoding.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/error.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/impls.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/base.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/encoding.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/error.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/impls.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/multibase-v0_9/src/lib.rs",
   ]
   inputs = []
 
@@ -31,9 +31,9 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.9.1"
 
   deps = [
-    "//brave/third_party/rust/base_x/v0_2:lib",
-    "//brave/third_party/rust/data_encoding/v2:lib",
-    "//brave/third_party/rust/data_encoding_macro/v0_1:lib",
+    "//unknown/third_party/rust/base_x/v0_2:lib",
+    "//unknown/third_party/rust/data_encoding/v2:lib",
+    "//unknown/third_party/rust/data_encoding_macro/v0_1:lib",
   ]
   rustenv = []
   rustflags = []

@@ -3,14 +3,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/psst/browser/core/brave_psst_utils.h"
+#include "unknown/components/psst/browser/core/brave_psst_utils.h"
 
 #include <optional>
 #include <string_view>
 
 #include "base/strings/string_util.h"
 #include "base/values.h"
-#include "brave/components/psst/common/psst_metadata_schema.h"
+#include "unknown/components/psst/common/psst_metadata_schema.h"
 #include "components/content_settings/core/browser/host_content_settings_map.h"
 #include "url/gurl.h"
 #include "url/origin.h"

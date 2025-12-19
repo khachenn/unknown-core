@@ -10,7 +10,7 @@
 
 #include "base/functional/callback_forward.h"
 #include "base/memory/raw_ref.h"
-#include "brave/components/brave_rewards/core/engine/rewards_callbacks.h"
+#include "unknown/components/brave_rewards/core/engine/rewards_callbacks.h"
 
 // GET https://gemini.jp/api/link/v1/account/inventory
 //

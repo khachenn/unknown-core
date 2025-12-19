@@ -8,7 +8,7 @@
 #undef RegisterPathProvider
 
 #include "base/files/file_util.h"
-#include "brave/components/constants/brave_paths.h"
+#include "unknown/components/constants/brave_paths.h"
 
 namespace brave {
 

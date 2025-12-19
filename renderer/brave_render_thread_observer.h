@@ -6,7 +6,7 @@
 #ifndef BRAVE_RENDERER_BRAVE_RENDER_THREAD_OBSERVER_H_
 #define BRAVE_RENDERER_BRAVE_RENDER_THREAD_OBSERVER_H_
 
-#include "brave/common/brave_renderer_configuration.mojom.h"
+#include "unknown/common/brave_renderer_configuration.mojom.h"
 #include "content/public/renderer/render_thread_observer.h"
 #include "mojo/public/cpp/bindings/associated_receiver_set.h"
 #include "mojo/public/cpp/bindings/pending_associated_receiver.h"

@@ -66,7 +66,7 @@ occurrences of `ChromeAutocompleteSchemeClassifier` with
 [[substitution]]
 description = 'Adding header for BraveAutocompleteSchemeClassifier'
 re_pattern = '(#include "[\s\S]*)'
-replace = '#include "brave/browser/autocomplete/brave_autocomplete_scheme_classifier.h"\n\1'
+replace = '#include "unknown/browser/autocomplete/brave_autocomplete_scheme_classifier.h"\n\1'
 
 [[substitution]]
 description = 'Patching in BraveAutocompleteSchemeClassifier'
@@ -112,7 +112,7 @@ index 00000000000..63703e6940b
 + #include "components/omnibox/browser/autocomplete_classifier.h"
 + #include "components/omnibox/browser/autocomplete_controller.h"
 + #include "extensions/buildflags/buildflags.h"
-++#include "brave/browser/autocomplete/brave_autocomplete_scheme_classifier.h"
+++#include "unknown/browser/autocomplete/brave_autocomplete_scheme_classifier.h"
 +
 + #if BUILDFLAG(ENABLE_EXTENSIONS)
 + #include "extensions/browser/extension_system_provider.h"

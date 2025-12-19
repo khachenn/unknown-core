@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/content/rewards_protocol_navigation_throttle.h"
+#include "unknown/components/brave_rewards/content/rewards_protocol_navigation_throttle.h"
 
 #include <algorithm>
 #include <map>
@@ -17,8 +17,8 @@
 #include "base/strings/strcat.h"
 #include "base/strings/string_split.h"
 #include "base/strings/string_util.h"
-#include "brave/components/brave_rewards/core/engine/buildflags.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_rewards/core/engine/buildflags.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
 #include "components/prefs/pref_service.h"
 #include "components/user_prefs/user_prefs.h"
 #include "content/public/browser/browser_context.h"

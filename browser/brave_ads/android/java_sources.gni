@@ -4,10 +4,10 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 brave_ads_java_sources = [
-  "../../brave/browser/brave_ads/android/java/org/chromium/chrome/browser/BraveAdsNativeHelper.java",
-  "../../brave/browser/brave_ads/android/java/org/chromium/chrome/browser/device_id/DeviceIdImplAndroid.java",
-  "../../brave/browser/brave_ads/android/java/org/chromium/chrome/browser/dialogs/BraveAdsNotificationDialog.java",
-  "../../brave/browser/brave_ads/android/java/org/chromium/chrome/browser/dialogs/BraveAdsSignupDialog.java",
-  "../../brave/browser/brave_ads/android/java/org/chromium/chrome/browser/notifications/BraveAds.java",
-  "../../brave/browser/brave_ads/android/java/org/chromium/chrome/browser/onboarding/BraveAdsOnboardingFragment.java",
+  "../../unknown/browser/brave_ads/android/java/org/chromium/chrome/browser/BraveAdsNativeHelper.java",
+  "../../unknown/browser/brave_ads/android/java/org/chromium/chrome/browser/device_id/DeviceIdImplAndroid.java",
+  "../../unknown/browser/brave_ads/android/java/org/chromium/chrome/browser/dialogs/BraveAdsNotificationDialog.java",
+  "../../unknown/browser/brave_ads/android/java/org/chromium/chrome/browser/dialogs/BraveAdsSignupDialog.java",
+  "../../unknown/browser/brave_ads/android/java/org/chromium/chrome/browser/notifications/BraveAds.java",
+  "../../unknown/browser/brave_ads/android/java/org/chromium/chrome/browser/onboarding/BraveAdsOnboardingFragment.java",
 ]

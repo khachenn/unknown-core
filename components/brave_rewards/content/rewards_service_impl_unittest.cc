@@ -3,20 +3,20 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_rewards/content/rewards_service_impl.h"
+#include "unknown/components/brave_rewards/content/rewards_service_impl.h"
 
 #include <memory>
 
 #include "base/files/scoped_temp_dir.h"
 #include "base/test/scoped_feature_list.h"
-#include "brave/components/brave_rewards/content/rewards_service_observer.h"
-#include "brave/components/brave_rewards/content/test_util.h"
-#include "brave/components/brave_rewards/core/engine/global_constants.h"
-#include "brave/components/brave_rewards/core/features.h"
-#include "brave/components/brave_rewards/core/mojom/rewards.mojom.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/l10n/common/test/scoped_default_locale.h"
+#include "unknown/components/brave_rewards/content/rewards_service_observer.h"
+#include "unknown/components/brave_rewards/content/test_util.h"
+#include "unknown/components/brave_rewards/core/engine/global_constants.h"
+#include "unknown/components/brave_rewards/core/features.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards.mojom.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/l10n/common/test/scoped_default_locale.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/test/base/testing_browser_process.h"
 #include "components/prefs/pref_service.h"

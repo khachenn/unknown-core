@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/ai_chat/core/browser/conversation_handler.h"
+#include "unknown/components/ai_chat/core/browser/conversation_handler.h"
 
 #include <stddef.h>
 
@@ -36,20 +36,20 @@
 #include "base/types/expected.h"
 #include "base/uuid.h"
 #include "base/values.h"
-#include "brave/components/ai_chat/core/browser/ai_chat_feedback_api.h"
-#include "brave/components/ai_chat/core/browser/ai_chat_service.h"
-#include "brave/components/ai_chat/core/browser/associated_content_delegate.h"
-#include "brave/components/ai_chat/core/browser/associated_content_manager.h"
-#include "brave/components/ai_chat/core/browser/model_service.h"
-#include "brave/components/ai_chat/core/browser/model_validator.h"
-#include "brave/components/ai_chat/core/browser/tools/tool.h"
-#include "brave/components/ai_chat/core/browser/types.h"
-#include "brave/components/ai_chat/core/browser/utils.h"
-#include "brave/components/ai_chat/core/common/features.h"
-#include "brave/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
-#include "brave/components/ai_chat/core/common/mojom/common.mojom.h"
-#include "brave/components/ai_chat/core/common/prefs.h"
-#include "brave/components/api_request_helper/api_request_helper.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_feedback_api.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_service.h"
+#include "unknown/components/ai_chat/core/browser/associated_content_delegate.h"
+#include "unknown/components/ai_chat/core/browser/associated_content_manager.h"
+#include "unknown/components/ai_chat/core/browser/model_service.h"
+#include "unknown/components/ai_chat/core/browser/model_validator.h"
+#include "unknown/components/ai_chat/core/browser/tools/tool.h"
+#include "unknown/components/ai_chat/core/browser/types.h"
+#include "unknown/components/ai_chat/core/browser/utils.h"
+#include "unknown/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/common/mojom/ai_chat.mojom.h"
+#include "unknown/components/ai_chat/core/common/mojom/common.mojom.h"
+#include "unknown/components/ai_chat/core/common/prefs.h"
+#include "unknown/components/api_request_helper/api_request_helper.h"
 #include "components/grit/brave_components_strings.h"
 #include "components/prefs/pref_service.h"
 #include "mojo/public/cpp/bindings/pending_receiver.h"

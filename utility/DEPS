@@ -6,15 +6,15 @@ inline_file("//chrome/utility/DEPS", {}, chrome_utility_deps)
 include_rules += chrome_utility_deps["include_rules"]
 
 include_rules += [
-  "+brave/common",
-  "+brave/grit",
+  "+unknown/common",
+  "+unknown/grit",
   "+chrome/utility",
-  "+brave/components/constants",
-  "+brave/components/constants",
-  "+brave/components/services/bat_ads",
-  "+brave/components/services/bat_rewards",
-  "+brave/components/services/brave_wallet",
-  "+brave/components/brave_wallet/common/buildflags",
-  "+brave/components/services/tor",
-  "+brave/components/tor/buildflags",
+  "+unknown/components/constants",
+  "+unknown/components/constants",
+  "+unknown/components/services/bat_ads",
+  "+unknown/components/services/bat_rewards",
+  "+unknown/components/services/brave_wallet",
+  "+unknown/components/brave_wallet/common/buildflags",
+  "+unknown/components/services/tor",
+  "+unknown/components/tor/buildflags",
 ]

@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/browser/ntp_background/brave_ntp_custom_background_service_delegate.h"
+#include "unknown/browser/ntp_background/brave_ntp_custom_background_service_delegate.h"
 
 #include <algorithm>
 #include <utility>
@@ -12,14 +12,14 @@
 #include "base/files/file_path.h"
 #include "base/logging.h"
 #include "base/strings/string_util.h"
-#include "brave/browser/brave_browser_process.h"
-#include "brave/browser/ntp_background/constants.h"
-#include "brave/browser/ntp_background/custom_background_file_manager.h"
-#include "brave/browser/ntp_background/ntp_background_prefs.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/ntp_background_images/browser/ntp_background_images_data.h"
-#include "brave/components/ntp_background_images/browser/ntp_background_images_service.h"
-#include "brave/components/ntp_background_images/browser/url_constants.h"
+#include "unknown/browser/brave_browser_process.h"
+#include "unknown/browser/ntp_background/constants.h"
+#include "unknown/browser/ntp_background/custom_background_file_manager.h"
+#include "unknown/browser/ntp_background/ntp_background_prefs.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/ntp_background_images/browser/ntp_background_images_data.h"
+#include "unknown/components/ntp_background_images/browser/ntp_background_images_service.h"
+#include "unknown/components/ntp_background_images/browser/url_constants.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/themes/theme_syncable_service.h"
 #include "chrome/common/pref_names.h"

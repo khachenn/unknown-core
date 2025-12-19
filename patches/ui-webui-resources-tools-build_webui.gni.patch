@@ -31,7 +31,7 @@ index af1defb77a10943e93048729c02a8ad5d33eda4b..67db3434660b5667ab953526e194fefe
  
    if (!generate_grdp) {
 -    grit("resources") {
-+    import("//brave/resources/brave_grit.gni") forward_variables_from(invoker, [ "use_brave_grit" ]) brave_or_default_grit("resources") {
++    import("//unknown/resources/brave_grit.gni") forward_variables_from(invoker, [ "use_brave_grit" ]) brave_or_default_grit("resources") {
        # These arguments are needed since the grd is generated at build time.
        enable_input_discovery_for_gn_analyze = false
        source = "$target_gen_dir/resources.grd"

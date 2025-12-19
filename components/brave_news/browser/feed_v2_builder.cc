@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_news/browser/feed_v2_builder.h"
+#include "unknown/components/brave_news/browser/feed_v2_builder.h"
 
 #include <algorithm>
 #include <iterator>
@@ -30,19 +30,19 @@
 #include "base/rand_util.h"
 #include "base/strings/string_number_conversions.h"
 #include "base/time/time.h"
-#include "brave/components/brave_news/api/topics.h"
-#include "brave/components/brave_news/browser/background_history_querier.h"
-#include "brave/components/brave_news/browser/channels_controller.h"
-#include "brave/components/brave_news/browser/feed_fetcher.h"
-#include "brave/components/brave_news/browser/feed_generation_info.h"
-#include "brave/components/brave_news/browser/feed_sampling.h"
-#include "brave/components/brave_news/browser/peeking_card.h"
-#include "brave/components/brave_news/browser/publishers_controller.h"
-#include "brave/components/brave_news/browser/signal_calculator.h"
-#include "brave/components/brave_news/browser/topics_fetcher.h"
-#include "brave/components/brave_news/common/brave_news.mojom.h"
-#include "brave/components/brave_news/common/features.h"
-#include "brave/components/brave_news/common/subscriptions_snapshot.h"
+#include "unknown/components/brave_news/api/topics.h"
+#include "unknown/components/brave_news/browser/background_history_querier.h"
+#include "unknown/components/brave_news/browser/channels_controller.h"
+#include "unknown/components/brave_news/browser/feed_fetcher.h"
+#include "unknown/components/brave_news/browser/feed_generation_info.h"
+#include "unknown/components/brave_news/browser/feed_sampling.h"
+#include "unknown/components/brave_news/browser/peeking_card.h"
+#include "unknown/components/brave_news/browser/publishers_controller.h"
+#include "unknown/components/brave_news/browser/signal_calculator.h"
+#include "unknown/components/brave_news/browser/topics_fetcher.h"
+#include "unknown/components/brave_news/common/brave_news.mojom.h"
+#include "unknown/components/brave_news/common/features.h"
+#include "unknown/components/brave_news/common/subscriptions_snapshot.h"
 #include "mojo/public/cpp/bindings/pending_remote.h"
 #include "services/network/public/cpp/shared_url_loader_factory.h"
 

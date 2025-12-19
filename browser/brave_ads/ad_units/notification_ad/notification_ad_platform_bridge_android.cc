@@ -3,13 +3,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_ads/ad_units/notification_ad/notification_ad_platform_bridge.h"
+#include "unknown/browser/brave_ads/ad_units/notification_ad/notification_ad_platform_bridge.h"
 
 #include <jni.h>
 
 #include "base/android/jni_android.h"
 #include "base/android/jni_string.h"
-#include "brave/browser/brave_ads/android/jni_headers/BraveAdsNotificationDialog_jni.h"
+#include "unknown/browser/brave_ads/android/jni_headers/BraveAdsNotificationDialog_jni.h"
 
 namespace brave_ads {
 

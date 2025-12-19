@@ -13,9 +13,9 @@
 
 #include "base/gtest_prod_util.h"
 #include "base/types/expected.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_block_scanner.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_sync_state.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_action_context.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_block_scanner.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_sync_state.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_action_context.h"
 
 namespace brave_wallet {
 

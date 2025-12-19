@@ -3,7 +3,7 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_wallet/browser/zcash/zcash_complete_transaction_task.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_complete_transaction_task.h"
 
 #include <array>
 #include <utility>
@@ -13,12 +13,12 @@
 #include "base/logging.h"
 #include "base/strings/string_number_conversions.h"
 #include "base/task/thread_pool.h"
-#include "brave/components/brave_wallet/browser/keyring_service.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_rpc.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_serializer.h"
-#include "brave/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
-#include "brave/components/brave_wallet/common/hex_utils.h"
-#include "brave/components/brave_wallet/common/zcash_utils.h"
+#include "unknown/components/brave_wallet/browser/keyring_service.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_rpc.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_serializer.h"
+#include "unknown/components/brave_wallet/browser/zcash/zcash_wallet_service.h"
+#include "unknown/components/brave_wallet/common/hex_utils.h"
+#include "unknown/components/brave_wallet/common/zcash_utils.h"
 #include "components/grit/brave_components_strings.h"
 #include "ui/base/l10n/l10n_util.h"
 

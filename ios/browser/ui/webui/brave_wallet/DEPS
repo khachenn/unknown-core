@@ -1,10 +1,10 @@
 include_rules = [
-  "+brave/components/brave_wallet/browser",
-  "+brave/components/brave_wallet/common",
-  "+brave/components/brave_wallet/ios/browser",
-  "+brave/components/brave_wallet_page/resources",
-  "+brave/components/line_chart_display/resources",
-  "+brave/components/market_display/resources",
-  "+brave/components/nft_display/resources",
-  "+brave/components/constants",
+  "+unknown/components/brave_wallet/browser",
+  "+unknown/components/brave_wallet/common",
+  "+unknown/components/brave_wallet/ios/browser",
+  "+unknown/components/brave_wallet_page/resources",
+  "+unknown/components/line_chart_display/resources",
+  "+unknown/components/market_display/resources",
+  "+unknown/components/nft_display/resources",
+  "+unknown/components/constants",
 ]

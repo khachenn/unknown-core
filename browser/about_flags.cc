@@ -7,33 +7,33 @@
 
 #include <initializer_list>
 
-#include "brave/browser/brave_browser_features.h"
-#include "brave/browser/ui/brave_ui_features.h"
-#include "brave/browser/updater/buildflags.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/ai_rewriter/common/buildflags/buildflags.h"
-#include "brave/components/brave_ads/browser/ad_units/notification_ad/custom_notification_ad_feature.h"
-#include "brave/components/brave_ads/core/public/ad_units/notification_ad/notification_ad_feature.h"
-#include "brave/components/brave_component_updater/browser/features.h"
-#include "brave/components/brave_education/buildflags.h"
-#include "brave/components/brave_news/common/features.h"
-#include "brave/components/brave_rewards/core/buildflags/buildflags.h"
-#include "brave/components/brave_rewards/core/features.h"
-#include "brave/components/brave_shields/core/common/features.h"
-#include "brave/components/brave_sync/features.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/containers/buildflags/buildflags.h"
-#include "brave/components/de_amp/common/features.h"
-#include "brave/components/debounce/core/common/features.h"
-#include "brave/components/google_sign_in_permission/features.h"
-#include "brave/components/playlist/core/common/features.h"
-#include "brave/components/psst/buildflags/buildflags.h"
-#include "brave/components/request_otr/common/buildflags/buildflags.h"
-#include "brave/components/skus/common/features.h"
-#include "brave/components/speedreader/common/buildflags/buildflags.h"
-#include "brave/components/v8/buildflags/buildflags.h"
-#include "brave/components/webcompat/core/common/features.h"
+#include "unknown/browser/brave_browser_features.h"
+#include "unknown/browser/ui/brave_ui_features.h"
+#include "unknown/browser/updater/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/ai_rewriter/common/buildflags/buildflags.h"
+#include "unknown/components/brave_ads/browser/ad_units/notification_ad/custom_notification_ad_feature.h"
+#include "unknown/components/brave_ads/core/public/ad_units/notification_ad/notification_ad_feature.h"
+#include "unknown/components/brave_component_updater/browser/features.h"
+#include "unknown/components/brave_education/buildflags.h"
+#include "unknown/components/brave_news/common/features.h"
+#include "unknown/components/brave_rewards/core/buildflags/buildflags.h"
+#include "unknown/components/brave_rewards/core/features.h"
+#include "unknown/components/brave_shields/core/common/features.h"
+#include "unknown/components/brave_sync/features.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/containers/buildflags/buildflags.h"
+#include "unknown/components/de_amp/common/features.h"
+#include "unknown/components/debounce/core/common/features.h"
+#include "unknown/components/google_sign_in_permission/features.h"
+#include "unknown/components/playlist/core/common/features.h"
+#include "unknown/components/psst/buildflags/buildflags.h"
+#include "unknown/components/request_otr/common/buildflags/buildflags.h"
+#include "unknown/components/skus/common/features.h"
+#include "unknown/components/speedreader/common/buildflags/buildflags.h"
+#include "unknown/components/v8/buildflags/buildflags.h"
+#include "unknown/components/webcompat/core/common/features.h"
 #include "build/build_config.h"
 #include "chrome/browser/buildflags.h"
 #include "chrome/browser/ui/tabs/features.h"
@@ -50,40 +50,40 @@
 #include "third_party/blink/public/common/features.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/components/ai_chat/core/common/features.h"
+#include "unknown/components/ai_chat/core/common/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_AI_REWRITER)
-#include "brave/components/ai_rewriter/common/features.h"
+#include "unknown/components/ai_rewriter/common/features.h"
 #endif
 
-#include "brave/components/local_ai/common/features.h"
+#include "unknown/components/local_ai/common/features.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/components/brave_vpn/common/features.h"
+#include "unknown/components/brave_vpn/common/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_SPEEDREADER)
-#include "brave/components/speedreader/common/features.h"
+#include "unknown/components/speedreader/common/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_REQUEST_OTR)
-#include "brave/components/request_otr/common/features.h"
+#include "unknown/components/request_otr/common/features.h"
 #endif
 
 #if BUILDFLAG(IS_ANDROID)
-#include "brave/browser/android/safe_browsing/features.h"
-#include "brave/browser/android/youtube_script_injector/features.h"
+#include "unknown/browser/android/safe_browsing/features.h"
+#include "unknown/browser/android/youtube_script_injector/features.h"
 #include "chrome/browser/flags/android/chrome_feature_list.h"
 #include "content/public/common/content_features.h"
 #else
-#include "brave/browser/ui/views/tabs/switches.h"
-#include "brave/components/commander/common/features.h"
-#include "brave/components/commands/common/features.h"
+#include "unknown/browser/ui/views/tabs/switches.h"
+#include "unknown/components/commander/common/features.h"
+#include "unknown/components/commands/common/features.h"
 #endif
 
 #if BUILDFLAG(IS_MAC)
-#include "brave/browser/brave_browser_main_parts_mac.h"
+#include "unknown/browser/brave_browser_main_parts_mac.h"
 #endif
 
 #if BUILDFLAG(IS_WIN)
@@ -91,32 +91,32 @@
 #endif
 
 #if BUILDFLAG(ENABLE_EXTENSIONS)
-#include "brave/browser/extensions/manifest_v2/features.h"
+#include "unknown/browser/extensions/manifest_v2/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_EDUCATION)
-#include "brave/components/brave_education/features.h"
+#include "unknown/components/brave_education/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_CONTAINERS)
-#include "brave/components/containers/core/common/features.h"
+#include "unknown/components/containers/core/common/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_OMAHA4)
-#include "brave/browser/updater/features.h"
+#include "unknown/browser/updater/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_PSST)
-#include "brave/components/psst/common/features.h"
+#include "unknown/components/psst/common/features.h"
 #endif
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/common/features.h"
+#include "unknown/components/brave_wallet/common/features.h"
 #endif
 
 #if defined(TOOLKIT_VIEWS)
-#include "brave/browser/ui/darker_theme/features.h"
-#include "brave/browser/ui/page_info/features.h"
+#include "unknown/browser/ui/darker_theme/features.h"
+#include "unknown/browser/ui/page_info/features.h"
 #endif
 
 #define EXPAND_FEATURE_ENTRIES(...) __VA_ARGS__,

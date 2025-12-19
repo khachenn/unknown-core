@@ -6,7 +6,7 @@
 #include <string>
 
 #include "base/strings/string_number_conversions.h"
-#include "brave/components/brave_wallet/browser/rlp_decode.h"
+#include "unknown/components/brave_wallet/browser/rlp_decode.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace {

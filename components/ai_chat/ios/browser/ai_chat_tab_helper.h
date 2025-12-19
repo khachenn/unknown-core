@@ -7,7 +7,7 @@
 #define BRAVE_COMPONENTS_AI_CHAT_IOS_BROWSER_AI_CHAT_TAB_HELPER_H_
 
 #include "base/memory/weak_ptr.h"
-#include "brave/components/ai_chat/core/browser/associated_content_driver.h"
+#include "unknown/components/ai_chat/core/browser/associated_content_driver.h"
 #include "ios/web/public/lazy_web_state_user_data.h"
 #include "ios/web/public/web_state_observer.h"
 

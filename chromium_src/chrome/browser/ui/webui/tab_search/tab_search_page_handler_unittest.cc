@@ -9,7 +9,7 @@
 #include "base/test/bind.h"
 #include "base/test/gmock_callback_support.h"
 #include "base/test/mock_callback.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
 #include "components/grit/brave_components_strings.h"
 #include "testing/gmock/include/gmock/gmock.h"
 #include "ui/base/l10n/l10n_util.h"
@@ -17,12 +17,12 @@
 #include "url/origin.h"
 
 #if BUILDFLAG(ENABLE_AI_CHAT)
-#include "brave/browser/ai_chat/ai_chat_service_factory.h"
-#include "brave/components/ai_chat/core/browser/ai_chat_credential_manager.h"
-#include "brave/components/ai_chat/core/browser/ai_chat_service.h"
-#include "brave/components/ai_chat/core/browser/constants.h"
-#include "brave/components/ai_chat/core/browser/engine/mock_engine_consumer.h"
-#include "brave/components/ai_chat/core/browser/types.h"
+#include "unknown/browser/ai_chat/ai_chat_service_factory.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_credential_manager.h"
+#include "unknown/components/ai_chat/core/browser/ai_chat_service.h"
+#include "unknown/components/ai_chat/core/browser/constants.h"
+#include "unknown/components/ai_chat/core/browser/engine/mock_engine_consumer.h"
+#include "unknown/components/ai_chat/core/browser/types.h"
 #endif
 
 #include <chrome/browser/ui/webui/tab_search/tab_search_page_handler_unittest.cc>

@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_wallet/browser/simulation_request_helper.h"
+#include "unknown/components/brave_wallet/browser/simulation_request_helper.h"
 
 #include <optional>
 #include <utility>
@@ -13,11 +13,11 @@
 #include "base/check.h"
 #include "base/strings/string_number_conversions.h"
 #include "base/values.h"
-#include "brave/components/brave_wallet/browser/json_rpc_requests_helper.h"
-#include "brave/components/brave_wallet/browser/solana_transaction.h"
-#include "brave/components/brave_wallet/common/brave_wallet_constants.h"
-#include "brave/components/brave_wallet/common/hex_utils.h"
-#include "brave/components/brave_wallet/common/solana_utils.h"
+#include "unknown/components/brave_wallet/browser/json_rpc_requests_helper.h"
+#include "unknown/components/brave_wallet/browser/solana_transaction.h"
+#include "unknown/components/brave_wallet/common/brave_wallet_constants.h"
+#include "unknown/components/brave_wallet/common/hex_utils.h"
+#include "unknown/components/brave_wallet/common/solana_utils.h"
 
 namespace brave_wallet {
 

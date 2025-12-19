@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/build/config.gni")
+import("//unknown/build/config.gni")
 import("//build/config/features.gni")
 import("//build/rust/rust_static_library.gni")
 
@@ -66,15 +66,15 @@ static_library("browser") {
   deps = [
     ":rust_lib",
     "//base",
-    "//brave/brave_domains",
-    "//brave/components/api_request_helper",
-    "//brave/components/brave_ads/browser",
-    "//brave/components/brave_news/api",
-    "//brave/components/brave_private_cdn",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/l10n/common",
-    "//brave/components/p3a_utils",
-    "//brave/components/time_period_storage",
+    "//unknown/brave_domains",
+    "//unknown/components/api_request_helper",
+    "//unknown/components/brave_ads/browser",
+    "//unknown/components/brave_news/api",
+    "//unknown/components/brave_private_cdn",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/l10n/common",
+    "//unknown/components/p3a_utils",
+    "//unknown/components/time_period_storage",
     "//components/favicon/core",
     "//components/favicon_base",
     "//components/history/core/browser",
@@ -91,8 +91,8 @@ static_library("browser") {
   ]
 
   public_deps = [
-    "//brave/components/brave_news/common",
-    "//brave/components/brave_news/common:mojom",
+    "//unknown/components/brave_news/common",
+    "//unknown/components/brave_news/common:mojom",
   ]
 }
 
@@ -108,8 +108,8 @@ rust_static_library("rust_lib") {
   cxx_bindings = [ "lib.rs" ]
 
   deps = [
-    "//brave/third_party/rust/feed_rs/v1:lib",
-    "//brave/third_party/rust/regex/v1:lib",
+    "//unknown/third_party/rust/feed_rs/v1:lib",
+    "//unknown/third_party/rust/regex/v1:lib",
     "//third_party/rust/lazy_static/v1:lib",
     "//third_party/rust/log/v0_4:lib",
   ]

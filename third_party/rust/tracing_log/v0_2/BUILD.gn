@@ -12,11 +12,11 @@ cargo_crate("lib") {
   crate_name = "tracing_log"
   epoch = "0.2"
   crate_type = "rlib"
-  crate_root = "//brave/third_party/rust/chromium_crates_io/vendor/tracing-log-v0_2/src/lib.rs"
+  crate_root = "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-log-v0_2/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-log-v0_2/src/interest_cache.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-log-v0_2/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/tracing-log-v0_2/src/log_tracer.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-log-v0_2/src/interest_cache.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-log-v0_2/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/tracing-log-v0_2/src/log_tracer.rs",
   ]
   inputs = []
 
@@ -30,9 +30,9 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.2.0"
 
   deps = [
-    "//brave/third_party/rust/log/v0_4:lib",
-    "//brave/third_party/rust/once_cell/v1:lib",
-    "//brave/third_party/rust/tracing_core/v0_1:lib",
+    "//unknown/third_party/rust/log/v0_4:lib",
+    "//unknown/third_party/rust/once_cell/v1:lib",
+    "//unknown/third_party/rust/tracing_core/v0_1:lib",
   ]
   features = [
     "default",

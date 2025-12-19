@@ -3,7 +3,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
-import("//brave/components/tor/buildflags/buildflags.gni")
+import("//unknown/components/tor/buildflags/buildflags.gni")
 import("//build/config/features.gni")
 
 source_set("browser_tests") {
@@ -19,15 +19,15 @@ source_set("browser_tests") {
     "brave_user_agent_network_delegate_helper_browsertest.cc",
   ]
   deps = [
-    "//brave/components/brave_shields/core/browser",
-    "//brave/components/brave_shields/core/common",
-    "//brave/components/brave_user_agent/browser",
-    "//brave/components/brave_user_agent/common",
-    "//brave/components/geolocation",
-    "//brave/components/global_privacy_control",
-    "//brave/components/query_filter",
-    "//brave/components/static_redirect_helper",
-    "//brave/components/tor/buildflags",
+    "//unknown/components/brave_shields/core/browser",
+    "//unknown/components/brave_shields/core/common",
+    "//unknown/components/brave_user_agent/browser",
+    "//unknown/components/brave_user_agent/common",
+    "//unknown/components/geolocation",
+    "//unknown/components/global_privacy_control",
+    "//unknown/components/query_filter",
+    "//unknown/components/static_redirect_helper",
+    "//unknown/components/tor/buildflags",
     "//chrome/browser",
     "//chrome/browser:browser_process",
     "//chrome/browser/content_settings:content_settings_factory",
@@ -52,8 +52,8 @@ source_set("browser_tests") {
   }
   if (enable_tor) {
     deps += [
-      "//brave/browser/tor",
-      "//brave/components/tor",
+      "//unknown/browser/tor",
+      "//unknown/components/tor",
     ]
   }
   defines = [ "HAS_OUT_OF_PROC_TEST_RUNNER" ]
@@ -75,19 +75,19 @@ source_set("unit_tests") {
   ]
 
   deps = [
-    "//brave/components/brave_ads/core",
-    "//brave/components/brave_ads/core/browser/service:test_support",
-    "//brave/components/brave_component_updater/browser",
-    "//brave/components/brave_rewards/core",
-    "//brave/components/brave_rewards/core:features",
-    "//brave/components/brave_shields/content/browser",
-    "//brave/components/brave_shields/content/test:test_support",
-    "//brave/components/brave_user_agent/browser",
-    "//brave/components/brave_user_agent/common",
-    "//brave/components/geolocation",
-    "//brave/components/l10n/common:test_support",
-    "//brave/components/query_filter",
-    "//brave/components/static_redirect_helper",
+    "//unknown/components/brave_ads/core",
+    "//unknown/components/brave_ads/core/browser/service:test_support",
+    "//unknown/components/brave_component_updater/browser",
+    "//unknown/components/brave_rewards/core",
+    "//unknown/components/brave_rewards/core:features",
+    "//unknown/components/brave_shields/content/browser",
+    "//unknown/components/brave_shields/content/test:test_support",
+    "//unknown/components/brave_user_agent/browser",
+    "//unknown/components/brave_user_agent/common",
+    "//unknown/components/geolocation",
+    "//unknown/components/l10n/common:test_support",
+    "//unknown/components/query_filter",
+    "//unknown/components/static_redirect_helper",
     "//chrome/browser/prefs",
     "//chrome/test:test_support",
     "//components/sync_preferences:test_support",

@@ -11,7 +11,7 @@ source_set("de_amp") {
   ]
   deps = [
     "//base",
-    "//brave/components/de_amp/common",
+    "//unknown/components/de_amp/common",
     "//components/prefs",
     "//ios/chrome/browser/shared/model/application_context",
   ]

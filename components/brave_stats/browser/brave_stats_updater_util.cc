@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/brave_stats/browser/brave_stats_updater_util.h"
+#include "unknown/components/brave_stats/browser/brave_stats_updater_util.h"
 
 #include <ctime>
 #include <memory>
@@ -14,8 +14,8 @@
 #include "base/environment.h"
 #include "base/strings/string_number_conversions.h"
 #include "base/strings/string_split.h"
-#include "brave/components/brave_stats/browser/buildflags.h"
-#include "brave/components/constants/pref_names.h"
+#include "unknown/components/brave_stats/browser/buildflags.h"
+#include "unknown/components/constants/pref_names.h"
 #include "build/build_config.h"
 #include "components/prefs/pref_service.h"
 #include "third_party/abseil-cpp/absl/strings/str_format.h"

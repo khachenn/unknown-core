@@ -10,8 +10,8 @@
 
 #include "base/types/cxx23_to_underlying.h"
 #include "base/values.h"
-#include "brave/components/brave_shields/core/common/brave_shield_constants.h"
-#include "brave/components/brave_shields/core/common/shields_settings.mojom.h"
+#include "unknown/components/brave_shields/core/common/brave_shield_constants.h"
+#include "unknown/components/brave_shields/core/common/shields_settings.mojom.h"
 #include "components/content_settings/core/common/content_settings_types.h"
 
 namespace brave_shields {

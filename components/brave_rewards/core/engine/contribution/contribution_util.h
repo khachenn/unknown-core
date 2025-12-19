@@ -8,7 +8,7 @@
 
 #include <string>
 
-#include "brave/components/brave_rewards/core/mojom/rewards.mojom.h"
+#include "unknown/components/brave_rewards/core/mojom/rewards.mojom.h"
 
 namespace brave_rewards::internal {
 namespace contribution {

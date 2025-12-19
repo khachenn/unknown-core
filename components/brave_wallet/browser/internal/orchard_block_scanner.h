@@ -13,10 +13,10 @@
 #include <vector>
 
 #include "base/types/expected.h"
-#include "brave/components/brave_wallet/browser/internal/orchard_block_scanner.h"
-#include "brave/components/brave_wallet/browser/zcash/rust/orchard_decoded_blocks_bundle.h"
-#include "brave/components/brave_wallet/common/zcash_utils.h"
-#include "brave/components/services/brave_wallet/public/mojom/zcash_decoder.mojom.h"
+#include "unknown/components/brave_wallet/browser/internal/orchard_block_scanner.h"
+#include "unknown/components/brave_wallet/browser/zcash/rust/orchard_decoded_blocks_bundle.h"
+#include "unknown/components/brave_wallet/common/zcash_utils.h"
+#include "unknown/components/services/brave_wallet/public/mojom/zcash_decoder.mojom.h"
 
 namespace brave_wallet {
 

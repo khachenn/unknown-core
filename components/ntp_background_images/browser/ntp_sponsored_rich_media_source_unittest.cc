@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-#include "brave/components/ntp_background_images/browser/ntp_sponsored_rich_media_source.h"
+#include "unknown/components/ntp_background_images/browser/ntp_sponsored_rich_media_source.h"
 
 #include <cstddef>
 #include <memory>
@@ -17,10 +17,10 @@
 #include "base/memory/ref_counted_memory.h"
 #include "base/run_loop.h"
 #include "base/strings/string_view_util.h"
-#include "brave/components/ntp_background_images/browser/ntp_background_images_service.h"
-#include "brave/components/ntp_background_images/browser/ntp_background_images_service_waiter.h"
-#include "brave/components/ntp_background_images/browser/ntp_sponsored_source_test_util.h"
-#include "brave/components/ntp_background_images/browser/switches.h"
+#include "unknown/components/ntp_background_images/browser/ntp_background_images_service.h"
+#include "unknown/components/ntp_background_images/browser/ntp_background_images_service_waiter.h"
+#include "unknown/components/ntp_background_images/browser/ntp_sponsored_source_test_util.h"
+#include "unknown/components/ntp_background_images/browser/switches.h"
 #include "components/prefs/testing_pref_service.h"
 #include "content/public/test/browser_task_environment.h"
 #include "testing/gmock/include/gmock/gmock.h"

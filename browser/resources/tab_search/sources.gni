@@ -4,7 +4,7 @@
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 brave_tab_search_extras_grdp =
-    "$root_gen_dir/brave/browser/resources/tab_search/brave_extras.grdp"
+    "$root_gen_dir/unknown/browser/resources/tab_search/brave_extras.grdp"
 
 brave_tab_search_static_files = [
   "brave/tab_organizer_illustration.svg",
@@ -18,4 +18,4 @@ brave_tab_search_static_files = [
 brave_tab_search_extra_grdp_files = [ brave_tab_search_extras_grdp ]
 
 brave_tab_search_extra_grdp_deps =
-    [ "//brave/browser/resources/tab_search:static_files" ]
+    [ "//unknown/browser/resources/tab_search:static_files" ]

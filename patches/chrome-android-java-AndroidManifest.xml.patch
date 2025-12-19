@@ -6,7 +6,7 @@ index b2151944dfba4d6f4d147ef2a0d92c3bcd567a34..ecae1894730f8c9a291e57f5d4ab6683
  
      <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-+    {% include "//brave/android/java/AndroidManifest_user_permissions.xml" %}
++    {% include "//unknown/android/java/AndroidManifest_user_permissions.xml" %}
  
      <uses-permission-sdk-23 android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
      <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30"/>
@@ -84,7 +84,7 @@ index b2151944dfba4d6f4d147ef2a0d92c3bcd567a34..ecae1894730f8c9a291e57f5d4ab6683
              <intent-filter>
                  <action android:name="com.sec.android.airview.HOVER" />
              </intent-filter>
-+            {% include "//brave/android/java/AndroidManifest_intent_filters.xml" %}
++            {% include "//unknown/android/java/AndroidManifest_intent_filters.xml" %}
              <meta-data android:name="android.app.searchable"
                  android:resource="@xml/searchable" />
          </activity-alias>
@@ -117,7 +117,7 @@ index b2151944dfba4d6f4d147ef2a0d92c3bcd567a34..ecae1894730f8c9a291e57f5d4ab6683
            </activity>
          {% endif %}
  
-+        {% include "//brave/android/java/AndroidManifest.xml" %}
++        {% include "//unknown/android/java/AndroidManifest.xml" %}
          {% block extra_application_definitions %}
          {% endblock %}
        {% endmacro %}

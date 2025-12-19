@@ -13,11 +13,11 @@ cargo_crate("lib") {
   epoch = "0.5"
   crate_type = "rlib"
   crate_root =
-      "//brave/third_party/rust/chromium_crates_io/vendor/aead-v0_5/src/lib.rs"
+      "//unknown/third_party/rust/chromium_crates_io/vendor/aead-v0_5/src/lib.rs"
   sources = [
-    "//brave/third_party/rust/chromium_crates_io/vendor/aead-v0_5/src/dev.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aead-v0_5/src/lib.rs",
-    "//brave/third_party/rust/chromium_crates_io/vendor/aead-v0_5/src/stream.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aead-v0_5/src/dev.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aead-v0_5/src/lib.rs",
+    "//unknown/third_party/rust/chromium_crates_io/vendor/aead-v0_5/src/stream.rs",
   ]
   inputs = []
 
@@ -30,8 +30,8 @@ cargo_crate("lib") {
   cargo_pkg_version = "0.5.2"
 
   deps = [
-    "//brave/third_party/rust/crypto_common/v0_1:lib",
-    "//brave/third_party/rust/generic_array/v0_14:lib",
+    "//unknown/third_party/rust/crypto_common/v0_1:lib",
+    "//unknown/third_party/rust/generic_array/v0_14:lib",
   ]
   rustenv = []
   rustflags = []

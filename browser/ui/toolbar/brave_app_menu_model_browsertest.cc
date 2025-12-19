@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/ui/toolbar/brave_app_menu_model.h"
+#include "unknown/browser/ui/toolbar/brave_app_menu_model.h"
 
 #include <algorithm>
 #include <optional>
@@ -13,14 +13,14 @@
 #include "base/containers/contains.h"
 #include "base/functional/callback_helpers.h"
 #include "base/test/scoped_feature_list.h"
-#include "brave/app/brave_command_ids.h"
-#include "brave/browser/ui/brave_browser_command_controller.h"
-#include "brave/browser/ui/browser_commands.h"
-#include "brave/components/ai_chat/core/common/buildflags/buildflags.h"
-#include "brave/components/brave_vpn/common/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/skus/common/features.h"
-#include "brave/components/tor/buildflags/buildflags.h"
+#include "unknown/app/brave_command_ids.h"
+#include "unknown/browser/ui/brave_browser_command_controller.h"
+#include "unknown/browser/ui/browser_commands.h"
+#include "unknown/components/ai_chat/core/common/buildflags/buildflags.h"
+#include "unknown/components/brave_vpn/common/buildflags/buildflags.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/skus/common/features.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
 #include "chrome/app/chrome_command_ids.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/profiles/profile_window.h"
@@ -36,9 +36,9 @@
 #include "content/public/test/test_utils.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
-#include "brave/browser/brave_vpn/brave_vpn_service_factory.h"
-#include "brave/components/brave_vpn/browser/brave_vpn_service.h"
-#include "brave/components/brave_vpn/common/features.h"
+#include "unknown/browser/brave_vpn/brave_vpn_service_factory.h"
+#include "unknown/components/brave_vpn/browser/brave_vpn_service.h"
+#include "unknown/components/brave_vpn/common/features.h"
 #endif
 
 class BraveAppMenuModelBrowserTest : public InProcessBrowserTest {

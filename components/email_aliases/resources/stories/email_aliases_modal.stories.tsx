@@ -9,7 +9,7 @@ import {
   EmailAliasModal,
 } from '../content/email_aliases_modal'
 import { StubEmailAliasesService, demoData } from './utils/stubs'
-import { AuthenticationStatus } from 'gen/brave/components/email_aliases/email_aliases.mojom.m'
+import { AuthenticationStatus } from 'gen/unknown/components/email_aliases/email_aliases.mojom.m'
 
 const stubEmailAliasesServiceAccountReadyInstance = new StubEmailAliasesService(
   {

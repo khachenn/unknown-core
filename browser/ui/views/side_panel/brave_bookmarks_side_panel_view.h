@@ -6,7 +6,7 @@
 #ifndef BRAVE_BROWSER_UI_VIEWS_SIDE_PANEL_BRAVE_BOOKMARKS_SIDE_PANEL_VIEW_H_
 #define BRAVE_BROWSER_UI_VIEWS_SIDE_PANEL_BRAVE_BOOKMARKS_SIDE_PANEL_VIEW_H_
 
-#include "brave/browser/ui/views/side_panel/brave_side_panel_view_base.h"
+#include "unknown/browser/ui/views/side_panel/brave_side_panel_view_base.h"
 
 class SidePanelEntryScope;
 

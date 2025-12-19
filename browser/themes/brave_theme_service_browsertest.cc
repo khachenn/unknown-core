@@ -5,14 +5,14 @@
 
 #include "base/check.h"
 #include "base/path_service.h"
-#include "brave/browser/themes/brave_dark_mode_utils.h"
-#include "brave/browser/themes/pref_names.h"
-#include "brave/browser/ui/color/brave_color_id.h"
-#include "brave/browser/ui/color/color_palette.h"
-#include "brave/components/constants/brave_paths.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/tor/buildflags/buildflags.h"
-#include "brave/ui/color/nala/nala_color_id.h"
+#include "unknown/browser/themes/brave_dark_mode_utils.h"
+#include "unknown/browser/themes/pref_names.h"
+#include "unknown/browser/ui/color/brave_color_id.h"
+#include "unknown/browser/ui/color/color_palette.h"
+#include "unknown/components/constants/brave_paths.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/tor/buildflags/buildflags.h"
+#include "unknown/ui/color/nala/nala_color_id.h"
 #include "build/build_config.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/profiles/profile.h"
@@ -37,7 +37,7 @@
 #include "ui/color/color_provider_key.h"
 
 #if BUILDFLAG(ENABLE_TOR)
-#include "brave/browser/tor/tor_profile_manager.h"
+#include "unknown/browser/tor/tor_profile_manager.h"
 #endif
 
 #if BUILDFLAG(ENABLE_EXTENSIONS)

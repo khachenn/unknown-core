@@ -10,8 +10,8 @@
 #include <string>
 
 #include "base/values.h"
-#include "brave/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
-#include "brave/components/brave_ads/core/public/ads_client/ads_client_callback.h"
+#include "unknown/components/brave_ads/core/mojom/brave_ads.mojom-forward.h"
+#include "unknown/components/brave_ads/core/public/ads_client/ads_client_callback.h"
 
 namespace brave_ads {
 

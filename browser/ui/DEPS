@@ -2,10 +2,10 @@ from brave_chromium_utils import inline_file
 inline_file('//chrome/browser/ui/DEPS', globals(), locals())
 
 include_rules += [
-  "+brave/browser/brave_origin",
+  "+unknown/browser/brave_origin",
   "+chrome/browser/ui",
-  "+brave/components/vector_icons",
-  "+brave/components/query_filter",
-  "+brave/components/tabs",
-  "+brave/components/text_recognition/common/buildflags",
+  "+unknown/components/vector_icons",
+  "+unknown/components/query_filter",
+  "+unknown/components/tabs",
+  "+unknown/components/text_recognition/common/buildflags",
 ]

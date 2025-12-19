@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/brave_stats/brave_stats_updater.h"
+#include "unknown/browser/brave_stats/brave_stats_updater.h"
 
 #include <memory>
 #include <utility>
@@ -16,22 +16,22 @@
 #include "base/metrics/histogram_macros.h"
 #include "base/strings/string_util.h"
 #include "base/system/sys_info.h"
-#include "brave/browser/brave_browser_features.h"
-#include "brave/browser/brave_stats/brave_stats_updater_params.h"
-#include "brave/browser/brave_stats/buildflags.h"
-#include "brave/browser/brave_stats/features.h"
-#include "brave/browser/brave_stats/first_run_util.h"
-#include "brave/browser/brave_stats/switches.h"
-#include "brave/common/brave_channel_info.h"
-#include "brave/components/brave_ads/core/public/prefs/pref_names.h"
-#include "brave/components/brave_referrals/common/pref_names.h"
-#include "brave/components/brave_stats/browser/brave_stats_updater_util.h"
-#include "brave/components/brave_wallet/common/buildflags/buildflags.h"
-#include "brave/components/constants/network_constants.h"
-#include "brave/components/constants/pref_names.h"
-#include "brave/components/misc_metrics/general_browser_usage.h"
-#include "brave/components/rpill/common/rpill.h"
-#include "brave/components/version_info/version_info.h"
+#include "unknown/browser/brave_browser_features.h"
+#include "unknown/browser/brave_stats/brave_stats_updater_params.h"
+#include "unknown/browser/brave_stats/buildflags.h"
+#include "unknown/browser/brave_stats/features.h"
+#include "unknown/browser/brave_stats/first_run_util.h"
+#include "unknown/browser/brave_stats/switches.h"
+#include "unknown/common/brave_channel_info.h"
+#include "unknown/components/brave_ads/core/public/prefs/pref_names.h"
+#include "unknown/components/brave_referrals/common/pref_names.h"
+#include "unknown/components/brave_stats/browser/brave_stats_updater_util.h"
+#include "unknown/components/brave_wallet/common/buildflags/buildflags.h"
+#include "unknown/components/constants/network_constants.h"
+#include "unknown/components/constants/pref_names.h"
+#include "unknown/components/misc_metrics/general_browser_usage.h"
+#include "unknown/components/rpill/common/rpill.h"
+#include "unknown/components/version_info/version_info.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/first_run/first_run.h"
 #include "chrome/browser/net/system_network_context_manager.h"
@@ -50,7 +50,7 @@
 #include "services/network/public/mojom/fetch_api.mojom-shared.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_WALLET)
-#include "brave/components/brave_wallet/browser/pref_names.h"
+#include "unknown/components/brave_wallet/browser/pref_names.h"
 #endif
 
 namespace brave_stats {

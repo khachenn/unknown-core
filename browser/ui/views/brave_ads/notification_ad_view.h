@@ -6,7 +6,7 @@
 #ifndef BRAVE_BROWSER_UI_VIEWS_BRAVE_ADS_NOTIFICATION_AD_VIEW_H_
 #define BRAVE_BROWSER_UI_VIEWS_BRAVE_ADS_NOTIFICATION_AD_VIEW_H_
 
-#include "brave/browser/ui/brave_ads/notification_ad.h"
+#include "unknown/browser/ui/brave_ads/notification_ad.h"
 #include "ui/base/metadata/metadata_header_macros.h"
 #include "ui/views/view.h"
 

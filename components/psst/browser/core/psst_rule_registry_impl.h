@@ -14,9 +14,9 @@
 #include "base/functional/callback_forward.h"
 #include "base/memory/weak_ptr.h"
 #include "base/no_destructor.h"
-#include "brave/components/psst/browser/core/matched_rule.h"
-#include "brave/components/psst/browser/core/psst_rule.h"
-#include "brave/components/psst/browser/core/psst_rule_registry.h"
+#include "unknown/components/psst/browser/core/matched_rule.h"
+#include "unknown/components/psst/browser/core/psst_rule.h"
+#include "unknown/components/psst/browser/core/psst_rule_registry.h"
 #include "url/gurl.h"
 
 namespace psst {

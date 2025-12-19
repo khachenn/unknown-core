@@ -11,8 +11,8 @@
 #include <string>
 #include <vector>
 
-#include "brave/components/brave_ads/core/internal/creatives/conversions/creative_set_conversion_info.h"
-#include "brave/components/brave_ads/core/internal/user_engagement/ad_events/ad_event_info.h"
+#include "unknown/components/brave_ads/core/internal/creatives/conversions/creative_set_conversion_info.h"
+#include "unknown/components/brave_ads/core/internal/user_engagement/ad_events/ad_event_info.h"
 
 class GURL;
 

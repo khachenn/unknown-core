@@ -3,16 +3,16 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-#include "brave/components/brave_ads/core/browser/internals/ads_internals_handler.h"
+#include "unknown/components/brave_ads/core/browser/internals/ads_internals_handler.h"
 
 #include <utility>
 
 #include "base/check.h"
 #include "base/functional/bind.h"
 #include "base/json/json_writer.h"
-#include "brave/components/brave_ads/core/browser/service/ads_service.h"
-#include "brave/components/brave_rewards/core/pref_names.h"
-#include "brave/components/services/bat_ads/public/interfaces/bat_ads.mojom.h"
+#include "unknown/components/brave_ads/core/browser/service/ads_service.h"
+#include "unknown/components/brave_rewards/core/pref_names.h"
+#include "unknown/components/services/bat_ads/public/interfaces/bat_ads.mojom.h"
 #include "components/prefs/pref_service.h"
 
 AdsInternalsHandler::AdsInternalsHandler(brave_ads::AdsService* ads_service,
