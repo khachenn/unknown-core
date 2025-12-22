@@ -137,7 +137,7 @@ group("all") {
 
   if (is_android) {
     deps += [
-      "//unknown/build/android:unknown",
+      "//unknown/build/android:brave",
       "//unknown/test:brave_java_unit_tests",
       "//unknown/test:brave_junit_tests",
     ]
@@ -245,7 +245,7 @@ if (is_win) {
   }
 
   group("mini_installer_dependencies") {
-    deps = [ ":unknown" ]
+    deps = [ ":brave" ]
     if (!skip_signing) {
       deps += [
         ":signed_brave_exe",
@@ -263,7 +263,7 @@ if (is_win) {
 }
 
 group("unknown") {
-  deps = [ "build/$target_os:unknown" ]
+  deps = [ "build/$target_os:brave" ]
   if (!is_android && !is_ios) {
     deps += [
       "//unknown/components/version_info:generate_version",
@@ -490,10 +490,10 @@ if (!is_android && !is_ios) {
     sources = [ "$root_out_dir/version" ]
 
     deps = [
-      ":unknown",
+      ":brave",
       ":brave_license_dist_resources",
       ":packed_resources",
-      "build/$target_os:unknown",
+      "build/$target_os:brave",
       "//unknown/components/version_info:generate_version",
       "//chrome:packed_resources",
       "//third_party/icu:icudata",
