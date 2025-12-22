@@ -7,7 +7,7 @@
 # provide a decent amount of room for future growth.
 {
   "SRCDIR": "../..",
-  "brave/common/extensions/api/brave_api_resources.grd": {
+  "unknown/common/extensions/api/brave_api_resources.grd": {
     "includes": [31600],
   },
   "brave/components/resources/brave_components_resources.grd": {
@@ -33,17 +33,17 @@
     "META": {"sizes": {"includes": [20]}},
     "includes": [31700],
   },
-  "brave/app/brave_generated_resources.grd": {
+  "unknown/app/brave_generated_resources.grd": {
     "includes": [31720],
     "messages": [31740],
   },
-  "brave/app/theme/brave_theme_resources.grd": {
+  "unknown/app/theme/brave_theme_resources.grd": {
     "structures": [31760],
   },
-  "brave/app/theme/brave_unscaled_resources.grd": {
+  "unknown/app/theme/brave_unscaled_resources.grd": {
     "includes": [31780],
   },
-  "brave/components/brave_rewards/resources/brave_rewards_static_resources.grd": {
+  "unknown/components/brave_rewards/resources/brave_rewards_static_resources.grd": {
     "includes": [31800],
   },
   # This file is generated during the build.
@@ -51,7 +51,7 @@
     "META": {"sizes": {"includes": [10]}},
     "includes": [31820],
   },
-  "brave/components/resources/brave_components_strings.grd": {
+  "unknown/components/resources/brave_components_strings.grd": {
     "messages": [31840],
   },
   # This file is generated during the build.
@@ -64,7 +64,7 @@
     "META": {"sizes": {"includes": [200]}},
     "includes": [31880],
   },
-  "brave/components/brave_extension/extension/resources.grd": {
+  "unknown/components/brave_extension/extension/resources.grd": {
     "includes": [31900],
   },
   # This file is generated during the build.
@@ -82,7 +82,7 @@
     "META": {"sizes": {"includes": [10]}},
     "includes": [31960],
   },
-  "brave/components/tor/resources/tor_static_resources.grd": {
+  "unknown/components/tor/resources/tor_static_resources.grd": {
     "includes": [31980],
   },
   # This file is generated during the build.
@@ -218,7 +218,7 @@
     "META": {"sizes": {"includes": [35]}},
     "includes": [32600],
   },
-  "brave/ios/web/test/test_resources.grd": {
+  "unknown/ios/web/test/test_resources.grd": {
     "META": {"sizes": {"includes": [10]}},
     "includes": [32620],
   },
@@ -230,7 +230,7 @@
     "META": {"sizes": {"includes": [20]}},
     "includes": [32631],
   },
-  "brave/browser/resources/bookmark_icon/bookmark_icon_resources.grd": {
+  "unknown/browser/resources/bookmark_icon/bookmark_icon_resources.grd": {
     "structures": [32660],
   },
   "<(SHARED_INTERMEDIATE_DIR)/brave/web-ui-brave_welcome_page/brave_welcome_page.grd": {

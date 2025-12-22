@@ -245,7 +245,7 @@ if (is_win) {
   }
 
   group("mini_installer_dependencies") {
-    deps = [ ":unknown" ]
+    deps = [ ":brave" ]
     if (!skip_signing) {
       deps += [
         ":signed_brave_exe",
