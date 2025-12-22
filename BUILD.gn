@@ -262,7 +262,7 @@ if (is_win) {
   }
 }
 
-group("unknown") {
+group("brave") {
   deps = [ "build/$target_os:unknown" ]
   if (!is_android && !is_ios) {
     deps += [
