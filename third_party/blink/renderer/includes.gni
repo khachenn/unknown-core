@@ -51,16 +51,16 @@ brave_blink_renderer_modules_visibility =
     [ "//unknown/third_party/blink/renderer/*" ]
 
 brave_blink_sub_modules = [
-  "//unknown/third_party/blink/renderer/modules/brave",
+  "//unknown/third_party/blink/renderer/modules/unknown",
   "//unknown/third_party/blink/renderer/modules/global_privacy_control",
 ]
 
 # common includes which can help minimize patches for
 # third_party/blink/renderer/bindings/idl_in_modules.gni
 brave_static_idl_files_in_modules = [
-  "//unknown/third_party/blink/renderer/modules/brave/brave.idl",
-  "//unknown/third_party/blink/renderer/modules/brave/navigator_brave.idl",
-  "//unknown/third_party/blink/renderer/modules/brave/worker_navigator_brave.idl",
+  "//unknown/third_party/blink/renderer/modules/unknown/brave.idl",
+  "//unknown/third_party/blink/renderer/modules/unknown/navigator_brave.idl",
+  "//unknown/third_party/blink/renderer/modules/unknown/worker_navigator_brave.idl",
   "//unknown/third_party/blink/renderer/modules/global_privacy_control/navigator_global_privacy_control.idl",
   "//unknown/third_party/blink/renderer/modules/global_privacy_control/worker_navigator_global_privacy_control.idl",
 ]

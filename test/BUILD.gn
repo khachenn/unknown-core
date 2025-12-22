@@ -827,7 +827,7 @@ test("brave_browser_tests") {
     "//unknown/components/brave_perf_predictor/browser/perf_predictor_tab_helper_browsertest.cc",
     "//unknown/components/content_settings/renderer/brave_content_settings_agent_impl_autoplay_browsertest.cc",
     "//unknown/components/content_settings/renderer/brave_content_settings_agent_impl_browsertest.cc",
-    "//unknown/third_party/blink/renderer/modules/brave/navigator_browsertest.cc",
+    "//unknown/third_party/blink/renderer/modules/unknown/navigator_browsertest.cc",
     "//chrome/browser/extensions/browsertest_util.cc",
     "//chrome/browser/extensions/browsertest_util.h",
     "//chrome/browser/extensions/extension_browsertest.cc",
