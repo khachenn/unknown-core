@@ -23,7 +23,7 @@ def check_dependency(module_name):
         return True
 
     third_party_dir = os.path.join(
-        os.path.dirname(SOURCE_ROOT), 'brave', 'third_party')
+        os.path.dirname(SOURCE_ROOT), 'unknown', 'third_party')
     module_dir_name = module_name.replace('/', '_')
     readme_path = os.path.join(third_party_dir, 'npm_%s' %
                                module_dir_name, 'README.chromium')
@@ -42,7 +42,7 @@ def main():
 
     return_code = 0
     package_json = os.path.join(os.path.dirname(
-        SOURCE_ROOT), 'brave', 'package.json')
+        SOURCE_ROOT), 'unknown', 'package.json')
     with open(package_json) as file_handle:
         dependencies = json.loads(file_handle.read())["dependencies"]
         for module_name in dependencies:

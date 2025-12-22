@@ -21,7 +21,7 @@ class CrowdinClientWrapper():
        https://github.com/crowdin/crowdin-api-client-python"""
 
     def __init__(self, project_id):
-        self._organization = 'Brave-Software'
+        self._organization = 'Unknown-Software'
         self._project_id = project_id
         self._auth_token = get_env_var('CROWDIN_API_KEY')
         self._timeout = 300

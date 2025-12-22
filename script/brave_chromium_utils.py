@@ -21,7 +21,7 @@ def get_additional_extensions():
 
 @functools.lru_cache(maxsize=None)
 def get_src_dir() -> str:
-    """Searches for src/ dir which includes brave/ dir."""
+    """Searches for src/ dir which includes unknown/ dir."""
     current_file = globals().get('__file__')
     if current_file:
         current_dir = os.path.dirname(os.path.abspath(current_file))
@@ -30,7 +30,7 @@ def get_src_dir() -> str:
     while True:
         if os.path.exists(
                 os.path.join(current_dir,
-                             'brave/script/brave_chromium_utils.py')):
+                             'unknown/script/brave_chromium_utils.py')):
             return current_dir
         parent_dir = os.path.dirname(current_dir)
         if parent_dir == current_dir:

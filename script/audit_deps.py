@@ -175,11 +175,11 @@ def extract_resolutions(result):
 def parse_args():
     """Parse command line arguments."""
 
-    parser = argparse.ArgumentParser(description='Audit brave-core npm deps')
+    parser = argparse.ArgumentParser(description='Audit unknown-core npm deps')
     parser.add_argument('input_dir', nargs='?', help='Directory to check')
     parser.add_argument('--source_root',
                         required=True,
-                        help='Full path of the src/brave directory')
+                        help='Full path of the src/unknown directory')
     parser.add_argument('--cargo_audit_exe', required=True)
     parser.add_argument('--audit_dev_deps',
                         action='store_true',
