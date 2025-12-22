@@ -9,7 +9,7 @@ import { ManagePageConnected } from '../email_aliases'
 import {
   AuthenticationStatus,
   EmailAliasesServiceObserverInterface,
-} from 'gen/unknown/components/email_aliases/email_aliases.mojom.m'
+} from 'gen/brave/components/email_aliases/email_aliases.mojom.m'
 
 const stubEmailAliasesServiceNoAccountInstance = new StubEmailAliasesService({
   status: AuthenticationStatus.kUnauthenticated,

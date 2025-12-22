@@ -7,7 +7,7 @@ import { clickLeoButton } from './test_utils'
 import { MainEmailDisplay } from '../content/email_aliases_main_email_display'
 import { render, screen, act } from '@testing-library/react'
 import * as React from 'react'
-import { EmailAliasesServiceInterface } from 'gen/unknown/components/email_aliases/email_aliases.mojom.m'
+import { EmailAliasesServiceInterface } from 'gen/brave/components/email_aliases/email_aliases.mojom.m'
 
 const mockEmailAliasesService: EmailAliasesServiceInterface = {
   requestAuthentication: jest.fn(),

@@ -16,7 +16,7 @@ from brave_chromium_utils import get_webui_overridden_but_referenced_files
 def is_gen_brave_dir(out_dir):
     GEN_BRAVE = 'gen/unknown'
     dirs = out_dir.split('/')
-    # Test gen/unknown/... and <target_toolchain>/gen/unknown/...
+    # Test gen/brave/... and <target_toolchain>/gen/brave/...
     return '/'.join(dirs[:2]) == GEN_BRAVE or '/'.join(dirs[1:3]) == GEN_BRAVE
 
 

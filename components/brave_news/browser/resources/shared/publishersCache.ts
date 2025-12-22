@@ -9,7 +9,7 @@ import {
   PublishersListenerInterface,
   PublishersListenerReceiver,
   UserEnabled
-} from 'gen/unknown/components/brave_news/common/brave_news.mojom.m'
+} from 'gen/brave/components/brave_news/common/brave_news.mojom.m'
 import getBraveNewsController, { isDirectFeed } from './api'
 
 import { EntityCachingWrapper } from '$web-common/mojomCache'

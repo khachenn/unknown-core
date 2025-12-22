@@ -67,14 +67,14 @@
         "../out/Debug_arm64/gen/ui/webui/resources/tsc/*"
       ],
       "chrome://resources/brave/*": [
-        "../out/Component/gen/unknown/ui/webui/resources/tsc/*",
-        "../out/Static/gen/unknown/ui/webui/resources/tsc/*",
-        "../out/Release/gen/unknown/ui/webui/resources/tsc/*",
-        "../out/Debug/gen/unknown/ui/webui/resources/tsc/*",
-        "../out/Component_arm64/gen/unknown/ui/webui/resources/tsc/*",
-        "../out/Static_arm64/gen/unknown/ui/webui/resources/tsc/*",
-        "../out/Release_arm64/gen/unknown/ui/webui/resources/tsc/*",
-        "../out/Debug_arm64/gen/unknown/ui/webui/resources/tsc/*"
+        "../out/Component/gen/brave/ui/webui/resources/tsc/*",
+        "../out/Static/gen/brave/ui/webui/resources/tsc/*",
+        "../out/Release/gen/brave/ui/webui/resources/tsc/*",
+        "../out/Debug/gen/brave/ui/webui/resources/tsc/*",
+        "../out/Component_arm64/gen/brave/ui/webui/resources/tsc/*",
+        "../out/Static_arm64/gen/brave/ui/webui/resources/tsc/*",
+        "../out/Release_arm64/gen/brave/ui/webui/resources/tsc/*",
+        "../out/Debug_arm64/gen/brave/ui/webui/resources/tsc/*"
       ],
       "$web-common/*": ["components/common/*"],
       "$web-components/*": ["components/web-components/*"]

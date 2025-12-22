@@ -21,7 +21,7 @@ import Attachments from './index'
 import {
   AssociatedContent,
   ContentType,
-} from 'gen/unknown/components/ai_chat/core/common/mojom/common.mojom.m.js'
+} from 'gen/brave/components/ai_chat/core/common/mojom/common.mojom.m.js'
 import {
   Bookmark,
   HistoryEntry,

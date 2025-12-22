@@ -6,7 +6,7 @@
 import {
   Playlist,
   PlaylistItem
-} from 'gen/unknown/components/playlist/core/common/mojom/playlist.mojom.m'
+} from 'gen/brave/components/playlist/core/common/mojom/playlist.mojom.m'
 
 import { types } from '../constants/player_types'
 

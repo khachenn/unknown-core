@@ -8,7 +8,7 @@ import {
   Configuration,
   ConfigurationListenerInterface,
   ConfigurationListenerReceiver,
-} from 'gen/unknown/components/brave_news/common/brave_news.mojom.m'
+} from 'gen/brave/components/brave_news/common/brave_news.mojom.m'
 import getBraveNewsController from './api'
 
 import { CachingWrapper } from '$web-common/mojomCache'

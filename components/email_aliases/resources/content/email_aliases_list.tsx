@@ -22,7 +22,7 @@ import {
   Alias,
   EmailAliasesServiceInterface,
   MAX_ALIASES,
-} from 'gen/unknown/components/email_aliases/email_aliases.mojom.m'
+} from 'gen/brave/components/email_aliases/email_aliases.mojom.m'
 
 const AliasListIntro = styled(Row)`
   justify-content: space-between;

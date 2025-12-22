@@ -5,7 +5,7 @@
 
 import './strings'
 
-import * as CommandsMojo from 'gen/unknown/components/commands/common/commands.mojom.m.js'
+import * as CommandsMojo from 'gen/brave/components/commands/common/commands.mojom.m.js'
 import * as React from 'react'
 import { render } from 'react-dom'
 import styled, { StyleSheetManager } from 'styled-components'

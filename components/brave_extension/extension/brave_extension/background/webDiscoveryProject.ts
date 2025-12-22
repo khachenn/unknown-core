@@ -8,7 +8,7 @@ declare let window: any
 
 async function startWDP() {
   if (window.WDP === undefined) {
-    const wdp = await import('gen/unknown/web-discovery-project')
+    const wdp = await import('gen/brave/web-discovery-project')
     window.WDP = new wdp.App({
       version: chrome.runtime.getManifest().version
     })

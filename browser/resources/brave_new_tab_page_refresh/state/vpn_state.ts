@@ -6,7 +6,7 @@
 import {
   ConnectionState,
   Region,
-} from 'gen/unknown//components/brave_vpn/common/mojom/brave_vpn.mojom.m'
+} from 'gen/brave//components/brave_vpn/common/mojom/brave_vpn.mojom.m'
 
 export { ConnectionState, Region }
 

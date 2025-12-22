@@ -15,7 +15,7 @@ import {
   AuthState,
   AuthenticationStatus,
   EmailAliasesServiceInterface,
-} from 'gen/unknown/components/email_aliases/email_aliases.mojom.m'
+} from 'gen/brave/components/email_aliases/email_aliases.mojom.m'
 
 const PageCol = styled(Col)`
   font: ${font.default.regular};
