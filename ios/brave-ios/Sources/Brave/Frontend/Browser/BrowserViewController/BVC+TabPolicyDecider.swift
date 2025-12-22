@@ -476,7 +476,7 @@ extension BrowserViewController: TabPolicyDecider {
       return .allow
     }
 
-    if requestURL.scheme?.contains("brave") == true || requestURL.scheme?.contains("chrome") == true
+    if requestURL.scheme?.contains("unknown") == true || requestURL.scheme?.contains("chrome") == true
     {
       // brave://account should not be treated as a regular WebUI page.
       // It is part of the Settings UI and is intended to be opened only

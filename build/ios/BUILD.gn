@@ -1,5 +1,5 @@
 import("//unknown/build/config.gni")
 
-group("brave") {
+group("unknown") {
   deps = [ "//unknown/ios:brave_ios" ]
 }

@@ -14,7 +14,7 @@ namespace {
 
 base::FilePath RootPath() {
   return base::PathService::CheckedGet(base::DIR_SRC_TEST_DATA_ROOT)
-      .AppendASCII("brave")
+      .AppendASCII("unknown")
       .AppendASCII("components")
       .AppendASCII("brave_ads");
 }

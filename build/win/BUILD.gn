@@ -6,7 +6,7 @@
 import("//unknown/components/brave_vpn/common/buildflags/buildflags.gni")
 import("sign.gni")
 
-group("brave") {
+group("unknown") {
   public_deps = [
     ":copy_exe",
     ":copy_pdb",

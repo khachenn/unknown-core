@@ -75,7 +75,7 @@ if (is_universal_binary) {
 }
 
 # //brave depends on this via "build/$target_os:brave".
-group("brave") {
+group("unknown") {
   exe_path = "$unsigned_app_path/Contents/MacOS/$chrome_product_full_name"
 
   # start.js uses this file to know which binary to run.

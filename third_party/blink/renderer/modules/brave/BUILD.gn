@@ -5,7 +5,7 @@
 
 import("//third_party/blink/renderer/modules/modules.gni")
 
-blink_modules_sources("brave") {
+blink_modules_sources("unknown") {
   sources = [
     "brave.cc",
     "brave.h",

@@ -41,8 +41,8 @@ TEST_F(RewardsWalletUtilTest, ExternalWalletPtrFromJSON) {
   EXPECT_EQ(wallet->address, "6a752063-8958-44d5-b5db-71543f18567d");
   EXPECT_EQ(wallet->status, mojom::WalletStatus::kConnected);
   EXPECT_EQ(wallet->user_name, "random_user");
-  EXPECT_NE(wallet->fees.find("brave"), wallet->fees.end());
-  EXPECT_EQ(wallet->fees["brave"], 5.00);
+  EXPECT_NE(wallet->fees.find("unknown"), wallet->fees.end());
+  EXPECT_EQ(wallet->fees["unknown"], 5.00);
 }
 
 using TransitionWalletCreateParamType =

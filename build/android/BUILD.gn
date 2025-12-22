@@ -47,7 +47,7 @@ action("sign_app") {
 
   deps = [
     # Make sure we have a copy prior to signing.
-    ":brave",
+    ":unknown",
     "//unknown:create_symbols_dist",
   ]
 

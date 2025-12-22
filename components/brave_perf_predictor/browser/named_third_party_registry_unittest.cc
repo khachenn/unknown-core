@@ -42,7 +42,7 @@ std::string LoadFile() {
   base::FilePath source_root =
       base::PathService::CheckedGet(base::DIR_SRC_TEST_DATA_ROOT);
   auto path =
-      source_root.Append(FILE_PATH_LITERAL("brave"))
+      source_root.Append(FILE_PATH_LITERAL("unknown"))
           .Append(FILE_PATH_LITERAL("components"))
           .Append(FILE_PATH_LITERAL("brave_perf_predictor"))
           .Append(FILE_PATH_LITERAL("resources"))

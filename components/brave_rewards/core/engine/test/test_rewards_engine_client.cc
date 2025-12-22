@@ -62,7 +62,7 @@ TestNetworkResult::~TestNetworkResult() = default;
 base::FilePath GetTestDataPath() {
   base::FilePath path =
       base::PathService::CheckedGet(base::DIR_SRC_TEST_DATA_ROOT);
-  path = path.AppendASCII("brave");
+  path = path.AppendASCII("unknown");
   path = path.AppendASCII("components");
   path = path.AppendASCII("brave_rewards");
   path = path.AppendASCII("core");

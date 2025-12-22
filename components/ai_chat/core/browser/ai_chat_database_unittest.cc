@@ -1102,7 +1102,7 @@ class AIChatDatabaseMigrationTest : public testing::Test,
   void SetUp() override {
     OSCryptMocker::SetUp();
     CHECK(temp_directory_.CreateUniqueTempDir());
-    database_dump_location_ = database_dump_location_.AppendASCII("brave")
+    database_dump_location_ = database_dump_location_.AppendASCII("unknown")
                                   .AppendASCII("components")
                                   .AppendASCII("test")
                                   .AppendASCII("data")

@@ -161,5 +161,5 @@ fn main() {
 
     let slideshow_path =
         fs::canonicalize("out/slideshow.html").unwrap().into_os_string().into_string().unwrap();
-    Command::new("brave").arg(slideshow_path).spawn().unwrap();
+    Command::new("unknown").arg(slideshow_path).spawn().unwrap();
 }
