@@ -13,7 +13,7 @@ enum Kind<T> {
     // boxed trait object for them.
     Data(T),
     Trailers(HeaderMap),
-    //Unknown(Box<dyn Frameish>),
+    //unknown(Box<dyn Frameish>),
 }
 
 impl<T> Frame<T> {
