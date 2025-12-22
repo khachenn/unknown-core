@@ -117,7 +117,7 @@ group("all") {
   deps = [
     ":brave_all_unit_tests",
     ":chromium_unit_tests",
-    "//brave",
+    "//unknown",
   ]
 
   if (!is_android && !is_ios) {
@@ -304,8 +304,8 @@ if (is_android) {
     sources = [ "$root_out_dir/brave_resources.pak" ]
 
     deps = [
-      "//brave:brave_file_assets",
-      "//brave:packed_resources_extra",
+      "//unknown:brave_file_assets",
+      "//unknown:packed_resources_extra",
     ]
     disable_compression = true
   }
@@ -732,7 +732,7 @@ action("audit_deps") {
   outputs = [ output ]
 
   args = [
-    "--source_root=" + rebase_path("//brave"),
+    "--source_root=" + rebase_path("//unknown"),
     "--cargo_audit_exe=" + rebase_path(cargo_audit_exe),
     "--output=" + rebase_path(output),
   ]

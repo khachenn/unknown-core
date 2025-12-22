@@ -137,12 +137,12 @@ if (is_win && !skip_signing) {
     file = "$root_out_dir/presigned_binaries/brave.exe"
     signature_file = "$root_out_dir/brave.exe.sig"
     flags = "1"
-    deps = [ "//brave:signed_brave_exe" ]
+    deps = [ "//unknown:signed_brave_exe" ]
   }
   widevine_sign_file("chrome_dll_sig") {
     file = "$root_out_dir/presigned_binaries/chrome.dll"
     signature_file = "$root_out_dir/chrome.dll.sig"
     flags = "0"
-    deps = [ "//brave:signed_chrome_dll" ]
+    deps = [ "//unknown:signed_chrome_dll" ]
   }
 }

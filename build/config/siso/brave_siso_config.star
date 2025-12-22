@@ -218,18 +218,18 @@ def __redirect_cc_handler(ctx, cmd):
     if source_file.startswith('../../'):
         # Most common case - a file is located directly in the `src/` directory.
         override_file = source_file.replace('../../',
-                                            '../../brave/chromium_src/', 1)
+                                            '../../unknown/chromium_src/', 1)
     elif source_file.startswith('gen/'):
         # Less common case - a file is generated. For example:
         # gen/base/buildflags.h.
         override_file = source_file.replace('gen/',
-                                            '../../brave/chromium_src/', 1)
+                                            '../../unknown/chromium_src/', 1)
     else:
         # Generated file override inside of a custom toolchain, for example:
         # android_clang_arm64/gen/base/buildflags.h.
         source_file_parts = source_file.split('/')
         if len(source_file_parts) > 1 and source_file_parts[1] == 'gen':
-            override_file = '../../brave/chromium_src/' + '/'.join(
+            override_file = '../../unknown/chromium_src/' + '/'.join(
                 source_file_parts[2:])
 
     if not override_file:

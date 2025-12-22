@@ -23,6 +23,6 @@ If rebuilding isn't picking up your policy, you can try to delete `//out/<build_
 
 If you're getting an error similar to:
 
-> ../../brave/browser/policy/brave_simple_policy_map.h:75:19: error: no member named 'kBraveSpeedreaderDisabled' in namespace 'policy::key'; did you mean 'kBraveRewardsDisabled'?
+> ../../unknown/browser/policy/brave_simple_policy_map.h:75:19: error: no member named 'kBraveSpeedreaderDisabled' in namespace 'policy::key'; did you mean 'kBraveRewardsDisabled'?
 
 It might be that the minimum Chromium version is not yet in use by Brave via the YAML's `supported_on`.  In that case you will need to temporarily specify a lower version until Brave updates to the newer version.

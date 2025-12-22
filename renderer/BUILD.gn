@@ -11,7 +11,7 @@ import("//build/config/features.gni")
 
 source_set("renderer") {
   visibility = [
-    "//brave:child_dependencies",
+    "//unknown:child_dependencies",
     "//unknown/renderer/*",
     "//unknown/test:*",
     "//chrome/renderer/*",

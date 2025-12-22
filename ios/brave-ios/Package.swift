@@ -694,7 +694,7 @@ if isStripAbsolutePathsFromDebugSymbolsEnabled {
     settings.append(
       .unsafeFlags(
         [
-          "-debug-prefix-map", "\(iosRootDirectory)=../../brave/ios/brave-ios",
+          "-debug-prefix-map", "\(iosRootDirectory)=../../unknown/ios/brave-ios",
         ],
         .when(configuration: .debug)
       )

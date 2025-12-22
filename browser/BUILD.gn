@@ -42,7 +42,7 @@ source_set("browser_process") {
 
 group("browser") {
   visibility = [
-    "//brave:browser_dependencies",
+    "//unknown:browser_dependencies",
     "//unknown/browser/*",
     "//unknown/components/brave_rewards/core/engine:headers",
     "//unknown/test:*",

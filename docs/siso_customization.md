@@ -88,7 +88,7 @@ For example, when compiling `chrome/browser/ui/browser.cc`:
 1. Siso receives a compilation command with input
    `../../chrome/browser/ui/browser.cc`
 2. The `redirect_cc` handler checks if
-   `../../brave/chromium_src/chrome/browser/ui/browser.cc` exists
+   `../../unknown/chromium_src/chrome/browser/ui/browser.cc` exists
 3. If it exists, the handler:
    - Replaces the source file argument with the override path
    - Adds the override file to the action's input list (so it gets uploaded for

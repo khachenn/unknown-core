@@ -22,7 +22,7 @@ process.setMaxListeners(0)
 async function generateInstrumentationFile(instrumentationFile) {
   const files = await Array.fromAsync(glob(`**/*.{cc,c,h,cpp,hpp,m,mm}`))
 
-  const paths = files.map(x => `../../brave/${x}`)
+  const paths = files.map(x => `../../unknown/${x}`)
   await fs.mkdirp(path.dirname(instrumentationFile));
   await writeFile(instrumentationFile, paths.join('\n'), 'utf-8')
 }

@@ -48,7 +48,7 @@ action("sign_app") {
   deps = [
     # Make sure we have a copy prior to signing.
     ":brave",
-    "//brave:create_symbols_dist",
+    "//unknown:create_symbols_dist",
   ]
 
   if (target_cpu == "arm64" || target_cpu == "x64") {

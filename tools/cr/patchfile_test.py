@@ -395,7 +395,7 @@ class PatchfileTest(unittest.TestCase):
         self.assertEqual(
             Patchfile(path=PurePath('patches/v8/build-android-gyp-dex.py.patch'
                                     )).path_from_repo().as_posix(),
-            '../brave/patches/v8/build-android-gyp-dex.py.patch')
+            '../unknown/patches/v8/build-android-gyp-dex.py.patch')
         self.assertEqual(
             Patchfile(path=PurePath('patches/build-android-gyp-dex.py.patch')
                       ).path_from_repo().as_posix(),

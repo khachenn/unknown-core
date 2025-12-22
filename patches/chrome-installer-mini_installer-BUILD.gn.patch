@@ -15,7 +15,7 @@ index 5f9acdb7f355036ba23859ccbe26f7d2bce3b90d..5ce5ce26942a91dea11fa9f3d42fb83c
        no_default_deps = true
        ldflags += [ "/ENTRY:MainEntryPoint" ]
      }
-+if (defined(invoker.extra_deps)) { deps += invoker.extra_deps } }} generate_mini_installer("delta_installer_unsigned") { rc_file = "$target_gen_dir/packed_delta_files.rc" extra_deps = [ "//brave:delta_installer_archive" ] if (false) {
++if (defined(invoker.extra_deps)) { deps += invoker.extra_deps } }} generate_mini_installer("delta_installer_unsigned") { rc_file = "$target_gen_dir/packed_delta_files.rc" extra_deps = [ "//unknown:delta_installer_archive" ] if (false) {
    }
  }
  

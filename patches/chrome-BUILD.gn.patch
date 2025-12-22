@@ -14,7 +14,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
        args += [ "--keystone=0" ]
      }
    }
-+  copy("brave_app_plist") { deps = [ "//brave:brave_app_plist" ] sources = [ "$root_gen_dir/unknown/brave_app_plist_tweaked.plist" ] outputs = [ "$root_gen_dir/chrome/{{source_file_part}}" ] }
++  copy("brave_app_plist") { deps = [ "//unknown:brave_app_plist" ] sources = [ "$root_gen_dir/unknown/brave_app_plist_tweaked.plist" ] outputs = [ "$root_gen_dir/chrome/{{source_file_part}}" ] }
  
    mac_app_bundle("chrome_app") {
      output_name = chrome_product_full_name
@@ -28,7 +28,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
        "//chrome/common:buildflags",
        "//chrome/common:version_header",
      ]
-+    deps += [ "//brave:brave_app" ]
++    deps += [ "//unknown:brave_app" ]
  
      if (enable_updater) {
        deps += [ ":chromium_updater_privileged_helper" ]
@@ -44,7 +44,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
        "--scm=0",
      ]
    }
-+  copy("brave_helper_plist") { deps = [ "//brave:brave_helper_plist" ] sources = [ "$root_gen_dir/unknown/brave_helper_plist_tweaked.plist" ] outputs = [ "$root_gen_dir/chrome/{{source_file_part}}" ] } import("//unknown/browser/updater/buildflags.gni") import("//unknown/updater/config.gni") # For enable_omaha4 and use_prebuilt_omaha4 below.
++  copy("brave_helper_plist") { deps = [ "//unknown:brave_helper_plist" ] sources = [ "$root_gen_dir/unknown/brave_helper_plist_tweaked.plist" ] outputs = [ "$root_gen_dir/chrome/{{source_file_part}}" ] } import("//unknown/browser/updater/buildflags.gni") import("//unknown/updater/config.gni") # For enable_omaha4 and use_prebuilt_omaha4 below.
  
    compile_entitlements("entitlements") {
      entitlements_templates = [ "app/app-entitlements.plist" ]
@@ -80,7 +80,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
  
  group("dependencies") {
    public_deps = [
-+    "//brave:browser_dependencies",
++    "//unknown:browser_dependencies",
      "//build:branding_buildflags",
      "//build:chromeos_buildflags",
      "//chrome/browser",
@@ -97,7 +97,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
      "//chrome/browser:resources",
      "//chrome/common:resources",
      "//chrome/renderer:resources",
-+    "//brave:resources",
++    "//unknown:resources",
    ]
  }
  
@@ -105,7 +105,7 @@ index d3ca849dce4a2138e7d5edf126e70149211d4946..294da498ae49867d3ca8005a6f5497f5
      if (enable_resource_allowlist_generation) {
        repack_allowlist = _chrome_resource_allowlist
        deps = [ ":resource_allowlist" ]
-+      repack_allowlist = brave_allowlist_file deps += [ "//brave:merge_allowlists" ]
++      repack_allowlist = brave_allowlist_file deps += [ "//unknown:merge_allowlists" ]
      }
  
      if (is_chrome_branded && !is_mac) {
