@@ -11,7 +11,7 @@ import {
   AuthenticationStatus,
   EmailAliasesServiceInterface,
   EmailAliasesServiceObserverInterface,
-} from 'gen/brave/components/email_aliases/email_aliases.mojom.m'
+} from 'gen/unknown/components/email_aliases/email_aliases.mojom.m'
 
 // Mock the email aliases service
 class MockEmailAliasesService extends EmailAliasesServiceInterface {

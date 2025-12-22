@@ -18,7 +18,7 @@ import {
 } from '../../state/conversation_context'
 import { act, render } from '@testing-library/react'
 import TabsMenu from './attachments_menu'
-import { ContentType } from 'gen/brave/components/ai_chat/core/common/mojom/common.mojom.m.js'
+import { ContentType } from 'gen/unknown/components/ai_chat/core/common/mojom/common.mojom.m.js'
 
 const MockContext = (
   props: React.PropsWithChildren<Partial<AIChatContext & ConversationContext>>,

@@ -8,7 +8,7 @@ import { useOnVisibleCallback } from '$web-common/useVisible';
 import VisibilityTimer from '$web-common/visibilityTimer';
 import Button from '@brave/leo/react/button';
 import { font, spacing } from '@brave/leo/tokens/css/variables';
-import { DisplayAd, FeedV2Ad } from 'gen/brave/components/brave_news/common/brave_news.mojom.m';
+import { DisplayAd, FeedV2Ad } from 'gen/unknown/components/brave_news/common/brave_news.mojom.m';
 import * as React from 'react';
 import styled from 'styled-components';
 import getBraveNewsController from '../shared/api';

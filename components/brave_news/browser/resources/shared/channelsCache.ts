@@ -9,7 +9,7 @@ import {
   Channel,
   ChannelsListenerInterface,
   ChannelsListenerReceiver
-} from 'gen/brave/components/brave_news/common/brave_news.mojom.m'
+} from 'gen/unknown/components/brave_news/common/brave_news.mojom.m'
 import getBraveNewsController from './api'
 
 export class ChannelsCachingWrapper

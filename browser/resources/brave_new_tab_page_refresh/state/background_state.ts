@@ -6,14 +6,14 @@
 import {
   NewTabPageAdEventType,
   NewTabPageAdMetricType,
-} from 'gen/brave//components/brave_ads/core/mojom/brave_ads.mojom.m.js'
+} from 'gen/unknown//components/brave_ads/core/mojom/brave_ads.mojom.m.js'
 
 import {
   BraveBackground,
   SponsoredImageBackground,
   SelectedBackground,
   SelectedBackgroundType,
-} from 'gen/brave//browser/ui/webui/brave_new_tab_page_refresh/brave_new_tab_page.mojom.m.js'
+} from 'gen/unknown//browser/ui/webui/brave_new_tab_page_refresh/brave_new_tab_page.mojom.m.js'
 
 export {
   BraveBackground,
