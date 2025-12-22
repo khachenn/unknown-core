@@ -8,12 +8,12 @@ include_rules += chrome_browser_deps["include_rules"]
 include_rules += [
   "+unknown/grit",
   "+unknown/app",
-  "!brave/build/android",
+  "!unknown/build/android",
   "+unknown/common",
   "+unknown/services/network/public",
   "+unknown/test/base",
   "+unknown/ui",
-  "!brave/third_party/blink/renderer/brave_farbling_constants.h",
+  "!unknown/third_party/blink/renderer/brave_farbling_constants.h",
   "+unknown/net",
   "+unknown/components/constants",
   "+chrome/browser",
@@ -124,10 +124,10 @@ specific_include_rules = {
     "+src/chrome/browser/chrome_browser_main.h",
   ],
   "brave_local_state_prefs\.cc": [
-    "!brave/components/l10n/common/prefs.h",
+    "!unknown/components/l10n/common/prefs.h",
   ],
   ".*test.*\.cc": [
-    "!brave/components/l10n/common/test/scoped_default_locale.h",
+    "!unknown/components/l10n/common/test/scoped_default_locale.h",
   ],
   "brave_browser_process_impl\.cc": [
     "+unknown/components/brave_component_updater/browser/brave_component_updater_delegate.h",

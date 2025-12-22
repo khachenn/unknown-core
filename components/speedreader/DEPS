@@ -26,6 +26,6 @@ specific_include_rules = {
     "+third_party/re2",
   ],
   "speedreader_rewriter_unittest\.cc": [
-    "!brave/components/constants/brave_paths.h",
+    "!unknown/components/constants/brave_paths.h",
   ],
 }

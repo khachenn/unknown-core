@@ -18,6 +18,6 @@ specific_include_rules = {
   ],
   "perf_predictor_tab_helper\.cc": [
     # brave/browser deps are not allowed in components
-    "!brave/browser/android/brave_shields_content_settings.h",
+    "!unknown/browser/android/brave_shields_content_settings.h",
   ],
 }

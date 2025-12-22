@@ -19,7 +19,7 @@ specific_include_rules = {
   "hash_utils\.cc": [
     "+unknown/third_party/argon2",
     "+unknown/third_party/bitcoin-core/src/src/crypto/ripemd160.h",
-    "!brave/third_party/ethash/src/include/ethash/keccak.h",
+    "!unknown/third_party/ethash/src/include/ethash/keccak.h",
   ],
   "zcash_utils\.cc": [
     "+unknown/third_party/bitcoin-core/src/src/base58.h",

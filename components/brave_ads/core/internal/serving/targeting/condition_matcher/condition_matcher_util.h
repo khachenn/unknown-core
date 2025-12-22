@@ -119,7 +119,7 @@ using ConditionMatcherMap =
 //
 //  "conditionMatchers": [
 //    {
-//      "prefPath": "!brave.new_tab_page.show_brave_news"
+//      "prefPath": "!unknown.new_tab_page.show_brave_news"
 //    },
 //    {
 //      "condition": "[T≥]:3",

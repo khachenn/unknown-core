@@ -13,7 +13,7 @@ specific_include_rules = {
   ],
   "brave_shields_utils_unittest\.cc": [
     # component unit tests should not have chrome deps
-    "!brave/browser/profiles/brave_profile_manager.h",
+    "!unknown/browser/profiles/brave_profile_manager.h",
     "!chrome/browser/browser_process.h",
     "!chrome/browser/content_settings/cookie_settings_factory.h",
     "!chrome/browser/content_settings/host_content_settings_map_factory.h",

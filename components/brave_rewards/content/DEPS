@@ -36,7 +36,7 @@ specific_include_rules = {
   "test_util\.cc": [
     "+components/sync_preferences/pref_service_mock_factory.h",
     # component unit tests should not have chrome or brave / browser deps
-    "!brave/browser/brave_rewards/rewards_service_factory.h",
+    "!unknown/browser/brave_rewards/rewards_service_factory.h",
     "!chrome/test/base/testing_browser_process.h",
     "!chrome/browser/bitmap_fetcher/bitmap_fetcher_service_factory.h",
     "!chrome/browser/prefs/browser_prefs.h",

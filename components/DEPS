@@ -52,10 +52,10 @@ specific_include_rules = {
   "webcompat_exceptions_unittest\.cc": [
     "+chrome",
     "+content",
-    "!brave/components/constants/brave_paths.h",
+    "!unknown/components/constants/brave_paths.h",
   ],
   ".*test.*\.cc": [
-    "!brave/components/l10n/common/test/scoped_default_locale.h",
+    "!unknown/components/l10n/common/test/scoped_default_locale.h",
   ],
   # brave_paths.h overrides
   ".*browsertest.*\.cc": [

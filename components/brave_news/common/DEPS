@@ -7,6 +7,6 @@ specific_include_rules = {
     "+components/sync_preferences",
   ],
   "locales_helper\.cc": [
-    "!brave/components/l10n/common/locale_util.h",
+    "!unknown/components/l10n/common/locale_util.h",
   ],
 }

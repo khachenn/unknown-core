@@ -21,12 +21,12 @@ specific_include_rules = {
     "+third_party/rust/cxx/v1/cxx.h",
   ],
   "credential_manager_unittest\.cc": [
-    "!brave/components/constants/brave_paths.h",
+    "!unknown/components/constants/brave_paths.h",
   ],
   "patterns_unittest\.cc": [
-    "!brave/components/constants/brave_paths.h",
+    "!unknown/components/constants/brave_paths.h",
   ],
   "server_config_loader_unittest\.cc": [
-    "!brave/components/constants/brave_paths.h",
+    "!unknown/components/constants/brave_paths.h",
   ],
 }
