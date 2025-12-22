@@ -16,12 +16,12 @@ class OpenSearchEngine: NSObject, NSSecureCoding {
   struct EngineNames {
     static let duckDuckGo = "DuckDuckGo"
     static let qwant = "Qwant"
-    static let brave = "Brave Search beta"
+    static let brave = "Unknown Search beta"
     static let yahoo = "Yahoo"
     static let yahooJP = "Yahoo! JAPAN"
   }
 
-  static let defaultSearchClientName = "brave"
+  static let defaultSearchClientName = "Unknown"
 
   let shortName: String
   let referenceURL: String?
@@ -39,7 +39,7 @@ class OpenSearchEngine: NSObject, NSSecureCoding {
     case "Яндекс".lowercased():
       return "Yandex"
     case EngineNames.brave.lowercased():
-      return "Brave Search"
+      return "Unknown Search"
     case "naver".lowercased():
       return "네이버"
     default:

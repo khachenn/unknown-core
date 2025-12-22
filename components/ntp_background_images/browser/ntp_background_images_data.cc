@@ -141,7 +141,7 @@ base::Value::Dict NTPBackgroundImagesData::GetBackgroundAt(size_t index) const {
       .Set(kIsBackgroundKey, true)
       .Set(kImageAuthorKey, backgrounds[index].author)
       .Set(kImageLinkKey, backgrounds[index].link)
-      .Set(kWallpaperTypeKey, "brave");
+      .Set(kWallpaperTypeKey, "unknown");
 }
 
 }  // namespace ntp_background_images

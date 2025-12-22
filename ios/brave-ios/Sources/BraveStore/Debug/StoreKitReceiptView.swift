@@ -213,7 +213,7 @@ public struct StoreKitReceiptView: View {
   }
 
   private func formatBundleId(_ bundleId: String) -> String {
-    var components = bundleId.replacingOccurrences(of: "brave", with: "brave.").split(
+    var components = bundleId.replacingOccurrences(of: "unknown", with: "unknown.").split(
       separator: "."
     ).map({ String($0) })
 

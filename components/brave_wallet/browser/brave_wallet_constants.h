@@ -1758,7 +1758,7 @@ inline constexpr char kBlowfishAPIVersion[] = "2023-06-05";
 
 // LiFi constants
 inline constexpr char kLiFiBaseAPIURL[] = "https://lifi.wallet.brave.com";
-inline constexpr char kLiFiIntegratorID[] = "brave";
+inline constexpr char kLiFiIntegratorID[] = "unknown";
 inline constexpr char kLiFiNativeEVMAssetContractAddress[] =
     "0x0000000000000000000000000000000000000000";
 inline constexpr char kLiFiNativeSVMAssetContractAddress[] =

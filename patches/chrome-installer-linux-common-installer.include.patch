@@ -16,7 +16,7 @@ index d0c6c861d1b7d94bcb9577aba6e22cbcb5bcdad2..d59a8f03e40e1bde8aef7973c5e9712d
    # app icons
    local icon_suffix=""
 -  if [ "$BRANDING" = "google_chrome" ]; then
-+  if [ "$BRANDING" = "brave" ]; then
++  if [ "$BRANDING" = "unknown" ]; then
      if [ "$CHANNEL" = "beta" ]; then
        icon_suffix="_beta"
 -    elif [ "$CHANNEL" = "unstable" ]; then

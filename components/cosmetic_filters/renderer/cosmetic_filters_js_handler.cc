@@ -43,7 +43,7 @@ namespace {
 
 constexpr auto kVettedSearchEngines = base::MakeFixedFlatSet<std::string_view>(
     {"duckduckgo", "qwant", "bing", "startpage", "google", "yandex", "ecosia",
-     "brave"});
+     "unknown"});
 
 // Entry point to content_cosmetic.ts script.
 constexpr char kObservingScriptletEntryPoint[] =

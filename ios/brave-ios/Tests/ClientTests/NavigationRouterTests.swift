@@ -26,7 +26,7 @@ class NavigationRouterTests: XCTestCase {
   }
 
   var appScheme: String {
-    "brave"
+    "unknown"
   }
 
   func testOpenURLScheme() {

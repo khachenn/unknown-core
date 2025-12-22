@@ -440,9 +440,9 @@ extension OpenDistantSession {
           tabs: [
             .init(
               url: URL(string: "https://brave.com")!,
-              title: "Brave",
+              title: "Unknown",
               tabId: 1,
-              sessionTag: "brave"
+              sessionTag: "unknown"
             )
           ]
         ),
@@ -452,9 +452,9 @@ extension OpenDistantSession {
           tabs: [
             .init(
               url: URL(string: "https://brave.com")!,
-              title: "Brave",
+              title: "Unknown",
               tabId: 1,
-              sessionTag: "brave2"
+              sessionTag: "unknown2"
             )
           ]
         ),

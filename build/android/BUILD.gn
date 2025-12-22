@@ -103,7 +103,7 @@ action("sign_app") {
   }
 }
 
-copy("brave") {
+copy("unknown") {
   visibility = [ "*" ]
   deps = []
   sources = []

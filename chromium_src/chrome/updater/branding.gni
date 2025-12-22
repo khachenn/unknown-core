@@ -36,7 +36,7 @@ brave_updater_branding = {
   grdfile_name = "brave_strings"
 
   # The following values come from our Omaha 3 implementation:
-  legacy_service_name_prefix = "brave"
+  legacy_service_name_prefix = "unknown"
   UpdaterLegacyLibGUID = "6FF4F468-0B5A-4878-ACEB-86263DAAD877"
   GoogleUpdate3WebUserClassGUID = "2F78AECB-0A7F-4474-89D5-C325293DE960"
   GoogleUpdate3WebSystemClassGUID = "00B16F95-319A-4F01-AC81-CE69B8F4E387"

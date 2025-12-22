@@ -39,7 +39,7 @@ group("grdp") {
 
 if (include_polymer) {
   build_webui("build") {
-    grd_prefix = "brave"
+    grd_prefix = "unknown"
 
     # Ensure all the files are relative to this dir (with a brave/ prefix),
     # and not //ui/webui/resources which is the default for build_cr_component.
@@ -56,7 +56,7 @@ if (include_polymer) {
 
     ts_composite = true
     generate_grdp = true
-    grd_resource_path_prefix = "brave"
+    grd_resource_path_prefix = "unknown"
     ts_out_dir = "$root_gen_dir/unknown/ui/webui/resources/tsc"
     ts_deps = [
       "//third_party/lit/v3_0:build_ts",
@@ -92,7 +92,7 @@ if (include_polymer) {
 
 transpile_web_ui("leo_bundle") {
   generate_grdp = true
-  resource_path_prefix = "brave"
+  resource_path_prefix = "unknown"
 
   imports_from = [ "//unknown/ui/webui/resources/leo/" ]
 
@@ -107,7 +107,7 @@ transpile_web_ui("leo_bundle") {
 transpile_web_ui("opaque_ke") {
   resource_name = "opaque_ke"
   generate_grdp = true
-  resource_path_prefix = "brave"
+  resource_path_prefix = "unknown"
 
   entry_points = [ [
         "opaque_ke",
@@ -129,7 +129,7 @@ transpile_web_ui("opaque_ke") {
 # Create a grdp that //ui/webui/resources can include in its main resources GRD
 generate_grd("static_grdp") {
   grd_prefix = "brave_webui"
-  resource_path_prefix = "brave"
+  resource_path_prefix = "unknown"
   out_grd = "$brave_resources_extra_grdps_path/brave_static_resources.grdp"
   input_files = static_files + rebase_path(leo_static_files, ".", "leo")
   input_files_base_dir =
@@ -143,7 +143,7 @@ generate_grd("static_grdp") {
 # Create a grdp that //ui/webui/resources can include in its main resources GRD
 generate_grd("fonts_grdp") {
   grd_prefix = "brave_webui"
-  resource_path_prefix = "brave"
+  resource_path_prefix = "unknown"
   out_grd = "$brave_resources_extra_grdps_path/brave_fonts_resources.grdp"
   input_files = brave_font_files
   input_files_base_dir =

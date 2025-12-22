@@ -395,7 +395,7 @@ void APIRequestHelper::URLLoaderHandler::OnDataReceived(
     ParseSSE(string_piece);
   } else {
     DVLOG(4) << "Chunk content: \n" << string_piece;
-    TRACE_EVENT0("brave", "APIRequestHelper_OnDataReceivedNoSSE");
+    TRACE_EVENT0("unknown", "APIRequestHelper_OnDataReceivedNoSSE");
     ScopedPerfTracker tracker("Brave.APIRequestHelper.OnDataReceivedNoSSE");
     data_received_callback_.Run(base::Value(string_piece));
   }
@@ -465,7 +465,7 @@ void APIRequestHelper::URLLoaderHandler::OnResponse(
 void APIRequestHelper::URLLoaderHandler::OnParseJsonResponse(
     APIRequestResult result,
     ValueOrError result_value) {
-  TRACE_EVENT1("brave", "APIRequestHelper_ProcessResultOnUI", "url",
+  TRACE_EVENT1("unknown", "APIRequestHelper_ProcessResultOnUI", "url",
                result.final_url().spec());
   ScopedPerfTracker tracker("Brave.APIRequestHelper.ProcessResultOnUI");
   // TODO(petemill): Simplify by combining OnParseJsonResponse with the Json
@@ -554,7 +554,7 @@ void APIRequestHelper::URLLoaderHandler::ParseSSE(
           if (!handler) {
             return;
           }
-          TRACE_EVENT0("brave", "APIRequestHelper_ParseSSECallback");
+          TRACE_EVENT0("unknown", "APIRequestHelper_ParseSSECallback");
           ScopedPerfTracker tracker("Brave.APIRequestHelper.ParseSSECallback");
           handler->current_decoding_operation_count_--;
           DCHECK(handler->data_received_callback_);

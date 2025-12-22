@@ -11,7 +11,7 @@
 
 proprietary_codecs = true
 ffmpeg_branding = "Chrome"
-branding_path_component = "brave"
-branding_path_product = "brave"
+branding_path_component = "unknown"
+branding_path_product = "unknown"
 enable_glic = false
 enable_widevine = true
