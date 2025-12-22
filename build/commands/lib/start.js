@@ -91,20 +91,20 @@ const start = (
         process.env.HOME,
         'Library',
         'Application\\ Support',
-        'BraveSoftware',
+        'UnknownSoftware',
         options.user_data_dir_name,
       )
     } else if (process.platform === 'win32') {
       userDataDir = path.join(
         process.env.LocalAppData,
-        'BraveSoftware',
+        'UnknownSoftware',
         options.user_data_dir_name,
       )
     } else {
       userDataDir = path.join(
         process.env.HOME,
         '.config',
-        'BraveSoftware',
+        'UnknownSoftware',
         options.user_data_dir_name,
       )
     }
@@ -121,7 +121,7 @@ const start = (
 
   let outputPath = options.output_path
   if (!outputPath) {
-    outputPath = path.join(config.outputDir, 'brave')
+    outputPath = path.join(config.outputDir, 'unknown')
     if (process.platform === 'win32') {
       outputPath = outputPath + '.exe'
     } else if (process.platform === 'darwin') {

@@ -32,7 +32,7 @@ const runPerfTests = (
     config.buildConfig = targetBuildConfig
     config.update(options)
 
-    binaryPath = path.join(config.outputDir, 'brave')
+    binaryPath = path.join(config.outputDir, 'unknown')
     if (process.platform === 'win32') {
       binaryPath += '.exe'
     } else if (process.platform === 'darwin') {

@@ -27,13 +27,13 @@ const chromiumStringsPath = path.resolve(
   path.join(srcDir, 'chrome', 'app', 'chromium_strings.grd'),
 )
 const braveStringsPath = path.resolve(
-  path.join(srcDir, 'brave', 'app', 'brave_strings.grd'),
+  path.join(srcDir, 'unknown', 'app', 'brave_strings.grd'),
 )
 const chromiumSettingsPartPath = path.resolve(
   path.join(srcDir, 'chrome', 'app', 'settings_chromium_strings.grdp'),
 )
 const braveSettingsPartPath = path.resolve(
-  path.join(srcDir, 'brave', 'app', 'settings_brave_strings.grdp'),
+  path.join(srcDir, 'unknown', 'app', 'settings_brave_strings.grdp'),
 )
 
 // Replace android strings.
@@ -51,7 +51,7 @@ const androidChromeStringsPath = path.resolve(
 const braveAndroidChromeStringsPath = path.resolve(
   path.join(
     srcDir,
-    'brave',
+    'unknown',
     'browser',
     'ui',
     'android',
@@ -74,7 +74,7 @@ const androidTabUiStringsPath = path.resolve(
 const braveAndroidTabUiStringsPath = path.resolve(
   path.join(
     srcDir,
-    'brave',
+    'unknown',
     'android',
     'features',
     'tab_ui',
@@ -96,7 +96,7 @@ const androidWebappsStringsPath = path.resolve(
 const braveAndroidWebappsStringsPath = path.resolve(
   path.join(
     srcDir,
-    'brave',
+    'unknown',
     'components',
     'webapps',
     'browser',
@@ -117,7 +117,7 @@ const androidBrowserUiStringsPath = path.resolve(
 const braveAndroidBrowserUiStringsPath = path.resolve(
   path.join(
     srcDir,
-    'brave',
+    'unknown',
     'components',
     'browser_ui',
     'strings',
@@ -133,7 +133,7 @@ const chromiumComponentsChromiumStringsPath = path.resolve(
   path.join(srcDir, 'components', 'components_chromium_strings.grd'),
 )
 const braveComponentsBraveStringsPath = path.resolve(
-  path.join(srcDir, 'brave', 'components', 'components_brave_strings.grd'),
+  path.join(srcDir, 'unknown', 'components', 'components_brave_strings.grd'),
 )
 
 // components/component_strings.grd and any of its parts files that we track
@@ -143,7 +143,7 @@ const chromiumComponentsStringsPath = path.resolve(
   path.join(srcDir, 'components', 'components_strings.grd'),
 )
 const braveComponentsStringsPath = path.resolve(
-  path.join(srcDir, 'brave', 'components', 'components_strings.grd'),
+  path.join(srcDir, 'unknown', 'components', 'components_strings.grd'),
 )
 
 // generated_resources.grd and any of its parts files that we track localization
@@ -155,7 +155,7 @@ const chromiumGeneratedResourcesPath = path.resolve(
   path.join(srcDir, 'chrome', 'app', 'generated_resources.grd'),
 )
 const braveGeneratedResourcesPath = path.resolve(
-  path.join(srcDir, 'brave', 'app', 'generated_resources.grd'),
+  path.join(srcDir, 'unknown', 'app', 'generated_resources.grd'),
 )
 const chromiumGeneratedResourcesExcludes = new Set(['chromeos_strings.grdp'])
 
@@ -168,19 +168,19 @@ const chromiumLocaleSettingsLinux = path.resolve(
   path.join(srcDir, 'chrome', 'app', 'resources', 'locale_settings_linux.grd'),
 )
 const braveLocaleSettingsLinux = path.resolve(
-  path.join(srcDir, 'brave', 'app', 'resources', 'locale_settings_linux.grd'),
+  path.join(srcDir, 'unknown', 'app', 'resources', 'locale_settings_linux.grd'),
 )
 const chromiumLocaleSettingsMac = path.resolve(
   path.join(srcDir, 'chrome', 'app', 'resources', 'locale_settings_mac.grd'),
 )
 const braveLocaleSettingsMac = path.resolve(
-  path.join(srcDir, 'brave', 'app', 'resources', 'locale_settings_mac.grd'),
+  path.join(srcDir, 'unknown', 'app', 'resources', 'locale_settings_mac.grd'),
 )
 const chromiumLocaleSettingsWin = path.resolve(
   path.join(srcDir, 'chrome', 'app', 'resources', 'locale_settings_win.grd'),
 )
 const braveLocaleSettingsWin = path.resolve(
-  path.join(srcDir, 'brave', 'app', 'resources', 'locale_settings_win.grd'),
+  path.join(srcDir, 'unknown', 'app', 'resources', 'locale_settings_win.grd'),
 )
 
 // The following are not generated files but still need to be tracked so they
@@ -191,12 +191,12 @@ const braveLocaleSettingsWin = path.resolve(
 //     brave/components/resources/strings/brave_components_resources*.xtb
 // messages.json localization is handled inside of brave extension.
 const braveSpecificGeneratedResourcesPath = path.resolve(
-  path.join(srcDir, 'brave', 'app', 'brave_generated_resources.grd'),
+  path.join(srcDir, 'unknown', 'app', 'brave_generated_resources.grd'),
 )
 const braveResourcesComponentsStringsPath = path.resolve(
   path.join(
     srcDir,
-    'brave',
+    'unknown',
     'components',
     'resources',
     'brave_components_strings.grd',
@@ -205,7 +205,7 @@ const braveResourcesComponentsStringsPath = path.resolve(
 const braveExtensionMessagesPath = path.resolve(
   path.join(
     srcDir,
-    'brave',
+    'unknown',
     'components',
     'brave_extension',
     'extension',
@@ -218,7 +218,7 @@ const braveExtensionMessagesPath = path.resolve(
 const braveAndroidBraveStringsPath = path.resolve(
   path.join(
     srcDir,
-    'brave',
+    'unknown',
     'browser',
     'ui',
     'android',
@@ -229,7 +229,7 @@ const braveAndroidBraveStringsPath = path.resolve(
 const braveAndroidQuickSearchEnginesStringsPath = path.resolve(
   path.join(
     srcDir,
-    'brave',
+    'unknown',
     'browser',
     'quick_search_engines',
     'android',

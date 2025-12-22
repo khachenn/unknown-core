@@ -40,7 +40,7 @@ function getBuildOutputPathList() {
 
 if (fs.existsSync(outputPath)) {
   console.log(
-    'Assuming precompiled dependencies can be found at the existing path found from brave-core configuration: '
+    'Assuming precompiled dependencies can be found at the existing path found from unknown-core configuration: '
       + outputPath,
   )
 } else {
@@ -51,7 +51,7 @@ if (fs.existsSync(outputPath)) {
     )
   if (!outDirectories.length) {
     throw new Error(
-      'Cannot find any brave-core build output directories. Have you run a brave-core build yet with the specified (or default) configuration?',
+      'Cannot find any unknown-core build output directories. Have you run a unknown-core build yet with the specified (or default) configuration?',
     )
   }
   outputPath = outDirectories[0]

@@ -26,7 +26,7 @@ const checkVersionsMatch = () => {
     Log.warn(
       `Version files do not match!\n`
         + `src/chrome/VERSION: ${braveVersionFromChromeFile}\n`
-        + `brave-core configured version: ${config.braveVersion}\n`
+        + `unknown-core configured version: ${config.braveVersion}\n`
         + `Did you forget to sync?`,
     )
   }

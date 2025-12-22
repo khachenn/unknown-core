@@ -59,10 +59,10 @@ function buildDefaultGClientConfig(
   if (!onlyChromium) {
     items.push({
       managed: false,
-      name: 'src/brave',
-      // We do not use gclient to manage brave-core, so this should not
+      name: 'src/unknown',
+      // We do not use gclient to manage unknown-core, so this should not
       // actually get used.
-      url: 'https://github.com/brave/brave-core.git',
+      url: 'https://github.com/unknown/unknown-core.git',
     })
   }
 
@@ -171,12 +171,12 @@ function syncChromium(program) {
   }
 
   if (deleteUnusedDeps) {
-    if (util.isGitExclusionExists(config.srcDir, 'brave/')) {
+    if (util.isGitExclusionExists(config.srcDir, 'unknown/')) {
       args.push('-D')
     } else if (!config.isCI) {
       Log.warn(
         '--delete_unused_deps is ignored because sync has not yet added '
-          + 'the exclusion for the src/brave/ directory, likely because sync '
+          + 'the exclusion for the src/unknown/ directory, likely because sync '
           + 'has not previously successfully run before.',
       )
     }
@@ -217,7 +217,7 @@ function syncChromium(program) {
   }
 
   util.runGClient(args)
-  util.addGitExclusion(config.srcDir, 'brave/')
+  util.addGitExclusion(config.srcDir, 'unknown/')
   util.writeJSON(latestSyncInfoFilePath, expectedSyncInfo)
 
   const postSyncChromiumRef = util.getGitReadableLocalRef(config.srcDir)
